@@ -106,12 +106,20 @@ function renderStatus() {
     li.innerHTML = `
       <div class="row">
         <span class="badge ${statusClass}">${item.status}</span>
-        <a class="title" href="${item.url}" target="_blank" rel="noopener noreferrer">${item.docType} #${item.postNo ?? '-'}</a>
+        <a class="title" href="${item.url}" target="_blank" rel="noopener noreferrer">
+          ${item.docType} #${item.postNo ?? '-'}
+        </a>
       </div>
-      <p class="meta">HTTP: ${item.httpStatus ?? '-'} · Last attempt: ${item.lastAttemptAt ?? '-'}</p>
+      <p class="meta">
+        HTTP: ${item.httpStatus ?? '-'} · Last attempt: ${item.lastAttemptAt ?? '-'}
+      </p>
       <p class="muted">${item.error ?? 'No error message'}</p>
+      <p class="muted">URL: ${item.url ?? '-'}</p>
+      <p class="muted">Origin: ${item.originLabel ?? '-'}</p>
+      <p class="muted">Source post: ${item.sourcePostNo ?? '-'}</p>
+      <p class="muted">Context: ${item.contextText ?? '-'}</p>
     `;
-    els.statusList.append(li);
+        els.statusList.append(li);
   }
 }
 
