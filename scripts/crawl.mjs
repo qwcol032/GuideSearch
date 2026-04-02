@@ -73,10 +73,7 @@ function classifyHttpStatus(code) {
 }
 
 function isDcinsideHost(hostname) {
-  return (
-    hostname === 'gall.dcinside.com' ||
-    hostname.endsWith('.dcinside.com')
-  );
+  return hostname === 'gall.dcinside.com';
 }
 
 function normalizeDcinsideUrl(url) {
@@ -280,13 +277,17 @@ function extractGuideLinks($, baseUrl, preferredGalleryId, sourcePostNo) {
   
       const meta = parseDocMeta(absolute.toString());
       if (!meta) {
-        recordIgnoredCandidate({
-          candidateUrl: absolute.toString(),
-          reason: `Could not parse DCInside post metadata from ${originLabel}`,
-          sourcePostNo,
-          originLabel,
-          contextText,
-        });
+        // anchor는 실제 클릭 가능한 링크라 디버그 가치가 큼
+        // regex는 노이즈가 많으므로 기록하지 않음
+        if (originLabel === 'anchor') {
+          recordIgnoredCandidate({
+            candidateUrl: absolute.toString(),
+            reason: `Could not parse DCInside post metadata from ${originLabel}`,
+            sourcePostNo,
+            originLabel,
+            contextText,
+          });
+        }
         return;
       }
   
@@ -503,8 +504,10 @@ async function main() {
     generatedAt: null,
     items: [],
   });
-
+  
   for (const item of existingStatus.items || []) {
+    // candidate 디버그 로그는 매 실행마다 새로 계산
+    if (item.docType === 'candidate') continue;
     statusMap.set(statusKey(item.docType, item.postNo, item.url), item);
   }
 
