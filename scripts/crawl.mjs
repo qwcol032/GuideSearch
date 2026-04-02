@@ -214,6 +214,52 @@ function extractBodyHtml($) {
   return '';
 }
 
+function normalizeBodyHtml($, html) {
+  if (!html) return '';
+
+  const wrapped = cheerio.load(`<div id="__root__">${html}</div>`, {
+    decodeEntities: false,
+  });
+  const root = wrapped('#__root__');
+
+  root.find('img').each((_, el) => {
+    const img = wrapped(el);
+
+    const dataOriginal = img.attr('data-original');
+    const src = img.attr('src') || '';
+
+    // lazy-load placeholder면 실제 이미지 주소로 치환
+    if (dataOriginal) {
+      img.attr('src', dataOriginal);
+      img.removeAttr('data-original');
+    }
+
+    // 로딩 gif만 src에 남아있고 실제 주소가 없으면 그대로 두되,
+    // 보통 data-original이 있으면 위에서 대체됨
+    if (src.includes('gallview_loading_ori.gif') && dataOriginal) {
+      img.attr('src', dataOriginal);
+    }
+
+    // 새 글에서 필요 없는 DC 전용 속성 제거
+    img.removeAttr('onclick');
+    img.removeAttr('onerror');
+    img.removeAttr('fetchpriority');
+
+    // lazy 관련 class 제거
+    const cls = (img.attr('class') || '')
+      .split(/\s+/)
+      .filter(Boolean)
+      .filter((name) => name !== 'lazy')
+      .join(' ');
+
+    if (cls) img.attr('class', cls);
+    else img.removeAttr('class');
+  });
+
+  return root.html() || '';
+}
+
+
 function extractFallbackBody($) {
   const parts = [];
 
@@ -364,7 +410,8 @@ async function fetchDocument(url, docType, postNo) {
 
     const title = extractTitle($);
     let body = extractBody($);
-    const bodyHtml = extractBodyHtml($);
+    const rawBodyHtml = extractBodyHtml($);
+    const bodyHtml = normalizeBodyHtml($, rawBodyHtml);
 
     if (!body) {
       body = extractFallbackBody($);
