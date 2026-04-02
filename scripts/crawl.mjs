@@ -39,6 +39,7 @@ function updateStatus({
   httpStatus = null,
   error = null,
   success = false,
+  extra = {},
 }) {
   const key = statusKey(docType, postNo, url);
   const prev = statusMap.get(key) || {
@@ -50,6 +51,7 @@ function updateStatus({
 
   const next = {
     ...prev,
+    ...extra,
     docType,
     url,
     postNo,
@@ -239,13 +241,24 @@ function extractFallbackBody($) {
 }
 
 
-function recordIgnoredCandidate(candidateUrl, reason) {
+function recordIgnoredCandidate({
+  candidateUrl,
+  reason,
+  sourcePostNo = null,
+  originLabel = null,
+  contextText = '',
+}) {
   updateStatus({
     docType: 'candidate',
     url: candidateUrl,
     postNo: null,
     status: 'ignored_unsupported_url',
     error: reason,
+    extra: {
+      sourcePostNo,
+      originLabel,
+      contextText: (contextText || '').slice(0, 300),
+    },
   });
 }
 
@@ -258,7 +271,7 @@ function extractGuideLinks($, baseUrl, preferredGalleryId, sourcePostNo) {
 
   const searchRoot = contentArea.length ? contentArea : $('body');
 
-  function tryAddCandidate(rawUrl, originLabel) {
+  function tryAddCandidate(rawUrl, originLabel, contextText = '') {
     if (!rawUrl) return;
   
     try {
@@ -267,14 +280,13 @@ function extractGuideLinks($, baseUrl, preferredGalleryId, sourcePostNo) {
   
       const meta = parseDocMeta(absolute.toString());
       if (!meta) {
-        // regex로 잡힌 평문 URL 후보는 노이즈가 많으니 상태 로그를 남기지 않음
-        // anchor에서 직접 발견된 링크만 디버그용으로 남김
-        if (originLabel === 'anchor') {
-          recordIgnoredCandidate(
-            absolute.toString(),
-            `Could not parse DCInside post metadata from ${originLabel}`
-          );
-        }
+        recordIgnoredCandidate({
+          candidateUrl: absolute.toString(),
+          reason: `Could not parse DCInside post metadata from ${originLabel}`,
+          sourcePostNo,
+          originLabel,
+          contextText,
+        });
         return;
       }
   
@@ -294,14 +306,15 @@ function extractGuideLinks($, baseUrl, preferredGalleryId, sourcePostNo) {
 
   searchRoot.find('a[href]').each((_, el) => {
     const href = $(el).attr('href');
-    tryAddCandidate(href, 'anchor');
+    const anchorText = toText($(el).text());
+    tryAddCandidate(href, 'anchor', anchorText);
   });
 
   const htmlText = searchRoot.html() || '';
   const urlRegex = /https?:\/\/[^\s"'<>]+/gi;
   const matches = htmlText.match(urlRegex) || [];
   for (const raw of matches) {
-    tryAddCandidate(raw, 'regex');
+    tryAddCandidate(raw, 'regex', raw);
   }
 
   return [...urlObjects.values()].sort((a, b) => {
