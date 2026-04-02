@@ -21,6 +21,24 @@ const DEFAULT_HEADERS = {
   'accept-language': 'ko,en-US;q=0.8,en;q=0.6',
 };
 
+function sleep(ms) {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+}
+
+function randomInt(min, max) {
+  return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
+// 일반 요청 전 대기: 1.5초 ~ 4초
+async function waitBeforeRequest() {
+  await sleep(randomInt(1500, 4000));
+}
+
+// 에러/차단 의심 시 더 길게 대기: 8초 ~ 20초
+async function waitAfterBackoff() {
+  await sleep(randomInt(8000, 20000));
+}
+
 const statusMap = new Map();
 
 function toText(value) {
@@ -388,6 +406,8 @@ async function writeJson(filePath, value) {
 
 async function fetchDocument(url, docType, postNo) {
   try {
+    await waitBeforeRequest();
+    
     const response = await fetch(url, {
       headers: DEFAULT_HEADERS,
       redirect: 'follow',
