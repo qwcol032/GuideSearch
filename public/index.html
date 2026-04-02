@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GuideSearch - DCInside Backup Search</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main class="container">
+      <header>
+        <h1>GuideSearch</h1>
+        <p>Search backed up source and guide posts from DCInside.</p>
+      </header>
+
+      <section class="search-panel">
+        <form id="search-form">
+          <input id="query" name="q" type="search" placeholder="Search title or body..." />
+          <button type="submit">Search</button>
+        </form>
+      </section>
+
+      <section>
+        <h2>Results</h2>
+        <p id="result-meta" class="muted"></p>
+        <p id="empty-message" class="muted hidden">No matching documents found.</p>
+        <ul id="results" class="results"></ul>
+      </section>
+
+      <section>
+        <h2>Backup Issues</h2>
+        <label class="inline">
+          <input id="toggle-ok" type="checkbox" />
+          Show successful entries too
+        </label>
+        <ul id="status-list" class="status-list"></ul>
+      </section>
+    </main>
+
+    <template id="result-template">
+      <li class="card">
+        <div class="row">
+          <span class="badge"></span>
+          <a class="title" target="_blank" rel="noopener noreferrer"></a>
+        </div>
+        <p class="meta"></p>
+        <p class="snippet"></p>
+      </li>
+    </template>
+
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>
