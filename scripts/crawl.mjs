@@ -541,7 +541,38 @@ async function loadLatestDocuments() {
 async function buildSearchIndex() {
   const docs = await loadLatestDocuments();
 
-  const documents = docs.map((doc) => {
+  // 같은 글번호가 source/guide 둘 다 있을 때 하나만 남김
+  // 우선순위: guide > source
+  const deduped = new Map();
+
+  for (const doc of docs) {
+    const key = String(doc.postNo);
+    const existing = deduped.get(key);
+
+    if (!existing) {
+      deduped.set(key, doc);
+      continue;
+    }
+
+    const existingPriority = existing.docType === 'guide' ? 2 : 1;
+    const currentPriority = doc.docType === 'guide' ? 2 : 1;
+
+    if (currentPriority > existingPriority) {
+      deduped.set(key, doc);
+      continue;
+    }
+
+    // 같은 우선순위면 backupDate가 더 최신인 쪽 유지
+    if (currentPriority === existingPriority) {
+      const existingDate = existing.backupDate || '';
+      const currentDate = doc.backupDate || '';
+      if (currentDate > existingDate) {
+        deduped.set(key, doc);
+      }
+    }
+  }
+
+  const documents = [...deduped.values()].map((doc) => {
     const fullBody = toText(doc.body);
     return {
       id: `${doc.docType}-${doc.postNo}`,
