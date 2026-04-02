@@ -23,28 +23,101 @@ const DEFAULT_HEADERS = {
 
 const statusMap = new Map();
 
-function parseDocMeta(urlString) {
-  try {
-    const url = new URL(urlString);
-    const postNo = url.searchParams.get('no');
-    const galleryId = url.searchParams.get('id');
-    if (!postNo) return null;
-    return { postNo, galleryId, normalizedUrl: url.toString() };
-  } catch {
-    return null;
-  }
+function toText(value) {
+  return (value || '').replace(/\s+/g, ' ').trim();
+}
+
+function statusKey(docType, postNo, url) {
+  return `${docType}:${postNo || 'na'}:${url}`;
+}
+
+function updateStatus({
+  docType,
+  url,
+  postNo,
+  status,
+  httpStatus = null,
+  error = null,
+  success = false,
+}) {
+  const key = statusKey(docType, postNo, url);
+  const prev = statusMap.get(key) || {
+    docType,
+    url,
+    postNo,
+    lastSuccessAt: null,
+  };
+
+  const next = {
+    ...prev,
+    docType,
+    url,
+    postNo,
+    status,
+    httpStatus,
+    error,
+    lastAttemptAt: nowIso,
+    lastSuccessAt: success ? nowIso : prev.lastSuccessAt,
+  };
+
+  statusMap.set(key, next);
 }
 
 function classifyHttpStatus(code) {
   if (code === 403) return 'forbidden';
   if (code === 404 || code === 410) return 'deleted';
   if (code === 429) return 'rate_limited';
-  if (code >= 500) return 'network_error';
   return 'network_error';
 }
 
-function toText(value) {
-  return (value || '').replace(/\s+/g, ' ').trim();
+function isDcinsideHost(hostname) {
+  return (
+    hostname === 'gall.dcinside.com' ||
+    hostname.endsWith('.dcinside.com')
+  );
+}
+
+function normalizeDcinsideUrl(url) {
+  url.hash = '';
+  return url.toString();
+}
+
+/**
+ * Supports:
+ * 1) query style:
+ *    https://gall.dcinside.com/mgallery/board/view?id=gov&no=3624608
+ * 2) path style:
+ *    https://gall.dcinside.com/gov/1367754
+ */
+function parseDocMeta(urlString, baseUrl = undefined) {
+  try {
+    const url = new URL(urlString, baseUrl);
+
+    if (!isDcinsideHost(url.hostname)) {
+      return null;
+    }
+
+    let postNo = url.searchParams.get('no');
+    let galleryId = url.searchParams.get('id');
+
+    if (!postNo) {
+      const pathMatch = url.pathname.match(/^\/([^/?#]+)\/(\d+)\/?$/);
+      if (pathMatch) {
+        galleryId = galleryId || pathMatch[1];
+        postNo = pathMatch[2];
+      }
+    }
+
+    if (!postNo) return null;
+
+    return {
+      postNo,
+      galleryId: galleryId || null,
+      normalizedUrl: normalizeDcinsideUrl(url),
+    };
+  } catch {
+    return null;
+  }
 }
 
 function extractTitle($) {
@@ -84,68 +157,75 @@ function extractBody($) {
     const node = $(selector).first();
     if (!node.length) continue;
 
-    node.find('script, style, noscript').remove();
-    const value = toText(node.text());
+    const cloned = node.clone();
+    cloned.find('script, style, noscript').remove();
+
+    const value = toText(cloned.text());
     if (value) return value;
   }
 
   return '';
 }
 
-function extractGuideLinks($, baseUrl, preferredGalleryId) {
+function recordIgnoredCandidate(candidateUrl, reason) {
+  updateStatus({
+    docType: 'candidate',
+    url: candidateUrl,
+    postNo: null,
+    status: 'ignored_unsupported_url',
+    error: reason,
+  });
+}
+
+function extractGuideLinks($, baseUrl, preferredGalleryId, sourcePostNo) {
   const urlObjects = new Map();
 
-  const contentArea = $('.write_div, .view_content_wrap .write_div, .view_content .write_div').first();
-  const anchors = (contentArea.length ? contentArea : $('body')).find('a[href]');
+  const contentArea = $(
+    '.write_div, .view_content_wrap .write_div, .view_content .write_div'
+  ).first();
 
-  anchors.each((_, el) => {
-    const href = $(el).attr('href');
-    if (!href) return;
+  const searchRoot = contentArea.length ? contentArea : $('body');
+
+  function tryAddCandidate(rawUrl, originLabel) {
+    if (!rawUrl) return;
 
     try {
-      const absolute = new URL(href, baseUrl);
-      if (!absolute.hostname.includes('dcinside.com')) return;
+      const absolute = new URL(rawUrl, baseUrl);
+      if (!isDcinsideHost(absolute.hostname)) return;
 
-      const postNo = absolute.searchParams.get('no');
-      if (!postNo) return;
+      const meta = parseDocMeta(absolute.toString());
+      if (!meta) {
+        recordIgnoredCandidate(
+          absolute.toString(),
+          `Could not parse DCInside post metadata from ${originLabel}`
+        );
+        return;
+      }
 
-      absolute.hash = '';
-      const normalized = absolute.toString();
-      if (!urlObjects.has(postNo)) {
-        urlObjects.set(postNo, {
-          url: normalized,
-          postNo,
-          galleryId: absolute.searchParams.get('id') || null,
+      if (meta.postNo === sourcePostNo) return;
+
+      if (!urlObjects.has(meta.postNo)) {
+        urlObjects.set(meta.postNo, {
+          url: meta.normalizedUrl,
+          postNo: meta.postNo,
+          galleryId: meta.galleryId,
         });
       }
     } catch {
-      // Ignore malformed href.
+      // malformed candidate URL
     }
+  }
+
+  searchRoot.find('a[href]').each((_, el) => {
+    const href = $(el).attr('href');
+    tryAddCandidate(href, 'anchor');
   });
 
-  // Regex fallback for plain-text links in content.
-  if (contentArea.length) {
-    const htmlText = contentArea.html() || '';
-    const regex = /https?:\/\/[^\s"'<>]*dcinside\.com[^\s"'<>]*/gi;
-    const matches = htmlText.match(regex) || [];
-
-    for (const raw of matches) {
-      try {
-        const absolute = new URL(raw, baseUrl);
-        const postNo = absolute.searchParams.get('no');
-        if (!postNo) continue;
-        absolute.hash = '';
-        if (!urlObjects.has(postNo)) {
-          urlObjects.set(postNo, {
-            url: absolute.toString(),
-            postNo,
-            galleryId: absolute.searchParams.get('id') || null,
-          });
-        }
-      } catch {
-        // Ignore malformed URL in regex match.
-      }
-    }
+  const htmlText = searchRoot.html() || '';
+  const urlRegex = /https?:\/\/[^\s"'<>]+/gi;
+  const matches = htmlText.match(urlRegex) || [];
+  for (const raw of matches) {
+    tryAddCandidate(raw, 'regex');
   }
 
   return [...urlObjects.values()].sort((a, b) => {
@@ -170,37 +250,13 @@ async function writeJson(filePath, value) {
   await fs.writeFile(filePath, `${JSON.stringify(value, null, 2)}\n`, 'utf8');
 }
 
-function statusKey(docType, postNo, url) {
-  return `${docType}:${postNo || 'na'}:${url}`;
-}
-
-function updateStatus({ docType, url, postNo, status, httpStatus = null, error = null, success = false }) {
-  const key = statusKey(docType, postNo, url);
-  const prev = statusMap.get(key) || {
-    docType,
-    url,
-    postNo,
-    lastSuccessAt: null,
-  };
-
-  const next = {
-    ...prev,
-    docType,
-    url,
-    postNo,
-    status,
-    httpStatus,
-    error,
-    lastAttemptAt: nowIso,
-    lastSuccessAt: success ? nowIso : prev.lastSuccessAt,
-  };
-
-  statusMap.set(key, next);
-}
-
 async function fetchDocument(url, docType, postNo) {
   try {
-    const response = await fetch(url, { headers: DEFAULT_HEADERS, redirect: 'follow' });
+    const response = await fetch(url, {
+      headers: DEFAULT_HEADERS,
+      redirect: 'follow',
+    });
+
     if (!response.ok) {
       updateStatus({
         docType,
@@ -215,6 +271,7 @@ async function fetchDocument(url, docType, postNo) {
 
     const html = await response.text();
     const $ = cheerio.load(html);
+
     const title = extractTitle($);
     const body = extractBody($);
 
@@ -240,7 +297,12 @@ async function fetchDocument(url, docType, postNo) {
       success: true,
     });
 
-    return { $, title, body, finalUrl: response.url };
+    return {
+      $,
+      title,
+      body,
+      finalUrl: response.url,
+    };
   } catch (error) {
     updateStatus({
       docType,
@@ -263,6 +325,7 @@ async function persistDocument(document) {
   if (!existingDated) {
     await writeJson(datedPath, document);
   }
+
   await writeJson(latestPath, document);
 }
 
@@ -284,8 +347,10 @@ function makeSnippet(body, query = '', maxLength = 200) {
 
 async function loadLatestDocuments() {
   const all = [];
+
   for (const docType of ['source', 'guide']) {
     const typeDir = path.join(DATA_DIR, 'documents', docType);
+
     let postDirs = [];
     try {
       postDirs = await fs.readdir(typeDir, { withFileTypes: true });
@@ -295,16 +360,19 @@ async function loadLatestDocuments() {
 
     for (const dirent of postDirs) {
       if (!dirent.isDirectory()) continue;
+
       const latestPath = path.join(typeDir, dirent.name, 'latest.json');
       const doc = await readJson(latestPath, null);
       if (doc) all.push(doc);
     }
   }
+
   return all;
 }
 
 async function buildSearchIndex() {
   const docs = await loadLatestDocuments();
+
   const documents = docs.map((doc) => {
     const fullBody = toText(doc.body);
     return {
@@ -318,7 +386,9 @@ async function buildSearchIndex() {
       postNo: doc.postNo,
       backupDate: doc.backupDate,
       status: 'ok',
-      parentSourceId: doc.parentSourcePostNo ? `source-${doc.parentSourcePostNo}` : null,
+      parentSourceId: doc.parentSourcePostNo
+        ? `source-${doc.parentSourcePostNo}`
+        : null,
     };
   });
 
@@ -329,7 +399,11 @@ async function buildSearchIndex() {
 }
 
 async function main() {
-  const existingStatus = await readJson(CRAWL_STATUS_PATH, { generatedAt: null, items: [] });
+  const existingStatus = await readJson(CRAWL_STATUS_PATH, {
+    generatedAt: null,
+    items: [],
+  });
+
   for (const item of existingStatus.items || []) {
     statusMap.set(statusKey(item.docType, item.postNo, item.url), item);
   }
@@ -346,12 +420,16 @@ async function main() {
         url: source.url,
         postNo: null,
         status: 'parse_failed',
-        error: 'Source URL missing no= query parameter',
+        error: 'Source URL is not a supported DCInside post format',
       });
       continue;
     }
 
-    const sourceDoc = await fetchDocument(sourceMeta.normalizedUrl, 'source', sourceMeta.postNo);
+    const sourceDoc = await fetchDocument(
+      sourceMeta.normalizedUrl,
+      'source',
+      sourceMeta.postNo
+    );
     if (!sourceDoc) continue;
 
     const sourceRecord = {
@@ -368,18 +446,23 @@ async function main() {
 
     await persistDocument(sourceRecord);
 
-    const links = extractGuideLinks(sourceDoc.$, sourceMeta.normalizedUrl, source.galleryId || sourceMeta.galleryId);
+    const links = extractGuideLinks(
+      sourceDoc.$,
+      sourceMeta.normalizedUrl,
+      source.galleryId || sourceMeta.galleryId,
+      sourceMeta.postNo
+    );
 
     for (const link of links) {
-      const guide = await fetchDocument(link.url, 'guide', link.postNo);
-      if (!guide) continue;
+      const guideDoc = await fetchDocument(link.url, 'guide', link.postNo);
+      if (!guideDoc) continue;
 
       const guideRecord = {
         id: `guide-${link.postNo}`,
         docType: 'guide',
-        title: guide.title,
-        body: guide.body,
-        snippet: makeSnippet(guide.body),
+        title: guideDoc.title,
+        body: guideDoc.body,
+        snippet: makeSnippet(guideDoc.body),
         url: link.url,
         postNo: link.postNo,
         backupDate: today,
@@ -392,13 +475,18 @@ async function main() {
 
   await buildSearchIndex();
 
-  const items = [...statusMap.values()].sort((a, b) => a.url.localeCompare(b.url));
+  const items = [...statusMap.values()].sort((a, b) => {
+    return String(a.url).localeCompare(String(b.url));
+  });
+
   await writeJson(CRAWL_STATUS_PATH, {
     generatedAt: nowIso,
     items,
   });
 
-  console.log(`Crawl complete. Documents indexed and ${items.length} status entries written.`);
+  console.log(
+    `Crawl complete. Search index written and ${items.length} status entries saved.`
+  );
 }
 
 main().catch((error) => {
