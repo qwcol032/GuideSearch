@@ -27,7 +27,8 @@ A GitHub Pages-compatible static site that:
 │  ├─ app.js
 │  └─ style.css
 ├─ .github/workflows/
-│  └─ weekly-backup.yml
+│  ├─ weekly-backup.yml
+│  └─ deploy-pages.yml
 ├─ package.json
 └─ .nojekyll
 ```
@@ -128,7 +129,8 @@ python3 -m http.server 4173
 
 Open:
 
-- `http://localhost:4173/public/`
+- `http://localhost:4173/public/` (frontend)
+- `http://localhost:4173/data/` (backup data JSON)
 
 ## GitHub Actions weekly backup
 
@@ -137,30 +139,32 @@ Workflow: `.github/workflows/weekly-backup.yml`
 Triggers:
 
 - `workflow_dispatch`
-- weekly schedule (Monday 03:00 UTC)
+- weekly schedule
 
 Workflow steps:
 
 1. Checkout repository.
-2. Setup Node 20.
+2. Setup Node.js 24.
 3. Install dependencies.
 4. Run crawler.
 5. Commit/push changed files under `data/`.
 
-## GitHub Pages setup
+## GitHub Pages setup (Static HTML workflow)
 
-Recommended setup:
+This repo uses a dedicated Pages workflow with GitHub Actions.
 
-1. In GitHub repo settings, open **Pages**.
-2. Set **Source** to **Deploy from a branch**.
-3. Select branch (e.g., `main`) and folder `/ (root)`.
-4. Save.
+How deployment works:
 
-Then open:
+1. Workflow checks out the repo.
+2. Prepares a Pages artifact that includes the frontend files and `data/`.
+3. Uploads the artifact.
+4. Deploys it to GitHub Pages.
 
-- `https://<your-username>.github.io/GuideSearch/public/`
+In GitHub settings, ensure Pages is configured to use **GitHub Actions** as the source.
 
-(If repository name changes, adjust the URL path accordingly.)
+Project site URL for this repository:
+
+- `https://qwcol032.github.io/GuideSearch/`
 
 ## Notes / parser dependencies
 

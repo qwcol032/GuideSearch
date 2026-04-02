@@ -117,14 +117,26 @@ function syncQueryToUrl(query) {
   history.replaceState({}, '', url);
 }
 
+async function fetchJsonWithFallback(primaryPath, fallbackPath) {
+  const primary = await fetch(primaryPath);
+  if (primary.ok) return primary.json();
+
+  const fallback = await fetch(fallbackPath);
+  if (!fallback.ok) {
+    throw new Error(`Failed to load ${primaryPath} and ${fallbackPath}`);
+  }
+
+  return fallback.json();
+}
+
 async function init() {
-  const [indexRes, statusRes] = await Promise.all([
-    fetch('./data/search-index.json'),
-    fetch('./data/crawl-status.json'),
+  const [index, status] = await Promise.all([
+    fetchJsonWithFallback('./data/search-index.json', '../data/search-index.json'),
+    fetchJsonWithFallback('./data/crawl-status.json', '../data/crawl-status.json'),
   ]);
 
-  indexData = await indexRes.json();
-  statusData = await statusRes.json();
+  indexData = index;
+  statusData = status;
 
   const initialQuery = new URL(window.location.href).searchParams.get('q') || '';
   els.query.value = initialQuery;
