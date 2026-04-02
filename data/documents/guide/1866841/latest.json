@@ -1,0 +1,11 @@
+{
+  "id": "guide-1866841",
+  "docType": "guide",
+  "title": "맥북으로 니케하는법",
+  "body": "1 플레이커버 다운로드 (https://playcover.io/) < 다운로드 링크2 니케 ipa 다운로드 (https://decrypt.day/app/id1585915174)3 맥북 복구모드로 진입후 옵션으로 들어가기4 옵션에서 터미널 실행후 명령어 csrutil disable 을 친후 맥 비밀번호 입력5 맥북 재가동6 플레이커버 실행후 사진에 있는 +누른후 다운로드한 ipa 파일 집어넣기7 ipa 삽입후 니케를 선택하여 설정으로 들어간후 playtools 제거 클릭8 사진처럼 옆에 느낌표 표시가 떳다면 설치 완료9 다시 복구모드 진입후 터미널 명령어에 csrutil enable 하고 겜하기참고로 전부 설치후에 csrutil enable 안하면 맥북내의 보안프로그램이 작동 안할수도 있으니 꼭하길바람다음엔 뮤뮤플레이어 다중인스턴스로 4배럭 리세마라 방법 알려드리겠음",
+  "snippet": "1 플레이커버 다운로드 (https://playcover.io/) < 다운로드 링크2 니케 ipa 다운로드 (https://decrypt.day/app/id1585915174)3 맥북 복구모드로 진입후 옵션으로 들어가기4 옵션에서 터미널 실행후 명령어 csrutil disable 을 친후 맥 비밀번호 입력5 맥북 재가동6 플레이커버 실행후 사진에 있는 +누",
+  "url": "https://gall.dcinside.com/mgallery/board/view/?id=gov&no=1866841",
+  "postNo": "1866841",
+  "backupDate": "2026-04-02",
+  "parentSourcePostNo": "3624608"
+}

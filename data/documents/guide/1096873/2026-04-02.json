@@ -1,0 +1,11 @@
+{
+  "id": "guide-1096873",
+  "docType": "guide",
+  "title": "PC판 실행오류 관련 해결법 모음",
+  "body": "한 게시글로 모아둠최종 업데이트 2024/02/07ㅡㅡㅡ0. 구동 사양[최소 사양]운영 체제: Windows 7 64비트CPU: Intel Core i3 또는 동급 사양메모리: 8GB그래픽 카드: NVIDIA GeForce GTX 750 TiDirectX: 버전 11최소 저장 공간: 10GB(실제 최소 요구 사항은 위의 설정보다 더 낮으나, 더 낮은 사양에서는 렉 현상 등 문제가 발생할 수 있음)[권장 사양]운영 체제: Windows 10 64비트CPU: Intel Core i5메모리: 8GB그래픽 카드: NVIDIA GeForce GTX 1650 SUPER / GTX 1650DirectX: 버전 11추천 저장 공간: 20GB먼저 스펙 문제가 아닌지 확인해라1. 런처가 실행이 안되는 경우https://learn.microsoft.com/ko-kr/cpp/windows/latest-supported-vc-redist?view=msvc-170 지원되는 최신 Visual C 재배포 가능 패키지 다운로드이 문서에서는 최신 버전의 Visual C++ 재배포 가능 패키지 패키지에 대한 다운로드 링크를 나열합니다.learn.microsoft.com위 링크에 들어가서 빨간 네모 설치, 그래도 안되면 x64 받아보고이래도 안 되면 다른 드라이브에 니케를 설치했다면 지우고 C드라이브에 설치하거나,그래도 안되면 그래픽 카드 드라이버 재설치하면 됨2. 런처가 무한로딩이 걸리는 경우 (7812021 오류)니케 클라이언트의 [게임시작] 밑에 있는 [게임설정] -> 복구 들어가서 복구했을때,오류 7812021이 뜨는 경우NVIDIA 제어판에 들어가서3D설정관리 니케 설정-> [수직 동기] 끄기-> [최대 프레임속도] 끄기하면 실행됨3. 타이틀 화면 로딩이 지속되는 경우그렇다4. ACE Center 1-0-0 오류가 뜨는 경우https://re-actor.net/pubg-battlegrounds-error-occurs-on-ace-components-fix/ PUBG: BATTLEGROUNDS - Error Occurs on Ace Components / FixThis is a fix for re-actor.net위 링크를 참고해서1) cmd로 services.mcs 실행2) Anticheat 관련 서비스 사용 안함-> 수동으로 변경 후 적용그래도 안되면 우리도 모름....",
+  "snippet": "한 게시글로 모아둠최종 업데이트 2024/02/07ㅡㅡㅡ0. 구동 사양[최소 사양]운영 체제: Windows 7 64비트CPU: Intel Core i3 또는 동급 사양메모리: 8GB그래픽 카드: NVIDIA GeForce GTX 750 TiDirectX: 버전 11최소 저장 공간: 10GB(실제 최소 요구 사항은 위의 설정보다 더 낮으나, 더 낮은 사양에",
+  "url": "https://gall.dcinside.com/mgallery/board/view?id=gov&no=1096873",
+  "postNo": "1096873",
+  "backupDate": "2026-04-02",
+  "parentSourcePostNo": "3624608"
+}
