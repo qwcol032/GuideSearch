@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-02T12:17:24.609Z",
+  "generatedAt": "2026-04-02T12:32:07.904Z",
   "items": [
     {
       "docType": "candidate",
@@ -9,7 +9,7 @@
       "status": "ignored_unsupported_url",
       "httpStatus": null,
       "error": "Could not parse DCInside post metadata from regex",
-      "lastAttemptAt": "2026-04-02T12:17:24.609Z"
+      "lastAttemptAt": "2026-04-02T12:32:07.904Z"
     },
     {
       "docType": "candidate",
@@ -19,7 +19,7 @@
       "status": "ignored_unsupported_url",
       "httpStatus": null,
       "error": "Could not parse DCInside post metadata from regex",
-      "lastAttemptAt": "2026-04-02T12:17:24.609Z"
+      "lastAttemptAt": "2026-04-02T12:32:07.904Z"
     },
     {
       "docType": "candidate",
@@ -29,567 +29,567 @@
       "status": "ignored_unsupported_url",
       "httpStatus": null,
       "error": "Could not parse DCInside post metadata from regex",
-      "lastAttemptAt": "2026-04-02T12:17:24.609Z"
+      "lastAttemptAt": "2026-04-02T12:32:07.904Z"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/1084335",
       "postNo": "1084335",
-      "lastSuccessAt": null,
-      "status": "parse_failed",
+      "lastSuccessAt": "2026-04-02T12:32:07.904Z",
+      "status": "ok",
       "httpStatus": 200,
-      "error": "Could not parse title/body with known selectors",
-      "lastAttemptAt": "2026-04-02T12:17:24.609Z"
+      "error": null,
+      "lastAttemptAt": "2026-04-02T12:32:07.904Z"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/1088136",
       "postNo": "1088136",
-      "lastSuccessAt": null,
-      "status": "parse_failed",
+      "lastSuccessAt": "2026-04-02T12:32:07.904Z",
+      "status": "ok",
       "httpStatus": 200,
-      "error": "Could not parse title/body with known selectors",
-      "lastAttemptAt": "2026-04-02T12:17:24.609Z"
+      "error": null,
+      "lastAttemptAt": "2026-04-02T12:32:07.904Z"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/1169566",
       "postNo": "1169566",
-      "lastSuccessAt": null,
-      "status": "parse_failed",
+      "lastSuccessAt": "2026-04-02T12:32:07.904Z",
+      "status": "ok",
       "httpStatus": 200,
-      "error": "Could not parse title/body with known selectors",
-      "lastAttemptAt": "2026-04-02T12:17:24.609Z"
+      "error": null,
+      "lastAttemptAt": "2026-04-02T12:32:07.904Z"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/1176640",
       "postNo": "1176640",
-      "lastSuccessAt": null,
-      "status": "parse_failed",
+      "lastSuccessAt": "2026-04-02T12:32:07.904Z",
+      "status": "ok",
       "httpStatus": 200,
-      "error": "Could not parse title/body with known selectors",
-      "lastAttemptAt": "2026-04-02T12:17:24.609Z"
+      "error": null,
+      "lastAttemptAt": "2026-04-02T12:32:07.904Z"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/1182758",
       "postNo": "1182758",
-      "lastSuccessAt": null,
-      "status": "parse_failed",
+      "lastSuccessAt": "2026-04-02T12:32:07.904Z",
+      "status": "ok",
       "httpStatus": 200,
-      "error": "Could not parse title/body with known selectors",
-      "lastAttemptAt": "2026-04-02T12:17:24.609Z"
+      "error": null,
+      "lastAttemptAt": "2026-04-02T12:32:07.904Z"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/1190146",
       "postNo": "1190146",
-      "lastSuccessAt": null,
-      "status": "parse_failed",
+      "lastSuccessAt": "2026-04-02T12:32:07.904Z",
+      "status": "ok",
       "httpStatus": 200,
-      "error": "Could not parse title/body with known selectors",
-      "lastAttemptAt": "2026-04-02T12:17:24.609Z"
+      "error": null,
+      "lastAttemptAt": "2026-04-02T12:32:07.904Z"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/1192882",
       "postNo": "1192882",
-      "lastSuccessAt": null,
-      "status": "parse_failed",
+      "lastSuccessAt": "2026-04-02T12:32:07.904Z",
+      "status": "ok",
       "httpStatus": 200,
-      "error": "Could not parse title/body with known selectors",
-      "lastAttemptAt": "2026-04-02T12:17:24.609Z"
+      "error": null,
+      "lastAttemptAt": "2026-04-02T12:32:07.904Z"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/1195999",
       "postNo": "1195999",
-      "lastSuccessAt": null,
-      "status": "parse_failed",
+      "lastSuccessAt": "2026-04-02T12:32:07.904Z",
+      "status": "ok",
       "httpStatus": 200,
-      "error": "Could not parse title/body with known selectors",
-      "lastAttemptAt": "2026-04-02T12:17:24.609Z"
+      "error": null,
+      "lastAttemptAt": "2026-04-02T12:32:07.904Z"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/1196174",
       "postNo": "1196174",
-      "lastSuccessAt": null,
-      "status": "parse_failed",
+      "lastSuccessAt": "2026-04-02T12:32:07.904Z",
+      "status": "ok",
       "httpStatus": 200,
-      "error": "Could not parse title/body with known selectors",
-      "lastAttemptAt": "2026-04-02T12:17:24.609Z"
+      "error": null,
+      "lastAttemptAt": "2026-04-02T12:32:07.904Z"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/1203770",
       "postNo": "1203770",
-      "lastSuccessAt": null,
-      "status": "parse_failed",
+      "lastSuccessAt": "2026-04-02T12:32:07.904Z",
+      "status": "ok",
       "httpStatus": 200,
-      "error": "Could not parse title/body with known selectors",
-      "lastAttemptAt": "2026-04-02T12:17:24.609Z"
+      "error": null,
+      "lastAttemptAt": "2026-04-02T12:32:07.904Z"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/1228115",
       "postNo": "1228115",
-      "lastSuccessAt": null,
-      "status": "parse_failed",
+      "lastSuccessAt": "2026-04-02T12:32:07.904Z",
+      "status": "ok",
       "httpStatus": 200,
-      "error": "Could not parse title/body with known selectors",
-      "lastAttemptAt": "2026-04-02T12:17:24.609Z"
+      "error": null,
+      "lastAttemptAt": "2026-04-02T12:32:07.904Z"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/1231260",
       "postNo": "1231260",
-      "lastSuccessAt": null,
-      "status": "parse_failed",
+      "lastSuccessAt": "2026-04-02T12:32:07.904Z",
+      "status": "ok",
       "httpStatus": 200,
-      "error": "Could not parse title/body with known selectors",
-      "lastAttemptAt": "2026-04-02T12:17:24.609Z"
+      "error": null,
+      "lastAttemptAt": "2026-04-02T12:32:07.904Z"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/1240852",
       "postNo": "1240852",
-      "lastSuccessAt": null,
-      "status": "parse_failed",
+      "lastSuccessAt": "2026-04-02T12:32:07.904Z",
+      "status": "ok",
       "httpStatus": 200,
-      "error": "Could not parse title/body with known selectors",
-      "lastAttemptAt": "2026-04-02T12:17:24.609Z"
+      "error": null,
+      "lastAttemptAt": "2026-04-02T12:32:07.904Z"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/1241144",
       "postNo": "1241144",
-      "lastSuccessAt": null,
-      "status": "parse_failed",
+      "lastSuccessAt": "2026-04-02T12:32:07.904Z",
+      "status": "ok",
       "httpStatus": 200,
-      "error": "Could not parse title/body with known selectors",
-      "lastAttemptAt": "2026-04-02T12:17:24.609Z"
+      "error": null,
+      "lastAttemptAt": "2026-04-02T12:32:07.904Z"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/1272992",
       "postNo": "1272992",
-      "lastSuccessAt": null,
-      "status": "parse_failed",
+      "lastSuccessAt": "2026-04-02T12:32:07.904Z",
+      "status": "ok",
       "httpStatus": 200,
-      "error": "Could not parse title/body with known selectors",
-      "lastAttemptAt": "2026-04-02T12:17:24.609Z"
+      "error": null,
+      "lastAttemptAt": "2026-04-02T12:32:07.904Z"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/1288848",
       "postNo": "1288848",
-      "lastSuccessAt": null,
-      "status": "parse_failed",
+      "lastSuccessAt": "2026-04-02T12:32:07.904Z",
+      "status": "ok",
       "httpStatus": 200,
-      "error": "Could not parse title/body with known selectors",
-      "lastAttemptAt": "2026-04-02T12:17:24.609Z"
+      "error": null,
+      "lastAttemptAt": "2026-04-02T12:32:07.904Z"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/1304358",
       "postNo": "1304358",
-      "lastSuccessAt": null,
-      "status": "parse_failed",
+      "lastSuccessAt": "2026-04-02T12:32:07.904Z",
+      "status": "ok",
       "httpStatus": 200,
-      "error": "Could not parse title/body with known selectors",
-      "lastAttemptAt": "2026-04-02T12:17:24.609Z"
+      "error": null,
+      "lastAttemptAt": "2026-04-02T12:32:07.904Z"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/1304368",
       "postNo": "1304368",
-      "lastSuccessAt": null,
-      "status": "parse_failed",
+      "lastSuccessAt": "2026-04-02T12:32:07.904Z",
+      "status": "ok",
       "httpStatus": 200,
-      "error": "Could not parse title/body with known selectors",
-      "lastAttemptAt": "2026-04-02T12:17:24.609Z"
+      "error": null,
+      "lastAttemptAt": "2026-04-02T12:32:07.904Z"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/1313073",
       "postNo": "1313073",
-      "lastSuccessAt": null,
-      "status": "parse_failed",
+      "lastSuccessAt": "2026-04-02T12:32:07.904Z",
+      "status": "ok",
       "httpStatus": 200,
-      "error": "Could not parse title/body with known selectors",
-      "lastAttemptAt": "2026-04-02T12:17:24.609Z"
+      "error": null,
+      "lastAttemptAt": "2026-04-02T12:32:07.904Z"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/1317325",
       "postNo": "1317325",
-      "lastSuccessAt": null,
-      "status": "parse_failed",
+      "lastSuccessAt": "2026-04-02T12:32:07.904Z",
+      "status": "ok",
       "httpStatus": 200,
-      "error": "Could not parse title/body with known selectors",
-      "lastAttemptAt": "2026-04-02T12:17:24.609Z"
+      "error": null,
+      "lastAttemptAt": "2026-04-02T12:32:07.904Z"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/1324365",
       "postNo": "1324365",
-      "lastSuccessAt": null,
-      "status": "parse_failed",
+      "lastSuccessAt": "2026-04-02T12:32:07.904Z",
+      "status": "ok",
       "httpStatus": 200,
-      "error": "Could not parse title/body with known selectors",
-      "lastAttemptAt": "2026-04-02T12:17:24.609Z"
+      "error": null,
+      "lastAttemptAt": "2026-04-02T12:32:07.904Z"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/1363501",
       "postNo": "1363501",
-      "lastSuccessAt": null,
-      "status": "parse_failed",
+      "lastSuccessAt": "2026-04-02T12:32:07.904Z",
+      "status": "ok",
       "httpStatus": 200,
-      "error": "Could not parse title/body with known selectors",
-      "lastAttemptAt": "2026-04-02T12:17:24.609Z"
+      "error": null,
+      "lastAttemptAt": "2026-04-02T12:32:07.904Z"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/1367754",
       "postNo": "1367754",
-      "lastSuccessAt": null,
-      "status": "parse_failed",
+      "lastSuccessAt": "2026-04-02T12:32:07.904Z",
+      "status": "ok",
       "httpStatus": 200,
-      "error": "Could not parse title/body with known selectors",
-      "lastAttemptAt": "2026-04-02T12:17:24.609Z"
+      "error": null,
+      "lastAttemptAt": "2026-04-02T12:32:07.904Z"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/1372376",
       "postNo": "1372376",
-      "lastSuccessAt": null,
-      "status": "parse_failed",
+      "lastSuccessAt": "2026-04-02T12:32:07.904Z",
+      "status": "ok",
       "httpStatus": 200,
-      "error": "Could not parse title/body with known selectors",
-      "lastAttemptAt": "2026-04-02T12:17:24.609Z"
+      "error": null,
+      "lastAttemptAt": "2026-04-02T12:32:07.904Z"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/1405305",
       "postNo": "1405305",
-      "lastSuccessAt": null,
-      "status": "parse_failed",
+      "lastSuccessAt": "2026-04-02T12:32:07.904Z",
+      "status": "ok",
       "httpStatus": 200,
-      "error": "Could not parse title/body with known selectors",
-      "lastAttemptAt": "2026-04-02T12:17:24.609Z"
+      "error": null,
+      "lastAttemptAt": "2026-04-02T12:32:07.904Z"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/1417663",
       "postNo": "1417663",
-      "lastSuccessAt": null,
-      "status": "parse_failed",
+      "lastSuccessAt": "2026-04-02T12:32:07.904Z",
+      "status": "ok",
       "httpStatus": 200,
-      "error": "Could not parse title/body with known selectors",
-      "lastAttemptAt": "2026-04-02T12:17:24.609Z"
+      "error": null,
+      "lastAttemptAt": "2026-04-02T12:32:07.904Z"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/1427711",
       "postNo": "1427711",
-      "lastSuccessAt": null,
-      "status": "parse_failed",
+      "lastSuccessAt": "2026-04-02T12:32:07.904Z",
+      "status": "ok",
       "httpStatus": 200,
-      "error": "Could not parse title/body with known selectors",
-      "lastAttemptAt": "2026-04-02T12:17:24.609Z"
+      "error": null,
+      "lastAttemptAt": "2026-04-02T12:32:07.904Z"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/1431071",
       "postNo": "1431071",
-      "lastSuccessAt": null,
-      "status": "parse_failed",
+      "lastSuccessAt": "2026-04-02T12:32:07.904Z",
+      "status": "ok",
       "httpStatus": 200,
-      "error": "Could not parse title/body with known selectors",
-      "lastAttemptAt": "2026-04-02T12:17:24.609Z"
+      "error": null,
+      "lastAttemptAt": "2026-04-02T12:32:07.904Z"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/1478209",
       "postNo": "1478209",
-      "lastSuccessAt": null,
-      "status": "parse_failed",
+      "lastSuccessAt": "2026-04-02T12:32:07.904Z",
+      "status": "ok",
       "httpStatus": 200,
-      "error": "Could not parse title/body with known selectors",
-      "lastAttemptAt": "2026-04-02T12:17:24.609Z"
+      "error": null,
+      "lastAttemptAt": "2026-04-02T12:32:07.904Z"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/1492975",
       "postNo": "1492975",
-      "lastSuccessAt": null,
-      "status": "parse_failed",
+      "lastSuccessAt": "2026-04-02T12:32:07.904Z",
+      "status": "ok",
       "httpStatus": 200,
-      "error": "Could not parse title/body with known selectors",
-      "lastAttemptAt": "2026-04-02T12:17:24.609Z"
+      "error": null,
+      "lastAttemptAt": "2026-04-02T12:32:07.904Z"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/1500790",
       "postNo": "1500790",
-      "lastSuccessAt": null,
-      "status": "parse_failed",
+      "lastSuccessAt": "2026-04-02T12:32:07.904Z",
+      "status": "ok",
       "httpStatus": 200,
-      "error": "Could not parse title/body with known selectors",
-      "lastAttemptAt": "2026-04-02T12:17:24.609Z"
+      "error": null,
+      "lastAttemptAt": "2026-04-02T12:32:07.904Z"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/1504176",
       "postNo": "1504176",
-      "lastSuccessAt": null,
-      "status": "parse_failed",
+      "lastSuccessAt": "2026-04-02T12:32:07.904Z",
+      "status": "ok",
       "httpStatus": 200,
-      "error": "Could not parse title/body with known selectors",
-      "lastAttemptAt": "2026-04-02T12:17:24.609Z"
+      "error": null,
+      "lastAttemptAt": "2026-04-02T12:32:07.904Z"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/1505567",
       "postNo": "1505567",
-      "lastSuccessAt": null,
-      "status": "parse_failed",
+      "lastSuccessAt": "2026-04-02T12:32:07.904Z",
+      "status": "ok",
       "httpStatus": 200,
-      "error": "Could not parse title/body with known selectors",
-      "lastAttemptAt": "2026-04-02T12:17:24.609Z"
+      "error": null,
+      "lastAttemptAt": "2026-04-02T12:32:07.904Z"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/1507559",
       "postNo": "1507559",
-      "lastSuccessAt": null,
-      "status": "parse_failed",
+      "lastSuccessAt": "2026-04-02T12:32:07.904Z",
+      "status": "ok",
       "httpStatus": 200,
-      "error": "Could not parse title/body with known selectors",
-      "lastAttemptAt": "2026-04-02T12:17:24.609Z"
+      "error": null,
+      "lastAttemptAt": "2026-04-02T12:32:07.904Z"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/1509129",
       "postNo": "1509129",
-      "lastSuccessAt": null,
-      "status": "parse_failed",
+      "lastSuccessAt": "2026-04-02T12:32:07.904Z",
+      "status": "ok",
       "httpStatus": 200,
-      "error": "Could not parse title/body with known selectors",
-      "lastAttemptAt": "2026-04-02T12:17:24.609Z"
+      "error": null,
+      "lastAttemptAt": "2026-04-02T12:32:07.904Z"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/1509251",
       "postNo": "1509251",
-      "lastSuccessAt": null,
-      "status": "parse_failed",
+      "lastSuccessAt": "2026-04-02T12:32:07.904Z",
+      "status": "ok",
       "httpStatus": 200,
-      "error": "Could not parse title/body with known selectors",
-      "lastAttemptAt": "2026-04-02T12:17:24.609Z"
+      "error": null,
+      "lastAttemptAt": "2026-04-02T12:32:07.904Z"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/1509876",
       "postNo": "1509876",
-      "lastSuccessAt": null,
-      "status": "parse_failed",
+      "lastSuccessAt": "2026-04-02T12:32:07.904Z",
+      "status": "ok",
       "httpStatus": 200,
-      "error": "Could not parse title/body with known selectors",
-      "lastAttemptAt": "2026-04-02T12:17:24.609Z"
+      "error": null,
+      "lastAttemptAt": "2026-04-02T12:32:07.904Z"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/1510770",
       "postNo": "1510770",
-      "lastSuccessAt": null,
-      "status": "parse_failed",
+      "lastSuccessAt": "2026-04-02T12:32:07.904Z",
+      "status": "ok",
       "httpStatus": 200,
-      "error": "Could not parse title/body with known selectors",
-      "lastAttemptAt": "2026-04-02T12:17:24.609Z"
+      "error": null,
+      "lastAttemptAt": "2026-04-02T12:32:07.904Z"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/1513811",
       "postNo": "1513811",
-      "lastSuccessAt": null,
-      "status": "parse_failed",
+      "lastSuccessAt": "2026-04-02T12:32:07.904Z",
+      "status": "ok",
       "httpStatus": 200,
-      "error": "Could not parse title/body with known selectors",
-      "lastAttemptAt": "2026-04-02T12:17:24.609Z"
+      "error": null,
+      "lastAttemptAt": "2026-04-02T12:32:07.904Z"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/1514492",
       "postNo": "1514492",
-      "lastSuccessAt": null,
-      "status": "parse_failed",
+      "lastSuccessAt": "2026-04-02T12:32:07.904Z",
+      "status": "ok",
       "httpStatus": 200,
-      "error": "Could not parse title/body with known selectors",
-      "lastAttemptAt": "2026-04-02T12:17:24.609Z"
+      "error": null,
+      "lastAttemptAt": "2026-04-02T12:32:07.904Z"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/1516146",
       "postNo": "1516146",
-      "lastSuccessAt": null,
-      "status": "parse_failed",
+      "lastSuccessAt": "2026-04-02T12:32:07.904Z",
+      "status": "ok",
       "httpStatus": 200,
-      "error": "Could not parse title/body with known selectors",
-      "lastAttemptAt": "2026-04-02T12:17:24.609Z"
+      "error": null,
+      "lastAttemptAt": "2026-04-02T12:32:07.904Z"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/1517142",
       "postNo": "1517142",
-      "lastSuccessAt": null,
-      "status": "parse_failed",
+      "lastSuccessAt": "2026-04-02T12:32:07.904Z",
+      "status": "ok",
       "httpStatus": 200,
-      "error": "Could not parse title/body with known selectors",
-      "lastAttemptAt": "2026-04-02T12:17:24.609Z"
+      "error": null,
+      "lastAttemptAt": "2026-04-02T12:32:07.904Z"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/1519774",
       "postNo": "1519774",
-      "lastSuccessAt": null,
-      "status": "parse_failed",
+      "lastSuccessAt": "2026-04-02T12:32:07.904Z",
+      "status": "ok",
       "httpStatus": 200,
-      "error": "Could not parse title/body with known selectors",
-      "lastAttemptAt": "2026-04-02T12:17:24.609Z"
+      "error": null,
+      "lastAttemptAt": "2026-04-02T12:32:07.904Z"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/1521739",
       "postNo": "1521739",
-      "lastSuccessAt": null,
-      "status": "parse_failed",
+      "lastSuccessAt": "2026-04-02T12:32:07.904Z",
+      "status": "ok",
       "httpStatus": 200,
-      "error": "Could not parse title/body with known selectors",
-      "lastAttemptAt": "2026-04-02T12:17:24.609Z"
+      "error": null,
+      "lastAttemptAt": "2026-04-02T12:32:07.904Z"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/1523531",
       "postNo": "1523531",
-      "lastSuccessAt": null,
-      "status": "parse_failed",
+      "lastSuccessAt": "2026-04-02T12:32:07.904Z",
+      "status": "ok",
       "httpStatus": 200,
-      "error": "Could not parse title/body with known selectors",
-      "lastAttemptAt": "2026-04-02T12:17:24.609Z"
+      "error": null,
+      "lastAttemptAt": "2026-04-02T12:32:07.904Z"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/1524465",
       "postNo": "1524465",
-      "lastSuccessAt": null,
-      "status": "parse_failed",
+      "lastSuccessAt": "2026-04-02T12:32:07.904Z",
+      "status": "ok",
       "httpStatus": 200,
-      "error": "Could not parse title/body with known selectors",
-      "lastAttemptAt": "2026-04-02T12:17:24.609Z"
+      "error": null,
+      "lastAttemptAt": "2026-04-02T12:32:07.904Z"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/1533091",
       "postNo": "1533091",
-      "lastSuccessAt": null,
-      "status": "parse_failed",
+      "lastSuccessAt": "2026-04-02T12:32:07.904Z",
+      "status": "ok",
       "httpStatus": 200,
-      "error": "Could not parse title/body with known selectors",
-      "lastAttemptAt": "2026-04-02T12:17:24.609Z"
+      "error": null,
+      "lastAttemptAt": "2026-04-02T12:32:07.904Z"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/1549310",
       "postNo": "1549310",
-      "lastSuccessAt": null,
-      "status": "parse_failed",
+      "lastSuccessAt": "2026-04-02T12:32:07.904Z",
+      "status": "ok",
       "httpStatus": 200,
-      "error": "Could not parse title/body with known selectors",
-      "lastAttemptAt": "2026-04-02T12:17:24.609Z"
+      "error": null,
+      "lastAttemptAt": "2026-04-02T12:32:07.904Z"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/1551874",
       "postNo": "1551874",
-      "lastSuccessAt": null,
-      "status": "parse_failed",
+      "lastSuccessAt": "2026-04-02T12:32:07.904Z",
+      "status": "ok",
       "httpStatus": 200,
-      "error": "Could not parse title/body with known selectors",
-      "lastAttemptAt": "2026-04-02T12:17:24.609Z"
+      "error": null,
+      "lastAttemptAt": "2026-04-02T12:32:07.904Z"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/1733220",
       "postNo": "1733220",
-      "lastSuccessAt": null,
-      "status": "parse_failed",
+      "lastSuccessAt": "2026-04-02T12:32:07.904Z",
+      "status": "ok",
       "httpStatus": 200,
-      "error": "Could not parse title/body with known selectors",
-      "lastAttemptAt": "2026-04-02T12:17:24.609Z"
+      "error": null,
+      "lastAttemptAt": "2026-04-02T12:32:07.904Z"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/1733221",
       "postNo": "1733221",
-      "lastSuccessAt": null,
-      "status": "parse_failed",
+      "lastSuccessAt": "2026-04-02T12:32:07.904Z",
+      "status": "ok",
       "httpStatus": 200,
-      "error": "Could not parse title/body with known selectors",
-      "lastAttemptAt": "2026-04-02T12:17:24.609Z"
+      "error": null,
+      "lastAttemptAt": "2026-04-02T12:32:07.904Z"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/1733222",
       "postNo": "1733222",
-      "lastSuccessAt": null,
-      "status": "parse_failed",
+      "lastSuccessAt": "2026-04-02T12:32:07.904Z",
+      "status": "ok",
       "httpStatus": 200,
-      "error": "Could not parse title/body with known selectors",
-      "lastAttemptAt": "2026-04-02T12:17:24.609Z"
+      "error": null,
+      "lastAttemptAt": "2026-04-02T12:32:07.904Z"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/345391",
       "postNo": "345391",
-      "lastSuccessAt": null,
-      "status": "parse_failed",
+      "lastSuccessAt": "2026-04-02T12:32:07.904Z",
+      "status": "ok",
       "httpStatus": 200,
-      "error": "Could not parse title/body with known selectors",
-      "lastAttemptAt": "2026-04-02T12:17:24.609Z"
+      "error": null,
+      "lastAttemptAt": "2026-04-02T12:32:07.904Z"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/3770910",
       "postNo": "3770910",
-      "lastSuccessAt": null,
-      "status": "parse_failed",
+      "lastSuccessAt": "2026-04-02T12:32:07.904Z",
+      "status": "ok",
       "httpStatus": 200,
-      "error": "Could not parse title/body with known selectors",
-      "lastAttemptAt": "2026-04-02T12:17:24.609Z"
+      "error": null,
+      "lastAttemptAt": "2026-04-02T12:32:07.904Z"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/4829440",
       "postNo": "4829440",
-      "lastSuccessAt": null,
-      "status": "parse_failed",
+      "lastSuccessAt": "2026-04-02T12:32:07.904Z",
+      "status": "ok",
       "httpStatus": 200,
-      "error": "Could not parse title/body with known selectors",
-      "lastAttemptAt": "2026-04-02T12:17:24.609Z"
+      "error": null,
+      "lastAttemptAt": "2026-04-02T12:32:07.904Z"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/771366",
       "postNo": "771366",
-      "lastSuccessAt": null,
-      "status": "parse_failed",
+      "lastSuccessAt": "2026-04-02T12:32:07.904Z",
+      "status": "ok",
       "httpStatus": 200,
-      "error": "Could not parse title/body with known selectors",
-      "lastAttemptAt": "2026-04-02T12:17:24.609Z"
+      "error": null,
+      "lastAttemptAt": "2026-04-02T12:32:07.904Z"
     },
     {
       "docType": "candidate",
@@ -599,7 +599,7 @@
       "status": "ignored_unsupported_url",
       "httpStatus": null,
       "error": "Could not parse DCInside post metadata from regex",
-      "lastAttemptAt": "2026-04-02T12:17:24.609Z"
+      "lastAttemptAt": "2026-04-02T12:32:07.904Z"
     },
     {
       "docType": "candidate",
@@ -609,7 +609,7 @@
       "status": "ignored_unsupported_url",
       "httpStatus": null,
       "error": "Could not parse DCInside post metadata from regex",
-      "lastAttemptAt": "2026-04-02T12:17:24.609Z"
+      "lastAttemptAt": "2026-04-02T12:32:07.904Z"
     },
     {
       "docType": "candidate",
@@ -619,7 +619,7 @@
       "status": "ignored_unsupported_url",
       "httpStatus": null,
       "error": "Could not parse DCInside post metadata from regex",
-      "lastAttemptAt": "2026-04-02T12:17:24.609Z"
+      "lastAttemptAt": "2026-04-02T12:32:07.904Z"
     },
     {
       "docType": "candidate",
@@ -629,7 +629,7 @@
       "status": "ignored_unsupported_url",
       "httpStatus": null,
       "error": "Could not parse DCInside post metadata from regex",
-      "lastAttemptAt": "2026-04-02T12:17:24.609Z"
+      "lastAttemptAt": "2026-04-02T12:32:07.904Z"
     },
     {
       "docType": "candidate",
@@ -639,7 +639,7 @@
       "status": "ignored_unsupported_url",
       "httpStatus": null,
       "error": "Could not parse DCInside post metadata from regex",
-      "lastAttemptAt": "2026-04-02T12:17:24.609Z"
+      "lastAttemptAt": "2026-04-02T12:32:07.904Z"
     },
     {
       "docType": "candidate",
@@ -649,7 +649,7 @@
       "status": "ignored_unsupported_url",
       "httpStatus": null,
       "error": "Could not parse DCInside post metadata from regex",
-      "lastAttemptAt": "2026-04-02T12:17:24.609Z"
+      "lastAttemptAt": "2026-04-02T12:32:07.904Z"
     },
     {
       "docType": "candidate",
@@ -659,7 +659,7 @@
       "status": "ignored_unsupported_url",
       "httpStatus": null,
       "error": "Could not parse DCInside post metadata from regex",
-      "lastAttemptAt": "2026-04-02T12:17:24.609Z"
+      "lastAttemptAt": "2026-04-02T12:32:07.904Z"
     },
     {
       "docType": "candidate",
@@ -669,7 +669,7 @@
       "status": "ignored_unsupported_url",
       "httpStatus": null,
       "error": "Could not parse DCInside post metadata from regex",
-      "lastAttemptAt": "2026-04-02T12:17:24.609Z"
+      "lastAttemptAt": "2026-04-02T12:32:07.904Z"
     },
     {
       "docType": "candidate",
@@ -679,7 +679,7 @@
       "status": "ignored_unsupported_url",
       "httpStatus": null,
       "error": "Could not parse DCInside post metadata from regex",
-      "lastAttemptAt": "2026-04-02T12:17:24.609Z"
+      "lastAttemptAt": "2026-04-02T12:32:07.904Z"
     },
     {
       "docType": "candidate",
@@ -689,7 +689,7 @@
       "status": "ignored_unsupported_url",
       "httpStatus": null,
       "error": "Could not parse DCInside post metadata from regex",
-      "lastAttemptAt": "2026-04-02T12:17:24.609Z"
+      "lastAttemptAt": "2026-04-02T12:32:07.904Z"
     },
     {
       "docType": "candidate",
@@ -699,7 +699,7 @@
       "status": "ignored_unsupported_url",
       "httpStatus": null,
       "error": "Could not parse DCInside post metadata from regex",
-      "lastAttemptAt": "2026-04-02T12:17:24.609Z"
+      "lastAttemptAt": "2026-04-02T12:32:07.904Z"
     },
     {
       "docType": "candidate",
@@ -709,7 +709,7 @@
       "status": "ignored_unsupported_url",
       "httpStatus": null,
       "error": "Could not parse DCInside post metadata from regex",
-      "lastAttemptAt": "2026-04-02T12:17:24.609Z"
+      "lastAttemptAt": "2026-04-02T12:32:07.904Z"
     },
     {
       "docType": "candidate",
@@ -719,7 +719,7 @@
       "status": "ignored_unsupported_url",
       "httpStatus": null,
       "error": "Could not parse DCInside post metadata from regex",
-      "lastAttemptAt": "2026-04-02T12:17:24.609Z"
+      "lastAttemptAt": "2026-04-02T12:32:07.904Z"
     },
     {
       "docType": "candidate",
@@ -729,7 +729,7 @@
       "status": "ignored_unsupported_url",
       "httpStatus": null,
       "error": "Could not parse DCInside post metadata from regex",
-      "lastAttemptAt": "2026-04-02T12:17:24.609Z"
+      "lastAttemptAt": "2026-04-02T12:32:07.904Z"
     },
     {
       "docType": "candidate",
@@ -739,7 +739,7 @@
       "status": "ignored_unsupported_url",
       "httpStatus": null,
       "error": "Could not parse DCInside post metadata from regex",
-      "lastAttemptAt": "2026-04-02T12:17:24.609Z"
+      "lastAttemptAt": "2026-04-02T12:32:07.904Z"
     },
     {
       "docType": "candidate",
@@ -749,7 +749,7 @@
       "status": "ignored_unsupported_url",
       "httpStatus": null,
       "error": "Could not parse DCInside post metadata from regex",
-      "lastAttemptAt": "2026-04-02T12:17:24.609Z"
+      "lastAttemptAt": "2026-04-02T12:32:07.904Z"
     },
     {
       "docType": "candidate",
@@ -759,7 +759,7 @@
       "status": "ignored_unsupported_url",
       "httpStatus": null,
       "error": "Could not parse DCInside post metadata from regex",
-      "lastAttemptAt": "2026-04-02T12:17:24.609Z"
+      "lastAttemptAt": "2026-04-02T12:32:07.904Z"
     },
     {
       "docType": "candidate",
@@ -769,7 +769,7 @@
       "status": "ignored_unsupported_url",
       "httpStatus": null,
       "error": "Could not parse DCInside post metadata from regex",
-      "lastAttemptAt": "2026-04-02T12:17:24.609Z"
+      "lastAttemptAt": "2026-04-02T12:32:07.904Z"
     },
     {
       "docType": "candidate",
@@ -779,7 +779,7 @@
       "status": "ignored_unsupported_url",
       "httpStatus": null,
       "error": "Could not parse DCInside post metadata from regex",
-      "lastAttemptAt": "2026-04-02T12:17:24.609Z"
+      "lastAttemptAt": "2026-04-02T12:32:07.904Z"
     },
     {
       "docType": "candidate",
@@ -789,7 +789,7 @@
       "status": "ignored_unsupported_url",
       "httpStatus": null,
       "error": "Could not parse DCInside post metadata from regex",
-      "lastAttemptAt": "2026-04-02T12:17:24.609Z"
+      "lastAttemptAt": "2026-04-02T12:32:07.904Z"
     },
     {
       "docType": "candidate",
@@ -799,137 +799,137 @@
       "status": "ignored_unsupported_url",
       "httpStatus": null,
       "error": "Could not parse DCInside post metadata from regex",
-      "lastAttemptAt": "2026-04-02T12:17:24.609Z"
+      "lastAttemptAt": "2026-04-02T12:32:07.904Z"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/mgallery/board/view?id=gov&no=1083725",
       "postNo": "1083725",
-      "lastSuccessAt": "2026-04-02T12:17:24.609Z",
+      "lastSuccessAt": "2026-04-02T12:32:07.904Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-02T12:17:24.609Z"
+      "lastAttemptAt": "2026-04-02T12:32:07.904Z"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/mgallery/board/view?id=gov&no=1087442",
       "postNo": "1087442",
-      "lastSuccessAt": "2026-04-02T12:17:24.609Z",
+      "lastSuccessAt": "2026-04-02T12:32:07.904Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-02T12:17:24.609Z"
+      "lastAttemptAt": "2026-04-02T12:32:07.904Z"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/mgallery/board/view?id=gov&no=1088779",
       "postNo": "1088779",
-      "lastSuccessAt": "2026-04-02T12:17:24.609Z",
+      "lastSuccessAt": "2026-04-02T12:32:07.904Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-02T12:17:24.609Z"
+      "lastAttemptAt": "2026-04-02T12:32:07.904Z"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/mgallery/board/view?id=gov&no=1089260",
       "postNo": "1089260",
-      "lastSuccessAt": "2026-04-02T12:17:24.609Z",
+      "lastSuccessAt": "2026-04-02T12:32:07.904Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-02T12:17:24.609Z"
+      "lastAttemptAt": "2026-04-02T12:32:07.904Z"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/mgallery/board/view?id=gov&no=1096873",
       "postNo": "1096873",
-      "lastSuccessAt": "2026-04-02T12:17:24.609Z",
+      "lastSuccessAt": "2026-04-02T12:32:07.904Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-02T12:17:24.609Z"
+      "lastAttemptAt": "2026-04-02T12:32:07.904Z"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/mgallery/board/view?id=gov&no=1109125",
       "postNo": "1109125",
-      "lastSuccessAt": "2026-04-02T12:17:24.609Z",
+      "lastSuccessAt": "2026-04-02T12:32:07.904Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-02T12:17:24.609Z"
+      "lastAttemptAt": "2026-04-02T12:32:07.904Z"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/mgallery/board/view?id=gov&no=1112808",
       "postNo": "1112808",
-      "lastSuccessAt": "2026-04-02T12:17:24.609Z",
+      "lastSuccessAt": "2026-04-02T12:32:07.904Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-02T12:17:24.609Z"
+      "lastAttemptAt": "2026-04-02T12:32:07.904Z"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/mgallery/board/view?id=gov&no=1112809",
       "postNo": "1112809",
-      "lastSuccessAt": "2026-04-02T12:17:24.609Z",
+      "lastSuccessAt": "2026-04-02T12:32:07.904Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-02T12:17:24.609Z"
+      "lastAttemptAt": "2026-04-02T12:32:07.904Z"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/mgallery/board/view?id=gov&no=1119369",
       "postNo": "1119369",
-      "lastSuccessAt": "2026-04-02T12:17:24.609Z",
+      "lastSuccessAt": "2026-04-02T12:32:07.904Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-02T12:17:24.609Z"
+      "lastAttemptAt": "2026-04-02T12:32:07.904Z"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/mgallery/board/view?id=gov&no=1753392",
       "postNo": "1753392",
-      "lastSuccessAt": "2026-04-02T12:17:24.609Z",
+      "lastSuccessAt": "2026-04-02T12:32:07.904Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-02T12:17:24.609Z"
+      "lastAttemptAt": "2026-04-02T12:32:07.904Z"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/mgallery/board/view?id=gov&no=1970355",
       "postNo": "1970355",
-      "lastSuccessAt": "2026-04-02T12:17:24.609Z",
+      "lastSuccessAt": "2026-04-02T12:32:07.904Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-02T12:17:24.609Z"
+      "lastAttemptAt": "2026-04-02T12:32:07.904Z"
     },
     {
       "docType": "source",
       "url": "https://gall.dcinside.com/mgallery/board/view?id=gov&no=3624608",
       "postNo": "3624608",
-      "lastSuccessAt": "2026-04-02T12:17:24.609Z",
+      "lastSuccessAt": "2026-04-02T12:32:07.904Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-02T12:17:24.609Z"
+      "lastAttemptAt": "2026-04-02T12:32:07.904Z"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/mgallery/board/view?id=gov&no=940747",
       "postNo": "940747",
-      "lastSuccessAt": "2026-04-02T12:17:24.609Z",
+      "lastSuccessAt": "2026-04-02T12:32:07.904Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-02T12:17:24.609Z"
+      "lastAttemptAt": "2026-04-02T12:32:07.904Z"
     },
     {
       "docType": "candidate",
@@ -939,7 +939,7 @@
       "status": "ignored_unsupported_url",
       "httpStatus": null,
       "error": "Could not parse DCInside post metadata from regex",
-      "lastAttemptAt": "2026-04-02T12:17:24.609Z"
+      "lastAttemptAt": "2026-04-02T12:32:07.904Z"
     },
     {
       "docType": "candidate",
@@ -949,7 +949,7 @@
       "status": "ignored_unsupported_url",
       "httpStatus": null,
       "error": "Could not parse DCInside post metadata from regex",
-      "lastAttemptAt": "2026-04-02T12:17:24.609Z"
+      "lastAttemptAt": "2026-04-02T12:32:07.904Z"
     },
     {
       "docType": "candidate",
@@ -959,7 +959,7 @@
       "status": "ignored_unsupported_url",
       "httpStatus": null,
       "error": "Could not parse DCInside post metadata from regex",
-      "lastAttemptAt": "2026-04-02T12:17:24.609Z"
+      "lastAttemptAt": "2026-04-02T12:32:07.904Z"
     },
     {
       "docType": "candidate",
@@ -969,7 +969,7 @@
       "status": "ignored_unsupported_url",
       "httpStatus": null,
       "error": "Could not parse DCInside post metadata from regex",
-      "lastAttemptAt": "2026-04-02T12:17:24.609Z"
+      "lastAttemptAt": "2026-04-02T12:32:07.904Z"
     },
     {
       "docType": "candidate",
@@ -979,7 +979,7 @@
       "status": "ignored_unsupported_url",
       "httpStatus": null,
       "error": "Could not parse DCInside post metadata from regex",
-      "lastAttemptAt": "2026-04-02T12:17:24.609Z"
+      "lastAttemptAt": "2026-04-02T12:32:07.904Z"
     },
     {
       "docType": "candidate",
@@ -989,7 +989,7 @@
       "status": "ignored_unsupported_url",
       "httpStatus": null,
       "error": "Could not parse DCInside post metadata from regex",
-      "lastAttemptAt": "2026-04-02T12:17:24.609Z"
+      "lastAttemptAt": "2026-04-02T12:32:07.904Z"
     },
     {
       "docType": "candidate",
@@ -999,7 +999,7 @@
       "status": "ignored_unsupported_url",
       "httpStatus": null,
       "error": "Could not parse DCInside post metadata from regex",
-      "lastAttemptAt": "2026-04-02T12:17:24.609Z"
+      "lastAttemptAt": "2026-04-02T12:32:07.904Z"
     },
     {
       "docType": "candidate",
@@ -1009,7 +1009,7 @@
       "status": "ignored_unsupported_url",
       "httpStatus": null,
       "error": "Could not parse DCInside post metadata from regex",
-      "lastAttemptAt": "2026-04-02T12:17:24.609Z"
+      "lastAttemptAt": "2026-04-02T12:32:07.904Z"
     },
     {
       "docType": "candidate",
@@ -1019,7 +1019,7 @@
       "status": "ignored_unsupported_url",
       "httpStatus": null,
       "error": "Could not parse DCInside post metadata from regex",
-      "lastAttemptAt": "2026-04-02T12:17:24.609Z"
+      "lastAttemptAt": "2026-04-02T12:32:07.904Z"
     },
     {
       "docType": "candidate",
@@ -1029,7 +1029,7 @@
       "status": "ignored_unsupported_url",
       "httpStatus": null,
       "error": "Could not parse DCInside post metadata from regex",
-      "lastAttemptAt": "2026-04-02T12:17:24.609Z"
+      "lastAttemptAt": "2026-04-02T12:32:07.904Z"
     },
     {
       "docType": "candidate",
@@ -1039,7 +1039,7 @@
       "status": "ignored_unsupported_url",
       "httpStatus": null,
       "error": "Could not parse DCInside post metadata from regex",
-      "lastAttemptAt": "2026-04-02T12:17:24.609Z"
+      "lastAttemptAt": "2026-04-02T12:32:07.904Z"
     },
     {
       "docType": "candidate",
@@ -1049,7 +1049,7 @@
       "status": "ignored_unsupported_url",
       "httpStatus": null,
       "error": "Could not parse DCInside post metadata from regex",
-      "lastAttemptAt": "2026-04-02T12:17:24.609Z"
+      "lastAttemptAt": "2026-04-02T12:32:07.904Z"
     },
     {
       "docType": "candidate",
@@ -1059,7 +1059,7 @@
       "status": "ignored_unsupported_url",
       "httpStatus": null,
       "error": "Could not parse DCInside post metadata from regex",
-      "lastAttemptAt": "2026-04-02T12:17:24.609Z"
+      "lastAttemptAt": "2026-04-02T12:32:07.904Z"
     },
     {
       "docType": "candidate",
@@ -1069,7 +1069,7 @@
       "status": "ignored_unsupported_url",
       "httpStatus": null,
       "error": "Could not parse DCInside post metadata from regex",
-      "lastAttemptAt": "2026-04-02T12:17:24.609Z"
+      "lastAttemptAt": "2026-04-02T12:32:07.904Z"
     },
     {
       "docType": "candidate",
@@ -1079,7 +1079,7 @@
       "status": "ignored_unsupported_url",
       "httpStatus": null,
       "error": "Could not parse DCInside post metadata from regex",
-      "lastAttemptAt": "2026-04-02T12:17:24.609Z"
+      "lastAttemptAt": "2026-04-02T12:32:07.904Z"
     },
     {
       "docType": "candidate",
@@ -1089,7 +1089,7 @@
       "status": "ignored_unsupported_url",
       "httpStatus": null,
       "error": "Could not parse DCInside post metadata from regex",
-      "lastAttemptAt": "2026-04-02T12:17:24.609Z"
+      "lastAttemptAt": "2026-04-02T12:32:07.904Z"
     },
     {
       "docType": "candidate",
@@ -1099,177 +1099,177 @@
       "status": "ignored_unsupported_url",
       "httpStatus": null,
       "error": "Could not parse DCInside post metadata from regex",
-      "lastAttemptAt": "2026-04-02T12:17:24.609Z"
+      "lastAttemptAt": "2026-04-02T12:32:07.904Z"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/mgallery/board/view/?id=gov&no=1342244",
       "postNo": "1342244",
-      "lastSuccessAt": "2026-04-02T12:17:24.609Z",
+      "lastSuccessAt": "2026-04-02T12:32:07.904Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-02T12:17:24.609Z"
+      "lastAttemptAt": "2026-04-02T12:32:07.904Z"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/mgallery/board/view/?id=gov&no=1350241",
       "postNo": "1350241",
-      "lastSuccessAt": "2026-04-02T12:17:24.609Z",
+      "lastSuccessAt": "2026-04-02T12:32:07.904Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-02T12:17:24.609Z"
+      "lastAttemptAt": "2026-04-02T12:32:07.904Z"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/mgallery/board/view/?id=gov&no=1567967",
       "postNo": "1567967",
-      "lastSuccessAt": "2026-04-02T12:17:24.609Z",
+      "lastSuccessAt": "2026-04-02T12:32:07.904Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-02T12:17:24.609Z"
+      "lastAttemptAt": "2026-04-02T12:32:07.904Z"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/mgallery/board/view/?id=gov&no=1866841",
       "postNo": "1866841",
-      "lastSuccessAt": "2026-04-02T12:17:24.609Z",
+      "lastSuccessAt": "2026-04-02T12:32:07.904Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-02T12:17:24.609Z"
+      "lastAttemptAt": "2026-04-02T12:32:07.904Z"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/mgallery/board/view/?id=gov&no=1960994",
       "postNo": "1960994",
-      "lastSuccessAt": "2026-04-02T12:17:24.609Z",
+      "lastSuccessAt": "2026-04-02T12:32:07.904Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-02T12:17:24.609Z"
+      "lastAttemptAt": "2026-04-02T12:32:07.904Z"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/mgallery/board/view/?id=gov&no=1973132",
       "postNo": "1973132",
-      "lastSuccessAt": "2026-04-02T12:17:24.609Z",
+      "lastSuccessAt": "2026-04-02T12:32:07.904Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-02T12:17:24.609Z"
+      "lastAttemptAt": "2026-04-02T12:32:07.904Z"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/mgallery/board/view/?id=gov&no=2219912",
       "postNo": "2219912",
-      "lastSuccessAt": "2026-04-02T12:17:24.609Z",
+      "lastSuccessAt": "2026-04-02T12:32:07.904Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-02T12:17:24.609Z"
+      "lastAttemptAt": "2026-04-02T12:32:07.904Z"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/mgallery/board/view/?id=gov&no=2293793&page=1",
       "postNo": "2293793",
-      "lastSuccessAt": "2026-04-02T12:17:24.609Z",
+      "lastSuccessAt": "2026-04-02T12:32:07.904Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-02T12:17:24.609Z"
+      "lastAttemptAt": "2026-04-02T12:32:07.904Z"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/mgallery/board/view/?id=gov&no=2422268",
       "postNo": "2422268",
-      "lastSuccessAt": "2026-04-02T12:17:24.609Z",
+      "lastSuccessAt": "2026-04-02T12:32:07.904Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-02T12:17:24.609Z"
+      "lastAttemptAt": "2026-04-02T12:32:07.904Z"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/mgallery/board/view/?id=gov&no=2524230",
       "postNo": "2524230",
-      "lastSuccessAt": "2026-04-02T12:17:24.609Z",
+      "lastSuccessAt": "2026-04-02T12:32:07.904Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-02T12:17:24.609Z"
+      "lastAttemptAt": "2026-04-02T12:32:07.904Z"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/mgallery/board/view/?id=gov&no=2989854",
       "postNo": "2989854",
-      "lastSuccessAt": "2026-04-02T12:17:24.609Z",
+      "lastSuccessAt": "2026-04-02T12:32:07.904Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-02T12:17:24.609Z"
+      "lastAttemptAt": "2026-04-02T12:32:07.904Z"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/mgallery/board/view/?id=gov&no=3015696",
       "postNo": "3015696",
-      "lastSuccessAt": "2026-04-02T12:17:24.609Z",
+      "lastSuccessAt": "2026-04-02T12:32:07.904Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-02T12:17:24.609Z"
+      "lastAttemptAt": "2026-04-02T12:32:07.904Z"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/mgallery/board/view/?id=gov&no=3021034&search_head=100&page=1",
       "postNo": "3021034",
-      "lastSuccessAt": "2026-04-02T12:17:24.609Z",
+      "lastSuccessAt": "2026-04-02T12:32:07.904Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-02T12:17:24.609Z"
+      "lastAttemptAt": "2026-04-02T12:32:07.904Z"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/mgallery/board/view/?id=gov&no=3022403&search_head=100&page=1",
       "postNo": "3022403",
-      "lastSuccessAt": "2026-04-02T12:17:24.609Z",
+      "lastSuccessAt": "2026-04-02T12:32:07.904Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-02T12:17:24.609Z"
+      "lastAttemptAt": "2026-04-02T12:32:07.904Z"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/mgallery/board/view/?id=gov&no=3022501&search_head=100&page=1",
       "postNo": "3022501",
-      "lastSuccessAt": "2026-04-02T12:17:24.609Z",
+      "lastSuccessAt": "2026-04-02T12:32:07.904Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-02T12:17:24.609Z"
+      "lastAttemptAt": "2026-04-02T12:32:07.904Z"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/mgallery/board/view/?id=gov&no=3030126&exception_mode=recommend&page=1",
       "postNo": "3030126",
-      "lastSuccessAt": "2026-04-02T12:17:24.609Z",
+      "lastSuccessAt": "2026-04-02T12:32:07.904Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-02T12:17:24.609Z"
+      "lastAttemptAt": "2026-04-02T12:32:07.904Z"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/mgallery/board/view/?id=gov&no=3095276&search_head=100&page=1",
       "postNo": "3095276",
-      "lastSuccessAt": "2026-04-02T12:17:24.609Z",
+      "lastSuccessAt": "2026-04-02T12:32:07.904Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-02T12:17:24.609Z"
+      "lastAttemptAt": "2026-04-02T12:32:07.904Z"
     }
   ]
 }
