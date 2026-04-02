@@ -49,9 +49,8 @@ function getFullBody(doc) {
 }
 
 function searchDocuments(query) {
-  if (!query) return indexData.documents;
+  if (!query) return [];
   const q = query.toLowerCase();
-
   return indexData.documents.filter((doc) => {
     const title = (doc.title || '').toLowerCase();
     const body = getFullBody(doc).toLowerCase();
