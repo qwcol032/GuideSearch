@@ -1,0 +1,18 @@
+{
+  "name": "guidesearch",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "DCInside guide backup and static search site for GitHub Pages",
+  "scripts": {
+    "crawl": "node scripts/crawl.mjs",
+    "build": "npm run crawl",
+    "check": "node --check scripts/crawl.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "cheerio": "^1.1.2"
+  }
+}
