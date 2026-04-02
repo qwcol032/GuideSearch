@@ -139,30 +139,26 @@ Workflow: `.github/workflows/weekly-backup.yml`
 Triggers:
 
 - `workflow_dispatch`
-- weekly schedule (Monday 03:00 UTC)
+- weekly schedule
 
 Workflow steps:
 
 1. Checkout repository.
-2. Setup Node 20.
+2. Setup Node.js 24.
 3. Install dependencies.
 4. Run crawler.
 5. Commit/push changed files under `data/`.
 
 ## GitHub Pages setup (Static HTML workflow)
 
-This repo uses a dedicated Pages workflow (`.github/workflows/deploy-pages.yml`) with:
-
-- `actions/configure-pages`
-- `actions/upload-pages-artifact`
-- `actions/deploy-pages`
+This repo uses a dedicated Pages workflow with GitHub Actions.
 
 How deployment works:
 
 1. Workflow checks out the repo.
-2. Copies `data/` into `public/data/` in CI (no Jekyll conversion).
-3. Uploads `public/` as the Pages artifact.
-4. Deploys artifact to GitHub Pages.
+2. Prepares a Pages artifact that includes the frontend files and `data/`.
+3. Uploads the artifact.
+4. Deploys it to GitHub Pages.
 
 In GitHub settings, ensure Pages is configured to use **GitHub Actions** as the source.
 
