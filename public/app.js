@@ -119,8 +119,8 @@ function syncQueryToUrl(query) {
 
 async function init() {
   const [indexRes, statusRes] = await Promise.all([
-    fetch('../data/search-index.json'),
-    fetch('../data/crawl-status.json'),
+    fetch('./data/search-index.json'),
+    fetch('./data/crawl-status.json'),
   ]);
 
   indexData = await indexRes.json();
