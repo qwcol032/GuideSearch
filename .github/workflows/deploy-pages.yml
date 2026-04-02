@@ -1,10 +1,12 @@
 name: Deploy Static HTML to GitHub Pages
 
 on:
-  push:
-    branches:
-      - main
   workflow_dispatch:
+  workflow_run:
+    workflows:
+      - Weekly DCInside Backup
+    types:
+      - completed
 
 permissions:
   contents: read
@@ -17,6 +19,7 @@ concurrency:
 
 jobs:
   deploy:
+    if: ${{ github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success' }}
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}

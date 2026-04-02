@@ -305,18 +305,22 @@ async function loadLatestDocuments() {
 
 async function buildSearchIndex() {
   const docs = await loadLatestDocuments();
-  const documents = docs.map((doc) => ({
-    id: `${doc.docType}-${doc.postNo}`,
-    docType: doc.docType,
-    title: doc.title,
-    body: doc.body,
-    snippet: makeSnippet(doc.body),
-    url: doc.url,
-    postNo: doc.postNo,
-    backupDate: doc.backupDate,
-    status: 'ok',
-    parentSourceId: doc.parentSourcePostNo ? `source-${doc.parentSourcePostNo}` : null,
-  }));
+  const documents = docs.map((doc) => {
+    const fullBody = toText(doc.body);
+    return {
+      id: `${doc.docType}-${doc.postNo}`,
+      docType: doc.docType,
+      title: doc.title,
+      body: fullBody,
+      searchBody: fullBody,
+      snippet: makeSnippet(fullBody),
+      url: doc.url,
+      postNo: doc.postNo,
+      backupDate: doc.backupDate,
+      status: 'ok',
+      parentSourceId: doc.parentSourcePostNo ? `source-${doc.parentSourcePostNo}` : null,
+    };
+  });
 
   await writeJson(SEARCH_INDEX_PATH, {
     generatedAt: nowIso,

@@ -44,11 +44,17 @@ function makeSnippet(body, query) {
   return text.slice(start, end);
 }
 
+function getFullBody(doc) {
+  return (doc.searchBody || doc.body || '').toString();
+}
+
 function searchDocuments(query) {
   if (!query) return indexData.documents;
   const q = query.toLowerCase();
   return indexData.documents.filter((doc) => {
-    return doc.title.toLowerCase().includes(q) || doc.body.toLowerCase().includes(q);
+    const title = (doc.title || '').toLowerCase();
+    const body = getFullBody(doc).toLowerCase();
+    return title.includes(q) || body.includes(q);
   });
 }
 
@@ -72,7 +78,7 @@ function renderResults(query) {
     meta.textContent = `#${doc.postNo} · backup ${doc.backupDate}`;
 
     const snippet = node.querySelector('.snippet');
-    snippet.innerHTML = highlight(makeSnippet(doc.body, query), query);
+    snippet.innerHTML = highlight(makeSnippet(getFullBody(doc), query), query);
 
     els.results.append(node);
   }

@@ -151,14 +151,23 @@ Workflow steps:
 
 ## GitHub Pages setup (Static HTML workflow)
 
-This repo uses a dedicated Pages workflow with GitHub Actions.
+This repo uses a dedicated Pages workflow (`.github/workflows/deploy-pages.yml`) with GitHub Actions.
+
+Deployment behavior:
+- Triggered automatically by `workflow_run` after **Weekly DCInside Backup** completes successfully
+- Also supports manual `workflow_dispatch`
+
+Pages actions used:
+- `actions/configure-pages`
+- `actions/upload-pages-artifact`
+- `actions/deploy-pages`
 
 How deployment works:
 
 1. Workflow checks out the repo.
-2. Prepares a Pages artifact that includes the frontend files and `data/`.
-3. Uploads the artifact.
-4. Deploys it to GitHub Pages.
+2. Copies `data/` into `public/data/` in CI (no Jekyll conversion).
+3. Uploads `public/` as the Pages artifact.
+4. Deploys artifact to GitHub Pages.
 
 In GitHub settings, ensure Pages is configured to use **GitHub Actions** as the source.
 
