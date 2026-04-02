@@ -167,6 +167,53 @@ function extractBody($) {
   return '';
 }
 
+function extractBodyHtml($) {
+  const candidates = [
+    '.write_div',
+    '.view_content_wrap .write_div',
+    '.view_content .write_div',
+    '.gallview_contents',
+    '.memo_write',
+  ];
+
+  for (const selector of candidates) {
+    const node = $(selector).first();
+    if (!node.length) continue;
+
+    const cloned = node.clone();
+    cloned.find('script, style, noscript').remove();
+
+    const html = (cloned.html() || '').trim();
+    if (html) return html;
+  }
+
+  return '';
+}
+
+function extractFallbackBody($) {
+  const parts = [];
+
+  $('meta[property="og:description"], meta[name="description"]').each((_, el) => {
+    const content = toText($(el).attr('content'));
+    if (content) parts.push(content);
+  });
+
+  $('.write_div img, .gallview_contents img, .writing_view_box img, img').each((_, el) => {
+    const alt = toText($(el).attr('alt'));
+    const title = toText($(el).attr('title'));
+    if (alt) parts.push(alt);
+    else if (title) parts.push(title);
+  });
+
+  $('.appending_file a, .file_list a, .file_box a').each((_, el) => {
+    const name = toText($(el).text());
+    if (name) parts.push(`attachment:${name}`);
+  });
+
+  return toText(parts.join(' '));
+}
+
+
 function recordIgnoredCandidate(candidateUrl, reason) {
   updateStatus({
     docType: 'candidate',
@@ -273,18 +320,28 @@ async function fetchDocument(url, docType, postNo) {
     const $ = cheerio.load(html);
 
     const title = extractTitle($);
-    const body = extractBody($);
+    let body = extractBody($);
+    const bodyHtml = extractBodyHtml($);
 
-    if (!title || !body) {
+    if (!body) {
+      body = extractFallbackBody($);
+    }
+
+    if (!title) {
       updateStatus({
         docType,
         url,
         postNo,
         status: 'parse_failed',
         httpStatus: response.status,
-        error: 'Could not parse title/body with known selectors',
+        error: 'Could not parse title with known selectors',
       });
       return null;
+    }
+
+    // 본문 텍스트가 거의 없는 이미지/첨부 위주 글도 저장되게 완화
+    if (!body) {
+      body = '[본문 텍스트 없음 / 이미지 또는 첨부 위주 게시글]';
     }
 
     updateStatus({
@@ -301,6 +358,7 @@ async function fetchDocument(url, docType, postNo) {
       $,
       title,
       body,
+      bodyHtml,
       finalUrl: response.url,
     };
   } catch (error) {
@@ -437,6 +495,7 @@ async function main() {
       docType: 'source',
       title: sourceDoc.title,
       body: sourceDoc.body,
+      bodyHtml: sourceDoc.bodyHtml || '',
       snippet: makeSnippet(sourceDoc.body),
       url: sourceMeta.normalizedUrl,
       postNo: sourceMeta.postNo,
@@ -462,6 +521,7 @@ async function main() {
         docType: 'guide',
         title: guideDoc.title,
         body: guideDoc.body,
+        bodyHtml: guideDoc.bodyHtml || '',
         snippet: makeSnippet(guideDoc.body),
         url: link.url,
         postNo: link.postNo,
