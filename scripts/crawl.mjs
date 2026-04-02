@@ -89,31 +89,56 @@ function normalizeDcinsideUrl(url) {
  * 2) path style:
  *    https://gall.dcinside.com/gov/1367754
  */
+
+function sanitizeCandidateUrl(raw) {
+  return (raw || '')
+    .trim()
+    .replace(/&amp;/gi, '&');
+}
+
 function parseDocMeta(urlString, baseUrl = undefined) {
   try {
-    const url = new URL(urlString, baseUrl);
+    const cleaned = sanitizeCandidateUrl(urlString);
+    const url = new URL(cleaned, baseUrl);
 
     if (!isDcinsideHost(url.hostname)) {
       return null;
     }
 
-    let postNo = url.searchParams.get('no');
-    let galleryId = url.searchParams.get('id');
+    let postNo = toText(url.searchParams.get('no'));
+    let galleryId = toText(url.searchParams.get('id'));
 
+    const parts = url.pathname.split('/').filter(Boolean);
+
+    // 1) query style
+    // /mgallery/board/view/?id=gov&no=5062108
+    // /board/view/?id=gov&no=5062108
     if (!postNo) {
-      const pathMatch = url.pathname.match(/^\/([^/?#]+)\/(\d+)\/?$/);
-      if (pathMatch) {
-        galleryId = galleryId || pathMatch[1];
-        postNo = pathMatch[2];
+      // 2) short path style
+      // /gov/5062108
+      if (parts.length === 2 && /^\d+$/.test(parts[1])) {
+        galleryId = galleryId || parts[0];
+        postNo = parts[1];
+      }
+
+      // 3) mobile path style
+      // /m/gov/5062108
+      else if (parts.length === 3 && parts[0] === 'm' && /^\d+$/.test(parts[2])) {
+        galleryId = galleryId || parts[1];
+        postNo = parts[2];
       }
     }
 
-    if (!postNo) return null;
+    if (!galleryId || !postNo || !/^\d+$/.test(postNo)) {
+      return null;
+    }
+
+    url.hash = '';
 
     return {
       postNo,
-      galleryId: galleryId || null,
-      normalizedUrl: normalizeDcinsideUrl(url),
+      galleryId,
+      normalizedUrl: url.toString(),
     };
   } catch {
     return null;
@@ -235,22 +260,26 @@ function extractGuideLinks($, baseUrl, preferredGalleryId, sourcePostNo) {
 
   function tryAddCandidate(rawUrl, originLabel) {
     if (!rawUrl) return;
-
+  
     try {
-      const absolute = new URL(rawUrl, baseUrl);
+      const absolute = new URL(sanitizeCandidateUrl(rawUrl), baseUrl);
       if (!isDcinsideHost(absolute.hostname)) return;
-
+  
       const meta = parseDocMeta(absolute.toString());
       if (!meta) {
-        recordIgnoredCandidate(
-          absolute.toString(),
-          `Could not parse DCInside post metadata from ${originLabel}`
-        );
+        // regex로 잡힌 평문 URL 후보는 노이즈가 많으니 상태 로그를 남기지 않음
+        // anchor에서 직접 발견된 링크만 디버그용으로 남김
+        if (originLabel === 'anchor') {
+          recordIgnoredCandidate(
+            absolute.toString(),
+            `Could not parse DCInside post metadata from ${originLabel}`
+          );
+        }
         return;
       }
-
+  
       if (meta.postNo === sourcePostNo) return;
-
+  
       if (!urlObjects.has(meta.postNo)) {
         urlObjects.set(meta.postNo, {
           url: meta.normalizedUrl,
