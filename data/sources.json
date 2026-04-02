@@ -5,6 +5,12 @@
       "url": "https://gall.dcinside.com/mgallery/board/view?id=gov&no=3624608",
       "galleryId": "gov",
       "enabled": true
+    },
+    {
+      "id": "gov-3119805",
+      "url": "https://gall.dcinside.com/mgallery/board/view?id=gov&no=3119805",
+      "galleryId": "gov",
+      "enabled": true
     }
   ]
 }
