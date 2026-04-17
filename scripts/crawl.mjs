@@ -23,6 +23,39 @@ const DEFAULT_HEADERS = {
   'accept-language': 'ko,en-US;q=0.8,en;q=0.6',
 };
 
+function extractAnchorContext($, el) {
+  const anchor = $(el);
+
+  // 1차: a 태그 자체 텍스트/속성
+  const direct =
+    toText(anchor.text()) ||
+    toText(anchor.attr('title')) ||
+    toText(anchor.attr('alt'));
+
+  if (direct) return direct;
+
+  // 2차: 가장 가까운 문단/리스트/셀의 전체 텍스트
+  const container = anchor.closest('p, li, div, td');
+  let surrounding = '';
+
+  if (container.length) {
+    surrounding = toText(container.text());
+  } else {
+    surrounding = toText(anchor.parent().text());
+  }
+
+  if (!surrounding) return '';
+
+  // 흔한 노이즈 제거
+  surrounding = surrounding
+    .replace(/\bLINK\b/gi, ' ')
+    .replace(/https?:\/\/\S+/gi, ' ')
+    .replace(/\s+/g, ' ')
+    .trim();
+
+  return surrounding;
+}
+
 function sleep(ms) {
   return new Promise((resolve) => setTimeout(resolve, ms));
 }
@@ -392,12 +425,7 @@ function extractGuideLinks($, baseUrl, preferredGalleryId, sourcePostNo) {
 
   searchRoot.find('a[href]').each((_, el) => {
     const href = $(el).attr('href');
-    const anchorText =
-      toText($(el).text()) ||
-      toText($(el).attr('title')) ||
-      toText($(el).attr('alt')) ||
-      '';
-  
+    const anchorText = extractAnchorContext($, el);
     tryAddCandidate(href, 'anchor', anchorText);
   });
 
@@ -405,6 +433,13 @@ function extractGuideLinks($, baseUrl, preferredGalleryId, sourcePostNo) {
   const urlRegex = /https?:\/\/[^\s"'<>]+/gi;
   const matches = htmlText.match(urlRegex) || [];
   for (const raw of matches) {
+    tryAddCandidate(raw, 'regex', raw);
+  }
+
+  const relativePathRegex = /\/m\/[a-zA-Z0-9_]+\/\d+\b|\/[a-zA-Z0-9_]+\/\d+\b/g;
+  const relativeMatches = htmlText.match(relativePathRegex) || [];
+  
+  for (const raw of relativeMatches) {
     tryAddCandidate(raw, 'regex', raw);
   }
 
