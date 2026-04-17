@@ -58,6 +58,7 @@ function updateStatus({
   error = null,
   success = false,
   extra = {},
+  sourcePostNo = null,
 }) {
   const key = statusKey(docType, postNo, url);
   const prev = statusMap.get(key) || {
@@ -73,6 +74,7 @@ function updateStatus({
     docType,
     url,
     postNo,
+    sourcePostNo: sourcePostNo ?? prev.sourcePostNo ?? null,
     status,
     httpStatus,
     error,
@@ -313,6 +315,7 @@ function recordIgnoredCandidate({
     docType: 'candidate',
     url: candidateUrl,
     postNo: null,
+    sourcePostNo,
     status: 'ignored_unsupported_url',
     error: reason,
     extra: {
@@ -404,7 +407,7 @@ async function writeJson(filePath, value) {
   await fs.writeFile(filePath, `${JSON.stringify(value, null, 2)}\n`, 'utf8');
 }
 
-async function fetchDocument(url, docType, postNo) {
+async function fetchDocument(url, docType, postNo, sourcePostNo = null) {
   try {
     await waitBeforeRequest();
     
@@ -418,6 +421,7 @@ async function fetchDocument(url, docType, postNo) {
         docType,
         url,
         postNo,
+        sourcePostNo,
         status: classifyHttpStatus(response.status),
         httpStatus: response.status,
         error: `HTTP ${response.status}`,
@@ -442,12 +446,11 @@ async function fetchDocument(url, docType, postNo) {
         docType,
         url,
         postNo,
+        sourcePostNo,
         status: 'parse_failed',
         httpStatus: response.status,
         error: 'Could not parse title with known selectors',
       });
-      return null;
-    }
 
     // 본문 텍스트가 거의 없는 이미지/첨부 위주 글도 저장되게 완화
     if (!body) {
@@ -458,6 +461,7 @@ async function fetchDocument(url, docType, postNo) {
       docType,
       url,
       postNo,
+      sourcePostNo,
       status: 'ok',
       httpStatus: response.status,
       error: null,
@@ -476,6 +480,7 @@ async function fetchDocument(url, docType, postNo) {
       docType,
       url,
       postNo,
+      sourcePostNo,
       status: 'network_error',
       httpStatus: null,
       error: error instanceof Error ? error.message : String(error),
@@ -620,6 +625,7 @@ async function main() {
         docType: 'source',
         url: source.url,
         postNo: null,
+        sourcePostNo,
         status: 'parse_failed',
         error: 'Source URL is not a supported DCInside post format',
       });
