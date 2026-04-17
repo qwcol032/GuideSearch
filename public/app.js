@@ -87,7 +87,19 @@ function renderResults(query) {
 
 function renderStatus() {
   const showOk = els.toggleOk.checked;
-  const problematic = statusData.items.filter((item) => showOk || item.status !== 'ok');
+  const HIDDEN_SOURCE_POST_NO = '3538743';
+
+  const problematic = statusData.items.filter((item) => {
+    const isHiddenBySource = String(item.sourcePostNo ?? '') === HIDDEN_SOURCE_POST_NO;
+    const isHiddenSourceItself =
+      item.docType === 'source' && String(item.postNo ?? '') === HIDDEN_SOURCE_POST_NO;
+  
+    if (isHiddenBySource || isHiddenSourceItself) {
+      return false;
+    }
+  
+    return showOk || item.status !== 'ok';
+  });
 
   els.statusList.innerHTML = '';
   if (problematic.length === 0) {
