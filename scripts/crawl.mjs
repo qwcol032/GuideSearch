@@ -78,6 +78,11 @@ function updateStatus({
     lastSuccessAt: null,
   };
 
+  const normalizedContext =
+  typeof contextText === 'string' && contextText.trim()
+    ? contextText.trim().slice(0, 300)
+    : null;
+
   const next = {
     ...prev,
     ...extra,
@@ -85,7 +90,7 @@ function updateStatus({
     url,
     postNo,
     sourcePostNo: sourcePostNo ?? prev.sourcePostNo ?? null,
-    contextText: contextText ?? prev.contextText ?? null,
+    contextText: normalizedContext ?? prev.contextText ?? null,
     originLabel: originLabel ?? prev.originLabel ?? null,
     status,
     httpStatus,
@@ -455,7 +460,7 @@ async function retryFailedDocuments(existingStatusItems) {
       item.docType,
       item.postNo,
       sourcePostNo,
-      item.contextText || ''
+      item.contextText || null
     );
 
     if (!doc) continue;
@@ -482,7 +487,7 @@ async function fetchDocument(
   docType,
   postNo,
   sourcePostNo = null,
-  contextText = ''
+  contextText = null
 ) {
   try {
     await waitBeforeRequest();
@@ -792,7 +797,7 @@ async function main() {
         'guide',
         link.postNo,
         sourceMeta.postNo,
-        link.contextText || ''
+        link.contextText || null
       );
       if (!guideDoc) continue;
 
