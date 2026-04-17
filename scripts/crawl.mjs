@@ -662,7 +662,12 @@ async function main() {
     );
 
     for (const link of links) {
-      const guideDoc = await fetchDocument(link.url, 'guide', link.postNo);
+      const guideDoc = await fetchDocument(
+        link.url,
+        'guide',
+        link.postNo,
+        sourceMeta.postNo
+      );
       if (!guideDoc) continue;
 
       const guideRecord = {
