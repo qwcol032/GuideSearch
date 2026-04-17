@@ -65,8 +65,10 @@ function updateStatus({
   httpStatus = null,
   error = null,
   success = false,
-  extra = {},
   sourcePostNo = null,
+  contextText = null,
+  originLabel = null,
+  extra = {},
 }) {
   const key = statusKey(docType, postNo, url);
   const prev = statusMap.get(key) || {
@@ -83,6 +85,8 @@ function updateStatus({
     url,
     postNo,
     sourcePostNo: sourcePostNo ?? prev.sourcePostNo ?? null,
+    contextText: contextText ?? prev.contextText ?? null,
+    originLabel: originLabel ?? prev.originLabel ?? null,
     status,
     httpStatus,
     error,
@@ -324,13 +328,10 @@ function recordIgnoredCandidate({
     url: candidateUrl,
     postNo: null,
     sourcePostNo,
+    originLabel,
+    contextText: (contextText || '').trim().slice(0, 300),
     status: 'ignored_unsupported_url',
     error: reason,
-    extra: {
-      sourcePostNo,
-      originLabel,
-      contextText: (contextText || '').slice(0, 300),
-    },
   });
 }
 
@@ -352,28 +353,32 @@ function extractGuideLinks($, baseUrl, preferredGalleryId, sourcePostNo) {
   
       const meta = parseDocMeta(absolute.toString());
       if (!meta) {
-        // anchor는 실제 클릭 가능한 링크라 디버그 가치가 큼
-        // regex는 노이즈가 많으므로 기록하지 않음
-        if (originLabel === 'anchor') {
-          recordIgnoredCandidate({
-            candidateUrl: absolute.toString(),
-            reason: `Could not parse DCInside post metadata from ${originLabel}`,
-            sourcePostNo,
-            originLabel,
-            contextText,
-          });
-        }
+        recordIgnoredCandidate({
+          candidateUrl: absolute.toString(),
+          reason: `Could not parse DCInside post metadata from ${originLabel}`,
+          sourcePostNo,
+          originLabel,
+          contextText,
+        });
         return;
       }
   
       if (meta.postNo === sourcePostNo) return;
   
-      if (!urlObjects.has(meta.postNo)) {
+      const existing = urlObjects.get(meta.postNo);
+      if (!existing) {
         urlObjects.set(meta.postNo, {
           url: meta.normalizedUrl,
           postNo: meta.postNo,
           galleryId: meta.galleryId,
+          contextText: (contextText || '').trim(),
         });
+        return;
+      }
+  
+      // 이미 같은 글번호가 있어도 context가 비어 있으면 보강
+      if (!existing.contextText && contextText) {
+        existing.contextText = contextText.trim();
       }
     } catch {
       // malformed candidate URL
@@ -382,7 +387,12 @@ function extractGuideLinks($, baseUrl, preferredGalleryId, sourcePostNo) {
 
   searchRoot.find('a[href]').each((_, el) => {
     const href = $(el).attr('href');
-    const anchorText = toText($(el).text());
+    const anchorText =
+      toText($(el).text()) ||
+      toText($(el).attr('title')) ||
+      toText($(el).attr('alt')) ||
+      '';
+  
     tryAddCandidate(href, 'anchor', anchorText);
   });
 
@@ -466,7 +476,13 @@ async function retryFailedDocuments(existingStatusItems) {
   }
 }
 
-async function fetchDocument(url, docType, postNo, sourcePostNo = null) {
+async function fetchDocument(
+  url,
+  docType,
+  postNo,
+  sourcePostNo = null,
+  contextText = ''
+) {
   try {
     await waitBeforeRequest();
 
@@ -481,6 +497,8 @@ async function fetchDocument(url, docType, postNo, sourcePostNo = null) {
         url,
         postNo,
         sourcePostNo,
+        contextText,
+        originLabel: 'fetch',
         status: classifyHttpStatus(response.status),
         httpStatus: response.status,
         error: `HTTP ${response.status}`,
@@ -506,6 +524,8 @@ async function fetchDocument(url, docType, postNo, sourcePostNo = null) {
         url,
         postNo,
         sourcePostNo,
+        contextText,
+        originLabel: 'fetch',
         status: 'parse_failed',
         httpStatus: response.status,
         error: 'Could not parse title with known selectors',
@@ -522,6 +542,8 @@ async function fetchDocument(url, docType, postNo, sourcePostNo = null) {
       url,
       postNo,
       sourcePostNo,
+      contextText,
+      originLabel: 'fetch',
       status: 'ok',
       httpStatus: response.status,
       error: null,
@@ -543,6 +565,8 @@ async function fetchDocument(url, docType, postNo, sourcePostNo = null) {
       url,
       postNo,
       sourcePostNo,
+      contextText,
+      originLabel: 'fetch',
       status: 'network_error',
       httpStatus: null,
       error: error instanceof Error ? error.message : String(error),
@@ -767,7 +791,8 @@ async function main() {
         link.url,
         'guide',
         link.postNo,
-        sourceMeta.postNo
+        sourceMeta.postNo,
+        link.contextText || ''
       );
       if (!guideDoc) continue;
 
