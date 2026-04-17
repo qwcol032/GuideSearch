@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-17T02:48:48.042Z",
+  "generatedAt": "2026-04-17T02:53:42.293Z",
   "items": [
     {
       "docType": "guide",
@@ -7789,11 +7789,11 @@
       "docType": "source",
       "url": "https://gall.dcinside.com/mgallery/board/view/?id=gov&no=5056767",
       "postNo": "5056767",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
-      "status": "network_error",
-      "httpStatus": null,
-      "error": "fetch failed",
-      "lastAttemptAt": "2026-04-17T02:48:48.042Z",
+      "lastSuccessAt": "2026-04-17T02:53:42.293Z",
+      "status": "ok",
+      "httpStatus": 200,
+      "error": null,
+      "lastAttemptAt": "2026-04-17T02:53:42.293Z",
       "sourcePostNo": "5056767",
       "contextText": null,
       "originLabel": "fetch"
@@ -7858,12 +7858,12 @@
       "url": "https://gall.dcinside.com/mgallery/board/view/?id=gov&no=51315450",
       "postNo": "51315450",
       "lastSuccessAt": null,
-      "status": "network_error",
-      "httpStatus": null,
-      "error": "fetch failed",
-      "lastAttemptAt": "2026-04-17T02:48:48.042Z",
+      "status": "deleted",
+      "httpStatus": 404,
+      "error": "HTTP 404",
+      "lastAttemptAt": "2026-04-17T02:53:42.293Z",
       "sourcePostNo": "5056767",
-      "contextText": "",
+      "contextText": "▶ (전투력 1131k) HARD \"목크설헬메\"(26.04.12)",
       "originLabel": "fetch"
     },
     {
