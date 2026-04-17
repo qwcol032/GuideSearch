@@ -416,7 +416,7 @@ async function writeJson(filePath, value) {
 async function fetchDocument(url, docType, postNo, sourcePostNo = null) {
   try {
     await waitBeforeRequest();
-    
+
     const response = await fetch(url, {
       headers: DEFAULT_HEADERS,
       redirect: 'follow',
@@ -457,8 +457,9 @@ async function fetchDocument(url, docType, postNo, sourcePostNo = null) {
         httpStatus: response.status,
         error: 'Could not parse title with known selectors',
       });
+      return null;
+    }
 
-    // 본문 텍스트가 거의 없는 이미지/첨부 위주 글도 저장되게 완화
     if (!body) {
       body = '[본문 텍스트 없음 / 이미지 또는 첨부 위주 게시글]';
     }
@@ -482,6 +483,8 @@ async function fetchDocument(url, docType, postNo, sourcePostNo = null) {
       finalUrl: response.url,
     };
   } catch (error) {
+    await waitAfterBackoff();
+
     updateStatus({
       docType,
       url,
