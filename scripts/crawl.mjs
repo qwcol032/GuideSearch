@@ -425,7 +425,14 @@ function extractGuideLinks($, baseUrl, preferredGalleryId, sourcePostNo) {
 
   searchRoot.find('a[href]').each((_, el) => {
     const href = $(el).attr('href');
-    const anchorText = extractAnchorContext($, el);
+    const parentText = toText($(el).closest('p, li, div, td').text());
+    const anchorText =
+      parentText ||
+      toText($(el).text()) ||
+      toText($(el).attr('title')) ||
+      toText($(el).attr('alt')) ||
+      '';
+  
     tryAddCandidate(href, 'anchor', anchorText);
   });
 
@@ -449,6 +456,32 @@ function extractGuideLinks($, baseUrl, preferredGalleryId, sourcePostNo) {
     if (aPreferred !== bPreferred) return aPreferred - bPreferred;
     return Number(a.postNo) - Number(b.postNo);
   });
+}
+
+
+async function findContextFromSourcePost(sourcePostNo, targetPostNo) {
+  if (!sourcePostNo || !targetPostNo) return null;
+
+  const sourceUrl = `https://gall.dcinside.com/mgallery/board/view/?id=gov&no=${sourcePostNo}`;
+  const sourceDoc = await fetchDocument(
+    sourceUrl,
+    'source',
+    sourcePostNo,
+    sourcePostNo,
+    null
+  );
+
+  if (!sourceDoc) return null;
+
+  const links = extractGuideLinks(
+    sourceDoc.$,
+    sourceUrl,
+    'gov',
+    sourcePostNo
+  );
+
+  const matched = links.find((link) => String(link.postNo) === String(targetPostNo));
+  return matched?.contextText || null;
 }
 
 async function readJson(filePath, fallback) {
@@ -490,12 +523,22 @@ async function retryFailedDocuments(existingStatusItems) {
         ? item.postNo
         : (item.sourcePostNo ?? null);
 
+    let retryContext = item.contextText || null;
+    
+    if (
+      !retryContext &&
+      item.docType === 'guide' &&
+      sourcePostNo
+    ) {
+      retryContext = await findContextFromSourcePost(sourcePostNo, item.postNo);
+    }
+    
     const doc = await fetchDocument(
       item.url,
       item.docType,
       item.postNo,
       sourcePostNo,
-      item.contextText || null
+      retryContext
     );
 
     if (!doc) continue;
