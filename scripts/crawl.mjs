@@ -46,6 +46,12 @@ function toText(value) {
 }
 
 function statusKey(docType, postNo, url) {
+  // 실제 게시글은 글번호 기준으로 하나의 상태만 유지
+  if ((docType === 'guide' || docType === 'source') && postNo) {
+    return `${docType}:${postNo}`;
+  }
+
+  // candidate 같은 디버그용 항목은 URL 기준 유지
   return `${docType}:${postNo || 'na'}:${url}`;
 }
 
@@ -609,9 +615,29 @@ async function main() {
   });
   
   for (const item of existingStatus.items || []) {
-    // candidate 디버그 로그는 매 실행마다 새로 계산
     if (item.docType === 'candidate') continue;
-    statusMap.set(statusKey(item.docType, item.postNo, item.url), item);
+  
+    const key = statusKey(item.docType, item.postNo, item.url);
+    const prev = statusMap.get(key);
+  
+    if (!prev) {
+      statusMap.set(key, item);
+      continue;
+    }
+  
+    // sourcePostNo가 있는 쪽 우선
+    const prevHasSource = !!prev.sourcePostNo;
+    const currentHasSource = !!item.sourcePostNo;
+  
+    if (!prevHasSource && currentHasSource) {
+      statusMap.set(key, item);
+      continue;
+    }
+  
+    // 둘 다 같으면 lastAttemptAt이 더 최신인 쪽 유지
+    if ((item.lastAttemptAt || '') > (prev.lastAttemptAt || '')) {
+      statusMap.set(key, item);
+    }
   }
 
   const sourcesData = await readJson(SOURCES_PATH, { sources: [] });
