@@ -454,7 +454,8 @@ async function retryFailedDocuments(existingStatusItems) {
       item.url,
       item.docType,
       item.postNo,
-      sourcePostNo
+      sourcePostNo,
+      item.contextText || ''
     );
 
     if (!doc) continue;
@@ -695,7 +696,6 @@ async function main() {
   });
   
   for (const item of existingStatus.items || []) {
-    if (item.docType === 'candidate') continue;
   
     const key = statusKey(item.docType, item.postNo, item.url);
     const prev = statusMap.get(key);
