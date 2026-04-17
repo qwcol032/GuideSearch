@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-17T02:28:14.849Z",
+  "generatedAt": "2026-04-17T02:41:20.257Z",
   "items": [
     {
       "docType": "guide",
@@ -7856,10 +7856,10 @@
       "url": "https://gall.dcinside.com/mgallery/board/view/?id=gov&no=51315450",
       "postNo": "51315450",
       "lastSuccessAt": null,
-      "status": "deleted",
-      "httpStatus": 404,
-      "error": "HTTP 404",
-      "lastAttemptAt": "2026-04-17T02:28:14.849Z",
+      "status": "network_error",
+      "httpStatus": null,
+      "error": "fetch failed",
+      "lastAttemptAt": "2026-04-17T02:41:20.257Z",
       "sourcePostNo": "5056767",
       "contextText": "",
       "originLabel": "fetch"
