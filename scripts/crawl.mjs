@@ -66,7 +66,7 @@ function randomInt(min, max) {
 
 // 일반 요청 전 대기: 1.5초 ~ 4초
 async function waitBeforeRequest() {
-  await sleep(randomInt(1000, 1500));
+  await sleep(randomInt(2000, 2500));
 }
 
 // 에러/차단 의심 시 더 길게 대기: 8초 ~ 20초
