@@ -13,6 +13,8 @@ const CRAWL_STATUS_PATH = path.join(DATA_DIR, 'crawl-status.json');
 
 const today = new Date().toISOString().slice(0, 10);
 const nowIso = new Date().toISOString();
+const RETRY_FAILED_ONLY = process.env.RETRY_FAILED_ONLY === 'true';
+const HIDDEN_SOURCE_POST_NO = '3538743';
 
 const DEFAULT_HEADERS = {
   'user-agent':
@@ -413,6 +415,57 @@ async function writeJson(filePath, value) {
   await fs.writeFile(filePath, `${JSON.stringify(value, null, 2)}\n`, 'utf8');
 }
 
+function isRetryableStatusItem(item) {
+  if (!item) return false;
+  if (item.docType !== 'guide' && item.docType !== 'source') return false;
+  if (!item.url || !item.postNo) return false;
+  if (item.status === 'ok') return false;
+  if (item.status === 'ignored_unsupported_url') return false;
+
+  // 필요하면 3538743 source 계열은 재시도 대상에서도 제외
+  if (String(item.sourcePostNo ?? '') === HIDDEN_SOURCE_POST_NO) return false;
+  if (item.docType === 'source' && String(item.postNo ?? '') === HIDDEN_SOURCE_POST_NO) return false;
+
+  return true;
+}
+
+async function retryFailedDocuments(existingStatusItems) {
+  const retryTargets = (existingStatusItems || []).filter(isRetryableStatusItem);
+
+  console.log(`Retry-only mode enabled. ${retryTargets.length} failed item(s) will be retried.`);
+
+  for (const item of retryTargets) {
+    const sourcePostNo =
+      item.docType === 'source'
+        ? item.postNo
+        : (item.sourcePostNo ?? null);
+
+    const doc = await fetchDocument(
+      item.url,
+      item.docType,
+      item.postNo,
+      sourcePostNo
+    );
+
+    if (!doc) continue;
+
+    const record = {
+      id: `${item.docType}-${item.postNo}`,
+      docType: item.docType,
+      title: doc.title,
+      body: doc.body,
+      bodyHtml: doc.bodyHtml || '',
+      snippet: makeSnippet(doc.body),
+      url: item.url,
+      postNo: item.postNo,
+      backupDate: today,
+      parentSourcePostNo: item.docType === 'guide' ? sourcePostNo : null,
+    };
+
+    await persistDocument(record);
+  }
+}
+
 async function fetchDocument(url, docType, postNo, sourcePostNo = null) {
   try {
     await waitBeforeRequest();
@@ -642,6 +695,25 @@ async function main() {
       statusMap.set(key, item);
     }
   }
+
+  if (RETRY_FAILED_ONLY) {
+  await retryFailedDocuments(existingStatus.items || []);
+  await buildSearchIndex();
+
+  const items = [...statusMap.values()].sort((a, b) => {
+    return String(a.url).localeCompare(String(b.url));
+  });
+
+  await writeJson(CRAWL_STATUS_PATH, {
+    generatedAt: nowIso,
+    items,
+  });
+
+  console.log(
+    `Retry-only crawl complete. Search index written and ${items.length} status entries saved.`
+  );
+  return;
+}
 
   const sourcesData = await readJson(SOURCES_PATH, { sources: [] });
 
