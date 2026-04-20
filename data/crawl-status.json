@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-17T02:53:42.293Z",
+  "generatedAt": "2026-04-20T05:43:03.886Z",
   "items": [
     {
       "docType": "guide",
@@ -3051,67 +3051,79 @@
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov//674233",
       "postNo": "674233",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "3637399"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "3637399",
+      "contextText": "🌑 [과금] 중소과금 전용 가챠 가성비 패키지 추천",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/1037732",
       "postNo": "1037732",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "3637403"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "3637403",
+      "contextText": "🌑 [필그림] \"레드후드\" 1버, 2버, 버스트 사용방법",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/105210",
       "postNo": "105210",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "2106252"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "2106252",
+      "contextText": "🌑 [블스] 리타+힐러1+딜러3 조합 (ex. 리애홍프라, 리센홍헬모)",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/105458",
       "postNo": "105458",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "2106252"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "2106252",
+      "contextText": "🌑 [블스] \"리루홍모라\" 조합 및 TIP",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/1063087",
       "postNo": "1063087",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "3637403"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "3637403",
+      "contextText": "🌑 무기별 적정 사거리 보너스 분석",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/1081185",
       "postNo": "1081185",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "3637403"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "3637403",
+      "contextText": "🌑 [서포터] \"티아나가\" vs \"블랑누아르\" 차이점",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
@@ -3137,12 +3149,14 @@
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/108855",
       "postNo": "108855",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "2106252"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "2106252",
+      "contextText": "🌑 [토커] 리센홍 없이 9단 공략 (ex. N폴라아모, N폴앤라모)",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
@@ -3158,78 +3172,92 @@
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/1094103",
       "postNo": "1094103",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "2106252"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "2106252",
+      "contextText": "🌑 [헤비메탈] \"헤비메탈\" 로드급 랩쳐 스킬 분석",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/1095645",
       "postNo": "1095645",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "2106252"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "2106252",
+      "contextText": "🌑 [케투스/가오리] 16지 보스 가오리 기믹",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/1095674",
       "postNo": "1095674",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "2106252"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "2106252",
+      "contextText": "🌑 [마더웨일] 마더웨일 텔레포트 기믹 파훼법",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/1095866",
       "postNo": "1095866",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "2106252"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "2106252",
+      "contextText": "🌑 [니힐리스타] 니힐리스타 브레스 기믹 파훼법",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/1096125",
       "postNo": "1096125",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "2106252"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "2106252",
+      "contextText": "🌑 [마테리얼H-철갑] 마테리얼H-철갑 패턴 기믹 파훼법 (24-38 BOSS)",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/1096168",
       "postNo": "1096168",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "2106252"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "2106252",
+      "contextText": "🌑 [마테리얼H] 마테리얼H 쉽게 깨는 법",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/1096292",
       "postNo": "1096292",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "2106252"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "2106252",
+      "contextText": "🌑 [울트라] 26지 보스 울트라 기믹",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
@@ -3245,12 +3273,14 @@
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/1105567",
       "postNo": "1105567",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "3637403"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "3637403",
+      "contextText": "🌑 [기타] 라플라스 키우는거 망설여지면 봐라 (03.03 업데이트)",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
@@ -3266,23 +3296,27 @@
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/1108109",
       "postNo": "1108109",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "3637403"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "3637403",
+      "contextText": "🌑 [서포터] 뉴비를 위한 나가티아(티아나가) 연계구조",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/111425",
       "postNo": "111425",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "2106252"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "2106252",
+      "contextText": "🌑 [모더] 모더니아 쉬운 도발컨 방법",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
@@ -3298,23 +3332,27 @@
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/1121316",
       "postNo": "1121316",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "2106252"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "2106252",
+      "contextText": "🌑 [기차] \"뉴비쟝들을 위한 기차 공략(레후 필수)\" 기차 9단",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/1124885",
       "postNo": "1124885",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "2106252"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "2106252",
+      "contextText": "🌑 [디거] \"리블누레모\" 순서로 디거 잡기",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
@@ -3330,12 +3368,14 @@
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/1127007",
       "postNo": "1127007",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "2106252"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "2106252",
+      "contextText": "🌑 [블스] 뉴비용) \"페퍼 나가 볼륨 클루드 흑련(딜러진 대체 가능)\"",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
@@ -3351,12 +3391,14 @@
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/1136534",
       "postNo": "1136534",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "3637403"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "3637403",
+      "contextText": "🌑 [필그림] 앨흑 같이 쓸때 흑련 고장 고치는 팁 (03.03 업데이트)",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
@@ -3372,12 +3414,14 @@
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/1156911",
       "postNo": "1156911",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "2106252"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "2106252",
+      "contextText": "🌑 [기차] 뉴비 기차 9단 클리어영상 (리타 루피 레드후드 모더니아 노이즈) (24.03.13)",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
@@ -3393,23 +3437,27 @@
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/1159602",
       "postNo": "1159602",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "3637403"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "3637403",
+      "contextText": "🌑 [기타] 길로틴을 키워서 어디다 사용하면 좋을까? (03.13 업데이트)",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/1160003",
       "postNo": "1160003",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "3637403"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "3637403",
+      "contextText": "🌑ㄴ 현재 샷건덱에 부족한 요소들 찾아보기 (3.13 업데이트)",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
@@ -3425,34 +3473,40 @@
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/1164228",
       "postNo": "1164228",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "3637403"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "3637403",
+      "contextText": "🌑 [서포터] 티아나가 조합 기준 D:킬러 와이프와 리타 딜비교 I (03.13 업데이트)",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/1164551",
       "postNo": "1164551",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "3637403"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "3637403",
+      "contextText": "🌑 [기타] D:킬러 와이프는 레이드에서 어떻게 사용될까? (03.13 업데이트)",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/1164885",
       "postNo": "1164885",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "3637403"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "3637403",
+      "contextText": "최종 업데이트: [필그림] 흑련, 최근 픽업 버퍼 및 노벨, 바소다 바리스 등 샷건덱 데미지 계산식 (갤에서 연구된 식) (공격력 * 자기공증총합 + 시전자공증공격력 - 최종방어력) * 무기계수 * (차지데미지% + 추가 차지데미지%) * (우월코드 10% + 추가 우월코드 n%) * (코어히트 100% + 추가 코어데미지 n% + 크리티컬 (50+a%) + 풀버스트 50% + 사거리 30%) * (공격데미지% * 받는데미지% * 파츠데미지%) 전투력 계산식 (CP Formula) (CritFormula * ATK * 18 + Ef",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
@@ -3488,12 +3542,14 @@
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/1171901",
       "postNo": "1171901",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "3637403"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "3637403",
+      "contextText": "🌑 [서포터] 티아나가 조합 기준 D:킬러 와이프와 리타 딜비교 II(비교적 뉴비용) (03.13 업데이트)",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
@@ -3509,23 +3565,27 @@
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/1177289",
       "postNo": "1177289",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "3637403"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "3637403",
+      "contextText": "🌑ㄴ 샷건 명중 이제 90%만 맞추면 된다! (3.13 업데이트)",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/117733",
       "postNo": "117733",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "2106252"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "2106252",
+      "contextText": "🌑 슈가넣고 디거 9단 공략",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
@@ -3561,12 +3621,14 @@
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/1194006",
       "postNo": "1194006",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "3637403"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "3637403",
+      "contextText": "🌑 [필그림] \"모더니아\" 1103발 장탄 소요시간 테스트 (3.21 업데이트)",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
@@ -3592,12 +3654,14 @@
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/1199836",
       "postNo": "1199836",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "3637403"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "3637403",
+      "contextText": "🌑 [한정캐] \"에밀리아\" 버스트 수치 계산(3.21 업데이트)",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
@@ -3613,23 +3677,27 @@
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/1207372",
       "postNo": "1207372",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "3637403"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "3637403",
+      "contextText": "🌑 [한정캐] \"에밀리아\" 버스트에 차지속도 증가 적용 실험(3.31 업데이트)",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/1208703",
       "postNo": "1208703",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "3637403"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "3637403",
+      "contextText": "🌑 [한정캐] \"에밀리아\" 보스 유니온 사격장 \"리티나에맥\" 딜비교(3.31 업데이트)",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
@@ -3645,23 +3713,27 @@
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/1211147",
       "postNo": "1211147",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "3637239"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "3637239",
+      "contextText": "https://gall.dcinside.com/gov/1211147",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/1213035",
       "postNo": "1213035",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "2106252"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "2106252",
+      "contextText": "🌑 [기차] 알트아이젠(기차) 코어 때리는 방법",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
@@ -3677,23 +3749,27 @@
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/1222042",
       "postNo": "1222042",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "3637403"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "3637403",
+      "contextText": "🌑 [필그림] \"레드후드\" 를 1버스트로 쓰는 \"티홍모레나\" 사용방법(뉴비용) (03.31 업데이트)",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/122345",
       "postNo": "122345",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "2106252"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "2106252",
+      "contextText": "🌑 특요별 9단 조합 (2023.01.10 기준)",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
@@ -3719,23 +3795,27 @@
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/1232231",
       "postNo": "1232231",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "3637403"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "3637403",
+      "contextText": "🌑 [한정캐] (싱크로 257레벨) \"에밀리아\" \"렘\" \"라플라스\" 사격장 실험(3.31 업데이트)",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/1234132",
       "postNo": "1234132",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "3637403"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "3637403",
+      "contextText": "🌑 [한정캐] (싱크로 257레벨) \"에밀리아\" \"렘\" 여러 파티에 넣고 사격장 비교(3.31 업데이트)",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
@@ -3781,23 +3861,27 @@
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/1252179",
       "postNo": "1252179",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "2106252"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "2106252",
+      "contextText": "🌑 [모더] 뉴비를 위한 특요 모더니아 기본팁 (24.04.16)",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/1258864",
       "postNo": "1258864",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "2106252"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "2106252",
+      "contextText": "🌑 특요 공략 모음집",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
@@ -3813,23 +3897,27 @@
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/1275054",
       "postNo": "1275054",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "2106252"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "2106252",
+      "contextText": "🌑 [모더] 뉴비를 위한 특요 모더니아 엄폐컨 쉽게 하기 (24.04.16)",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/1280721",
       "postNo": "1280721",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "2106252"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "2106252",
+      "contextText": "🌑 니청년들을 위한 디거 원버스트덱 추천 \"티블레맥모\"",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
@@ -3855,12 +3943,14 @@
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/1295540",
       "postNo": "1295540",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "2106252"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "2106252",
+      "contextText": "🌑 [디거] (전투력 78916) 그레이브 디거 9단 \"리누블슈모\" (24.04.25)",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
@@ -3886,12 +3976,14 @@
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/1307525",
       "postNo": "1307525",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "2106252"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "2106252",
+      "contextText": "🌑 [디거] 그레이브 디거 공략시 참고하면 좋을 내용 (24.04.25)",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
@@ -3907,12 +3999,14 @@
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/1315070",
       "postNo": "1315070",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "3637403"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "3637403",
+      "contextText": "🌑 [필그림] 크라운 스킬 요약&정리 (4.25 업데이트)",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
@@ -3928,23 +4022,27 @@
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/1318125",
       "postNo": "1318125",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "3637403"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "3637403",
+      "contextText": "🌑 [필그림] ㄴ 회복 효과 적용 시 = 이유불문 힐 들어오면 (4.25 업데이트)",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/1322320",
       "postNo": "1322320",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "3637403"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "3637403",
+      "contextText": "🌑 [필그림] 나가티아/나가크라운 기대값 계산식 (4.25 업데이트)",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
@@ -3970,56 +4068,66 @@
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/1326781",
       "postNo": "1326781",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "3637403"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "3637403",
+      "contextText": "🌑 [필그림] 누블랑/나가티아/크라운 버프 비교 (4.25 업데이트)",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/133082",
       "postNo": "133082",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "2106252"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "2106252",
+      "contextText": "🌑 \"리애홍모프\" 기차 9단 공략 + TIP",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/1333333",
       "postNo": "1333333",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "3637403"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "3637403",
+      "contextText": "🌑 [필그림] 크라운 딜 비교표 (05.08 업데이트)",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/1339263",
       "postNo": "1339263",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "3637403"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "3637403",
+      "contextText": "🌑 [필그림] 크라운 조합 옆집공략 (05.08 업데이트)",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/1339910",
       "postNo": "1339910",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "3637403"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "3637403",
+      "contextText": "🌑 [필그림] 크라운 사용설명서 (05.08 업데이트)",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
@@ -4035,23 +4143,27 @@
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/1342335",
       "postNo": "1342335",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "3637403"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "3637403",
+      "contextText": "🌑 [필그림] 크라운으로 모더니아 딜량 극대화 하기 (05.08 업데이트)",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/1361698",
       "postNo": "1361698",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "2106252"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "2106252",
+      "contextText": "🌑 \"스노우화이트\" 블랙스미스 원펀덱",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
@@ -4067,12 +4179,14 @@
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/1364829",
       "postNo": "1364829",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "3637403"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "3637403",
+      "contextText": "🌑 [필그림] \"모더니아\" 보스전 동일조건에서 모더 버스트 사용시 딜량 하락 18.13% (05.08 업데이트)",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
@@ -4098,12 +4212,14 @@
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/1375790",
       "postNo": "1375790",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "3637403"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "3637403",
+      "contextText": "🌑 오토에임 on/off따른 명중률 변화(05.08 업데이트)",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
@@ -4159,34 +4275,40 @@
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/1421140",
       "postNo": "1421140",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "2106252"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "2106252",
+      "contextText": "🌑 [기차] \"동크홍흑노\" 뉴비용 20발 홍련/노오버 흑련 조합으로 기차 9단하기 (24.05.14)",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/1424317",
       "postNo": "1424317",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "2106252"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "2106252",
+      "contextText": "🌑 [스톰브링어] 0우코 레드후드와 대여니케로 챌린지 스톰브링어 공략",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/1424980",
       "postNo": "1424980",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "2106252"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "2106252",
+      "contextText": "🌑 [스톰브링어] 니청년에게 추천하는 챌린지 스톰브링어 조합 (노이즈+크라운)",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
@@ -4202,12 +4324,14 @@
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/1429707",
       "postNo": "1429707",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "2106252"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "2106252",
+      "contextText": "🌑 [스톰브링어] ㄴ 추가 추천 조합(뉴비용 아니니까 뉴비는 안봐도 괜찮음)",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
@@ -4233,56 +4357,66 @@
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/1442920",
       "postNo": "1442920",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "2106252"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "2106252",
+      "contextText": "🌑 [모더] \"모더니아\" 사소한 팁",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/1448857",
       "postNo": "1448857",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "3637403"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "3637403",
+      "contextText": "🌑 큐브 유행(정배)에 변화가 생긴듯하다(24년 5월 19일 작성)",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/1451146",
       "postNo": "1451146",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "3637403"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "3637403",
+      "contextText": "🌑자동/수동 사격간 명중률 차이 체감 (머신건)",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/1451363",
       "postNo": "1451363",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "3637403"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "3637403",
+      "contextText": "🌑 [필그림] \"흑련\" 렘이냐 일레그냐 비교(5.22 업데이트)",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/1457017",
       "postNo": "1457017",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "3637403"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "3637403",
+      "contextText": "🌑 [기타] \"솔로 레이드\" 대비 스킬작 추천 (5.22 업데이트)",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
@@ -4308,12 +4442,14 @@
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/1462499",
       "postNo": "1462499",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "2106252"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "2106252",
+      "contextText": "🌑 [기차] 저스펙용 특요 기차 공략",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
@@ -4339,12 +4475,14 @@
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/1474092",
       "postNo": "1474092",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "3637403"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "3637403",
+      "contextText": "🌑 [크라운] 크라운 이후 딜러 고점 딜그래프",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
@@ -4360,56 +4498,66 @@
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/1486525",
       "postNo": "1486525",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "3637403"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "3637403",
+      "contextText": "🌑 [트로니] 트로니/앨리스 계산기",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/1487929",
       "postNo": "1487929",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "3637403"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "3637403",
+      "contextText": "🌑 ㄴ 레후 1버로 굴릴땐 모더 버스트 먼저 쓰는걸 추천함",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/1488671",
       "postNo": "1488671",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "2106252"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "2106252",
+      "contextText": "🌑 [기차] 뉴비가 기차잡는 영상 ( 태블릿 )",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/1489903",
       "postNo": "1489903",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "3637403"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "3637403",
+      "contextText": "🌑 [바니걸 소다] 스킬 정리",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/1491856",
       "postNo": "1491856",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "2106252"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "2106252",
+      "contextText": "🌑 [디거] 갤에서 배운 그레이브 디거 꿀덱",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
@@ -4445,12 +4593,14 @@
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/1505385",
       "postNo": "1505385",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "3637403"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "3637403",
+      "contextText": "🌑 [슈가, 바소다] 슈가랑 바소다 샷건 쓰면서 개인적으로 느낀 점",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
@@ -4536,12 +4686,14 @@
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/1516080",
       "postNo": "1516080",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "3637403"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "3637403",
+      "contextText": "🌑 [필그림] [모더니아] 크라운 붙인 모더니아는 버스트 써도 될까?",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
@@ -4557,12 +4709,14 @@
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/1516239",
       "postNo": "1516239",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "3637403"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "3637403",
+      "contextText": "🌑 장전속도가 너무 빠르면 생기는 문제",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
@@ -4608,12 +4762,14 @@
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/1520123",
       "postNo": "1520123",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "3637403"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "3637403",
+      "contextText": "🌑 [필그림] [백설] 스노우화이트가 받는 버프 리스트",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
@@ -4669,12 +4825,14 @@
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/1524304",
       "postNo": "1524304",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "3637403"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "3637403",
+      "contextText": "🌑 [필그림] \"흑련\" 쌩뉴비용)흑련 차속과 18발",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
@@ -4690,23 +4848,27 @@
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/1524821",
       "postNo": "1524821",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "3637403"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "3637403",
+      "contextText": "🌑 [필그림] \"흑련\" 1차속 흑련 큐브 탄충vs차속",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/1525776",
       "postNo": "1525776",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "3637403"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "3637403",
+      "contextText": "🌑 [샷건] 샷건덱 자동조준에 대한 실험",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
@@ -4732,12 +4894,14 @@
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/1545620",
       "postNo": "1545620",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "3637403"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "3637403",
+      "contextText": "🌑 [필그림] \"흑련\" 분석) 첫줄 공증 13단계 잠가야할까?",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
@@ -4763,23 +4927,27 @@
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/1553433",
       "postNo": "1553433",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "3637403"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "3637403",
+      "contextText": "🌑 [노벨] 노벨 버스트 발동에 관하여(백설조합)",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/166973",
       "postNo": "166973",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "2106252"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "2106252",
+      "contextText": "🌑 [토커] \"라플라스\"로 특요 토커티브 9단 따기",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
@@ -4795,23 +4963,27 @@
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/171502",
       "postNo": "171502",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "2106252"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "2106252",
+      "contextText": "🌑 [오벨리스크] 오벨리스크 명중률 감소 효과 움짤",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/172757",
       "postNo": "172757",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "2106252"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "2106252",
+      "contextText": "🌑 \"리루모슈노\" 홍련없이 기차 9단 공략",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
@@ -4847,265 +5019,313 @@
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/178108",
       "postNo": "178108",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "3637403"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "3637403",
+      "contextText": "🌑 [필그림] \"홍련\" 탄충 큐브 → 장탄수 증가% 정리",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/178171",
       "postNo": "178171",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "3637403"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "3637403",
+      "contextText": "🌑 [필그림] \"모더니아\" 탄충 큐브 → 장탄수 증가% 정리",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/1849112",
       "postNo": "1849112",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "464834"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "464834",
+      "contextText": "▷ 이상 개채 요격전 모듈 한달 기댓값",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/1849253",
       "postNo": "1849253",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "464834"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "464834",
+      "contextText": "▷ 이상 개채 요격전 보스스펙",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/1849591",
       "postNo": "1849591",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "464834"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "464834",
+      "contextText": "▷ 이상 개채 요격전 코어 및 파츠",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/1850317",
       "postNo": "1850317",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "464834"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "464834",
+      "contextText": "▷ 이상 개채 요격전 장비저격 확률",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/1852615",
       "postNo": "1852615",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "464834"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "464834",
+      "contextText": "▷ 이상 개체 요격전 보상 정리",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/1854346",
       "postNo": "1854346",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "464834"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "464834",
+      "contextText": "▷ 이상 개채 요격전 커스텀락키 사용법",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/189283",
       "postNo": "189283",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "2106252"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "2106252",
+      "contextText": "🌑 [플레이트] 19지 보스 플레이트 기믹",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/1915954",
       "postNo": "1915954",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "464834"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "464834",
+      "contextText": "▷ 특요 9단 vs 특특요 1단 보상 비교",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/1975396",
       "postNo": "1975396",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "464834"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "464834",
+      "contextText": "▷ 400렙 리크수레백 9단 (24.09.23)",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/2034374",
       "postNo": "2034374",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "464834"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "464834",
+      "contextText": "▷ 버스트 타이밍 (24.10.13)",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/2034683",
       "postNo": "2034683",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "464834"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "464834",
+      "contextText": "▷ 크라켄 짤팁 (24.10.13)",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/2057870",
       "postNo": "2057870",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "464834"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "464834",
+      "contextText": "▷ 400렙 리크퀀클나 9단 (24.10.19)",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/206603",
       "postNo": "206603",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "2106252"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "2106252",
+      "contextText": "🌑 특요전 모든 보스 TIP 모음",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/2207150",
       "postNo": "2207150",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "464834"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "464834",
+      "contextText": "▷ 400렙 루크나신숫 9단 (24.11.09)",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/238330",
       "postNo": "238330",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "2106252"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "2106252",
+      "contextText": "🌑 [모더] 보스 레이저 스턴 100% 무시하는 법",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/2392042",
       "postNo": "2392042",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "464834"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "464834",
+      "contextText": "▷ esc 유리구두 부수기 (24.12.12)",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/2437629",
       "postNo": "2437629",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "464834"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "464834",
+      "contextText": "▷ 400렙 루크렐수클 9단 (24.12.23)",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/264646",
       "postNo": "264646",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "3637403"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "3637403",
+      "contextText": "🌑 [기타] \"길티, 루피, 드레이크\" 동투력 토커티브 딜 비교",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/287041",
       "postNo": "287041",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "2106252"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "2106252",
+      "contextText": "🌑 [디거] 특요 디거 9단 팁 설명",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/301686",
       "postNo": "301686",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "2106252"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "2106252",
+      "contextText": "🌑 고인물용 태보 안하는 조합 3종",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/3095276",
       "postNo": "3095276",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "5060561"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "5060561",
+      "contextText": "🌑 1. [입문용] 뉴비용 솔로레이드 설명",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/3119805",
       "postNo": "3119805",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "3637239"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "3637239",
+      "contextText": "https://gall.dcinside.com/gov/3119805",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
@@ -5171,78 +5391,92 @@
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/3137227",
       "postNo": "3137227",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "464834"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "464834",
+      "contextText": "▷ 400렙 라크헬앨메 9단 (25.05.16)",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/32154",
       "postNo": "32154",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "3637403"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "3637403",
+      "contextText": "🌑 무기별 니케 저점 스펙 차이",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/3217628",
       "postNo": "3217628",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "464834"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "464834",
+      "contextText": "▷ 400렙 리크레라메 9단 (25.06.02)",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/327834",
       "postNo": "327834",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "2106252"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "2106252",
+      "contextText": "🌑 [기차] 사쿠라+루드밀라 조합",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/328963",
       "postNo": "328963",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "3637403"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "3637403",
+      "contextText": "🌑 스테이지 전투력 패널티 수치 정리글",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/344429",
       "postNo": "344429",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "2106252"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "2106252",
+      "contextText": "🌑 [두리안] HARD 10-BOSS 두리안 기믹",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/344494",
       "postNo": "344494",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "2106252"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "2106252",
+      "contextText": "🌑 특요 올9단 등반 모음 (리누블 X)",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
@@ -5258,12 +5492,14 @@
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/3472451",
       "postNo": "3472451",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "5060561"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "5060561",
+      "contextText": "🌑 5. [입문용] 뉴비 덱 구성 어떻게 할까요? 에 대한 답변",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
@@ -5279,67 +5515,79 @@
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/3594287",
       "postNo": "3594287",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "4935027"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "4935027",
+      "contextText": "▶ 빠르게하는 팁",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/3651184",
       "postNo": "3651184",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "5060561"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "5060561",
+      "contextText": "🌑 5. [육성] 솔로 레이드를 위한 서폿 육성법",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/3770910",
       "postNo": "3770910",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "4935027"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "4935027",
+      "contextText": "▶ 최저렙 및 덱조합 링크 모음",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/3807632",
       "postNo": "3807632",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "464834"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "464834",
+      "contextText": "▷ 400렙 라크헬메미 9단 (25.09.18)",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/3820258",
       "postNo": "3820258",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "464834"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "464834",
+      "contextText": "▷ 373렙 세크신헬마 9단 (25.09.21)",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/3854814",
       "postNo": "3854814",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "464834"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "464834",
+      "contextText": "▷ 저지원 순서 (25.09.27)",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
@@ -5355,23 +5603,27 @@
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/3960955",
       "postNo": "3960955",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "5060561"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "5060561",
+      "contextText": "🌑 6. [육성] 솔로 레이드 용 서폿 이거 왜 쓰는건가요?",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/41009",
       "postNo": "41009",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "2106252"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "2106252",
+      "contextText": "🌑 뉴비용 S요격전 ㅡ 디거 공략",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
@@ -5387,12 +5639,14 @@
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/4215256",
       "postNo": "4215256",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "5060561"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "5060561",
+      "contextText": "🌑 2. [3%] 2주년 유입이 알려주는 In 3% 공략",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
@@ -5408,12 +5662,14 @@
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/4225790",
       "postNo": "4225790",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "3637239"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "3637239",
+      "contextText": "https://gall.dcinside.com/gov/4225790",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
@@ -5429,34 +5685,40 @@
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/4293904",
       "postNo": "4293904",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "5060561"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "5060561",
+      "contextText": "🌑 4. [육성] 기업별 오버장비 우선순위에 대하여",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/4304276",
       "postNo": "4304276",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "5060561"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "5060561",
+      "contextText": "🌑 1. [3%] In 3% 하기까지 걸리는 대략적인 시간",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/4320688",
       "postNo": "4320688",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "5060561"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "5060561",
+      "contextText": "🌑 3. [육성] 솔로 레이드 용 니케 오버작 팁",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
@@ -5472,23 +5734,27 @@
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/4358924",
       "postNo": "4358924",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "sourcePostNo": "3538743",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "contextText": "https://gall.dcinside.com/gov/4358924",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/4361326",
       "postNo": "4361326",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "3637239"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "3637239",
+      "contextText": "https://gall.dcinside.com/gov/4361326",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
@@ -5514,89 +5780,105 @@
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/4509923",
       "postNo": "4509923",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "3637239"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "3637239",
+      "contextText": "https://gall.dcinside.com/gov/4509923",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/451105",
       "postNo": "451105",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "2106252"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "2106252",
+      "contextText": "🌑 [기차] 누블랑으로 기차 9단 공략",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/4514833",
       "postNo": "4514833",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "5060561"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "5060561",
+      "contextText": "🌑 3. [10%] 10% 너도 할 수 있어 덱 구성 가이드",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/4529462",
       "postNo": "4529462",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "4935027"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "4935027",
+      "contextText": "▶ 20단 / 싱크로441 (26.01.07)",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/4536690",
       "postNo": "4536690",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "4935027"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "4935027",
+      "contextText": "▶ 20단 / 싱크로410 (26.01.08)",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/4558909",
       "postNo": "4558909",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "5060561"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "5060561",
+      "contextText": "🌑 2. [육성] 저 할배랑 저랑 덱은 같은데 왜 딜이 달라요? 그건 말이지..",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/4567851",
       "postNo": "4567851",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "5060561"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "5060561",
+      "contextText": "🌑 4. [입문용] 신입인 당신도 할 수 있다! 솔로 레이드 7단 클리어!",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/4577283",
       "postNo": "4577283",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "5060561"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "5060561",
+      "contextText": "🌑 1. [10%] 반년 만에 한섭 솔레 In 10% 가이드",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
@@ -5632,34 +5914,40 @@
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/4623962",
       "postNo": "4623962",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "464834"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "464834",
+      "contextText": "▷ 400렙 세크라미메 9단 (26.01.24)",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/4706259",
       "postNo": "4706259",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "464834"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "464834",
+      "contextText": "▷ 400렙 라크헬메미 9단 (26.02.07)",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/4708192",
       "postNo": "4708192",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "5060561"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "5060561",
+      "contextText": "🌑 2. [입문용] 솔로레이드가 처음인 뉴비를 위한 종합 공략",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
@@ -5675,23 +5963,27 @@
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/4744338",
       "postNo": "4744338",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "4935027"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "4935027",
+      "contextText": "▶ 챌린지 / 싱크로400 (26.02.12)",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/4747964",
       "postNo": "4747964",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "4935027"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "4935027",
+      "contextText": "▶ 챌린지 / 싱크로400 (26.02.13)",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
@@ -5707,12 +5999,14 @@
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/4760646",
       "postNo": "4760646",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "5060561"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "5060561",
+      "contextText": "🌑 1. [육성] 솔레 기준으로 본 명함, 풀돌 그리고 풀코 딜차이",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
@@ -5728,23 +6022,27 @@
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/4792934",
       "postNo": "4792934",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "5060561"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "5060561",
+      "contextText": "🌑 2. [기타] 뉴비도 할 수 있다. 솔로 레이드 랭킹보드 올라가는 법",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/4796605",
       "postNo": "4796605",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "5060561"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "5060561",
+      "contextText": "🌑 3. [입문용] 160벽에 막힌 7단이 어려운 지휘관을 위한 팁",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
@@ -5760,34 +6058,40 @@
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/481736",
       "postNo": "481736",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "3637403"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "3637403",
+      "contextText": "🌑 전투력 계산 공식 + 클래스별 장비 투력증가량",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/4828414",
       "postNo": "4828414",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "4935027"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "4935027",
+      "contextText": "▶ 20단 / 싱크로680 (26.02.24)",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/4835309",
       "postNo": "4835309",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "5060561"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "5060561",
+      "contextText": "🌑 2. [10%] 수영복 도로시 없어도 할 수 있다 솔레 10%",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
@@ -5813,45 +6117,53 @@
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/4864900",
       "postNo": "4864900",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "4935027"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "4935027",
+      "contextText": "▶ 20단 / 싱크로401 (26.03.02)",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/4871238",
       "postNo": "4871238",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "4935027"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "4935027",
+      "contextText": "▶ 20단 / 싱크로444 (26.03.03)",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/4894428",
       "postNo": "4894428",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "4935027"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "4935027",
+      "contextText": "▶ 챌린지 / 싱크로400 (26.03.07)",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/4945753",
       "postNo": "4945753",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "4935027"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "4935027",
+      "contextText": "▶ 챌린지 / 싱크로400 (26.03.15)",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
@@ -5867,232 +6179,287 @@
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/4953967",
       "postNo": "4953967",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "464834"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "464834",
+      "contextText": "▷ MZ덱 기반 특특요 모든 보스 9단 추천 조합 및 팁(26.03.16)",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/4954806",
       "postNo": "4954806",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "464834"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "464834",
+      "contextText": "▷ 특특요 mz 공략영상(26.03.16)",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/4995646",
       "postNo": "4995646",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "5060561"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "5060561",
+      "contextText": "🌑 2. [작크챔] 없다. 하지만 나라면 능히 가능하다. 3주년 지휘관의 덱 구성",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/4998538",
       "postNo": "4998538",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "5060561"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "5060561",
+      "contextText": "🌑 1. [작크챔] 라피덱 15버스트 박는법",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/4999248",
       "postNo": "4999248",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "5060561"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "5060561",
+      "contextText": "🌑 3. [작크챔] 게살버거 비법은 내 거야. 비법소스",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/5030924",
       "postNo": "5030924",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "5060561"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "5060561",
+      "contextText": "🌑 1. [기타] 직전 솔로 레이드 속성 별 점수컷",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/5059687",
       "postNo": "5059687",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "5060561"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "5060561",
+      "contextText": "🌑 6. [육성] 3주년 유입의 솔로 레이드 육성 가이드",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/5081244",
       "postNo": "5081244",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "4935027"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "4935027",
+      "contextText": "▶ 20단 / 싱크로423 (26.04.05)",
+      "originLabel": "fetch"
+    },
+    {
+      "docType": "guide",
+      "url": "https://gall.dcinside.com/gov/5097140",
+      "postNo": "5097140",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "3538743",
+      "contextText": "/gov/5097140",
+      "originLabel": "fetch",
+      "status": "ok",
+      "httpStatus": 200,
+      "error": null,
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/528191",
       "postNo": "528191",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "3637403"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "3637403",
+      "contextText": "🌑 [필그림] \"스노우화이트\" 블랑 vs 클앤 파츠 데미지 비교",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/545838",
       "postNo": "545838",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "3637403"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "3637403",
+      "contextText": "🌑 [한정캐] \"수니스\" 연구 및 활용 정보글 모음",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/578320",
       "postNo": "578320",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "3637403"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "3637403",
+      "contextText": "🌑 SMG ↔ AR 연사력 비교글",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/586345",
       "postNo": "586345",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "3637403"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "3637403",
+      "contextText": "🌑명중률 수치별 샷건 탄착군 범위",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/601723",
       "postNo": "601723",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "3637403"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "3637403",
+      "contextText": "🌑 [한정캐] \"2B\" 관련 각종 연구글 모음집",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/602120",
       "postNo": "602120",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "3637403"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "3637403",
+      "contextText": "🌑 [필그림] \"스노우화이트\" 솔로레이드 기준 버스트 데미지 실험",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/602693",
       "postNo": "602693",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "3637403"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "3637403",
+      "contextText": "🌑 [필그림] \"홍련\" 명중률에 따른 딜상승 정리",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/616978",
       "postNo": "616978",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "3637403"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "3637403",
+      "contextText": "🌑 [한정캐] \"A2\" 차속 효율에 대해서",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/622009",
       "postNo": "622009",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "2106252"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "2106252",
+      "contextText": "🌑 \"스노우화이트\" 특요 원펀덱 공략 모음",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/627977",
       "postNo": "627977",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "3637403"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "3637403",
+      "contextText": "🌑 [한정캐] \"A2, 2B, 모더니아\" 메인덱 딜 비중 비교",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/634192",
       "postNo": "634192",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "2106252"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "2106252",
+      "contextText": "🌑 [기차] 노이즈로 태보해서 9단 공략 TIP",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/688598",
       "postNo": "688598",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "3637403"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "3637403",
+      "contextText": "🌑 [서포터] \"티아나가\" vs \"블랑누아르\" 딜상승 비교 분석",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/695798",
       "postNo": "695798",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "3637403"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "3637403",
+      "contextText": "🌑 [한정캐] \"2B\" 버스트는 \"풀버스트 시작시\" 버프를 받을까?",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
@@ -6108,111 +6475,131 @@
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/773292",
       "postNo": "773292",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "2106252"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "2106252",
+      "contextText": "🌑 [토커] 불렛타임으로 미사일 부수는 팁",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/782518",
       "postNo": "782518",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "2106252"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "2106252",
+      "contextText": "🌑 [기차] 누블랑/도발과 날먹하기",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/801398",
       "postNo": "801398",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "3637403"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "3637403",
+      "contextText": "🌑 [한정캐] \"2B\" 마스트 vs 노벨 데미지 상승량 비교",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/837909",
       "postNo": "837909",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "2106252"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "2106252",
+      "contextText": "🌑 [디거] 뉴비는 꼭 버쿨감과 누아르를 넣자! (23.11.25)",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/841778",
       "postNo": "841778",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "2106252"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "2106252",
+      "contextText": "🌑 [블스] 노이즈+리타 태보 TIP",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/856310",
       "postNo": "856310",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "2106252"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "2106252",
+      "contextText": "🌑 [블스] 블랙스미스 관통 위치",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/859095",
       "postNo": "859095",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "2106252"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "2106252",
+      "contextText": "🌑 [토커] 토커티브 코어 풀히트 위치",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/903692",
       "postNo": "903692",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "sourcePostNo": "3538743",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "contextText": "IP 차단 당했으면 도로롱갤 앉은문고로니갤 규정은 여기에",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/9554",
       "postNo": "9554",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "3637403"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "3637403",
+      "contextText": "🌑 니케 호감도 랭크 테이블 정리",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/gov/98780",
       "postNo": "98780",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "2106252"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "2106252",
+      "contextText": "🌑 [모더] 특요 9단 모더 공략",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
@@ -6478,12 +6865,14 @@
       "docType": "guide",
       "url": "https://gall.dcinside.com/m/gov/625951",
       "postNo": "625951",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "3637399"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "3637399",
+      "contextText": "🌑 [과금]미다스바이 우회결제 VPN 사용법",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
@@ -6759,12 +7148,14 @@
       "docType": "guide",
       "url": "https://gall.dcinside.com/mgallery/board/view?id=gov&no=1826829",
       "postNo": "1826829",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "sourcePostNo": "3538743",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "contextText": "완장들 메모장",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
@@ -6780,12 +7171,14 @@
       "docType": "source",
       "url": "https://gall.dcinside.com/mgallery/board/view?id=gov&no=2106252",
       "postNo": "2106252",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": null
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": null,
+      "contextText": null,
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
@@ -6821,12 +7214,14 @@
       "docType": "guide",
       "url": "https://gall.dcinside.com/mgallery/board/view?id=gov&no=2430564",
       "postNo": "2430564",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "sourcePostNo": "3538743",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "contextText": "니케 마이너 갤러리 갱차리스트https://gall.dcinside.com/mgallery/board/view?id=gov&no=2430564",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
@@ -6863,33 +7258,39 @@
       "url": "https://gall.dcinside.com/mgallery/board/view?id=gov&no=3119805",
       "postNo": "3119805",
       "lastSuccessAt": "2026-04-17T01:34:20.264Z",
-      "status": "ok",
-      "httpStatus": 200,
-      "error": null,
-      "lastAttemptAt": "2026-04-17T01:34:20.264Z",
-      "sourcePostNo": "3119805"
+      "status": "network_error",
+      "httpStatus": null,
+      "error": "fetch failed",
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "3119805",
+      "contextText": null,
+      "originLabel": "fetch"
     },
     {
       "docType": "source",
       "url": "https://gall.dcinside.com/mgallery/board/view?id=gov&no=3538743",
       "postNo": "3538743",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "sourcePostNo": null,
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "contextText": null,
+      "originLabel": "fetch"
     },
     {
       "docType": "source",
       "url": "https://gall.dcinside.com/mgallery/board/view?id=gov&no=3624608",
       "postNo": "3624608",
       "lastSuccessAt": "2026-04-17T01:34:20.264Z",
-      "status": "ok",
-      "httpStatus": 200,
-      "error": null,
-      "lastAttemptAt": "2026-04-17T01:34:20.264Z",
-      "sourcePostNo": "3624608"
+      "status": "network_error",
+      "httpStatus": null,
+      "error": "fetch failed",
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "3624608",
+      "contextText": null,
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
@@ -6906,121 +7307,143 @@
       "url": "https://gall.dcinside.com/mgallery/board/view?id=gov&no=3631577",
       "postNo": "3631577",
       "lastSuccessAt": "2026-04-17T01:34:20.264Z",
-      "status": "ok",
-      "httpStatus": 200,
-      "error": null,
-      "lastAttemptAt": "2026-04-17T01:34:20.264Z",
-      "sourcePostNo": "3631577"
+      "status": "network_error",
+      "httpStatus": null,
+      "error": "fetch failed",
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "3631577",
+      "contextText": null,
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/mgallery/board/view?id=gov&no=3631577",
       "postNo": "3631577",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "3637239"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "3637239",
+      "contextText": "https://gall.dcinside.com/mgallery/board/view?id=gov&amp;no=3631577",
+      "originLabel": "fetch"
     },
     {
       "docType": "source",
       "url": "https://gall.dcinside.com/mgallery/board/view?id=gov&no=3637239",
       "postNo": "3637239",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": null
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": null,
+      "contextText": null,
+      "originLabel": "fetch"
     },
     {
       "docType": "source",
       "url": "https://gall.dcinside.com/mgallery/board/view?id=gov&no=3637308",
       "postNo": "3637308",
       "lastSuccessAt": "2026-04-17T01:34:20.264Z",
-      "status": "ok",
-      "httpStatus": 200,
-      "error": null,
-      "lastAttemptAt": "2026-04-17T01:34:20.264Z",
-      "sourcePostNo": "3637308"
+      "status": "network_error",
+      "httpStatus": null,
+      "error": "fetch failed",
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "3637308",
+      "contextText": null,
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/mgallery/board/view?id=gov&no=3637308",
       "postNo": "3637308",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "3637239"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "3637239",
+      "contextText": "https://gall.dcinside.com/mgallery/board/view?id=gov&amp;no=3637308",
+      "originLabel": "fetch"
     },
     {
       "docType": "source",
       "url": "https://gall.dcinside.com/mgallery/board/view?id=gov&no=3637320",
       "postNo": "3637320",
       "lastSuccessAt": "2026-04-17T01:34:20.264Z",
-      "status": "ok",
-      "httpStatus": 200,
-      "error": null,
-      "lastAttemptAt": "2026-04-17T01:34:20.264Z",
-      "sourcePostNo": "3637320"
+      "status": "network_error",
+      "httpStatus": null,
+      "error": "fetch failed",
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "3637320",
+      "contextText": null,
+      "originLabel": "fetch"
     },
     {
       "docType": "source",
       "url": "https://gall.dcinside.com/mgallery/board/view?id=gov&no=3637399",
       "postNo": "3637399",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": null
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": null,
+      "contextText": null,
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/mgallery/board/view?id=gov&no=3637399",
       "postNo": "3637399",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "3637239"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "3637239",
+      "contextText": "https://gall.dcinside.com/mgallery/board/view?id=gov&amp;no=3637399",
+      "originLabel": "fetch"
     },
     {
       "docType": "source",
       "url": "https://gall.dcinside.com/mgallery/board/view?id=gov&no=3637403",
       "postNo": "3637403",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": null
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": null,
+      "contextText": null,
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/mgallery/board/view?id=gov&no=3637403",
       "postNo": "3637403",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "3637239"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "3637239",
+      "contextText": "https://gall.dcinside.com/mgallery/board/view?id=gov&amp;no=3637403",
+      "originLabel": "fetch"
     },
     {
       "docType": "source",
       "url": "https://gall.dcinside.com/mgallery/board/view?id=gov&no=3748869",
       "postNo": "3748869",
       "lastSuccessAt": "2026-04-17T01:34:20.264Z",
-      "status": "ok",
-      "httpStatus": 200,
-      "error": null,
-      "lastAttemptAt": "2026-04-17T01:34:20.264Z",
-      "sourcePostNo": "3748869"
+      "status": "network_error",
+      "httpStatus": null,
+      "error": "fetch failed",
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "3748869",
+      "contextText": null,
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
@@ -7067,33 +7490,39 @@
       "url": "https://gall.dcinside.com/mgallery/board/view?id=gov&no=4225790",
       "postNo": "4225790",
       "lastSuccessAt": "2026-04-17T01:34:20.264Z",
-      "status": "ok",
-      "httpStatus": 200,
-      "error": null,
-      "lastAttemptAt": "2026-04-17T01:34:20.264Z",
-      "sourcePostNo": "4225790"
+      "status": "network_error",
+      "httpStatus": null,
+      "error": "fetch failed",
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "4225790",
+      "contextText": null,
+      "originLabel": "fetch"
     },
     {
       "docType": "source",
       "url": "https://gall.dcinside.com/mgallery/board/view?id=gov&no=4361326",
       "postNo": "4361326",
       "lastSuccessAt": "2026-04-17T01:34:20.264Z",
-      "status": "ok",
-      "httpStatus": 200,
-      "error": null,
-      "lastAttemptAt": "2026-04-17T01:34:20.264Z",
-      "sourcePostNo": "4361326"
+      "status": "network_error",
+      "httpStatus": null,
+      "error": "fetch failed",
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "4361326",
+      "contextText": null,
+      "originLabel": "fetch"
     },
     {
       "docType": "source",
       "url": "https://gall.dcinside.com/mgallery/board/view?id=gov&no=464834",
       "postNo": "464834",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": null
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": null,
+      "contextText": null,
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
@@ -7109,89 +7538,118 @@
       "docType": "guide",
       "url": "https://gall.dcinside.com/mgallery/board/view?id=gov&no=4829440",
       "postNo": "4829440",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "5060561"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "5060561",
+      "contextText": "🌑 3. [기타] 레츠도로로 솔로 레이드 덱 짜보기",
+      "originLabel": "fetch"
     },
     {
       "docType": "source",
       "url": "https://gall.dcinside.com/mgallery/board/view?id=gov&no=4935027",
       "postNo": "4935027",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": null
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": null,
+      "contextText": null,
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/mgallery/board/view?id=gov&no=4935027",
       "postNo": "4935027",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "3637239"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "3637239",
+      "contextText": "https://gall.dcinside.com/mgallery/board/view?id=gov&amp;no=4935027",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/mgallery/board/view?id=gov&no=5056767",
       "postNo": "5056767",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "3637239"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "3637239",
+      "contextText": "https://gall.dcinside.com/mgallery/board/view?id=gov&amp;no=5056767",
+      "originLabel": "fetch"
+    },
+    {
+      "docType": "source",
+      "url": "https://gall.dcinside.com/mgallery/board/view?id=gov&no=5056767",
+      "postNo": "5056767",
+      "lastSuccessAt": "2026-04-17T02:53:42.293Z",
+      "status": "network_error",
+      "httpStatus": null,
+      "error": "fetch failed",
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "5056767",
+      "contextText": null,
+      "originLabel": "fetch"
     },
     {
       "docType": "source",
       "url": "https://gall.dcinside.com/mgallery/board/view?id=gov&no=5060561",
       "postNo": "5060561",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": null
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": null,
+      "contextText": null,
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/mgallery/board/view?id=gov&no=5060561",
       "postNo": "5060561",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "3637239"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "3637239",
+      "contextText": "https://gall.dcinside.com/mgallery/board/view?id=gov&amp;no=5060561",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/mgallery/board/view?id=gov&no=5124782",
       "postNo": "5124782",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "3637239"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "3637239",
+      "contextText": "https://gall.dcinside.com/mgallery/board/view?id=gov&amp;no=5124782",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/mgallery/board/view?id=gov&no=5155871",
       "postNo": "5155871",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "sourcePostNo": "3637239",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "contextText": "https://gall.dcinside.com/mgallery/board/view?id=gov&amp;no=5155871",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
@@ -7217,12 +7675,14 @@
       "docType": "guide",
       "url": "https://gall.dcinside.com/mgallery/board/view/?id=dororong&no=99&page=1",
       "postNo": "99",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "sourcePostNo": "3538743",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "contextText": "IP 차단 당했으면 도로롱갤 앉은문고로니갤 규정은 여기에",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
@@ -7308,12 +7768,14 @@
       "docType": "guide",
       "url": "https://gall.dcinside.com/mgallery/board/view/?id=gov&no=1990236",
       "postNo": "1990236",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "3637239"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "3637239",
+      "contextText": "https://gall.dcinside.com/mgallery/board/view/?id=gov&amp;no=1990236",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
@@ -7369,12 +7831,14 @@
       "docType": "guide",
       "url": "https://gall.dcinside.com/mgallery/board/view/?id=gov&no=2422268",
       "postNo": "2422268",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "5060561"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "5060561",
+      "contextText": "🌑 4. [기타] 한 장으로 보는 역대 솔레 보스 (26년 3월 크리스탈 체임버까지 업데이트.)",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
@@ -7590,12 +8054,14 @@
       "docType": "guide",
       "url": "https://gall.dcinside.com/mgallery/board/view/?id=gov&no=3032304&exception_mode=recommend&search_head=100&page=1",
       "postNo": "3032304",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "3637399"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "3637399",
+      "contextText": "🌑 [과금] 변경된 재화효율 반영한 2.5주년 패키지 효율(25.04.29)",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
@@ -7621,12 +8087,14 @@
       "docType": "guide",
       "url": "https://gall.dcinside.com/mgallery/board/view/?id=gov&no=3036534&exception_mode=recommend&search_head=100&page=1",
       "postNo": "3036534",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "3637399"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "3637399",
+      "contextText": "🌑 [과금] 형태에게 경제보복하기 소과금편 + 9만원스킨(25.04.30)",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
@@ -7637,7 +8105,9 @@
       "status": "deleted",
       "httpStatus": 404,
       "error": "HTTP 404",
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "contextText": "ㅂㄱㅊㅈㅇㅁㅁㅈ",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
@@ -7653,12 +8123,14 @@
       "docType": "guide",
       "url": "https://gall.dcinside.com/mgallery/board/view/?id=gov&no=3538743",
       "postNo": "3538743",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "3637239"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "3637239",
+      "contextText": "https://gall.dcinside.com/mgallery/board/view/?id=gov&amp;no=3538743",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
@@ -7669,7 +8141,9 @@
       "status": "deleted",
       "httpStatus": 404,
       "error": "HTTP 404",
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "contextText": "ㅇㅈㅎㅊㅂ",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
@@ -7680,7 +8154,9 @@
       "status": "deleted",
       "httpStatus": 404,
       "error": "HTTP 404",
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "contextText": "파딱 내부 가이드라인",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
@@ -7706,12 +8182,14 @@
       "docType": "guide",
       "url": "https://gall.dcinside.com/mgallery/board/view/?id=gov&no=3748869",
       "postNo": "3748869",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "3637239"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "3637239",
+      "contextText": "https://gall.dcinside.com/mgallery/board/view/?id=gov&amp;no=3748869",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
@@ -7737,12 +8215,14 @@
       "docType": "guide",
       "url": "https://gall.dcinside.com/mgallery/board/view/?id=gov&no=4235574",
       "postNo": "4235574",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "464834"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "464834",
+      "contextText": "▷ 크라켄 9단 영상 (25.11.22)",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
@@ -7768,12 +8248,14 @@
       "docType": "guide",
       "url": "https://gall.dcinside.com/mgallery/board/view/?id=gov&no=4578489",
       "postNo": "4578489",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "3637239"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "3637239",
+      "contextText": "https://gall.dcinside.com/mgallery/board/view/?id=gov&amp;no=4578489",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
@@ -7786,39 +8268,30 @@
       "lastAttemptAt": "2026-04-13T05:43:52.264Z"
     },
     {
-      "docType": "source",
-      "url": "https://gall.dcinside.com/mgallery/board/view/?id=gov&no=5056767",
-      "postNo": "5056767",
-      "lastSuccessAt": "2026-04-17T02:53:42.293Z",
-      "status": "ok",
-      "httpStatus": 200,
-      "error": null,
-      "lastAttemptAt": "2026-04-17T02:53:42.293Z",
-      "sourcePostNo": "5056767",
-      "contextText": null,
-      "originLabel": "fetch"
-    },
-    {
       "docType": "guide",
       "url": "https://gall.dcinside.com/mgallery/board/view/?id=gov&no=5066331",
       "postNo": "5066331",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "3637239"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "3637239",
+      "contextText": "https://gall.dcinside.com/mgallery/board/view/?id=gov&amp;no=5066331",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/mgallery/board/view/?id=gov&no=5081794",
       "postNo": "5081794",
-      "lastSuccessAt": "2026-04-17T01:03:04.955Z",
+      "lastSuccessAt": "2026-04-20T05:43:03.886Z",
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-04-17T01:03:04.955Z",
-      "sourcePostNo": "3637239"
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "sourcePostNo": "3637239",
+      "contextText": "https://gall.dcinside.com/mgallery/board/view/?id=gov&amp;no=5081794",
+      "originLabel": "fetch"
     },
     {
       "docType": "guide",
@@ -7886,6 +8359,32 @@
       "httpStatus": 200,
       "error": null,
       "lastAttemptAt": "2026-04-13T05:43:52.264Z"
+    },
+    {
+      "docType": "candidate",
+      "url": "https://gall.dcinside.com/mini/syuendan/79",
+      "postNo": null,
+      "lastSuccessAt": null,
+      "sourcePostNo": "4935027",
+      "contextText": "https://gall.dcinside.com/mini/syuendan/79",
+      "originLabel": "regex",
+      "status": "ignored_unsupported_url",
+      "httpStatus": null,
+      "error": "Could not parse DCInside post metadata from regex",
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z"
+    },
+    {
+      "docType": "guide",
+      "url": "https://gall.dcinside.com/syuendan/79",
+      "postNo": "79",
+      "lastSuccessAt": null,
+      "sourcePostNo": "4935027",
+      "contextText": "/syuendan/79",
+      "originLabel": "fetch",
+      "status": "deleted",
+      "httpStatus": 404,
+      "error": "HTTP 404",
+      "lastAttemptAt": "2026-04-20T05:43:03.886Z"
     }
   ]
 }
