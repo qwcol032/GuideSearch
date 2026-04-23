@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-23T10:24:31.172Z",
+  "generatedAt": "2026-04-23T10:29:40.841Z",
   "items": [
     {
       "docType": "guide",
@@ -7261,7 +7261,7 @@
       "status": "network_error",
       "httpStatus": null,
       "error": "fetch failed",
-      "lastAttemptAt": "2026-04-23T10:24:31.172Z",
+      "lastAttemptAt": "2026-04-23T10:29:40.841Z",
       "sourcePostNo": "3119805",
       "contextText": null,
       "originLabel": "fetch"
@@ -7283,11 +7283,11 @@
       "docType": "source",
       "url": "https://gall.dcinside.com/mgallery/board/view?id=gov&no=3624608",
       "postNo": "3624608",
-      "lastSuccessAt": "2026-04-17T01:34:20.264Z",
-      "status": "network_error",
-      "httpStatus": null,
-      "error": "fetch failed",
-      "lastAttemptAt": "2026-04-23T10:24:31.172Z",
+      "lastSuccessAt": "2026-04-23T10:29:40.841Z",
+      "status": "ok",
+      "httpStatus": 200,
+      "error": null,
+      "lastAttemptAt": "2026-04-23T10:29:40.841Z",
       "sourcePostNo": "3624608",
       "contextText": null,
       "originLabel": "fetch"
@@ -7306,11 +7306,11 @@
       "docType": "source",
       "url": "https://gall.dcinside.com/mgallery/board/view?id=gov&no=3631577",
       "postNo": "3631577",
-      "lastSuccessAt": "2026-04-17T01:34:20.264Z",
-      "status": "network_error",
-      "httpStatus": null,
-      "error": "fetch failed",
-      "lastAttemptAt": "2026-04-23T10:24:31.172Z",
+      "lastSuccessAt": "2026-04-23T10:29:40.841Z",
+      "status": "ok",
+      "httpStatus": 200,
+      "error": null,
+      "lastAttemptAt": "2026-04-23T10:29:40.841Z",
       "sourcePostNo": "3631577",
       "contextText": null,
       "originLabel": "fetch"
@@ -8334,7 +8334,7 @@
       "status": "deleted",
       "httpStatus": 404,
       "error": "HTTP 404",
-      "lastAttemptAt": "2026-04-23T10:24:31.172Z",
+      "lastAttemptAt": "2026-04-23T10:29:40.841Z",
       "sourcePostNo": "5056767",
       "contextText": "▶ (전투력 1131k) HARD \"목크설헬메\"(26.04.12)",
       "originLabel": "fetch"
@@ -8384,7 +8384,7 @@
       "status": "deleted",
       "httpStatus": 404,
       "error": "HTTP 404",
-      "lastAttemptAt": "2026-04-23T10:24:31.172Z"
+      "lastAttemptAt": "2026-04-23T10:29:40.841Z"
     }
   ]
 }
