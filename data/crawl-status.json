@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-20T05:43:03.886Z",
+  "generatedAt": "2026-04-23T10:24:31.172Z",
   "items": [
     {
       "docType": "guide",
@@ -7261,7 +7261,7 @@
       "status": "network_error",
       "httpStatus": null,
       "error": "fetch failed",
-      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "lastAttemptAt": "2026-04-23T10:24:31.172Z",
       "sourcePostNo": "3119805",
       "contextText": null,
       "originLabel": "fetch"
@@ -7287,7 +7287,7 @@
       "status": "network_error",
       "httpStatus": null,
       "error": "fetch failed",
-      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "lastAttemptAt": "2026-04-23T10:24:31.172Z",
       "sourcePostNo": "3624608",
       "contextText": null,
       "originLabel": "fetch"
@@ -7310,7 +7310,7 @@
       "status": "network_error",
       "httpStatus": null,
       "error": "fetch failed",
-      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "lastAttemptAt": "2026-04-23T10:24:31.172Z",
       "sourcePostNo": "3631577",
       "contextText": null,
       "originLabel": "fetch"
@@ -7345,11 +7345,11 @@
       "docType": "source",
       "url": "https://gall.dcinside.com/mgallery/board/view?id=gov&no=3637308",
       "postNo": "3637308",
-      "lastSuccessAt": "2026-04-17T01:34:20.264Z",
-      "status": "network_error",
-      "httpStatus": null,
-      "error": "fetch failed",
-      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "lastSuccessAt": "2026-04-23T10:24:31.172Z",
+      "status": "ok",
+      "httpStatus": 200,
+      "error": null,
+      "lastAttemptAt": "2026-04-23T10:24:31.172Z",
       "sourcePostNo": "3637308",
       "contextText": null,
       "originLabel": "fetch"
@@ -7371,11 +7371,11 @@
       "docType": "source",
       "url": "https://gall.dcinside.com/mgallery/board/view?id=gov&no=3637320",
       "postNo": "3637320",
-      "lastSuccessAt": "2026-04-17T01:34:20.264Z",
-      "status": "network_error",
-      "httpStatus": null,
-      "error": "fetch failed",
-      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "lastSuccessAt": "2026-04-23T10:24:31.172Z",
+      "status": "ok",
+      "httpStatus": 200,
+      "error": null,
+      "lastAttemptAt": "2026-04-23T10:24:31.172Z",
       "sourcePostNo": "3637320",
       "contextText": null,
       "originLabel": "fetch"
@@ -7436,11 +7436,11 @@
       "docType": "source",
       "url": "https://gall.dcinside.com/mgallery/board/view?id=gov&no=3748869",
       "postNo": "3748869",
-      "lastSuccessAt": "2026-04-17T01:34:20.264Z",
-      "status": "network_error",
-      "httpStatus": null,
-      "error": "fetch failed",
-      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "lastSuccessAt": "2026-04-23T10:24:31.172Z",
+      "status": "ok",
+      "httpStatus": 200,
+      "error": null,
+      "lastAttemptAt": "2026-04-23T10:24:31.172Z",
       "sourcePostNo": "3748869",
       "contextText": null,
       "originLabel": "fetch"
@@ -7489,11 +7489,11 @@
       "docType": "source",
       "url": "https://gall.dcinside.com/mgallery/board/view?id=gov&no=4225790",
       "postNo": "4225790",
-      "lastSuccessAt": "2026-04-17T01:34:20.264Z",
-      "status": "network_error",
-      "httpStatus": null,
-      "error": "fetch failed",
-      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "lastSuccessAt": "2026-04-23T10:24:31.172Z",
+      "status": "ok",
+      "httpStatus": 200,
+      "error": null,
+      "lastAttemptAt": "2026-04-23T10:24:31.172Z",
       "sourcePostNo": "4225790",
       "contextText": null,
       "originLabel": "fetch"
@@ -7502,11 +7502,11 @@
       "docType": "source",
       "url": "https://gall.dcinside.com/mgallery/board/view?id=gov&no=4361326",
       "postNo": "4361326",
-      "lastSuccessAt": "2026-04-17T01:34:20.264Z",
-      "status": "network_error",
-      "httpStatus": null,
-      "error": "fetch failed",
-      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "lastSuccessAt": "2026-04-23T10:24:31.172Z",
+      "status": "ok",
+      "httpStatus": 200,
+      "error": null,
+      "lastAttemptAt": "2026-04-23T10:24:31.172Z",
       "sourcePostNo": "4361326",
       "contextText": null,
       "originLabel": "fetch"
@@ -7590,11 +7590,11 @@
       "docType": "source",
       "url": "https://gall.dcinside.com/mgallery/board/view?id=gov&no=5056767",
       "postNo": "5056767",
-      "lastSuccessAt": "2026-04-17T02:53:42.293Z",
-      "status": "network_error",
-      "httpStatus": null,
-      "error": "fetch failed",
-      "lastAttemptAt": "2026-04-20T05:43:03.886Z",
+      "lastSuccessAt": "2026-04-23T10:24:31.172Z",
+      "status": "ok",
+      "httpStatus": 200,
+      "error": null,
+      "lastAttemptAt": "2026-04-23T10:24:31.172Z",
       "sourcePostNo": "5056767",
       "contextText": null,
       "originLabel": "fetch"
@@ -8334,7 +8334,7 @@
       "status": "deleted",
       "httpStatus": 404,
       "error": "HTTP 404",
-      "lastAttemptAt": "2026-04-17T02:53:42.293Z",
+      "lastAttemptAt": "2026-04-23T10:24:31.172Z",
       "sourcePostNo": "5056767",
       "contextText": "▶ (전투력 1131k) HARD \"목크설헬메\"(26.04.12)",
       "originLabel": "fetch"
@@ -8384,7 +8384,7 @@
       "status": "deleted",
       "httpStatus": 404,
       "error": "HTTP 404",
-      "lastAttemptAt": "2026-04-20T05:43:03.886Z"
+      "lastAttemptAt": "2026-04-23T10:24:31.172Z"
     }
   ]
 }
