@@ -10088,19 +10088,6 @@
     },
     {
       "docType": "guide",
-      "url": "https://gall.dcinside.com/mgallery/board/view/?id=gov&no=2057609",
-      "postNo": "2057609",
-      "lastSuccessAt": "2026-04-13T05:43:52.264Z",
-      "status": "deleted",
-      "httpStatus": 404,
-      "error": "HTTP 404",
-      "lastAttemptAt": "2026-04-27T05:55:57.383Z",
-      "sourcePostNo": "3637320",
-      "contextText": "🌑 [성장] 코어더스트 전초기지 레벨별 획득량 전체 표",
-      "originLabel": "fetch"
-    },
-    {
-      "docType": "guide",
       "url": "https://gall.dcinside.com/mgallery/board/view/?id=gov&no=2118132",
       "postNo": "2118132",
       "lastSuccessAt": "2026-05-03T04:24:11.917Z",
