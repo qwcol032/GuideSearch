@@ -498,6 +498,43 @@ async function writeJson(filePath, value) {
   await fs.writeFile(filePath, `${JSON.stringify(value, null, 2)}\n`, 'utf8');
 }
 
+function pruneStaleDeletedGuideStatuses({
+  discoveredGuideKeys,
+  scannedSourcePostNos,
+}) {
+  let removedCount = 0;
+
+  for (const [key, item] of statusMap.entries()) {
+    if (item.docType !== 'guide') continue;
+
+    const isDeletedGuide =
+      item.status === 'deleted' ||
+      item.httpStatus === 404 ||
+      item.httpStatus === 410;
+
+    if (!isDeletedGuide) continue;
+
+    const sourcePostNo = String(item.sourcePostNo ?? '');
+
+    // 어떤 source에서 온 건지 모르면 안전하게 유지
+    if (!sourcePostNo) continue;
+
+    // 이번 crawl에서 해당 source 모음글을 성공적으로 읽은 경우에만 정리
+    // source 자체를 못 읽었으면 링크가 사라진 건지 판단 불가
+    if (!scannedSourcePostNos.has(sourcePostNo)) continue;
+
+    const itemKey = statusKey('guide', item.postNo, item.url);
+
+    // 이번에 source 모음글에서 다시 발견되지 않은 deleted guide면 제거
+    if (!discoveredGuideKeys.has(itemKey)) {
+      statusMap.delete(key);
+      removedCount += 1;
+    }
+  }
+
+  return removedCount;
+}
+
 function isRetryableStatusItem(item) {
   if (!item) return false;
   if (item.docType !== 'guide' && item.docType !== 'source') return false;
@@ -822,6 +859,9 @@ async function main() {
   return;
 }
 
+  const discoveredGuideKeys = new Set();
+  const scannedSourcePostNos = new Set();
+  
   const sourcesData = await readJson(SOURCES_PATH, { sources: [] });
 
   for (const source of sourcesData.sources || []) {
@@ -847,6 +887,8 @@ async function main() {
     );
     if (!sourceDoc) continue;
 
+    scannedSourcePostNos.add(String(sourceMeta.postNo));
+
     const sourceRecord = {
       id: `source-${sourceMeta.postNo}`,
       docType: 'source',
@@ -870,6 +912,8 @@ async function main() {
     );
 
     for (const link of links) {
+      discoveredGuideKeys.add(statusKey('guide', link.postNo, link.url));
+    
       const guideDoc = await fetchDocument(
         link.url,
         'guide',
@@ -896,8 +940,19 @@ async function main() {
     }
   }
 
+  const removedStaleDeletedCount = pruneStaleDeletedGuideStatuses({
+    discoveredGuideKeys,
+    scannedSourcePostNos,
+  });
+  
+  if (removedStaleDeletedCount > 0) {
+    console.log(
+      `Removed ${removedStaleDeletedCount} stale deleted guide status item(s).`
+    );
+  }
+  
   await buildSearchIndex();
-
+  
   const items = [...statusMap.values()].sort((a, b) => {
     return String(a.url).localeCompare(String(b.url));
   });
