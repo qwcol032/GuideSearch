@@ -95,6 +95,18 @@
       "url": "https://gall.dcinside.com/mgallery/board/view?id=gov&no=5155871",
       "galleryId": "gov",
       "enabled": true
+    },
+    {
+      "id": "gov-5425636",
+      "url": "https://gall.dcinside.com/mgallery/board/view?id=gov&no=5425636",
+      "galleryId": "gov",
+      "enabled": true
+    },
+    {
+      "id": "gov-5588410",
+      "url": "https://gall.dcinside.com/mgallery/board/view?id=gov&no=5588410",
+      "galleryId": "gov",
+      "enabled": true
     }
   ]
 }
