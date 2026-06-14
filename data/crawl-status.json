@@ -8452,19 +8452,6 @@
       "originLabel": "fetch"
     },
     {
-      "docType": "candidate",
-      "url": "https://gall.dcinside.com/m/gov/",
-      "postNo": null,
-      "lastSuccessAt": null,
-      "sourcePostNo": "5155871",
-      "contextText": "https://gall.dcinside.com/m/gov/",
-      "originLabel": "regex",
-      "status": "ignored_unsupported_url",
-      "httpStatus": null,
-      "error": "Could not parse DCInside post metadata from regex",
-      "lastAttemptAt": "2026-05-03T04:24:11.917Z"
-    },
-    {
       "docType": "guide",
       "url": "https://gall.dcinside.com/m/gov/1083966",
       "postNo": "1083966",
@@ -10719,19 +10706,6 @@
     },
     {
       "docType": "guide",
-      "url": "https://gall.dcinside.com/mgallery/board/view/?id=gov&no=5158411",
-      "postNo": "5158411",
-      "lastSuccessAt": "2026-06-01T08:35:05.274Z",
-      "sourcePostNo": "5066331",
-      "contextText": "D. 아레나 기타 유용한 공략 모음 아레나 컨텐츠에 유용한 툴과 짤팁을 모아봤습니다. 🌑 1. [기타] 니케 팀 빌더 NIKKE DECK - 덱 구성, 버스트 충전 계산 🌑 2. [기타] 아레나 페널티 계산기 🌑 3. [기타] 총각 자면 안돼..! 점검 전 스레나 방어하는 팁 🌑 4. [기타] 차지 속도의 비밀에 대하여, 차지 속도 계산법 🌑 5. [기타] 지표로 보는 아레나, 신데렐라, 홍련 그리고 베스티 🌑 6. [기타] 아레나 뉴비를 위한 자블덱 운용법 🌑 7. [기타] 아니스 21차속 목베비스아 어떰? 🌑 8.",
-      "originLabel": "fetch",
-      "status": "deleted",
-      "httpStatus": 404,
-      "error": "HTTP 404",
-      "lastAttemptAt": "2026-06-08T08:10:50.685Z"
-    },
-    {
-      "docType": "guide",
       "url": "https://gall.dcinside.com/mgallery/board/view/?id=gov&no=5162576",
       "postNo": "5162576",
       "lastSuccessAt": "2026-06-08T08:10:50.685Z",
@@ -12603,19 +12577,6 @@
       "lastAttemptAt": "2026-06-08T08:10:50.685Z"
     },
     {
-      "docType": "candidate",
-      "url": "https://gall.dcinside.com/mini/syuendan/79",
-      "postNo": null,
-      "lastSuccessAt": null,
-      "sourcePostNo": "5191295",
-      "contextText": "https://gall.dcinside.com/mini/syuendan/79",
-      "originLabel": "regex",
-      "status": "ignored_unsupported_url",
-      "httpStatus": null,
-      "error": "Could not parse DCInside post metadata from regex",
-      "lastAttemptAt": "2026-06-08T08:10:50.685Z"
-    },
-    {
       "docType": "guide",
       "url": "https://gall.dcinside.com/new/1",
       "postNo": "1",
@@ -12628,18 +12589,5 @@
       "error": null,
       "lastAttemptAt": "2026-04-27T05:55:57.383Z"
     },
-    {
-      "docType": "guide",
-      "url": "https://gall.dcinside.com/syuendan/79",
-      "postNo": "79",
-      "lastSuccessAt": null,
-      "sourcePostNo": "5191295",
-      "contextText": "/syuendan/79",
-      "originLabel": "fetch",
-      "status": "deleted",
-      "httpStatus": 404,
-      "error": "HTTP 404",
-      "lastAttemptAt": "2026-06-08T08:10:50.685Z"
-    }
   ]
 }
