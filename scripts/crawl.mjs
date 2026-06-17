@@ -15,6 +15,7 @@ const today = new Date().toISOString().slice(0, 10);
 const nowIso = new Date().toISOString();
 const RETRY_FAILED_ONLY = process.env.RETRY_FAILED_ONLY === 'true';
 const HIDDEN_SOURCE_POST_NO = '3538743';
+const SUPPORTED_GALLERY_ID = 'gov';
 
 const DEFAULT_HEADERS = {
   'user-agent':
@@ -78,6 +79,10 @@ const statusMap = new Map();
 
 function toText(value) {
   return (value || '').replace(/\s+/g, ' ').trim();
+}
+
+function escapeRegExp(value) {
+  return String(value).replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 }
 
 function statusKey(docType, postNo, url) {
@@ -149,6 +154,12 @@ function isDcinsideHost(hostname) {
 function normalizeDcinsideUrl(url) {
   url.hash = '';
   return url.toString();
+}
+
+function isSupportedGuideMeta(meta, preferredGalleryId = SUPPORTED_GALLERY_ID) {
+  if (!meta) return false;
+  const galleryId = toText(preferredGalleryId || SUPPORTED_GALLERY_ID);
+  return meta.galleryId === galleryId;
 }
 
 /**
@@ -390,16 +401,8 @@ function extractGuideLinks($, baseUrl, preferredGalleryId, sourcePostNo) {
       if (!isDcinsideHost(absolute.hostname)) return;
   
       const meta = parseDocMeta(absolute.toString());
-      if (!meta) {
-        recordIgnoredCandidate({
-          candidateUrl: absolute.toString(),
-          reason: `Could not parse DCInside post metadata from ${originLabel}`,
-          sourcePostNo,
-          originLabel,
-          contextText,
-        });
-        return;
-      }
+      if (!meta) return;
+      if (!isSupportedGuideMeta(meta, preferredGalleryId)) return;
   
       if (meta.postNo === sourcePostNo) return;
   
@@ -443,7 +446,11 @@ function extractGuideLinks($, baseUrl, preferredGalleryId, sourcePostNo) {
     tryAddCandidate(raw, 'regex', raw);
   }
 
-  const relativePathRegex = /\/m\/[a-zA-Z0-9_]+\/\d+\b|\/[a-zA-Z0-9_]+\/\d+\b/g;
+  const preferredGalleryPattern = escapeRegExp(preferredGalleryId || SUPPORTED_GALLERY_ID);
+  const relativePathRegex = new RegExp(
+    `/m/${preferredGalleryPattern}/\\d+\\b|/${preferredGalleryPattern}/\\d+\\b`,
+    'g'
+  );
   const relativeMatches = htmlText.match(relativePathRegex) || [];
   
   for (const raw of relativeMatches) {
@@ -535,12 +542,40 @@ function pruneStaleDeletedGuideStatuses({
   return removedCount;
 }
 
+function pruneUnsupportedStatusItems() {
+  let removedCount = 0;
+
+  for (const [key, item] of statusMap.entries()) {
+    if (item.docType === 'candidate' && item.status === 'ignored_unsupported_url') {
+      statusMap.delete(key);
+      removedCount += 1;
+      continue;
+    }
+
+    if (item.docType !== 'guide') continue;
+    if (item.status === 'ok') continue;
+
+    const meta = parseDocMeta(item.url);
+    if (isSupportedGuideMeta(meta)) continue;
+
+    statusMap.delete(key);
+    removedCount += 1;
+  }
+
+  return removedCount;
+}
+
 function isRetryableStatusItem(item) {
   if (!item) return false;
   if (item.docType !== 'guide' && item.docType !== 'source') return false;
   if (!item.url || !item.postNo) return false;
   if (item.status === 'ok') return false;
   if (item.status === 'ignored_unsupported_url') return false;
+
+  if (item.docType === 'guide') {
+    const meta = parseDocMeta(item.url);
+    if (!isSupportedGuideMeta(meta)) return false;
+  }
 
   // 필요하면 3538743 source 계열은 재시도 대상에서도 제외
   if (String(item.sourcePostNo ?? '') === HIDDEN_SOURCE_POST_NO) return false;
@@ -842,6 +877,12 @@ async function main() {
 
   if (RETRY_FAILED_ONLY) {
   await retryFailedDocuments(existingStatus.items || []);
+  const removedUnsupportedCount = pruneUnsupportedStatusItems();
+  if (removedUnsupportedCount > 0) {
+    console.log(
+      `Removed ${removedUnsupportedCount} unsupported status item(s).`
+    );
+  }
   await buildSearchIndex();
 
   const items = [...statusMap.values()].sort((a, b) => {
@@ -873,7 +914,7 @@ async function main() {
         docType: 'source',
         url: source.url,
         postNo: null,
-        sourcePostNo,
+        sourcePostNo: null,
         status: 'parse_failed',
         error: 'Source URL is not a supported DCInside post format',
       });
@@ -944,10 +985,17 @@ async function main() {
     discoveredGuideKeys,
     scannedSourcePostNos,
   });
+  const removedUnsupportedCount = pruneUnsupportedStatusItems();
   
   if (removedStaleDeletedCount > 0) {
     console.log(
       `Removed ${removedStaleDeletedCount} stale deleted guide status item(s).`
+    );
+  }
+
+  if (removedUnsupportedCount > 0) {
+    console.log(
+      `Removed ${removedUnsupportedCount} unsupported status item(s).`
     );
   }
   
