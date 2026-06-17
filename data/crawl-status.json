@@ -4371,19 +4371,6 @@
     },
     {
       "docType": "guide",
-      "url": "https://gall.dcinside.com/categories/7282810",
-      "postNo": "7282810",
-      "lastSuccessAt": null,
-      "sourcePostNo": "5425636",
-      "contextText": "/categories/7282810",
-      "originLabel": "fetch",
-      "status": "deleted",
-      "httpStatus": 404,
-      "error": "HTTP 404",
-      "lastAttemptAt": "2026-06-15T09:23:39.749Z"
-    },
-    {
-      "docType": "guide",
       "url": "https://gall.dcinside.com/goods/189368236",
       "postNo": "189368236",
       "lastSuccessAt": "2026-06-15T09:23:39.749Z",
@@ -8479,19 +8466,6 @@
     },
     {
       "docType": "guide",
-      "url": "https://gall.dcinside.com/ICT/2026",
-      "postNo": "2026",
-      "lastSuccessAt": null,
-      "sourcePostNo": "5425636",
-      "contextText": "/ICT/2026",
-      "originLabel": "fetch",
-      "status": "deleted",
-      "httpStatus": 404,
-      "error": "HTTP 404",
-      "lastAttemptAt": "2026-06-15T09:23:39.749Z"
-    },
-    {
-      "docType": "guide",
       "url": "https://gall.dcinside.com/m/gov/1083966",
       "postNo": "1083966",
       "lastSuccessAt": "2026-04-27T05:55:57.383Z",
@@ -10793,19 +10767,6 @@
       "status": "ok",
       "httpStatus": 200,
       "error": null,
-      "lastAttemptAt": "2026-06-15T09:23:39.749Z"
-    },
-    {
-      "docType": "guide",
-      "url": "https://gall.dcinside.com/mgallery/board/view/?id=gov&no=5158411",
-      "postNo": "5158411",
-      "lastSuccessAt": null,
-      "sourcePostNo": "5066331",
-      "contextText": "D. 아레나 기타 유용한 공략 모음 아레나 컨텐츠에 유용한 툴과 짤팁을 모아봤습니다. 🌑 1. [기타] 니케 팀 빌더 NIKKE DECK - 덱 구성, 버스트 충전 계산 🌑 2. [기타] 아레나 페널티 계산기 🌑 3. [기타] 총각 자면 안돼..! 점검 전 스레나 방어하는 팁 🌑 4. [기타] 차지 속도의 비밀에 대하여, 차지 속도 계산법 🌑 5. [기타] 지표로 보는 아레나, 신데렐라, 홍련 그리고 베스티 🌑 6. [기타] 아레나 뉴비를 위한 자블덱 운용법 🌑 7. [기타] 아니스 21차속 목베비스아 어떰? 🌑 8.",
-      "originLabel": "fetch",
-      "status": "deleted",
-      "httpStatus": 404,
-      "error": "HTTP 404",
       "lastAttemptAt": "2026-06-15T09:23:39.749Z"
     },
     {
@@ -13225,110 +13186,6 @@
       "httpStatus": 200,
       "error": null,
       "lastAttemptAt": "2026-04-27T05:55:57.383Z"
-    },
-    {
-      "docType": "guide",
-      "url": "https://gall.dcinside.com/pid/20162",
-      "postNo": "20162",
-      "lastSuccessAt": null,
-      "sourcePostNo": "5425636",
-      "contextText": "/pid/20162",
-      "originLabel": "fetch",
-      "status": "deleted",
-      "httpStatus": 404,
-      "error": "HTTP 404",
-      "lastAttemptAt": "2026-06-15T09:23:39.749Z"
-    },
-    {
-      "docType": "guide",
-      "url": "https://gall.dcinside.com/popup_event/2025",
-      "postNo": "2025",
-      "lastSuccessAt": null,
-      "sourcePostNo": "5425636",
-      "contextText": "/popup_event/2025",
-      "originLabel": "fetch",
-      "status": "deleted",
-      "httpStatus": 404,
-      "error": "HTTP 404",
-      "lastAttemptAt": "2026-06-15T09:23:39.749Z"
-    },
-    {
-      "docType": "guide",
-      "url": "https://gall.dcinside.com/status/2045482151756669247",
-      "postNo": "2045482151756669247",
-      "lastSuccessAt": null,
-      "sourcePostNo": "5425636",
-      "contextText": "/status/2045482151756669247",
-      "originLabel": "fetch",
-      "status": "deleted",
-      "httpStatus": 404,
-      "error": "HTTP 404",
-      "lastAttemptAt": "2026-06-15T09:23:39.749Z"
-    },
-    {
-      "docType": "guide",
-      "url": "https://gall.dcinside.com/status/2045482447190839666",
-      "postNo": "2045482447190839666",
-      "lastSuccessAt": null,
-      "sourcePostNo": "5425636",
-      "contextText": "/status/2045482447190839666",
-      "originLabel": "fetch",
-      "status": "deleted",
-      "httpStatus": 404,
-      "error": "HTTP 404",
-      "lastAttemptAt": "2026-06-15T09:23:39.749Z"
-    },
-    {
-      "docType": "guide",
-      "url": "https://gall.dcinside.com/status/2045751750825775594",
-      "postNo": "2045751750825775594",
-      "lastSuccessAt": null,
-      "sourcePostNo": "5425636",
-      "contextText": "/status/2045751750825775594",
-      "originLabel": "fetch",
-      "status": "deleted",
-      "httpStatus": 404,
-      "error": "HTTP 404",
-      "lastAttemptAt": "2026-06-15T09:23:39.749Z"
-    },
-    {
-      "docType": "guide",
-      "url": "https://gall.dcinside.com/status/2047265143927800157",
-      "postNo": "2047265143927800157",
-      "lastSuccessAt": null,
-      "sourcePostNo": "5425636",
-      "contextText": "/status/2047265143927800157",
-      "originLabel": "fetch",
-      "status": "deleted",
-      "httpStatus": 404,
-      "error": "HTTP 404",
-      "lastAttemptAt": "2026-06-15T09:23:39.749Z"
-    },
-    {
-      "docType": "guide",
-      "url": "https://gall.dcinside.com/status/2054487593526677779",
-      "postNo": "2054487593526677779",
-      "lastSuccessAt": null,
-      "sourcePostNo": "5425636",
-      "contextText": "/status/2054487593526677779",
-      "originLabel": "fetch",
-      "status": "deleted",
-      "httpStatus": 404,
-      "error": "HTTP 404",
-      "lastAttemptAt": "2026-06-15T09:23:39.749Z"
-    },
-    {
-      "docType": "guide",
-      "url": "https://gall.dcinside.com/view/1067167",
-      "postNo": "1067167",
-      "lastSuccessAt": null,
-      "sourcePostNo": "5425636",
-      "contextText": "/view/1067167",
-      "originLabel": "fetch",
-      "status": "deleted",
-      "httpStatus": 404,
-      "error": "HTTP 404",
-      "lastAttemptAt": "2026-06-15T09:23:39.749Z"
     }
   ]
 }
