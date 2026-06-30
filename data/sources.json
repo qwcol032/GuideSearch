@@ -1,6 +1,12 @@
 {
   "sources": [
     {
+      "id": "gov-5742855",
+      "url": "https://gall.dcinside.com/mgallery/board/view?id=gov&no=5742855",
+      "galleryId": "gov",
+      "enabled": true
+    },
+    {
       "id": "gov-5190698",
       "url": "https://gall.dcinside.com/mgallery/board/view?id=gov&no=5190698",
       "galleryId": "gov",
