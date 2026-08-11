@@ -6464,19 +6464,6 @@
     },
     {
       "docType": "guide",
-      "url": "https://gall.dcinside.com/gov/1849253",
-      "postNo": "1849253",
-      "lastSuccessAt": "2026-08-03T06:23:49.269Z",
-      "status": "network_error",
-      "httpStatus": null,
-      "error": "fetch failed",
-      "lastAttemptAt": "2026-08-10T04:38:07.000Z",
-      "sourcePostNo": "5124782",
-      "contextText": "🌑 7. [정보] 이상 개체 요격전 보스스펙",
-      "originLabel": "fetch"
-    },
-    {
-      "docType": "guide",
       "url": "https://gall.dcinside.com/gov/1849591",
       "postNo": "1849591",
       "lastSuccessAt": "2026-08-10T04:38:07.000Z",
@@ -9138,19 +9125,6 @@
       "lastAttemptAt": "2026-08-10T04:38:07.000Z",
       "sourcePostNo": "5155871",
       "contextText": "🌑 [이벤트] [디스코드] 니케를 접속하지 않고 디스코드에서 쿠1폰을 등록해보자!",
-      "originLabel": "fetch"
-    },
-    {
-      "docType": "guide",
-      "url": "https://gall.dcinside.com/mgallery/board/view?id=gov&no=1211147",
-      "postNo": "1211147",
-      "lastSuccessAt": "2026-08-03T06:23:49.269Z",
-      "status": "network_error",
-      "httpStatus": null,
-      "error": "fetch failed",
-      "lastAttemptAt": "2026-08-10T04:38:07.000Z",
-      "sourcePostNo": "5588410",
-      "contextText": "https://gall.dcinside.com/mgallery/board/view?id=gov&amp;no=1211147",
       "originLabel": "fetch"
     },
     {
