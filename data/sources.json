@@ -113,6 +113,12 @@
       "url": "https://gall.dcinside.com/mgallery/board/view?id=gov&no=5588410",
       "galleryId": "gov",
       "enabled": true
+    },
+    {
+      "id": "gov-6015760",
+      "url": "https://gall.dcinside.com/mgallery/board/view?id=gov&no=6015760",
+      "galleryId": "gov",
+      "enabled": true
     }
   ]
 }
