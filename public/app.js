@@ -1,3 +1,5 @@
+import { buildRestorePayload, serializeRestorePayload } from './restore-payload.js';
+
 const els = {
   form: document.getElementById('search-form'),
   query: document.getElementById('query'),
@@ -7,10 +9,38 @@ const els = {
   resultTemplate: document.getElementById('result-template'),
   statusList: document.getElementById('status-list'),
   toggleOk: document.getElementById('toggle-ok'),
+  restoreMessage: document.getElementById('restore-message'),
 };
 
 let indexData = { documents: [] };
 let statusData = { items: [] };
+const testDataMode = new URL(window.location.href).searchParams.get('data') === 'test';
+
+function dataPath(pathname) {
+  return `./data/${testDataMode ? 'test/' : ''}${pathname}`;
+}
+
+function showRestoreMessage(message, isError = false) {
+  els.restoreMessage.textContent = message;
+  els.restoreMessage.classList.remove('hidden');
+  els.restoreMessage.classList.toggle('error', isError);
+}
+
+async function copyRestoreData(doc, button) {
+  button.disabled = true;
+  try {
+    const latestUrl = new URL(dataPath(`documents/guide/${doc.postNo}/latest.json`), window.location.href);
+    const response = await fetch(latestUrl);
+    if (!response.ok) throw new Error(`latest.json 요청 실패 (HTTP ${response.status})`);
+    const payload = buildRestorePayload(await response.json(), latestUrl);
+    await navigator.clipboard.writeText(serializeRestorePayload(payload));
+    showRestoreMessage(`복원 데이터가 클립보드에 복사되었습니다. 이미지 ${Object.keys(payload.assets).length}개 / 이미지 위치 ${payload.imageOccurrences.length}개`);
+  } catch (error) {
+    showRestoreMessage(`복원 데이터 복사 실패: ${error.message}`, true);
+  } finally {
+    button.disabled = false;
+  }
+}
 
 function escapeHtml(s) {
   return s
@@ -80,6 +110,10 @@ function renderResults(query) {
 
     const snippet = node.querySelector('.snippet');
     snippet.innerHTML = highlight(makeSnippet(getFullBody(doc), query), query);
+
+    const restoreButton = node.querySelector('.copy-restore');
+    if (doc.docType === 'guide') restoreButton.addEventListener('click', () => copyRestoreData(doc, restoreButton));
+    else restoreButton.remove();
 
     els.results.append(node);
   }
@@ -158,8 +192,8 @@ async function fetchJsonWithFallback(primaryPath, fallbackPath) {
 
 async function init() {
   const [index, status] = await Promise.all([
-    fetchJsonWithFallback('./data/search-index.json', '../data/search-index.json'),
-    fetchJsonWithFallback('./data/crawl-status.json', '../data/crawl-status.json'),
+    fetchJsonWithFallback(dataPath('search-index.json'), `../data/${testDataMode ? 'test/' : ''}search-index.json`),
+    fetchJsonWithFallback(dataPath('crawl-status.json'), `../data/${testDataMode ? 'test/' : ''}crawl-status.json`),
   ]);
 
   indexData = index;
