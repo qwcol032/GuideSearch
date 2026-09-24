@@ -665,7 +665,14 @@ async function retryFailedDocuments(existingStatusItems) {
       parentSourcePostNo: item.docType === 'guide' ? sourcePostNo : null,
     };
 
-    await persistDocument(record);
+    const outcome = await persistDocument(record);
+    if (item.docType === 'guide') {
+      updateStatus({ docType: 'guide', url: item.url, postNo: item.postNo,
+        sourcePostNo, contextText: retryContext, status: outcome.status,
+        httpStatus: 200, success: outcome.status === 'ok',
+        error: outcome.status === 'ok' ? null : 'One or more images could not be backed up',
+        extra: { backupResult: outcome.backupResult, assetErrors: outcome.assetErrors } });
+    }
   }
 }
 
@@ -769,6 +776,7 @@ async function fetchDocument(
 }
 
 async function persistDocument(document) {
+  if (document.docType === 'guide') return persistGuideBackup(document);
   const baseDir = path.join(DATA_DIR, 'documents', document.docType, document.postNo);
   const datedPath = path.join(baseDir, `${today}.json`);
   const latestPath = path.join(baseDir, 'latest.json');
@@ -958,12 +966,15 @@ export function detectImageFormat(buffer, contentType, url) {
   };
 }
 
-async function backupTestImages(html, postUrl, postNo, documentDir) {
+export async function backupImages(html, postUrl, postNo, documentDir, {
+  dataDir = DATA_DIR,
+  fetchImpl = fetch,
+} = {}) {
   const wrapped = cheerio.load(`<div id="__root__">${sanitizeBackupHtml(html)}</div>`, {
     decodeEntities: false,
   });
   const root = wrapped('#__root__');
-  const assetDir = path.join(TEST_DATA_DIR, 'assets', 'guide', postNo);
+  const assetDir = path.join(dataDir, 'assets', 'guide', postNo);
   const assets = [];
   const assetErrors = [];
   const downloadedByUrl = new Map();
@@ -986,7 +997,7 @@ async function backupTestImages(html, postUrl, postNo, documentDir) {
     try {
       let saved = downloadedByUrl.get(sourceUrl);
       if (!saved) {
-        const response = await fetch(sourceUrl, {
+        const response = await fetchImpl(sourceUrl, {
           headers: { ...DEFAULT_HEADERS, accept: 'image/avif,image/webp,image/png,image/*,*/*;q=0.8', referer: postUrl },
           redirect: 'follow',
         });
@@ -1012,7 +1023,7 @@ async function backupTestImages(html, postUrl, postNo, documentDir) {
         }
         saved = { hash: imageHash, fileName, sourceUrl, contentType: detected.contentType, detectedBy: detected.detectedBy };
         downloadedByUrl.set(sourceUrl, saved);
-        assets.push(saved);
+        if (!assets.some((asset) => asset.hash === saved.hash)) assets.push(saved);
       }
       const relativePath = path.relative(documentDir, path.join(assetDir, saved.fileName)).split(path.sep).join('/');
       image.attr('src', relativePath);
@@ -1029,7 +1040,7 @@ async function backupTestImages(html, postUrl, postNo, documentDir) {
   return { bodyHtml: root.html() || '', assets, assetErrors, imagesDownloaded };
 }
 
-function contentHashFor(document, orderedImageHashes) {
+export function contentHashFor(document, orderedImageHashes) {
   const normalizedTitle = toText(document.title);
   const hashHtml = cheerio.load(`<div id="__root__">${document.bodyHtml}</div>`, { decodeEntities: false });
   hashHtml('#__root__ img').each((index, element) => {
@@ -1046,11 +1057,52 @@ function escapeHtml(value) {
   })[character]);
 }
 
-function buildPreviewHtml(document) {
+export function buildPreviewHtml(document) {
   return `<!doctype html>
 <html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>${escapeHtml(document.title)}</title><style>body{font-family:system-ui,sans-serif;line-height:1.65;max-width:900px;margin:auto;padding:24px;color:#222}img{max-width:100%;height:auto}header{border-bottom:1px solid #ddd;margin-bottom:24px}a{overflow-wrap:anywhere}</style></head>
 <body><header><h1>${escapeHtml(document.title)}</h1><p>원본: <a href="${escapeHtml(document.url)}">${escapeHtml(document.url)}</a><br>백업 시각: <time>${escapeHtml(document.backupAt)}</time></p></header><main>${document.bodyHtml}</main></body></html>\n`;
+}
+
+
+function orderedHashesFor(record) {
+  const hashes = [];
+  const parsed = cheerio.load(`<div id="__root__">${record.bodyHtml || ''}</div>`);
+  parsed('#__root__ img').each((_, image) => {
+    const fileName = path.basename(parsed(image).attr('src') || '');
+    hashes.push(record.assets.find((item) => item.fileName === fileName)?.hash || 'unavailable');
+  });
+  return hashes;
+}
+
+// Shared by test and production. Partial downloads never publish an
+// incomplete latest/version/preview, though successful assets remain reusable.
+export async function persistGuideBackup(document, {
+  dataDir = DATA_DIR, fetchImpl = fetch, backupAt = new Date().toISOString(),
+} = {}) {
+  const documentDir = path.join(dataDir, 'documents', 'guide', String(document.postNo));
+  const latestPath = path.join(documentDir, 'latest.json');
+  const previous = await readJson(latestPath, null);
+  const imageResult = await backupImages(document.bodyHtml, document.finalUrl || document.url,
+    String(document.postNo), documentDir, { dataDir, fetchImpl });
+  if (imageResult.assetErrors.length) {
+    return { backupResult: null, status: 'asset_partial_failure', previous, ...imageResult };
+  }
+
+  const record = { ...document, bodyHtml: imageResult.bodyHtml, backupAt,
+    backupDate: backupAt.slice(0, 10), assets: imageResult.assets, assetErrors: [] };
+  delete record.finalUrl;
+  record.contentHash = contentHashFor(record, orderedHashesFor(record));
+  if (previous?.contentHash === record.contentHash) {
+    return { backupResult: 'unchanged', status: 'ok', record: previous, ...imageResult };
+  }
+
+  const backupResult = previous ? 'changed' : 'new';
+  const safeTimestamp = backupAt.replace(/\.\d{3}Z$/, 'Z').replaceAll(':', '-');
+  await writeJson(path.join(documentDir, 'versions', `${safeTimestamp}_${record.contentHash.slice(0, 12)}.json`), record);
+  await writeJson(latestPath, record);
+  await fs.writeFile(path.join(documentDir, 'preview.html'), buildPreviewHtml(record), 'utf8');
+  return { backupResult, status: 'ok', record, ...imageResult };
 }
 
 async function buildTestSearchIndex() {
@@ -1091,51 +1143,23 @@ async function runTestMode() {
       continue;
     }
 
-    const documentDir = path.join(TEST_DATA_DIR, 'documents', 'guide', postNo);
-    const imageResult = await backupTestImages(doc.bodyHtml, doc.finalUrl || url, postNo, documentDir);
-    summary.imagesDownloaded += imageResult.imagesDownloaded;
-    summary.imageFailures += imageResult.assetErrors.length;
     const backupAt = new Date().toISOString();
-    const record = {
+    const outcome = await persistGuideBackup({
       id: `guide-${postNo}`, docType: 'guide', title: doc.title, body: doc.body,
-      bodyHtml: imageResult.bodyHtml, snippet: makeSnippet(doc.body), url, postNo,
-      contentHash: '', backupAt, backupDate: backupAt.slice(0, 10),
-      assets: imageResult.assets, assetErrors: imageResult.assetErrors,
-    };
-    const orderedHashes = [];
-    const parsed = cheerio.load(`<div>${record.bodyHtml}</div>`);
-    parsed('img').each((_, image) => {
-      const fileName = path.basename(parsed(image).attr('src') || '');
-      const asset = record.assets.find((item) => item.fileName === fileName);
-      let unavailableSource = parsed(image).attr('src') || '';
-      try {
-        const stableUrl = new URL(unavailableSource);
-        stableUrl.search = '';
-        stableUrl.hash = '';
-        unavailableSource = stableUrl.toString();
-      } catch { /* keep malformed fallback source for change detection */ }
-      orderedHashes.push(asset?.hash || `unavailable:${unavailableSource}`);
-    });
-    record.contentHash = contentHashFor(record, orderedHashes);
-    const latestPath = path.join(documentDir, 'latest.json');
-    const previous = await readJson(latestPath, null);
-    let result;
-    if (previous?.contentHash === record.contentHash) {
-      result = 'unchanged'; summary.unchanged += 1;
-      console.log(`[UNCHANGED] #${postNo}`);
-    } else {
-      result = previous ? 'changed' : 'new'; summary[result] += 1;
-      console.log(`[${result.toUpperCase()}] #${postNo}`);
-      const safeTimestamp = backupAt.replace(/\.\d{3}Z$/, 'Z').replaceAll(':', '-');
-      await writeJson(path.join(documentDir, 'versions', `${safeTimestamp}_${record.contentHash.slice(0, 12)}.json`), record);
-      await writeJson(latestPath, record);
-      await fs.writeFile(path.join(documentDir, 'preview.html'), buildPreviewHtml(record), 'utf8');
-    }
+      bodyHtml: doc.bodyHtml, snippet: makeSnippet(doc.body), url, postNo,
+      finalUrl: doc.finalUrl,
+    }, { dataDir: TEST_DATA_DIR, backupAt });
+    summary.imagesDownloaded += outcome.imagesDownloaded;
+    summary.imageFailures += outcome.assetErrors.length;
+    if (outcome.status === 'ok') summary[outcome.backupResult] += 1;
+    else summary.failed += 1;
+    console.log(`[${(outcome.backupResult || outcome.status).toUpperCase()}] #${postNo}`);
     statusItems.push({
-      docType: 'guide', postNo, url,
-      status: imageResult.assetErrors.length ? 'asset_partial_failure' : result,
-      httpStatus: 200, error: null, assetErrors: imageResult.assetErrors,
-      contentHash: record.contentHash, lastAttemptAt: backupAt, lastSuccessAt: backupAt,
+      docType: 'guide', postNo, url, status: outcome.status,
+      backupResult: outcome.backupResult, httpStatus: 200,
+      error: outcome.assetErrors.length ? 'One or more images could not be backed up' : null,
+      assetErrors: outcome.assetErrors, contentHash: outcome.record?.contentHash || null,
+      lastAttemptAt: backupAt, lastSuccessAt: outcome.status === 'ok' ? backupAt : null,
     });
   }
 
@@ -1206,6 +1230,7 @@ async function main() {
 
   const discoveredGuideKeys = new Set();
   const scannedSourcePostNos = new Set();
+  const processedGuidePostNos = new Set();
   
   const sourcesData = await readJson(SOURCES_PATH, { sources: [] });
 
@@ -1258,6 +1283,8 @@ async function main() {
 
     for (const link of links) {
       discoveredGuideKeys.add(statusKey('guide', link.postNo, link.url));
+      if (processedGuidePostNos.has(String(link.postNo))) continue;
+      processedGuidePostNos.add(String(link.postNo));
     
       const guideDoc = await fetchDocument(
         link.url,
@@ -1281,7 +1308,15 @@ async function main() {
         parentSourcePostNo: sourceMeta.postNo,
       };
 
-      await persistDocument(guideRecord);
+      const outcome = await persistDocument({ ...guideRecord, finalUrl: guideDoc.finalUrl });
+      updateStatus({
+        docType: 'guide', url: link.url, postNo: link.postNo,
+        sourcePostNo: sourceMeta.postNo, contextText: link.contextText || null,
+        status: outcome.status, httpStatus: 200, success: outcome.status === 'ok',
+        error: outcome.status === 'ok' ? null : 'One or more images could not be backed up',
+        extra: { backupResult: outcome.backupResult, assetErrors: outcome.assetErrors,
+          contentHash: outcome.record?.contentHash || null },
+      });
     }
   }
 
