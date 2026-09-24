@@ -208,9 +208,24 @@ function renderResults(query) {
     const snippet = node.querySelector('.snippet');
     snippet.innerHTML = highlight(makeSnippet(getFullBody(doc), query), query);
 
-    const restoreButton = node.querySelector('.copy-restore');
-    if (doc.docType === 'guide') restoreButton.addEventListener('click', () => copyRestoreData(doc, restoreButton));
-    else restoreButton.remove();
+    const restoreButton =
+      node.querySelector('.copy-restore');
+    
+    if (
+      doc.docType === 'guide' &&
+      restoreUiEnabled
+    ) {
+      restoreButton.addEventListener(
+        'click',
+        () =>
+          copyRestoreData(
+            doc,
+            restoreButton
+          )
+      );
+    } else {
+      restoreButton.remove();
+    }
 
     els.results.append(node);
   }
