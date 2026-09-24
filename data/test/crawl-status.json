@@ -1,6 +1,23 @@
 {
-  "generatedAt": "2026-09-24T02:26:51.190Z",
+  "generatedAt": "2026-09-24T02:29:43.676Z",
   "items": [
+    {
+      "docType": "guide",
+      "postNo": "6212588",
+      "url": "https://gall.dcinside.com/mgallery/board/view?id=gov&no=6212588",
+      "status": "asset_partial_failure",
+      "httpStatus": 200,
+      "error": null,
+      "assetErrors": [
+        {
+          "url": "https://dcimg7.dcinside.co.kr/viewimage.php?id=2ab2c6&no=24b0d769e1d32ca73ce782fa1bd62531f4d0f133b6030c46b882e675dac4e05a66c8ebd448abe0cdb9ffec89b4ef427319b93ab7d064ef9a972302abce3e44bc",
+          "error": "Unsupported content type: application/octet-stream"
+        }
+      ],
+      "contentHash": "5d6ca14f1fe3c9b30d3c2b256ef1c9df118f444dc0b52a35674a675c71aba148",
+      "lastAttemptAt": "2026-09-24T02:29:40.971Z",
+      "lastSuccessAt": "2026-09-24T02:29:40.971Z"
+    },
     {
       "docType": "guide",
       "postNo": "6223711",
@@ -15,32 +32,15 @@
         }
       ],
       "contentHash": "4653c900d153d4f6f7a2b369c0db5be708268f7aa6f4d11cfb5bdb56a971002e",
-      "lastAttemptAt": "2026-09-24T02:26:47.221Z",
-      "lastSuccessAt": "2026-09-24T02:26:47.221Z"
-    },
-    {
-      "docType": "guide",
-      "postNo": "6212588",
-      "url": "https://gall.dcinside.com/mgallery/board/view?id=gov&no=6212588",
-      "status": "asset_partial_failure",
-      "httpStatus": 200,
-      "error": null,
-      "assetErrors": [
-        {
-          "url": "https://dcimg7.dcinside.co.kr/viewimage.php?id=2ab2c6&no=24b0d769e1d32ca73ce782fa1bd62531f4d0f133b6030c46b882e675dac4e05a66c8ebd448abe0cdb9ffec89b4ef427319b93ab7d064ef9a972302abce3e44bc",
-          "error": "Unsupported content type: application/octet-stream"
-        }
-      ],
-      "contentHash": "d70e7dc257374d170741ea1192616a7479aa333ab2a01d1eb965e5537458ba9a",
-      "lastAttemptAt": "2026-09-24T02:26:51.187Z",
-      "lastSuccessAt": "2026-09-24T02:26:51.187Z"
+      "lastAttemptAt": "2026-09-24T02:29:43.674Z",
+      "lastSuccessAt": "2026-09-24T02:29:43.674Z"
     }
   ],
   "summary": {
     "total": 2,
-    "new": 2,
-    "changed": 0,
-    "unchanged": 0,
+    "new": 0,
+    "changed": 1,
+    "unchanged": 1,
     "failed": 0,
     "imagesDownloaded": 0,
     "imageFailures": 2
