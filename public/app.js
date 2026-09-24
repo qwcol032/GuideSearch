@@ -28,15 +28,106 @@ function showRestoreMessage(message, isError = false) {
 
 async function copyRestoreData(doc, button) {
   button.disabled = true;
+
   try {
-    const latestUrl = new URL(dataPath(`documents/guide/${doc.postNo}/latest.json`), window.location.href);
-    const response = await fetch(latestUrl);
-    if (!response.ok) throw new Error(`latest.json 요청 실패 (HTTP ${response.status})`);
-    const payload = buildRestorePayload(await response.json(), latestUrl);
-    await navigator.clipboard.writeText(serializeRestorePayload(payload));
-    showRestoreMessage(`복원 데이터가 클립보드에 복사되었습니다. 이미지 ${Object.keys(payload.assets).length}개 / 이미지 위치 ${payload.imageOccurrences.length}개`);
+    const latestUrl = new URL(
+      dataPath(
+        `documents/guide/${doc.postNo}/latest.json`
+      ),
+      window.location.href
+    );
+
+    // latest.json은 같은 URL에서 내용이 변경되므로
+    // 브라우저/CDN의 이전 응답 사용을 방지한다.
+    latestUrl.searchParams.set(
+      '_restore',
+      Date.now().toString()
+    );
+
+    const response = await fetch(
+      latestUrl,
+      {
+        cache: 'no-store'
+      }
+    );
+
+    if (!response.ok) {
+      throw new Error(
+        `latest.json 요청 실패 (HTTP ${response.status})`
+      );
+    }
+
+    const documentData =
+      await response.json();
+
+    console.log(
+      '[GuideSearch] restore source:',
+      {
+        postNo:
+          documentData.postNo,
+
+        contentHash:
+          documentData.contentHash,
+
+        bodyImages:
+          (
+            documentData.bodyHtml
+              .match(/<img\b/gi) ||
+            []
+          ).length,
+
+        assets:
+          documentData.assets?.length ??
+          0,
+
+        backupAt:
+          documentData.backupAt
+      }
+    );
+
+    const payload =
+      buildRestorePayload(
+        documentData,
+        latestUrl
+      );
+
+    console.log(
+      '[GuideSearch] restore payload:',
+      {
+        assets:
+          Object.keys(
+            payload.assets
+          ).length,
+
+        occurrences:
+          payload.imageOccurrences
+            .length,
+
+        payload
+      }
+    );
+
+    await navigator.clipboard.writeText(
+      serializeRestorePayload(
+        payload
+      )
+    );
+
+    showRestoreMessage(
+      `복원 데이터가 클립보드에 복사되었습니다. ` +
+      `이미지 ${Object.keys(payload.assets).length}개 / ` +
+      `이미지 위치 ${payload.imageOccurrences.length}개`
+    );
   } catch (error) {
-    showRestoreMessage(`복원 데이터 복사 실패: ${error.message}`, true);
+    console.error(
+      '[GuideSearch] restore copy failed:',
+      error
+    );
+
+    showRestoreMessage(
+      `복원 데이터 복사 실패: ${error.message}`,
+      true
+    );
   } finally {
     button.disabled = false;
   }
