@@ -1,0 +1,20 @@
+{
+  "id": "guide-6212588",
+  "docType": "guide",
+  "title": "갤에서 주음",
+  "body": "이쁨",
+  "bodyHtml": "<p><img src=\"https://dcimg7.dcinside.co.kr/viewimage.php?id=2ab2c6&amp;no=24b0d769e1d32ca73ce782fa1bd62531f4d0f133b6030c46b882e675dac4e05a66c8ebd448abe0cdb9ffec89b4ef427319b93ab7d064ef9a972302abce3e44bc\" data-fileno=\"4762870\" alt=\"7cea8871b58768fe37ec98a518d604037943172e1f0b83ff9b6b\"></p><p><br></p><p>이쁨<br></p>",
+  "snippet": "이쁨",
+  "url": "https://gall.dcinside.com/mgallery/board/view?id=gov&no=6212588",
+  "postNo": "6212588",
+  "contentHash": "d70e7dc257374d170741ea1192616a7479aa333ab2a01d1eb965e5537458ba9a",
+  "backupAt": "2026-09-24T02:26:51.187Z",
+  "backupDate": "2026-09-24",
+  "assets": [],
+  "assetErrors": [
+    {
+      "url": "https://dcimg7.dcinside.co.kr/viewimage.php?id=2ab2c6&no=24b0d769e1d32ca73ce782fa1bd62531f4d0f133b6030c46b882e675dac4e05a66c8ebd448abe0cdb9ffec89b4ef427319b93ab7d064ef9a972302abce3e44bc",
+      "error": "Unsupported content type: application/octet-stream"
+    }
+  ]
+}
