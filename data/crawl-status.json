@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-24T08:50:59.087Z",
+  "generatedAt": "2026-09-24T09:25:17.597Z",
   "items": [
     {
       "docType": "guide",
@@ -9397,11 +9397,11 @@
       "docType": "guide",
       "url": "https://gall.dcinside.com/m/gov/1084820",
       "postNo": "1084820",
-      "lastSuccessAt": "2026-09-24T08:50:59.087Z",
-      "status": "asset_partial_failure",
+      "lastSuccessAt": "2026-09-24T09:25:17.597Z",
+      "status": "asset_unavailable",
       "httpStatus": 200,
       "error": "One or more images could not be backed up",
-      "lastAttemptAt": "2026-09-24T08:50:59.087Z",
+      "lastAttemptAt": "2026-09-24T09:25:17.597Z",
       "sourcePostNo": "5081794",
       "contextText": "(출처 : https://gall.dcinside.com/m/gov/1084820)",
       "originLabel": "fetch",
@@ -9409,11 +9409,17 @@
       "assetErrors": [
         {
           "url": "https://ac-p2.namu.la/20240107sac/cf1a8b34039cda344940dd22db06cba308bb9fe3925f8d687a00ed1dc19f5755.png?expires=1706881746&key=a35WdFgRzzCwwl5G27fajw",
-          "error": "HTTP 410"
+          "error": "HTTP 410",
+          "classification": "permanent",
+          "attempts": 1,
+          "httpStatus": 410
         },
         {
           "url": "https://ac-p2.namu.la/20230328sac/75cb8d7fbcef3d29d326ec5f3571deb33ff74955412d8b349fad627ad045323a.png?expires=1706881766&key=NuaEyJL6sTLkIt_oTxQ6hw",
-          "error": "HTTP 410"
+          "error": "HTTP 410",
+          "classification": "permanent",
+          "attempts": 1,
+          "httpStatus": 410
         }
       ],
       "contentHash": null
@@ -9965,11 +9971,11 @@
       "docType": "guide",
       "url": "https://gall.dcinside.com/mgallery/board/view?id=gov&no=1096873",
       "postNo": "1096873",
-      "lastSuccessAt": "2026-09-24T08:50:59.087Z",
-      "status": "asset_partial_failure",
+      "lastSuccessAt": "2026-09-24T09:25:17.597Z",
+      "status": "asset_unavailable",
       "httpStatus": 200,
       "error": "One or more images could not be backed up",
-      "lastAttemptAt": "2026-09-24T08:50:59.087Z",
+      "lastAttemptAt": "2026-09-24T09:25:17.597Z",
       "sourcePostNo": "5155871",
       "contextText": "🌑 [PC] 니케 클라이언트 실행오류 관련 해결법 모음",
       "originLabel": "fetch",
@@ -9978,6 +9984,8 @@
         {
           "url": "https://re-actor.net/wp-content/uploads/2022/07/PUBG-BATTLEGROUNDS.jpg",
           "error": "Unsupported image binary",
+          "classification": "permanent",
+          "attempts": 2,
           "contentType": "text/html; charset=UTF-8",
           "size": 113763
         }
@@ -11105,19 +11113,22 @@
       "docType": "guide",
       "url": "https://gall.dcinside.com/mgallery/board/view?id=gov&no=5070624",
       "postNo": "5070624",
-      "lastSuccessAt": "2026-09-24T08:50:59.087Z",
+      "lastSuccessAt": "2026-09-24T09:25:17.597Z",
       "sourcePostNo": "5066331",
       "contextText": "🌑 5. [기타] 지표로 보는 아레나, 신데렐라, 홍련 그리고 베스티",
       "originLabel": "fetch",
       "status": "asset_partial_failure",
       "httpStatus": 200,
       "error": "One or more images could not be backed up",
-      "lastAttemptAt": "2026-09-24T08:50:59.087Z",
+      "lastAttemptAt": "2026-09-24T09:25:17.597Z",
       "backupResult": null,
       "assetErrors": [
         {
           "url": "https://dcimg1.dcinside.com/viewimage.php?id=2ab2c6&no=29bcc427b69d39b37ab0ccaf17dd6b6f62b51891c5c5132c1e5fd0cd93bb37cdf4099fcc65d5b3788e2844ac5b135cea7d453ca52030adf810f992c6afd1b943e178e797f1202bcc28",
-          "error": "HTTP 504"
+          "error": "HTTP 504",
+          "classification": "transient",
+          "attempts": 4,
+          "httpStatus": 504
         }
       ],
       "contentHash": null
@@ -11796,7 +11807,7 @@
       "status": "deleted",
       "httpStatus": 404,
       "error": "HTTP 404",
-      "lastAttemptAt": "2026-09-24T08:50:59.087Z"
+      "lastAttemptAt": "2026-09-24T09:25:17.597Z"
     },
     {
       "docType": "guide",
@@ -12955,19 +12966,22 @@
       "docType": "guide",
       "url": "https://gall.dcinside.com/mgallery/board/view/?id=gov&no=2427435",
       "postNo": "2427435",
-      "lastSuccessAt": "2026-09-24T08:50:59.087Z",
+      "lastSuccessAt": "2026-09-24T09:25:17.597Z",
       "sourcePostNo": "1990236",
       "contextText": "파딱걸고 막고라NCK 합니다. 오늘 오후9시",
       "originLabel": "fetch",
-      "status": "asset_partial_failure",
+      "status": "asset_unavailable",
       "httpStatus": 200,
       "error": "One or more images could not be backed up",
-      "lastAttemptAt": "2026-09-24T08:50:59.087Z",
+      "lastAttemptAt": "2026-09-24T09:25:17.597Z",
       "backupResult": null,
       "assetErrors": [
         {
           "url": "https://cdn.discordapp.com/attachments/1319612816864313387/1319618859031859351/image.png?ex=67669e55&is=67654cd5&hm=fa68805bacd1f584748b2161ff06d02fe84ec2f5d01e44c126dc54a0ef4f340a&",
-          "error": "HTTP 404"
+          "error": "HTTP 404",
+          "classification": "permanent",
+          "attempts": 1,
+          "httpStatus": 404
         }
       ],
       "contentHash": null
@@ -13777,7 +13791,7 @@
       "status": "deleted",
       "httpStatus": 404,
       "error": "HTTP 404",
-      "lastAttemptAt": "2026-09-24T08:50:59.087Z",
+      "lastAttemptAt": "2026-09-24T09:25:17.597Z",
       "contextText": "ㅂㄱㅊㅈㅇㅁㅁㅈ",
       "originLabel": "fetch"
     },
@@ -13835,7 +13849,7 @@
       "status": "deleted",
       "httpStatus": 404,
       "error": "HTTP 404",
-      "lastAttemptAt": "2026-09-24T08:50:59.087Z",
+      "lastAttemptAt": "2026-09-24T09:25:17.597Z",
       "contextText": "ㅇㅈㅎㅊㅂ",
       "originLabel": "fetch"
     },
@@ -13848,7 +13862,7 @@
       "status": "deleted",
       "httpStatus": 404,
       "error": "HTTP 404",
-      "lastAttemptAt": "2026-09-24T08:50:59.087Z",
+      "lastAttemptAt": "2026-09-24T09:25:17.597Z",
       "contextText": "파딱 내부 가이드라인",
       "originLabel": "fetch"
     },
@@ -14212,19 +14226,22 @@
       "docType": "guide",
       "url": "https://gall.dcinside.com/mgallery/board/view/?id=gov&no=5079488",
       "postNo": "5079488",
-      "lastSuccessAt": "2026-09-24T08:50:59.087Z",
+      "lastSuccessAt": "2026-09-24T09:25:17.597Z",
       "sourcePostNo": "5191307",
       "contextText": "🌑 [과금] 3주년 유입이 말아주는 뉴비용 과금 가이드",
       "originLabel": "fetch",
-      "status": "asset_partial_failure",
+      "status": "asset_unavailable",
       "httpStatus": 200,
       "error": "One or more images could not be backed up",
-      "lastAttemptAt": "2026-09-24T08:50:59.087Z",
+      "lastAttemptAt": "2026-09-24T09:25:17.597Z",
       "backupResult": null,
       "assetErrors": [
         {
           "url": "https://lh7-us.googleusercontent.com/docs/AHkbwyK3Z7vu3C5j7VlZ4KUwoOb0qlXNdYLmYdGtoG-9iUiOv4XAYTVtKMO9gPqZP3wt5IEBykEVPq3aQWhohci9j9xWIGsVg5VzloDDx2NBPjHtntlCqBY=w1200-h630-p",
-          "error": "HTTP 403"
+          "error": "HTTP 403",
+          "classification": "permanent",
+          "attempts": 2,
+          "httpStatus": 403
         }
       ],
       "contentHash": null
@@ -14390,27 +14407,22 @@
       "docType": "guide",
       "url": "https://gall.dcinside.com/mgallery/board/view/?id=gov&no=5131545",
       "postNo": "5131545",
-      "lastSuccessAt": "2026-09-24T08:50:59.087Z",
+      "lastSuccessAt": "2026-09-24T09:25:17.597Z",
       "sourcePostNo": "5056767",
       "contextText": "▶ (전투력 1131k) HARD \"크목설헬메\"(26.04.12)",
       "originLabel": "fetch",
       "status": "asset_partial_failure",
       "httpStatus": 200,
       "error": "One or more images could not be backed up",
-      "lastAttemptAt": "2026-09-24T08:50:59.087Z",
+      "lastAttemptAt": "2026-09-24T09:25:17.597Z",
       "backupResult": null,
       "assetErrors": [
         {
           "url": "https://dcimg1.dcinside.com/viewimage.php?no=29bcc427b69d39b37ab0ccaf17dd6b6f62b51891c5c5132c135fd0ce92b335cc9199c2356a1992b5978801eb89135055fd8a5e",
-          "error": "HTTP 504"
-        },
-        {
-          "url": "https://dcimg1.dcinside.com/viewimage.php?id=2ab2c6&no=24b0d769e1d32ca73ce787fa1bd625314b5d207020df860bbe98c96cc2c072c87ac19e9b20c1e5f9e9c17b94fee37253bfdcf9b75d4bef98b1a658464a2395e8",
-          "error": "HTTP 504"
-        },
-        {
-          "url": "https://dcimg1.dcinside.com/viewimage.php?id=2ab2c6&no=24b0d769e1d32ca73ce787fa1bd625314b5d207020df860bbe98c96cc2c072c87ac19e9b20c1e5f9e9c57795f0e4715329994db177ee300c8b325a212c4a25c4",
-          "error": "HTTP 504"
+          "error": "HTTP 504",
+          "classification": "transient",
+          "attempts": 4,
+          "httpStatus": 504
         }
       ],
       "contentHash": null
@@ -14576,21 +14588,16 @@
       "docType": "guide",
       "url": "https://gall.dcinside.com/mgallery/board/view/?id=gov&no=5170856",
       "postNo": "5170856",
-      "lastSuccessAt": "2026-09-24T08:50:59.087Z",
+      "lastSuccessAt": "2026-09-24T09:25:17.597Z",
       "sourcePostNo": "5056767",
       "contextText": "▷ HARD(전투력 626K) \"크신목아설\"(26.04.18)",
       "originLabel": "fetch",
-      "status": "asset_partial_failure",
+      "status": "ok",
       "httpStatus": 200,
-      "error": "One or more images could not be backed up",
-      "lastAttemptAt": "2026-09-24T08:50:59.087Z",
-      "backupResult": null,
-      "assetErrors": [
-        {
-          "url": "https://dcimg1.dcinside.com/viewimage.php?no=29bcc427b69d39b37ab0ccaf17dd6b6f62b51b91c4c6132c1a5fdbc89dbf30c5f18fc03aec8962bd46c5d4c787312aef420f67ce8428d1abd141d0729e5126a6caf9b576ae29eb41df89dcbf2279c2c0ff",
-          "error": "HTTP 504"
-        }
-      ],
+      "error": null,
+      "lastAttemptAt": "2026-09-24T09:25:17.597Z",
+      "backupResult": "changed",
+      "assetErrors": [],
       "contentHash": null
     },
     {
@@ -14821,21 +14828,16 @@
       "docType": "guide",
       "url": "https://gall.dcinside.com/mgallery/board/view/?id=gov&no=5195586",
       "postNo": "5195586",
-      "lastSuccessAt": "2026-09-24T08:50:59.087Z",
+      "lastSuccessAt": "2026-09-24T09:25:17.597Z",
       "sourcePostNo": "5066331",
       "contextText": "🌑 5. [입문용] 한눈에 보는 실전압축 스레나 니케 가이드 (26.04.20.)",
       "originLabel": "fetch",
-      "status": "asset_partial_failure",
+      "status": "ok",
       "httpStatus": 200,
-      "error": "One or more images could not be backed up",
-      "lastAttemptAt": "2026-09-24T08:50:59.087Z",
-      "backupResult": null,
-      "assetErrors": [
-        {
-          "url": "https://dcimg1.dcinside.com/viewimage.php?no=29bcc427b69d39b37ab0ccaf17dd6b6f62b51891c5c2132f1a5fd5c897b234c15dad15a885cc62a1d5284a007df9aa2e660f2bd47cc34195695f08f98a51656c70588ea221db166584bd478986f2bd365e",
-          "error": "HTTP 504"
-        }
-      ],
+      "error": null,
+      "lastAttemptAt": "2026-09-24T09:25:17.597Z",
+      "backupResult": "changed",
+      "assetErrors": [],
       "contentHash": null
     },
     {
@@ -16079,21 +16081,16 @@
       "docType": "guide",
       "url": "https://gall.dcinside.com/mgallery/board/view/?id=gov&no=5354076",
       "postNo": "5354076",
-      "lastSuccessAt": "2026-09-24T08:50:59.087Z",
+      "lastSuccessAt": "2026-09-24T09:25:17.597Z",
       "sourcePostNo": "5056767",
       "contextText": "▶ (전투력 1200k) HARD 38-32 \"아크흑웡메\"(26.05.08.)",
       "originLabel": "fetch",
-      "status": "asset_partial_failure",
+      "status": "ok",
       "httpStatus": 200,
-      "error": "One or more images could not be backed up",
-      "lastAttemptAt": "2026-09-24T08:50:59.087Z",
-      "backupResult": null,
-      "assetErrors": [
-        {
-          "url": "https://dcimg1.dcinside.com/viewimage.php?no=29bcc427b69d39b37ab0ccaf17dd6b6f62b51891c5c5132c135fd0ce92b335cc9199c2356a1992b5978801eb89135055fd8a5e",
-          "error": "terminated"
-        }
-      ],
+      "error": null,
+      "lastAttemptAt": "2026-09-24T09:25:17.597Z",
+      "backupResult": "changed",
+      "assetErrors": [],
       "contentHash": null
     },
     {
@@ -16626,19 +16623,21 @@
       "docType": "guide",
       "url": "https://gall.dcinside.com/mgallery/board/view/?id=gov&no=5471697",
       "postNo": "5471697",
-      "lastSuccessAt": "2026-09-24T08:50:59.087Z",
+      "lastSuccessAt": "2026-09-24T09:25:17.597Z",
       "sourcePostNo": "5066331",
       "contextText": "🌑 7. [입문용] 스페셜 아레나 - 공격편",
       "originLabel": "fetch",
-      "status": "asset_partial_failure",
+      "status": "asset_unavailable",
       "httpStatus": 200,
       "error": "One or more images could not be backed up",
-      "lastAttemptAt": "2026-09-24T08:50:59.087Z",
+      "lastAttemptAt": "2026-09-24T09:25:17.597Z",
       "backupResult": null,
       "assetErrors": [
         {
           "url": "https://nikke-deck.com/assets/images/og-default.png",
           "error": "Unsupported image binary",
+          "classification": "permanent",
+          "attempts": 2,
           "contentType": "text/html; charset=utf-8",
           "size": 125207
         }
@@ -18253,7 +18252,7 @@
       "status": "deleted",
       "httpStatus": 404,
       "error": "HTTP 404",
-      "lastAttemptAt": "2026-09-24T08:50:59.087Z"
+      "lastAttemptAt": "2026-09-24T09:25:17.597Z"
     },
     {
       "docType": "guide",
