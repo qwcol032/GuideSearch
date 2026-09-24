@@ -1,48 +1,38 @@
 {
-  "generatedAt": "2026-09-24T02:29:43.676Z",
+  "generatedAt": "2026-09-24T02:40:52.221Z",
   "items": [
     {
       "docType": "guide",
       "postNo": "6212588",
       "url": "https://gall.dcinside.com/mgallery/board/view?id=gov&no=6212588",
-      "status": "asset_partial_failure",
+      "status": "changed",
       "httpStatus": 200,
       "error": null,
-      "assetErrors": [
-        {
-          "url": "https://dcimg7.dcinside.co.kr/viewimage.php?id=2ab2c6&no=24b0d769e1d32ca73ce782fa1bd62531f4d0f133b6030c46b882e675dac4e05a66c8ebd448abe0cdb9ffec89b4ef427319b93ab7d064ef9a972302abce3e44bc",
-          "error": "Unsupported content type: application/octet-stream"
-        }
-      ],
-      "contentHash": "5d6ca14f1fe3c9b30d3c2b256ef1c9df118f444dc0b52a35674a675c71aba148",
-      "lastAttemptAt": "2026-09-24T02:29:40.971Z",
-      "lastSuccessAt": "2026-09-24T02:29:40.971Z"
+      "assetErrors": [],
+      "contentHash": "de7416a785f37f4889c30592be4cccba073c9deb3c32f811dc70d59875bc1ae7",
+      "lastAttemptAt": "2026-09-24T02:40:49.342Z",
+      "lastSuccessAt": "2026-09-24T02:40:49.342Z"
     },
     {
       "docType": "guide",
       "postNo": "6223711",
       "url": "https://gall.dcinside.com/mgallery/board/view?id=gov&no=6223711",
-      "status": "asset_partial_failure",
+      "status": "changed",
       "httpStatus": 200,
       "error": null,
-      "assetErrors": [
-        {
-          "url": "https://dcimg7.dcinside.co.kr/viewimage.php?id=2ab2c6&no=24b0d769e1d32ca73ce782fa1bd62531f4d0f133b6030c46b882e675dac4e55a2b303ee2c349d76d5edac8e4d9cf0dfc2f4a91a21666dc0f223ea7b1fee5f6",
-          "error": "Unsupported content type: application/octet-stream"
-        }
-      ],
-      "contentHash": "4653c900d153d4f6f7a2b369c0db5be708268f7aa6f4d11cfb5bdb56a971002e",
-      "lastAttemptAt": "2026-09-24T02:29:43.674Z",
-      "lastSuccessAt": "2026-09-24T02:29:43.674Z"
+      "assetErrors": [],
+      "contentHash": "4c3a048f2b66ca6451c3dad7abfff4fe1a92b4562f8c556977431d2de1840ef3",
+      "lastAttemptAt": "2026-09-24T02:40:52.218Z",
+      "lastSuccessAt": "2026-09-24T02:40:52.218Z"
     }
   ],
   "summary": {
     "total": 2,
     "new": 0,
-    "changed": 1,
-    "unchanged": 1,
+    "changed": 2,
+    "unchanged": 0,
     "failed": 0,
-    "imagesDownloaded": 0,
-    "imageFailures": 2
+    "imagesDownloaded": 2,
+    "imageFailures": 0
   }
 }
