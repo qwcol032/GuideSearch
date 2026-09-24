@@ -14,7 +14,13 @@ const els = {
 
 let indexData = { documents: [] };
 let statusData = { items: [] };
-const testDataMode = new URL(window.location.href).searchParams.get('data') === 'test';
+const currentUrl = new URL(window.location.href);
+
+const testDataMode =
+  currentUrl.searchParams.get('data') === 'test';
+
+const restoreUiEnabled =
+  currentUrl.searchParams.get('restore') === '1';
 
 function dataPath(pathname) {
   return `./data/${testDataMode ? 'test/' : ''}${pathname}`;
