@@ -23,6 +23,7 @@
       <section>
         <h2>Results</h2>
         <p id="result-meta" class="muted"></p>
+        <p id="restore-message" class="notice hidden" role="status" aria-live="polite"></p>
         <p id="empty-message" class="muted hidden">No matching documents found.</p>
         <ul id="results" class="results"></ul>
       </section>
@@ -45,6 +46,9 @@
         </div>
         <p class="meta"></p>
         <p class="snippet"></p>
+        <div class="result-actions">
+          <button class="copy-restore" type="button">복원 데이터 복사</button>
+        </div>
       </li>
     </template>
 

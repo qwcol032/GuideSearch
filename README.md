@@ -177,6 +177,34 @@ Open:
 
 - `http://localhost:4173/public/` (frontend)
 - `http://localhost:4173/data/` (backup data JSON)
+- `http://localhost:4173/public/?data=test&q=검색어` (isolated Test Mode data)
+
+## Manual DCInside restore (test feature)
+
+Each guide search result has a **복원 데이터 복사** button. It loads that
+guide's `latest.json`, replaces every image in `bodyHtml` with a stable
+occurrence placeholder, and copies a versioned payload. The payload contains
+asset URLs only; it never embeds image binaries. If an image filename cannot be
+matched to `assets`, copying stops instead of guessing.
+
+To use the payload:
+
+1. Install Tampermonkey and add `tools/guidesearch-restore.user.js` as a new
+   userscript.
+2. Open a supported DCInside gallery, mgallery, or mini-gallery write page.
+3. Click **GuideSearch 백업 복원**, then read from the clipboard or paste the
+   payload into the fallback text area.
+4. Review the restored title, text, line breaks, links, and images.
+5. Use DCInside's normal submit control yourself. The userscript never submits
+   or clicks the registration button.
+
+The userscript downloads each unique backed-up asset once and feeds it to the
+page's existing image file input with `DataTransfer` and a `change` event. It
+does not call a guessed upload endpoint. Uploads run sequentially, and the
+resulting DCInside image markup replaces the matching occurrence placeholder.
+Repeated occurrences reuse a clone of the first uploaded image markup. A failed
+image becomes a visible inline failure marker without discarding the rest of
+the restored body.
 
 ## GitHub Actions weekly backup
 
