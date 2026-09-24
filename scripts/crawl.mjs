@@ -1,5 +1,6 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
+import crypto from 'node:crypto';
 import { fileURLToPath } from 'node:url';
 import * as cheerio from 'cheerio';
 
@@ -10,12 +11,14 @@ const DATA_DIR = path.join(ROOT, 'data');
 const SOURCES_PATH = path.join(DATA_DIR, 'sources.json');
 const SEARCH_INDEX_PATH = path.join(DATA_DIR, 'search-index.json');
 const CRAWL_STATUS_PATH = path.join(DATA_DIR, 'crawl-status.json');
+const TEST_DATA_DIR = path.join(DATA_DIR, 'test');
 
 const today = new Date().toISOString().slice(0, 10);
 const nowIso = new Date().toISOString();
 const RETRY_FAILED_ONLY = process.env.RETRY_FAILED_ONLY === 'true';
 const HIDDEN_SOURCE_POST_NO = '3538743';
 const SUPPORTED_GALLERY_ID = 'gov';
+const TEST_MODE = process.env.TEST_MODE === 'true' || process.argv.includes('--test');
 
 const DEFAULT_HEADERS = {
   'user-agent':
@@ -335,6 +338,40 @@ function normalizeBodyHtml($, html) {
 
     if (cls) img.attr('class', cls);
     else img.removeAttr('class');
+  });
+
+  return root.html() || '';
+}
+
+function sha256(value) {
+  return crypto.createHash('sha256').update(value).digest('hex');
+}
+
+function sanitizeBackupHtml(html) {
+  const wrapped = cheerio.load(`<div id="__root__">${html || ''}</div>`, {
+    decodeEntities: false,
+  });
+  const root = wrapped('#__root__');
+
+  root.find('script, style, noscript, iframe, object, embed, video, audio, base, meta, link, form').remove();
+  root.find('*').each((_, element) => {
+    const node = wrapped(element);
+    for (const attribute of Object.keys(element.attribs || {})) {
+      if (/^on/i.test(attribute) || ['fetchpriority', 'srcset', 'style'].includes(attribute.toLowerCase())) {
+        node.removeAttr(attribute);
+      }
+    }
+    const href = node.attr('href');
+    if (href && /^\s*(?:javascript|data|vbscript):/i.test(href)) node.removeAttr('href');
+  });
+  root.find('img').each((_, element) => {
+    const image = wrapped(element);
+    const actualSource = image.attr('data-original') || image.attr('src');
+    if (actualSource) image.attr('src', actualSource);
+    for (const attribute of Object.keys(element.attribs || {})) {
+      if (/^data-(original|src|lazy)/i.test(attribute)) image.removeAttr(attribute);
+    }
+    image.removeAttr('loading');
   });
 
   return root.html() || '';
@@ -844,7 +881,213 @@ async function buildSearchIndex() {
   });
 }
 
+function testPostNumbers() {
+  const cliValue = process.argv.find((arg) => arg.startsWith('--posts='))?.slice(8);
+  const values = (cliValue || process.env.TEST_POST_NOS || '').split(',').map((item) => item.trim()).filter(Boolean);
+  const invalid = values.filter((item) => !/^\d+$/.test(item));
+  if (invalid.length) throw new Error(`Invalid test post number(s): ${invalid.join(', ')}`);
+  return [...new Set(values)];
+}
+
+function extensionForImage(contentType, url) {
+  const mime = (contentType || '').split(';', 1)[0].trim().toLowerCase();
+  const byMime = new Map([
+    ['image/jpeg', 'jpg'],
+    ['image/png', 'png'],
+    ['image/gif', 'gif'],
+    ['image/webp', 'webp'],
+  ]);
+  if (byMime.has(mime)) return byMime.get(mime);
+  if (mime && mime !== 'application/octet-stream') return null;
+  try {
+    const match = new URL(url).pathname.match(/\.((?:jpe?g|png|gif|webp))$/i);
+    return match ? (match[1].toLowerCase() === 'jpeg' ? 'jpg' : match[1].toLowerCase()) : null;
+  } catch {
+    return null;
+  }
+}
+
+async function backupTestImages(html, postUrl, postNo, documentDir) {
+  const wrapped = cheerio.load(`<div id="__root__">${sanitizeBackupHtml(html)}</div>`, {
+    decodeEntities: false,
+  });
+  const root = wrapped('#__root__');
+  const assetDir = path.join(TEST_DATA_DIR, 'assets', 'guide', postNo);
+  const assets = [];
+  const assetErrors = [];
+  const downloadedByUrl = new Map();
+  let imagesDownloaded = 0;
+
+  for (const element of root.find('img').toArray()) {
+    const image = wrapped(element);
+    const rawSource = image.attr('src');
+    if (!rawSource) continue;
+    let sourceUrl;
+    try {
+      sourceUrl = new URL(rawSource, postUrl).toString();
+      if (!/^https?:$/.test(new URL(sourceUrl).protocol)) throw new Error('Unsupported image URL protocol');
+    } catch {
+      assetErrors.push({ url: rawSource, error: 'Invalid image URL' });
+      image.removeAttr('src');
+      continue;
+    }
+
+    try {
+      let saved = downloadedByUrl.get(sourceUrl);
+      if (!saved) {
+        const response = await fetch(sourceUrl, {
+          headers: { ...DEFAULT_HEADERS, accept: 'image/avif,image/webp,image/png,image/*,*/*;q=0.8', referer: postUrl },
+          redirect: 'follow',
+        });
+        if (!response.ok) throw new Error(`HTTP ${response.status}`);
+        const extension = extensionForImage(response.headers.get('content-type'), response.url || sourceUrl);
+        if (!extension) throw new Error(`Unsupported content type: ${response.headers.get('content-type') || 'unknown'}`);
+        const binary = Buffer.from(await response.arrayBuffer());
+        const imageHash = sha256(binary);
+        const fileName = `${imageHash}.${extension}`;
+        const filePath = path.join(assetDir, fileName);
+        await fs.mkdir(assetDir, { recursive: true });
+        try {
+          await fs.access(filePath);
+        } catch {
+          await fs.writeFile(filePath, binary);
+          imagesDownloaded += 1;
+        }
+        saved = { hash: imageHash, fileName, sourceUrl, contentType: `image/${extension === 'jpg' ? 'jpeg' : extension}` };
+        downloadedByUrl.set(sourceUrl, saved);
+        assets.push(saved);
+      }
+      const relativePath = path.relative(documentDir, path.join(assetDir, saved.fileName)).split(path.sep).join('/');
+      image.attr('src', relativePath);
+    } catch (error) {
+      image.attr('src', sourceUrl);
+      assetErrors.push({ url: sourceUrl, error: error instanceof Error ? error.message : String(error) });
+    }
+  }
+
+  return { bodyHtml: root.html() || '', assets, assetErrors, imagesDownloaded };
+}
+
+function contentHashFor(document, orderedImageHashes) {
+  const normalizedTitle = toText(document.title);
+  const hashHtml = cheerio.load(`<div id="__root__">${document.bodyHtml}</div>`, { decodeEntities: false });
+  hashHtml('#__root__ img').each((index, element) => {
+    const hash = orderedImageHashes[index];
+    if (hash) hashHtml(element).attr('src', `asset:${hash}`);
+  });
+  const normalizedHtml = (hashHtml('#__root__').html() || '').replace(/>\s+</g, '><').trim();
+  return sha256(JSON.stringify([normalizedTitle, normalizedHtml, orderedImageHashes]));
+}
+
+function escapeHtml(value) {
+  return String(value || '').replace(/[&<>"']/g, (character) => ({
+    '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;',
+  })[character]);
+}
+
+function buildPreviewHtml(document) {
+  return `<!doctype html>
+<html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>${escapeHtml(document.title)}</title><style>body{font-family:system-ui,sans-serif;line-height:1.65;max-width:900px;margin:auto;padding:24px;color:#222}img{max-width:100%;height:auto}header{border-bottom:1px solid #ddd;margin-bottom:24px}a{overflow-wrap:anywhere}</style></head>
+<body><header><h1>${escapeHtml(document.title)}</h1><p>원본: <a href="${escapeHtml(document.url)}">${escapeHtml(document.url)}</a><br>백업 시각: <time>${escapeHtml(document.backupAt)}</time></p></header><main>${document.bodyHtml}</main></body></html>\n`;
+}
+
+async function buildTestSearchIndex() {
+  const guideDir = path.join(TEST_DATA_DIR, 'documents', 'guide');
+  let entries = [];
+  try { entries = await fs.readdir(guideDir, { withFileTypes: true }); } catch { /* first run */ }
+  const documents = [];
+  for (const entry of entries) {
+    if (!entry.isDirectory()) continue;
+    const doc = await readJson(path.join(guideDir, entry.name, 'latest.json'), null);
+    if (!doc) continue;
+    documents.push({
+      id: doc.id, docType: doc.docType, title: doc.title, body: doc.body,
+      searchBody: toText(doc.body), snippet: makeSnippet(doc.body), url: doc.url,
+      postNo: doc.postNo, backupDate: doc.backupAt.slice(0, 10), status: 'ok', parentSourceId: null,
+    });
+  }
+  documents.sort((a, b) => Number(a.postNo) - Number(b.postNo));
+  await writeJson(path.join(TEST_DATA_DIR, 'search-index.json'), { generatedAt: new Date().toISOString(), documents });
+}
+
+async function runTestMode() {
+  const postNos = testPostNumbers();
+  if (!postNos.length) throw new Error('Test mode requires TEST_POST_NOS or --posts=NUMBER,NUMBER');
+  const galleryId = toText(process.env.TEST_GALLERY_ID) || SUPPORTED_GALLERY_ID;
+  if (!/^[a-zA-Z0-9_-]+$/.test(galleryId)) throw new Error('Invalid TEST_GALLERY_ID');
+  const summary = { total: postNos.length, new: 0, changed: 0, unchanged: 0, failed: 0, imagesDownloaded: 0, imageFailures: 0 };
+  const statusItems = [];
+
+  for (const postNo of postNos) {
+    const url = `https://gall.dcinside.com/mgallery/board/view?id=${encodeURIComponent(galleryId)}&no=${postNo}`;
+    const doc = await fetchDocument(url, 'guide', postNo);
+    if (!doc) {
+      const failure = statusMap.get(statusKey('guide', postNo, url));
+      statusItems.push(failure || { docType: 'guide', postNo, url, status: 'network_error', error: 'Unknown fetch error', lastAttemptAt: new Date().toISOString() });
+      summary.failed += 1;
+      console.log(`[FAILED] #${postNo}`);
+      continue;
+    }
+
+    const documentDir = path.join(TEST_DATA_DIR, 'documents', 'guide', postNo);
+    const imageResult = await backupTestImages(doc.bodyHtml, doc.finalUrl || url, postNo, documentDir);
+    summary.imagesDownloaded += imageResult.imagesDownloaded;
+    summary.imageFailures += imageResult.assetErrors.length;
+    const backupAt = new Date().toISOString();
+    const record = {
+      id: `guide-${postNo}`, docType: 'guide', title: doc.title, body: doc.body,
+      bodyHtml: imageResult.bodyHtml, snippet: makeSnippet(doc.body), url, postNo,
+      contentHash: '', backupAt, backupDate: backupAt.slice(0, 10),
+      assets: imageResult.assets, assetErrors: imageResult.assetErrors,
+    };
+    const orderedHashes = [];
+    const parsed = cheerio.load(`<div>${record.bodyHtml}</div>`);
+    parsed('img').each((_, image) => {
+      const fileName = path.basename(parsed(image).attr('src') || '');
+      const asset = record.assets.find((item) => item.fileName === fileName);
+      let unavailableSource = parsed(image).attr('src') || '';
+      try {
+        const stableUrl = new URL(unavailableSource);
+        stableUrl.search = '';
+        stableUrl.hash = '';
+        unavailableSource = stableUrl.toString();
+      } catch { /* keep malformed fallback source for change detection */ }
+      orderedHashes.push(asset?.hash || `unavailable:${unavailableSource}`);
+    });
+    record.contentHash = contentHashFor(record, orderedHashes);
+    const latestPath = path.join(documentDir, 'latest.json');
+    const previous = await readJson(latestPath, null);
+    let result;
+    if (previous?.contentHash === record.contentHash) {
+      result = 'unchanged'; summary.unchanged += 1;
+      console.log(`[UNCHANGED] #${postNo}`);
+    } else {
+      result = previous ? 'changed' : 'new'; summary[result] += 1;
+      console.log(`[${result.toUpperCase()}] #${postNo}`);
+      const safeTimestamp = backupAt.replace(/\.\d{3}Z$/, 'Z').replaceAll(':', '-');
+      await writeJson(path.join(documentDir, 'versions', `${safeTimestamp}_${record.contentHash.slice(0, 12)}.json`), record);
+      await writeJson(latestPath, record);
+      await fs.writeFile(path.join(documentDir, 'preview.html'), buildPreviewHtml(record), 'utf8');
+    }
+    statusItems.push({
+      docType: 'guide', postNo, url,
+      status: imageResult.assetErrors.length ? 'asset_partial_failure' : result,
+      httpStatus: 200, error: null, assetErrors: imageResult.assetErrors,
+      contentHash: record.contentHash, lastAttemptAt: backupAt, lastSuccessAt: backupAt,
+    });
+  }
+
+  await buildTestSearchIndex();
+  await writeJson(path.join(TEST_DATA_DIR, 'crawl-status.json'), { generatedAt: new Date().toISOString(), items: statusItems, summary });
+  console.log(`\nTest backup complete.\n\nTotal: ${summary.total}\nNew: ${summary.new}\nChanged: ${summary.changed}\nUnchanged: ${summary.unchanged}\nFailed: ${summary.failed}\nImages downloaded: ${summary.imagesDownloaded}\nImage failures: ${summary.imageFailures}`);
+}
+
 async function main() {
+  if (TEST_MODE) {
+    await runTestMode();
+    return;
+  }
   const existingStatus = await readJson(CRAWL_STATUS_PATH, {
     generatedAt: null,
     items: [],
