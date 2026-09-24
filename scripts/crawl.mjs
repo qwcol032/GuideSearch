@@ -602,12 +602,13 @@ function pruneUnsupportedStatusItems() {
   return removedCount;
 }
 
-function isRetryableStatusItem(item) {
+export function isRetryableStatusItem(item) {
   if (!item) return false;
   if (item.docType !== 'guide' && item.docType !== 'source') return false;
   if (!item.url || !item.postNo) return false;
   if (item.status === 'ok') return false;
   if (item.status === 'ignored_unsupported_url') return false;
+  if (item.status === 'asset_unavailable') return false;
 
   if (item.docType === 'guide') {
     const meta = parseDocMeta(item.url);
@@ -966,9 +967,138 @@ export function detectImageFormat(buffer, contentType, url) {
   };
 }
 
+const RETRYABLE_IMAGE_STATUSES = new Set([408, 425, 429, 500, 502, 503, 504]);
+const PERMANENT_IMAGE_STATUSES = new Set([404, 410]);
+const IMAGE_MAX_ATTEMPTS = 4;
+const IMAGE_RETRY_WAIT_CAP_MS = 30_000;
+
+function isDcinsideImageHost(url) {
+  try {
+    return /^dcimg[^.]*\.dcinside\.(?:com|co\.kr)$/i.test(new URL(url).hostname);
+  } catch {
+    return false;
+  }
+}
+
+function errorText(error) {
+  const parts = [];
+  const seen = new Set();
+  for (let current = error; current && !seen.has(current); current = current.cause) {
+    seen.add(current);
+    for (const value of [current.message, current.code, current.name]) {
+      if (value) parts.push(String(value));
+    }
+  }
+  return parts.join(' ');
+}
+
+function isTransientNetworkError(error) {
+  return /terminated|fetch failed|econnreset|etimedout|eai_again|socket|network|connection reset|timed?\s*out/i.test(errorText(error));
+}
+
+function retryAfterMs(response, now = Date.now()) {
+  const value = response?.headers?.get?.('retry-after');
+  if (!value) return null;
+  const seconds = Number(value);
+  const parsed = Number.isFinite(seconds) ? seconds * 1000 : Date.parse(value) - now;
+  return Number.isFinite(parsed) && parsed >= 0 ? Math.min(parsed, IMAGE_RETRY_WAIT_CAP_MS) : null;
+}
+
+function imageRetryWaitMs(failedAttempt, response, random = Math.random) {
+  return retryAfterMs(response) ?? Math.min(
+    Math.round(1000 * (2 ** (failedAttempt - 1)) * (1 + random() * 0.5)),
+    IMAGE_RETRY_WAIT_CAP_MS,
+  );
+}
+
+function imageError({ url, error, classification, attempts, httpStatus = null, contentType, size }) {
+  return {
+    url,
+    error,
+    classification,
+    attempts,
+    ...(httpStatus == null ? {} : { httpStatus }),
+    ...(contentType == null ? {} : { contentType }),
+    ...(size == null ? {} : { size }),
+  };
+}
+
+export async function fetchImageWithRetry(sourceUrl, postUrl, postNo, {
+  fetchImpl = fetch,
+  maxAttempts = IMAGE_MAX_ATTEMPTS,
+  sleepImpl = sleep,
+  random = Math.random,
+} = {}) {
+  const external = !isDcinsideImageHost(sourceUrl);
+  let attempts = 0;
+  let withoutReferer = false;
+  let usedSafeFallback = false;
+
+  while (attempts < maxAttempts) {
+    attempts += 1;
+    let response;
+    try {
+      const headers = { ...DEFAULT_HEADERS, accept: 'image/avif,image/webp,image/png,image/*,*/*;q=0.8' };
+      if (!withoutReferer) headers.referer = postUrl;
+      response = await fetchImpl(sourceUrl, { headers, redirect: 'follow' });
+
+      if (!response.ok) {
+        const message = `HTTP ${response.status}`;
+        if (external && response.status === 403 && !usedSafeFallback && attempts < maxAttempts) {
+          usedSafeFallback = true;
+          withoutReferer = true;
+          continue;
+        }
+        if (PERMANENT_IMAGE_STATUSES.has(response.status) || (external && response.status === 403)) {
+          return { error: imageError({ url: sourceUrl, error: message, classification: 'permanent', attempts, httpStatus: response.status }) };
+        }
+        if (!RETRYABLE_IMAGE_STATUSES.has(response.status)) {
+          return { error: imageError({ url: sourceUrl, error: message, classification: 'unknown', attempts, httpStatus: response.status }) };
+        }
+        if (attempts === maxAttempts) {
+          return { error: imageError({ url: sourceUrl, error: message, classification: 'transient', attempts, httpStatus: response.status }) };
+        }
+        const waitMs = imageRetryWaitMs(attempts, response, random);
+        console.log(`[IMAGE RETRY] #${postNo} ${new URL(sourceUrl).host} ${message} attempt ${attempts}/${maxAttempts} wait ${waitMs}ms`);
+        await sleepImpl(waitMs);
+        continue;
+      }
+
+      const binary = Buffer.from(await response.arrayBuffer());
+      const contentType = response.headers.get('content-type');
+      const detected = detectImageFormat(binary, contentType, response.url || sourceUrl);
+      if (!detected) {
+        if (external && !usedSafeFallback && attempts < maxAttempts) {
+          usedSafeFallback = true;
+          withoutReferer = true;
+          continue;
+        }
+        return { error: imageError({ url: sourceUrl, error: 'Unsupported image binary', classification: 'permanent', attempts, contentType: contentType || 'unknown', size: binary.length }) };
+      }
+      if (attempts > 1) console.log(`[IMAGE OK AFTER RETRY] #${postNo} ${new URL(sourceUrl).host} attempt ${attempts}/${maxAttempts}`);
+      return { binary, detected, attempts };
+    } catch (error) {
+      const message = error instanceof Error ? error.message : String(error);
+      if (!isTransientNetworkError(error)) {
+        return { error: imageError({ url: sourceUrl, error: message, classification: 'unknown', attempts }) };
+      }
+      if (attempts === maxAttempts) {
+        return { error: imageError({ url: sourceUrl, error: message, classification: 'transient', attempts }) };
+      }
+      const waitMs = imageRetryWaitMs(attempts, response, random);
+      console.log(`[IMAGE RETRY] #${postNo} ${new URL(sourceUrl).host} ${message} attempt ${attempts}/${maxAttempts} wait ${waitMs}ms`);
+      await sleepImpl(waitMs);
+    }
+  }
+}
+
 export async function backupImages(html, postUrl, postNo, documentDir, {
   dataDir = DATA_DIR,
   fetchImpl = fetch,
+  previous = null,
+  maxAttempts = IMAGE_MAX_ATTEMPTS,
+  sleepImpl = sleep,
+  random = Math.random,
 } = {}) {
   const wrapped = cheerio.load(`<div id="__root__">${sanitizeBackupHtml(html)}</div>`, {
     decodeEntities: false,
@@ -979,6 +1109,9 @@ export async function backupImages(html, postUrl, postNo, documentDir, {
   const assetErrors = [];
   const downloadedByUrl = new Map();
   let imagesDownloaded = 0;
+  const previousIsComplete = Boolean(previous?.contentHash) && !previous?.incompleteAssets &&
+    Array.isArray(previous?.assets) && !(previous.assetErrors?.length);
+  const previousByUrl = new Map((previousIsComplete ? previous.assets : []).map((asset) => [asset.sourceUrl, asset]));
 
   for (const element of root.find('img').toArray()) {
     const image = wrapped(element);
@@ -989,7 +1122,7 @@ export async function backupImages(html, postUrl, postNo, documentDir, {
       sourceUrl = new URL(rawSource, postUrl).toString();
       if (!/^https?:$/.test(new URL(sourceUrl).protocol)) throw new Error('Unsupported image URL protocol');
     } catch {
-      assetErrors.push({ url: rawSource, error: 'Invalid image URL' });
+      assetErrors.push(imageError({ url: rawSource, error: 'Invalid image URL', classification: 'permanent', attempts: 0 }));
       image.removeAttr('src');
       continue;
     }
@@ -997,19 +1130,23 @@ export async function backupImages(html, postUrl, postNo, documentDir, {
     try {
       let saved = downloadedByUrl.get(sourceUrl);
       if (!saved) {
-        const response = await fetchImpl(sourceUrl, {
-          headers: { ...DEFAULT_HEADERS, accept: 'image/avif,image/webp,image/png,image/*,*/*;q=0.8', referer: postUrl },
-          redirect: 'follow',
-        });
-        if (!response.ok) throw new Error(`HTTP ${response.status}`);
-        const binary = Buffer.from(await response.arrayBuffer());
-        const responseContentType = response.headers.get('content-type');
-        const detected = detectImageFormat(binary, responseContentType, response.url || sourceUrl);
-        if (!detected) {
-          const error = new Error('Unsupported image binary');
-          error.assetDetails = { contentType: responseContentType || 'unknown', size: binary.length };
-          throw error;
+        const previousAsset = previousByUrl.get(sourceUrl);
+        if (previousAsset?.fileName) {
+          try {
+            await fs.access(path.join(assetDir, previousAsset.fileName));
+            saved = { ...previousAsset, sourceUrl };
+          } catch { /* Missing local binary: fetch it normally. */ }
         }
+      }
+      if (!saved) {
+        const result = await fetchImageWithRetry(sourceUrl, postUrl, postNo,
+          { fetchImpl, maxAttempts, sleepImpl, random });
+        if (result.error) {
+          image.attr('src', sourceUrl);
+          assetErrors.push(result.error);
+          continue;
+        }
+        const { binary, detected } = result;
         const { extension } = detected;
         const imageHash = sha256(binary);
         const fileName = `${imageHash}.${extension}`;
@@ -1022,18 +1159,16 @@ export async function backupImages(html, postUrl, postNo, documentDir, {
           imagesDownloaded += 1;
         }
         saved = { hash: imageHash, fileName, sourceUrl, contentType: detected.contentType, detectedBy: detected.detectedBy };
-        downloadedByUrl.set(sourceUrl, saved);
-        if (!assets.some((asset) => asset.hash === saved.hash)) assets.push(saved);
       }
+      downloadedByUrl.set(sourceUrl, saved);
+      if (!assets.some((asset) => asset.hash === saved.hash)) assets.push(saved);
       const relativePath = path.relative(documentDir, path.join(assetDir, saved.fileName)).split(path.sep).join('/');
       image.attr('src', relativePath);
     } catch (error) {
       image.attr('src', sourceUrl);
-      assetErrors.push({
-        url: sourceUrl,
-        error: error instanceof Error ? error.message : String(error),
-        ...(error?.assetDetails || {}),
-      });
+      assetErrors.push(imageError({ url: sourceUrl,
+        error: error instanceof Error ? error.message : String(error), classification: 'unknown', attempts: 0,
+        ...(error?.assetDetails || {}) }));
     }
   }
 
@@ -1079,14 +1214,16 @@ function orderedHashesFor(record) {
 // incomplete latest/version/preview, though successful assets remain reusable.
 export async function persistGuideBackup(document, {
   dataDir = DATA_DIR, fetchImpl = fetch, backupAt = new Date().toISOString(),
+  maxAttempts = IMAGE_MAX_ATTEMPTS, sleepImpl = sleep, random = Math.random,
 } = {}) {
   const documentDir = path.join(dataDir, 'documents', 'guide', String(document.postNo));
   const latestPath = path.join(documentDir, 'latest.json');
   const previous = await readJson(latestPath, null);
   const imageResult = await backupImages(document.bodyHtml, document.finalUrl || document.url,
-    String(document.postNo), documentDir, { dataDir, fetchImpl });
+    String(document.postNo), documentDir, { dataDir, fetchImpl, previous, maxAttempts, sleepImpl, random });
   if (imageResult.assetErrors.length) {
-    return { backupResult: null, status: 'asset_partial_failure', previous, ...imageResult };
+    const hasTransient = imageResult.assetErrors.some((error) => error.classification !== 'permanent');
+    return { backupResult: null, status: hasTransient ? 'asset_partial_failure' : 'asset_unavailable', previous, ...imageResult };
   }
 
   const record = { ...document, bodyHtml: imageResult.bodyHtml, backupAt,
