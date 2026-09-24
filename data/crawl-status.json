@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-24T05:26:44.126Z",
+  "generatedAt": "2026-09-24T08:50:59.087Z",
   "items": [
     {
       "docType": "guide",
@@ -9397,11 +9397,11 @@
       "docType": "guide",
       "url": "https://gall.dcinside.com/m/gov/1084820",
       "postNo": "1084820",
-      "lastSuccessAt": "2026-09-24T05:26:44.126Z",
+      "lastSuccessAt": "2026-09-24T08:50:59.087Z",
       "status": "asset_partial_failure",
       "httpStatus": 200,
       "error": "One or more images could not be backed up",
-      "lastAttemptAt": "2026-09-24T05:26:44.126Z",
+      "lastAttemptAt": "2026-09-24T08:50:59.087Z",
       "sourcePostNo": "5081794",
       "contextText": "(출처 : https://gall.dcinside.com/m/gov/1084820)",
       "originLabel": "fetch",
@@ -9965,11 +9965,11 @@
       "docType": "guide",
       "url": "https://gall.dcinside.com/mgallery/board/view?id=gov&no=1096873",
       "postNo": "1096873",
-      "lastSuccessAt": "2026-09-24T05:26:44.126Z",
+      "lastSuccessAt": "2026-09-24T08:50:59.087Z",
       "status": "asset_partial_failure",
       "httpStatus": 200,
       "error": "One or more images could not be backed up",
-      "lastAttemptAt": "2026-09-24T05:26:44.126Z",
+      "lastAttemptAt": "2026-09-24T08:50:59.087Z",
       "sourcePostNo": "5155871",
       "contextText": "🌑 [PC] 니케 클라이언트 실행오류 관련 해결법 모음",
       "originLabel": "fetch",
@@ -11105,19 +11105,19 @@
       "docType": "guide",
       "url": "https://gall.dcinside.com/mgallery/board/view?id=gov&no=5070624",
       "postNo": "5070624",
-      "lastSuccessAt": "2026-09-24T05:26:44.126Z",
+      "lastSuccessAt": "2026-09-24T08:50:59.087Z",
       "sourcePostNo": "5066331",
       "contextText": "🌑 5. [기타] 지표로 보는 아레나, 신데렐라, 홍련 그리고 베스티",
       "originLabel": "fetch",
       "status": "asset_partial_failure",
       "httpStatus": 200,
       "error": "One or more images could not be backed up",
-      "lastAttemptAt": "2026-09-24T05:26:44.126Z",
+      "lastAttemptAt": "2026-09-24T08:50:59.087Z",
       "backupResult": null,
       "assetErrors": [
         {
           "url": "https://dcimg1.dcinside.com/viewimage.php?id=2ab2c6&no=29bcc427b69d39b37ab0ccaf17dd6b6f62b51891c5c5132c1e5fd0cd93bb37cdf4099fcc65d5b3788e2844ac5b135cea7d453ca52030adf810f992c6afd1b943e178e797f1202bcc28",
-          "error": "terminated"
+          "error": "HTTP 504"
         }
       ],
       "contentHash": null
@@ -11796,7 +11796,7 @@
       "status": "deleted",
       "httpStatus": 404,
       "error": "HTTP 404",
-      "lastAttemptAt": "2026-09-24T05:26:44.126Z"
+      "lastAttemptAt": "2026-09-24T08:50:59.087Z"
     },
     {
       "docType": "guide",
@@ -12955,14 +12955,14 @@
       "docType": "guide",
       "url": "https://gall.dcinside.com/mgallery/board/view/?id=gov&no=2427435",
       "postNo": "2427435",
-      "lastSuccessAt": "2026-09-24T05:26:44.126Z",
+      "lastSuccessAt": "2026-09-24T08:50:59.087Z",
       "sourcePostNo": "1990236",
       "contextText": "파딱걸고 막고라NCK 합니다. 오늘 오후9시",
       "originLabel": "fetch",
       "status": "asset_partial_failure",
       "httpStatus": 200,
       "error": "One or more images could not be backed up",
-      "lastAttemptAt": "2026-09-24T05:26:44.126Z",
+      "lastAttemptAt": "2026-09-24T08:50:59.087Z",
       "backupResult": null,
       "assetErrors": [
         {
@@ -13777,7 +13777,7 @@
       "status": "deleted",
       "httpStatus": 404,
       "error": "HTTP 404",
-      "lastAttemptAt": "2026-09-24T05:26:44.126Z",
+      "lastAttemptAt": "2026-09-24T08:50:59.087Z",
       "contextText": "ㅂㄱㅊㅈㅇㅁㅁㅈ",
       "originLabel": "fetch"
     },
@@ -13835,7 +13835,7 @@
       "status": "deleted",
       "httpStatus": 404,
       "error": "HTTP 404",
-      "lastAttemptAt": "2026-09-24T05:26:44.126Z",
+      "lastAttemptAt": "2026-09-24T08:50:59.087Z",
       "contextText": "ㅇㅈㅎㅊㅂ",
       "originLabel": "fetch"
     },
@@ -13848,7 +13848,7 @@
       "status": "deleted",
       "httpStatus": 404,
       "error": "HTTP 404",
-      "lastAttemptAt": "2026-09-24T05:26:44.126Z",
+      "lastAttemptAt": "2026-09-24T08:50:59.087Z",
       "contextText": "파딱 내부 가이드라인",
       "originLabel": "fetch"
     },
@@ -14212,14 +14212,14 @@
       "docType": "guide",
       "url": "https://gall.dcinside.com/mgallery/board/view/?id=gov&no=5079488",
       "postNo": "5079488",
-      "lastSuccessAt": "2026-09-24T05:26:44.126Z",
+      "lastSuccessAt": "2026-09-24T08:50:59.087Z",
       "sourcePostNo": "5191307",
       "contextText": "🌑 [과금] 3주년 유입이 말아주는 뉴비용 과금 가이드",
       "originLabel": "fetch",
       "status": "asset_partial_failure",
       "httpStatus": 200,
       "error": "One or more images could not be backed up",
-      "lastAttemptAt": "2026-09-24T05:26:44.126Z",
+      "lastAttemptAt": "2026-09-24T08:50:59.087Z",
       "backupResult": null,
       "assetErrors": [
         {
@@ -14390,18 +14390,26 @@
       "docType": "guide",
       "url": "https://gall.dcinside.com/mgallery/board/view/?id=gov&no=5131545",
       "postNo": "5131545",
-      "lastSuccessAt": "2026-09-24T05:26:44.126Z",
+      "lastSuccessAt": "2026-09-24T08:50:59.087Z",
       "sourcePostNo": "5056767",
       "contextText": "▶ (전투력 1131k) HARD \"크목설헬메\"(26.04.12)",
       "originLabel": "fetch",
       "status": "asset_partial_failure",
       "httpStatus": 200,
       "error": "One or more images could not be backed up",
-      "lastAttemptAt": "2026-09-24T05:26:44.126Z",
+      "lastAttemptAt": "2026-09-24T08:50:59.087Z",
       "backupResult": null,
       "assetErrors": [
         {
           "url": "https://dcimg1.dcinside.com/viewimage.php?no=29bcc427b69d39b37ab0ccaf17dd6b6f62b51891c5c5132c135fd0ce92b335cc9199c2356a1992b5978801eb89135055fd8a5e",
+          "error": "HTTP 504"
+        },
+        {
+          "url": "https://dcimg1.dcinside.com/viewimage.php?id=2ab2c6&no=24b0d769e1d32ca73ce787fa1bd625314b5d207020df860bbe98c96cc2c072c87ac19e9b20c1e5f9e9c17b94fee37253bfdcf9b75d4bef98b1a658464a2395e8",
+          "error": "HTTP 504"
+        },
+        {
+          "url": "https://dcimg1.dcinside.com/viewimage.php?id=2ab2c6&no=24b0d769e1d32ca73ce787fa1bd625314b5d207020df860bbe98c96cc2c072c87ac19e9b20c1e5f9e9c57795f0e4715329994db177ee300c8b325a212c4a25c4",
           "error": "HTTP 504"
         }
       ],
@@ -14568,14 +14576,14 @@
       "docType": "guide",
       "url": "https://gall.dcinside.com/mgallery/board/view/?id=gov&no=5170856",
       "postNo": "5170856",
-      "lastSuccessAt": "2026-09-24T05:26:44.126Z",
+      "lastSuccessAt": "2026-09-24T08:50:59.087Z",
       "sourcePostNo": "5056767",
       "contextText": "▷ HARD(전투력 626K) \"크신목아설\"(26.04.18)",
       "originLabel": "fetch",
       "status": "asset_partial_failure",
       "httpStatus": 200,
       "error": "One or more images could not be backed up",
-      "lastAttemptAt": "2026-09-24T05:26:44.126Z",
+      "lastAttemptAt": "2026-09-24T08:50:59.087Z",
       "backupResult": null,
       "assetErrors": [
         {
@@ -14797,59 +14805,30 @@
       "docType": "guide",
       "url": "https://gall.dcinside.com/mgallery/board/view/?id=gov&no=5195481",
       "postNo": "5195481",
-      "lastSuccessAt": "2026-09-24T05:26:44.126Z",
+      "lastSuccessAt": "2026-09-24T08:50:59.087Z",
       "sourcePostNo": "5056767",
       "contextText": "▶ (전투력 1967k) HARD \"목크라헬메\" (26.04.20)",
       "originLabel": "fetch",
-      "status": "asset_partial_failure",
+      "status": "ok",
       "httpStatus": 200,
-      "error": "One or more images could not be backed up",
-      "lastAttemptAt": "2026-09-24T05:26:44.126Z",
-      "backupResult": null,
-      "assetErrors": [
-        {
-          "url": "https://dcimg1.dcinside.com/viewimage.php?id=2ab2c6&no=24b0d769e1d32ca73ce787fa1bd625314b5d207020df860bbe98c96cc2c370c89803b94316ebf77073005b900bc569b93d26c7658ac6a64a7f581f74a05ef493",
-          "error": "HTTP 504"
-        },
-        {
-          "url": "https://dcimg1.dcinside.com/viewimage.php?id=2ab2c6&no=24b0d769e1d32ca73ce787fa1bd625314b5d207020df860bbe98c96cc2c370c89803b94316ebf71d1b06579408c169becff435c25110b0aa408ca6731725b9",
-          "error": "HTTP 504"
-        },
-        {
-          "url": "https://dcimg1.dcinside.com/viewimage.php?id=2ab2c6&no=24b0d769e1d32ca73ce787fa1bd625314b5d207020df860bbe98c96cc2c370c89803b94316ebf7707305529606c46eb8ff860572a196a6c93cb67a6c9a68801f",
-          "error": "HTTP 504"
-        },
-        {
-          "url": "https://dcimg1.dcinside.com/viewimage.php?id=2ab2c6&no=24b0d769e1d32ca73ce787fa1bd625314b5d207020df860bbe98c96cc2c370c89803b94316ebf71d1a075b960dc16fbb737ba86dd9419894718cc27e68d880",
-          "error": "HTTP 504"
-        },
-        {
-          "url": "https://dcimg1.dcinside.com/viewimage.php?id=2ab2c6&no=24b0d769e1d32ca73ce787fa1bd625314b5d207020df860bbe98c96cc2c370c89803b94316ebf7707303549c07c76dba4b6d1f9fb8c46cccdfc6dc5789bd3dbc",
-          "error": "HTTP 504"
-        },
-        {
-          "url": "https://dcimg1.dcinside.com/viewimage.php?id=2ab2c6&no=24b0d769e1d32ca73ce787fa1bd625314b5d207020df860bbe98c96cc2c370c89803b94316ebf71d1a00559d08c06bbc4f85b6d48f8638cd7ed60322f3119b",
-          "error": "HTTP 504"
-        },
-        {
-          "url": "https://dcimg1.dcinside.com/viewimage.php?id=2ab2c6&no=24b0d769e1d32ca73ce787fa1bd625314b5d207020df860bbe98c96cc2c370c89803b94316ebf71d190053950fc26cbf8bc247b5830b9f938e22638041c219",
-          "error": "HTTP 504"
-        }
-      ],
+      "error": null,
+      "lastAttemptAt": "2026-09-24T08:50:59.087Z",
+      "backupResult": "changed",
+      "assetErrors": [],
       "contentHash": null
     },
     {
       "docType": "guide",
       "url": "https://gall.dcinside.com/mgallery/board/view/?id=gov&no=5195586",
       "postNo": "5195586",
-      "lastSuccessAt": "2026-09-24T05:26:44.126Z",
+      "lastSuccessAt": "2026-09-24T08:50:59.087Z",
       "sourcePostNo": "5066331",
       "contextText": "🌑 5. [입문용] 한눈에 보는 실전압축 스레나 니케 가이드 (26.04.20.)",
       "originLabel": "fetch",
       "status": "asset_partial_failure",
       "httpStatus": 200,
       "error": "One or more images could not be backed up",
-      "lastAttemptAt": "2026-09-24T05:26:44.126Z",
+      "lastAttemptAt": "2026-09-24T08:50:59.087Z",
       "backupResult": null,
       "assetErrors": [
         {
@@ -14940,21 +14919,16 @@
       "docType": "guide",
       "url": "https://gall.dcinside.com/mgallery/board/view/?id=gov&no=5217098",
       "postNo": "5217098",
-      "lastSuccessAt": "2026-09-24T05:26:44.126Z",
+      "lastSuccessAt": "2026-09-24T08:50:59.087Z",
       "sourcePostNo": "5191313",
       "contextText": "🌑 [아니스] 아니스 사격장 딜량 공유 크라운 신데 클이든 아니스 헬름",
       "originLabel": "fetch",
-      "status": "asset_partial_failure",
+      "status": "ok",
       "httpStatus": 200,
-      "error": "One or more images could not be backed up",
-      "lastAttemptAt": "2026-09-24T05:26:44.126Z",
-      "backupResult": null,
-      "assetErrors": [
-        {
-          "url": "https://dcimg1.dcinside.com/viewimage.php?no=29bcc427b69d39b37ab0ccaf17dd6b6f62b51891c5c5132c1c5fd1c994be36c32b411b608d35a1a605ea36250fc1c490cf308ed0868ca20f891cd6",
-          "error": "HTTP 504"
-        }
-      ],
+      "error": null,
+      "lastAttemptAt": "2026-09-24T08:50:59.087Z",
+      "backupResult": "changed",
+      "assetErrors": [],
       "contentHash": null
     },
     {
@@ -15150,21 +15124,16 @@
       "docType": "guide",
       "url": "https://gall.dcinside.com/mgallery/board/view/?id=gov&no=5236836",
       "postNo": "5236836",
-      "lastSuccessAt": "2026-09-24T05:26:44.126Z",
+      "lastSuccessAt": "2026-09-24T08:50:59.087Z",
       "sourcePostNo": "5155871",
       "contextText": "🌑 [미겜] [리겜] 키설정과 연습용 곡 추천",
       "originLabel": "fetch",
-      "status": "asset_partial_failure",
+      "status": "ok",
       "httpStatus": 200,
-      "error": "One or more images could not be backed up",
-      "lastAttemptAt": "2026-09-24T05:26:44.126Z",
-      "backupResult": null,
-      "assetErrors": [
-        {
-          "url": "https://dcimg1.dcinside.com/viewimage.php?no=29bcc427b69d39b37ab0ccaf17dd6b6f62b51891c5c5132c1e5fdacc91b837c6e3023e7e1a66514a15a0a8aabc55ff1979d3e36ea3af88c7f99b4087b5cc01db36f40c51661595656ad261d83f0d1195cc74",
-          "error": "HTTP 504"
-        }
-      ],
+      "error": null,
+      "lastAttemptAt": "2026-09-24T08:50:59.087Z",
+      "backupResult": "changed",
+      "assetErrors": [],
       "contentHash": null
     },
     {
@@ -15187,21 +15156,16 @@
       "docType": "guide",
       "url": "https://gall.dcinside.com/mgallery/board/view/?id=gov&no=5241717",
       "postNo": "5241717",
-      "lastSuccessAt": "2026-09-24T05:26:44.126Z",
+      "lastSuccessAt": "2026-09-24T08:50:59.087Z",
       "sourcePostNo": "5191275",
       "contextText": "리세OR리세계 구입시 반드시 열람하세요",
       "originLabel": "fetch",
-      "status": "asset_partial_failure",
+      "status": "ok",
       "httpStatus": 200,
-      "error": "One or more images could not be backed up",
-      "lastAttemptAt": "2026-09-24T05:26:44.126Z",
-      "backupResult": null,
-      "assetErrors": [
-        {
-          "url": "https://dcimg1.dcinside.com/viewimage.php?id=2ab2c6&no=29bcc427b69d39b37ab0ccaf17dd6b6f62b51891c5c2132f1e5fd4c39dbc36c4e5309ddb30a46a54fbd5586ec5c178b368e97dcf2a059e607ba118a2c4b7eb7cdfb6bc7db0a10baf56",
-          "error": "HTTP 504"
-        }
-      ],
+      "error": null,
+      "lastAttemptAt": "2026-09-24T08:50:59.087Z",
+      "backupResult": "changed",
+      "assetErrors": [],
       "contentHash": null
     },
     {
@@ -15854,21 +15818,16 @@
       "docType": "guide",
       "url": "https://gall.dcinside.com/mgallery/board/view/?id=gov&no=5315991",
       "postNo": "5315991",
-      "lastSuccessAt": "2026-09-24T05:26:44.126Z",
+      "lastSuccessAt": "2026-09-24T08:50:59.087Z",
       "sourcePostNo": "5081794",
       "contextText": "🌑 [조합] 상황별 스테이지 조합들 (26. 05. 03.)",
       "originLabel": "fetch",
-      "status": "asset_partial_failure",
+      "status": "ok",
       "httpStatus": 200,
-      "error": "One or more images could not be backed up",
-      "lastAttemptAt": "2026-09-24T05:26:44.126Z",
-      "backupResult": null,
-      "assetErrors": [
-        {
-          "url": "https://dcimg1.dcinside.com/viewimage.php?no=29bcc427b69d39b37ab0ccaf17dd6b6f62b51891c5c2132e1c5fd1ce9db230ccb8a654ada68f91deeda45ffe8023cee71ee2fa",
-          "error": "HTTP 504"
-        }
-      ],
+      "error": null,
+      "lastAttemptAt": "2026-09-24T08:50:59.087Z",
+      "backupResult": "changed",
+      "assetErrors": [],
       "contentHash": null
     },
     {
@@ -16056,25 +16015,16 @@
       "docType": "guide",
       "url": "https://gall.dcinside.com/mgallery/board/view/?id=gov&no=5345413",
       "postNo": "5345413",
-      "lastSuccessAt": "2026-09-24T05:26:44.126Z",
+      "lastSuccessAt": "2026-09-24T08:50:59.087Z",
       "sourcePostNo": "5056767",
       "contextText": "▶ (전투력 1206k) HARD \"아크라디메\" (26.05.07.)",
       "originLabel": "fetch",
-      "status": "asset_partial_failure",
+      "status": "ok",
       "httpStatus": 200,
-      "error": "One or more images could not be backed up",
-      "lastAttemptAt": "2026-09-24T05:26:44.126Z",
-      "backupResult": null,
-      "assetErrors": [
-        {
-          "url": "https://dcimg1.dcinside.com/viewimage.php?id=2ab2c6&no=24b0d769e1d32ca73ce787fa1bd625314b5d207020df860bbe98c96dc2c177c8e2fc31754e52b9669bfc907dfed3a51522dadb1e63f2793d7c22a856c81630",
-          "error": "HTTP 504"
-        },
-        {
-          "url": "https://dcimg1.dcinside.com/viewimage.php?id=2ab2c6&no=24b0d769e1d32ca73ce787fa1bd625314b5d207020df860bbe98c96dc2c177c8e2fc31754e52b9669efc927af8dead10e6d97014207c9b032caf4e4e9c88a5",
-          "error": "HTTP 504"
-        }
-      ],
+      "error": null,
+      "lastAttemptAt": "2026-09-24T08:50:59.087Z",
+      "backupResult": "changed",
+      "assetErrors": [],
       "contentHash": null
     },
     {
@@ -16129,19 +16079,19 @@
       "docType": "guide",
       "url": "https://gall.dcinside.com/mgallery/board/view/?id=gov&no=5354076",
       "postNo": "5354076",
-      "lastSuccessAt": "2026-09-24T05:26:44.126Z",
+      "lastSuccessAt": "2026-09-24T08:50:59.087Z",
       "sourcePostNo": "5056767",
       "contextText": "▶ (전투력 1200k) HARD 38-32 \"아크흑웡메\"(26.05.08.)",
       "originLabel": "fetch",
       "status": "asset_partial_failure",
       "httpStatus": 200,
       "error": "One or more images could not be backed up",
-      "lastAttemptAt": "2026-09-24T05:26:44.126Z",
+      "lastAttemptAt": "2026-09-24T08:50:59.087Z",
       "backupResult": null,
       "assetErrors": [
         {
           "url": "https://dcimg1.dcinside.com/viewimage.php?no=29bcc427b69d39b37ab0ccaf17dd6b6f62b51891c5c5132c135fd0ce92b335cc9199c2356a1992b5978801eb89135055fd8a5e",
-          "error": "HTTP 504"
+          "error": "terminated"
         }
       ],
       "contentHash": null
@@ -16676,14 +16626,14 @@
       "docType": "guide",
       "url": "https://gall.dcinside.com/mgallery/board/view/?id=gov&no=5471697",
       "postNo": "5471697",
-      "lastSuccessAt": "2026-09-24T05:26:44.126Z",
+      "lastSuccessAt": "2026-09-24T08:50:59.087Z",
       "sourcePostNo": "5066331",
       "contextText": "🌑 7. [입문용] 스페셜 아레나 - 공격편",
       "originLabel": "fetch",
       "status": "asset_partial_failure",
       "httpStatus": 200,
       "error": "One or more images could not be backed up",
-      "lastAttemptAt": "2026-09-24T05:26:44.126Z",
+      "lastAttemptAt": "2026-09-24T08:50:59.087Z",
       "backupResult": null,
       "assetErrors": [
         {
@@ -17403,21 +17353,16 @@
       "docType": "guide",
       "url": "https://gall.dcinside.com/mgallery/board/view/?id=gov&no=5604945",
       "postNo": "5604945",
-      "lastSuccessAt": "2026-09-24T05:26:44.126Z",
+      "lastSuccessAt": "2026-09-24T08:50:59.087Z",
       "sourcePostNo": "5056767",
       "contextText": "▶ (전투력 1061k) HARD \"아마앵네신\"(26.06.12)",
       "originLabel": "fetch",
-      "status": "asset_partial_failure",
+      "status": "ok",
       "httpStatus": 200,
-      "error": "One or more images could not be backed up",
-      "lastAttemptAt": "2026-09-24T05:26:44.126Z",
-      "backupResult": null,
-      "assetErrors": [
-        {
-          "url": "https://dcimg1.dcinside.com/viewimage.php?id=2ab2c6&no=24b0d769e1d32ca73ce784fa1bd62531e1d35755bb65e98af887221555b6232a78f9b93ee752ca3d67e08bf11a6ac822a48a4c498d089f10b4ee271777cbd3",
-          "error": "HTTP 504"
-        }
-      ],
+      "error": null,
+      "lastAttemptAt": "2026-09-24T08:50:59.087Z",
+      "backupResult": "changed",
+      "assetErrors": [],
       "contentHash": null
     },
     {
@@ -18308,7 +18253,7 @@
       "status": "deleted",
       "httpStatus": 404,
       "error": "HTTP 404",
-      "lastAttemptAt": "2026-09-24T05:26:44.126Z"
+      "lastAttemptAt": "2026-09-24T08:50:59.087Z"
     },
     {
       "docType": "guide",
@@ -18714,93 +18659,16 @@
       "docType": "guide",
       "url": "https://gall.dcinside.com/mgallery/board/view/?id=gov&no=5965656",
       "postNo": "5965656",
-      "lastSuccessAt": "2026-09-24T05:26:44.126Z",
+      "lastSuccessAt": "2026-09-24T08:50:59.087Z",
       "sourcePostNo": "5425636",
       "contextText": "4. 니케 보드게임 언박싱 / 정리",
       "originLabel": "fetch",
-      "status": "asset_partial_failure",
+      "status": "ok",
       "httpStatus": 200,
-      "error": "One or more images could not be backed up",
-      "lastAttemptAt": "2026-09-24T05:26:44.126Z",
-      "backupResult": null,
-      "assetErrors": [
-        {
-          "url": "https://dcimg4.dcinside.co.kr/viewimage.php?id=2ab2c6&no=24b0d769e1d32ca73ce785fa11d02831e402f11b4aff5112a47efe1982b825836deef9bd5cb9e6eb952a52d49b125253a021e95bb9ac7ae95549e9e0b9a112ae1119955a55cfd2d831a6eb9c9d00",
-          "error": "HTTP 500"
-        },
-        {
-          "url": "https://dcimg4.dcinside.co.kr/viewimage.php?id=2ab2c6&no=24b0d769e1d32ca73ce785fa11d02831e402f11b4aff5112a47efe1982b825836deef9bd5cb9e6e69d2755d59913525280ec5ed0886c9bf67684d322dba16660711b99dbe546472e7305ff483dc2",
-          "error": "HTTP 500"
-        },
-        {
-          "url": "https://dcimg4.dcinside.co.kr/viewimage.php?id=2ab2c6&no=24b0d769e1d32ca73ce785fa11d02831e402f11b4aff5112a47efe1982b825836deef9bd5cb9e6ea922a57d79a1d55545fc794c01011c9f90b7de91cdad9463dfd1abc69e9ee2a92b250ad9d2ae1",
-          "error": "HTTP 500"
-        },
-        {
-          "url": "https://dcimg4.dcinside.co.kr/viewimage.php?id=2ab2c6&no=24b0d769e1d32ca73ce785fa11d02831e402f11b4aff5112a47efe1982b825836deef9bd5cb9e6e69d2457d498105a5055cfb56d96da58c308c6f8ca4a91b3a927b7cc8211c349b14f9517a22de6",
-          "error": "HTTP 500"
-        },
-        {
-          "url": "https://dcimg4.dcinside.co.kr/viewimage.php?id=2ab2c6&no=24b0d769e1d32ca73ce785fa11d02831e402f11b4aff5112a47efe1982b825836deef9bd5cb9e6ef912751d693125656af227127c6e73331916e7ec8cd34b5bbc65dc6fb6b30340bc5b3b33f532e",
-          "error": "HTTP 500"
-        },
-        {
-          "url": "https://dcimg4.dcinside.co.kr/viewimage.php?id=2ab2c6&no=24b0d769e1d32ca73ce785fa11d02831e402f11b4aff5112a47efe1982b825836deef9bd5cb9e6e8972156d69812575417c86e22dfaf1843788efad2a0af58c6688a1df7c0eab9bd3a4a2e321aaf",
-          "error": "HTTP 500"
-        },
-        {
-          "url": "https://dcimg4.dcinside.co.kr/viewimage.php?id=2ab2c6&no=24b0d769e1d32ca73ce785fa11d02831e402f11b4aff5112a47efe1982b825836deef9bd5cb9e6eb972054df921d51501ae9fede1d99b4567fc285c705d2ce7025d7e924ebdceb746368bf31bca9",
-          "error": "HTTP 500"
-        },
-        {
-          "url": "https://dcimg4.dcinside.co.kr/viewimage.php?id=2ab2c6&no=24b0d769e1d32ca73ce785fa11d02831e402f11b4aff5112a47efe1982b825836deef9bd5cb9e6ef902457df92175455c0923fe243ab57fa4d36828eafb010f331af78cb3ba64e1c1b7f86e1f97e",
-          "error": "HTTP 500"
-        },
-        {
-          "url": "https://dcimg4.dcinside.co.kr/viewimage.php?id=2ab2c6&no=24b0d769e1d32ca73ce785fa11d02831e402f11b4aff5112a47efe1982b825836deef9bd5cb9e6eb962657d09d1c5b533f624a007d4465ec53d3d4d438800e4a17fe3fd852ea9e48a3f9584a2dd9",
-          "error": "HTTP 500"
-        },
-        {
-          "url": "https://dcimg4.dcinside.co.kr/viewimage.php?id=2ab2c6&no=24b0d769e1d32ca73ce785fa11d02831e402f11b4aff5112a47efe1982b825836deef9bd5cb9e6eb9c2753d29810575770ca591d012bce33f44ca61c0f2358003bc129245d47ddf9ce5230b10519",
-          "error": "HTTP 500"
-        },
-        {
-          "url": "https://dcimg4.dcinside.co.kr/viewimage.php?id=2ab2c6&no=24b0d769e1d32ca73ce785fa11d02831e402f11b4aff5112a47efe1982b825836deef9bd5cb9e6ec972658de9e105659312f226a97206e69ea9a6527c79488dabe68da3008edb91bf0f544135611",
-          "error": "HTTP 500"
-        },
-        {
-          "url": "https://dcimg4.dcinside.co.kr/viewimage.php?id=2ab2c6&no=24b0d769e1d32ca73ce785fa11d02831e402f11b4aff5112a47efe1982b825836deef9bd5cb9e6ed9d2655d19e105354ea07b5bb2e7f91599a7ed1bee1f4cecbf62a5101a6ea97a2fe98ed3b59f1",
-          "error": "HTTP 500"
-        },
-        {
-          "url": "https://dcimg4.dcinside.co.kr/viewimage.php?id=2ab2c6&no=24b0d769e1d32ca73ce785fa11d02831e402f11b4aff5112a47efe1982b825836deef9bd5cb9e6eb962b59d79c135051a44b5ce5c9058697733f3b985868adec86d8570420f1c1527bcd2366ddba",
-          "error": "HTTP 500"
-        },
-        {
-          "url": "https://dcimg4.dcinside.co.kr/viewimage.php?id=2ab2c6&no=24b0d769e1d32ca73ce785fa11d02831e402f11b4aff5112a47efe1982b825836deef9bd5cb9e6ec972751d49d175251f1c45b814de381a9a10bac5cf084aa325bac67330af1777fee6567c57468",
-          "error": "HTTP 500"
-        },
-        {
-          "url": "https://dcimg4.dcinside.co.kr/viewimage.php?id=2ab2c6&no=24b0d769e1d32ca73ce785fa11d02831e402f11b4aff5112a47efe1982b825836deef9bd5cb9e6e89d2154d399125a5724d0c2eba832433a9155cb881bc28953655e100df0d345348fe00d745408",
-          "error": "HTTP 500"
-        },
-        {
-          "url": "https://dcimg4.dcinside.co.kr/viewimage.php?id=2ab2c6&no=24b0d769e1d32ca73ce785fa11d02831e402f11b4aff5112a47efe1982b825836deef9bd5cb9e6ec9d2455d19a145b59cb68cb8bda8943313bcd50741d7412f4fe6be0a8ea91dd6f9f903e1ec484",
-          "error": "HTTP 500"
-        },
-        {
-          "url": "https://dcimg4.dcinside.co.kr/viewimage.php?id=2ab2c6&no=24b0d769e1d32ca73ce785fa11d02831e402f11b4aff5112a47efe1982b825836deef9bd5cb9e6ea922651de98165a5562e72a90d6ac102af9dadceb9fe19fc7d0b8588c7b25ace21c9ccb3c3026",
-          "error": "HTTP 500"
-        },
-        {
-          "url": "https://dcimg4.dcinside.co.kr/viewimage.php?id=2ab2c6&no=24b0d769e1d32ca73ce785fa11d02831e402f11b4aff5112a47efe1982b825836deef9bd5cb9e6e8922a53d39910575017df69f9dac308d77404f1f8304f6cda7b03949794f814ad163c9502377e",
-          "error": "HTTP 500"
-        },
-        {
-          "url": "https://dcimg4.dcinside.co.kr/viewimage.php?id=2ab2c6&no=24b0d769e1d32ca73ce785fa11d02831e402f11b4aff5112a47efe1982b825836deef9bd5cb9e6e8942b58de98125b54b2262d3c6ce15406fa654b14de9b9083cb462509a448a65933b1bc9349f5",
-          "error": "HTTP 500"
-        }
-      ],
+      "error": null,
+      "lastAttemptAt": "2026-09-24T08:50:59.087Z",
+      "backupResult": "changed",
+      "assetErrors": [],
       "contentHash": null
     },
     {
