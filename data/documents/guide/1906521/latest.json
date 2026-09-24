@@ -1,0 +1,38 @@
+{
+  "id": "guide-1906521",
+  "docType": "guide",
+  "title": "쌩으로 다 돌려야하나",
+  "body": "3줄 얻는거 존나 빡세네..",
+  "bodyHtml": "<p></p><div><img src=\"../../../assets/guide/1906521/a4b5335cfcf5d0dda97129414ded5168ece0182bf04fb25607cc67fe8e74d24a.jpg\" alt=\"1ebec223e0dc2bae61abe9e74683706d23a14983d1d5c9b4b2c2c4096e2eb4bbb6f51ab58a1474f1c044a38d048a643636\"></div><p></p><div><img src=\"../../../assets/guide/1906521/b4b30409e26b210f84d9ba61d8246d5f9669015d61a933457ba3028895a59913.jpg\" alt=\"1ebec223e0dc2bae61abe9e74683706d23a14983d1d5c9b4b2c7c4096e2eb4bb03b784cc700a6ecdd953d50ce17f4b8b84\"></div><p></p><div><div>3줄 얻는거 존나 빡세네.. </div></div><p></p><div><img class=\"written_dccon\" src=\"../../../assets/guide/1906521/603506996b902b8797cbc1dc4bf350440caad5c59feb97c39344fd7648403b5d.png\" conalt=\"1\" alt=\"1\" title=\"1\" data-dcconoverstatus=\"false\"></div>",
+  "snippet": "3줄 얻는거 존나 빡세네..",
+  "url": "https://gall.dcinside.com/mgallery/board/view/?id=gov&no=1906521",
+  "postNo": "1906521",
+  "backupDate": "2026-09-24",
+  "parentSourcePostNo": "1990236",
+  "backupAt": "2026-09-24T08:01:39.552Z",
+  "assets": [
+    {
+      "hash": "a4b5335cfcf5d0dda97129414ded5168ece0182bf04fb25607cc67fe8e74d24a",
+      "fileName": "a4b5335cfcf5d0dda97129414ded5168ece0182bf04fb25607cc67fe8e74d24a.jpg",
+      "sourceUrl": "https://dcimg1.dcinside.com/viewimage.php?id=2ab2c6&no=24b0d769e1d32ca73ce98efa11d0283119bd088b32350bffa521b30f0524382ed9ac771fd292e539e1598eb6a4e5efcea151fcf0f178a1f28d446b78f55cabcbb8c8d0702a63aec92a24f86bad24ffbd13349f781bdfa8b7cb7bd9e31ff4da",
+      "contentType": "image/jpeg",
+      "detectedBy": "signature"
+    },
+    {
+      "hash": "b4b30409e26b210f84d9ba61d8246d5f9669015d61a933457ba3028895a59913",
+      "fileName": "b4b30409e26b210f84d9ba61d8246d5f9669015d61a933457ba3028895a59913.jpg",
+      "sourceUrl": "https://dcimg1.dcinside.com/viewimage.php?id=2ab2c6&no=24b0d769e1d32ca73ce98efa11d0283119bd088b32350bffa521b30f0524382ed9ac771fd292e539e1598eb6a4e5efcea151aeaba22cabf683476b78f55cabcbe0159cd19ed21a203c05c40754e9679552729f6d0d17e5879f10bc904b5a95",
+      "contentType": "image/jpeg",
+      "detectedBy": "signature"
+    },
+    {
+      "hash": "603506996b902b8797cbc1dc4bf350440caad5c59feb97c39344fd7648403b5d",
+      "fileName": "603506996b902b8797cbc1dc4bf350440caad5c59feb97c39344fd7648403b5d.png",
+      "sourceUrl": "https://dcimg5.dcinside.com/dccon.php?no=62b5df2be09d3ca567b1c5bc12d46b394aa3b1058c6e4d0ca41648b658ea25773f9800de053e71f1b3a71c1ba28ebc21ecb89bbf5d70b6a7e0498e5700d445daf6cd5c22d1e03e",
+      "contentType": "image/png",
+      "detectedBy": "signature"
+    }
+  ],
+  "assetErrors": [],
+  "contentHash": "9ef112fd3a02b2d94784d4684d13d5babeb5569bd8fbf9c738d82f237bfdd5f5"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "guide-2591675",
+  "docType": "guide",
+  "title": "죄송합니다",
+  "body": "절대 노린거 아니였어요진짜로- dc official App",
+  "bodyHtml": "<p></p><div><img src=\"../../../assets/guide/2591675/23fe67cdf9602e7cb478dd32c6851be5c637f18b5ccec36f871877b0287bf0e4.jpg\" alt=\"799ff602b2841a8723eaf2e3439c706eda8bc5f149597dacb72b5bcf6d2cfdce37afaad67f1bef92b5b4575a3a5ddef9e4acb7ee\"></div><p></p><div><div><span>절대 노린거 아니였어요</span></div><div><span>진짜로</span></div></div><p></p><div><img class=\"written_dccon\" src=\"../../../assets/guide/2591675/01a003686f586568f7143d14bbc0e97365a815ac052a7bf63b3a99f7bff1af73.png\" conalt=\"52\" alt=\"52\" title=\"52\" data-dcconoverstatus=\"false\"></div><p></p><div><span id=\"dcappfooter\">- dc official App</span></div>",
+  "snippet": "절대 노린거 아니였어요진짜로- dc official App",
+  "url": "https://gall.dcinside.com/mgallery/board/view/?id=gov&no=2591675",
+  "postNo": "2591675",
+  "backupDate": "2026-09-24",
+  "parentSourcePostNo": "1990236",
+  "backupAt": "2026-09-24T08:12:25.919Z",
+  "assets": [
+    {
+      "hash": "23fe67cdf9602e7cb478dd32c6851be5c637f18b5ccec36f871877b0287bf0e4",
+      "fileName": "23fe67cdf9602e7cb478dd32c6851be5c637f18b5ccec36f871877b0287bf0e4.jpg",
+      "sourceUrl": "https://dcimg1.dcinside.com/viewimage.php?id=2ab2c6&no=24b0d769e1d32ca73ce887fa11d02831f6239d61d5ffa4d5114270a7c62530e2678d1d4ff39540049cb91831a5276a985a82b8b23bd7083b527d8ebecdf1e33c2bac4e53bc3c2921c9c4a0143b04b66527b6ad6a19647396a0a48aa403097911a26e877e",
+      "contentType": "image/jpeg",
+      "detectedBy": "signature"
+    },
+    {
+      "hash": "01a003686f586568f7143d14bbc0e97365a815ac052a7bf63b3a99f7bff1af73",
+      "fileName": "01a003686f586568f7143d14bbc0e97365a815ac052a7bf63b3a99f7bff1af73.png",
+      "sourceUrl": "https://dcimg5.dcinside.com/dccon.php?no=62b5df2be09d3ca567b1c5bc12d46b394aa3b1058c6e4d0ca41648b658ea22797b1cd89c2faeef1ebe158715d9504d7dc5d1a9f92e5ae8aecd6dff5ebe2c166a31573396b5e0c28a1379ceb9",
+      "contentType": "image/png",
+      "detectedBy": "signature"
+    }
+  ],
+  "assetErrors": [],
+  "contentHash": "e94d99db75e3b37d93e83c3bb22eba0706d18ff9d314e02bc21d6a93ca6843d8"
+}

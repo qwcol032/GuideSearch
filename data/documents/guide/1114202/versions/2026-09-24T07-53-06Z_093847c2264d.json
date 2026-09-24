@@ -1,0 +1,38 @@
+{
+  "id": "guide-1114202",
+  "docType": "guide",
+  "title": "난 이거보고 깨달음얻은 이후로 솔레안침",
+  "body": "차라리 겜안분이 되겠다",
+  "bodyHtml": "<p></p><div><img src=\"../../../assets/guide/1114202/407d62fb4af79479fac443789117ec370958f3c1755f9997c5c716b2d91ef4f3.jpg\" alt=\"7cea8174b4876cf238e79ee45f9f2e2d13db8f409b637880b1832bf2\"></div><p></p><div><img src=\"../../../assets/guide/1114202/02cb159df155f483e5a4bda58f995765aadebd37fae946af763c815868ddf0b8.jpg\" alt=\"7cea8174b4876cf238e798bf06d604036e6a6152ad5a6ca89b\"></div><p></p><div><div>차라리 겜안분이 되겠다 </div><br></div><p></p><div><img class=\"written_dccon\" src=\"../../../assets/guide/1114202/ddea3fbdae2919b4e93898f317e435eac92fae2b72787c11745df06b61d12f31.png\" conalt=\"18\" alt=\"18\" title=\"18\" data-dcconoverstatus=\"false\"></div>",
+  "snippet": "차라리 겜안분이 되겠다",
+  "url": "https://gall.dcinside.com/mgallery/board/view/?id=gov&no=1114202",
+  "postNo": "1114202",
+  "backupDate": "2026-09-24",
+  "parentSourcePostNo": "1990236",
+  "backupAt": "2026-09-24T07:53:06.575Z",
+  "assets": [
+    {
+      "hash": "407d62fb4af79479fac443789117ec370958f3c1755f9997c5c716b2d91ef4f3",
+      "fileName": "407d62fb4af79479fac443789117ec370958f3c1755f9997c5c716b2d91ef4f3.jpg",
+      "sourceUrl": "https://dcimg1.dcinside.com/viewimage.php?id=2ab2c6&no=24b0d769e1d32ca73ce982fa11d02831d33053808284030ab34aa403b8a95c7fc7fb7a088c0f8854d050221a14129813528e9bf873c7f02f308526b8281ef69454a62e0aa010820e8961ddc091f7",
+      "contentType": "image/jpeg",
+      "detectedBy": "signature"
+    },
+    {
+      "hash": "02cb159df155f483e5a4bda58f995765aadebd37fae946af763c815868ddf0b8",
+      "fileName": "02cb159df155f483e5a4bda58f995765aadebd37fae946af763c815868ddf0b8.jpg",
+      "sourceUrl": "https://dcimg1.dcinside.com/viewimage.php?id=2ab2c6&no=24b0d769e1d32ca73ce982fa11d02831d33053808284030ab34aa403b8a95c7fc7fb7a088c0f8854d050221a14129813528e9bac27c6a379648226b8281ef694dc9d29ae253c7c1d3f",
+      "contentType": "image/jpeg",
+      "detectedBy": "signature"
+    },
+    {
+      "hash": "ddea3fbdae2919b4e93898f317e435eac92fae2b72787c11745df06b61d12f31",
+      "fileName": "ddea3fbdae2919b4e93898f317e435eac92fae2b72787c11745df06b61d12f31.png",
+      "sourceUrl": "https://dcimg5.dcinside.com/dccon.php?no=62b5df2be09d3ca567b1c5bc12d46b394aa3b1058c6e4d0ca41648b65cee2d6ec853e52961ffa46126abd5702778ad43b9ed841cf164ae015e153a4d61545f9a20e9a351f858",
+      "contentType": "image/png",
+      "detectedBy": "signature"
+    }
+  ],
+  "assetErrors": [],
+  "contentHash": "093847c2264ddb9e6a7d6c1b5d19fdcfa6e2b5a5cbb5665ad9f3f17985766fc5"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "guide-2494733",
+  "docType": "guide",
+  "title": "직업병",
+  "body": "- dc official App",
+  "bodyHtml": "<p></p><div><img src=\"../../../assets/guide/2494733/dff1382bd6f0a0d37aafcc53a9531b96317258d7dae309283b357aaf26d6708c.jpg\" alt=\"3fb8c32fffd711ab6fb8d38a46e2272f1f6964761530ecf839c0e94e1270d4bc995394eaaf50ebc544c8836583cfeda362689f026e4a\"></div><p></p><div><img class=\"written_dccon\" src=\"../../../assets/guide/2494733/cb1d97d0bb07b5d19a0377a1df3cc97324e5a176887bfee647c6e0ae5c597601.png\" conalt=\"슈하하\" alt=\"슈하하\" title=\"슈하하\" data-dcconoverstatus=\"false\"></div><p></p><div><span id=\"dcappfooter\"> - dc official App</span></div>",
+  "snippet": "- dc official App",
+  "url": "https://gall.dcinside.com/mgallery/board/view/?id=gov&no=2494733",
+  "postNo": "2494733",
+  "backupDate": "2026-09-24",
+  "parentSourcePostNo": "1990236",
+  "backupAt": "2026-09-24T08:08:45.389Z",
+  "assets": [
+    {
+      "hash": "dff1382bd6f0a0d37aafcc53a9531b96317258d7dae309283b357aaf26d6708c",
+      "fileName": "dff1382bd6f0a0d37aafcc53a9531b96317258d7dae309283b357aaf26d6708c.jpg",
+      "sourceUrl": "https://dcimg1.dcinside.com/viewimage.php?id=2ab2c6&no=24b0d769e1d32ca73ce887fa11d02831f6239d61d5ffa4d5114270a7c42630e268ccec9822a777cf9c79ec086bbcbbb23db7b766dc2ee8cc85f52fe1c9b43c4db3643ce606d6518fb03c57d2e06ea8b56eade6d036a23192a94aebf6b063367cf92ada53d3b1a3",
+      "contentType": "image/jpeg",
+      "detectedBy": "signature"
+    },
+    {
+      "hash": "cb1d97d0bb07b5d19a0377a1df3cc97324e5a176887bfee647c6e0ae5c597601",
+      "fileName": "cb1d97d0bb07b5d19a0377a1df3cc97324e5a176887bfee647c6e0ae5c597601.png",
+      "sourceUrl": "https://dcimg5.dcinside.com/dccon.php?no=62b5df2be09d3ca567b1c5bc12d46b394aa3b1058c6e4d0ca41648b658ea25773f9800de053e71f1b3a71c1ba28ebc2f50dd86c929996c12b9ade23fde82aba8d395629542f19b",
+      "contentType": "image/png",
+      "detectedBy": "signature"
+    }
+  ],
+  "assetErrors": [],
+  "contentHash": "3412fa8d2cfa2fead1faf11036cae1446705278cd98da3221555960b47e2e06c"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "guide-1464643",
+  "docType": "guide",
+  "title": "벽람할 때 샀던 스킨 만족도 투탑",
+  "body": "접은지 오래된 지금도 이거 보러 들어가고 싶을 때가 가끔 있다",
+  "bodyHtml": "<p></p><p><br></p><p><img src=\"../../../assets/guide/1464643/f080383c9e28b8a80497215913dd7d551ca2124b20f00c558cc5a801ebf41f91.jpg\" alt=\"1e898168efc23f8650bbd58b368272642eaa42\"></p><p><br></p><p><img src=\"../../../assets/guide/1464643/dca42097e19552f6ffef43f8845ee05f71e5795a635d8db19baf00a408cd1d30.jpg\" alt=\"0490f719b18561f220afd8b236ef203eada9f7068743875792\"></p><p><br></p><p></p><p><br></p><p><br></p><p><br></p><p>접은지 오래된 지금도 이거 보러 들어가고 싶을 때가 가끔 있다</p><p><br></p>",
+  "snippet": "접은지 오래된 지금도 이거 보러 들어가고 싶을 때가 가끔 있다",
+  "url": "https://gall.dcinside.com/mgallery/board/view/?id=gov&no=1464643",
+  "postNo": "1464643",
+  "backupDate": "2026-09-24",
+  "parentSourcePostNo": "1990236",
+  "backupAt": "2026-09-24T07:59:27.727Z",
+  "assets": [
+    {
+      "hash": "f080383c9e28b8a80497215913dd7d551ca2124b20f00c558cc5a801ebf41f91",
+      "fileName": "f080383c9e28b8a80497215913dd7d551ca2124b20f00c558cc5a801ebf41f91.jpg",
+      "sourceUrl": "https://dcimg1.dcinside.com/viewimage.php?id=2ab2c6&no=24b0d769e1d32ca73ce983fa11d0283107ab5cf91d66c5d1ce22a5f13c0a60fd00f0efd77ad5673858475866a15ead1684ec4fd70c9f6b2ff9e1d6f03eb1",
+      "contentType": "image/jpeg",
+      "detectedBy": "signature"
+    },
+    {
+      "hash": "dca42097e19552f6ffef43f8845ee05f71e5795a635d8db19baf00a408cd1d30",
+      "fileName": "dca42097e19552f6ffef43f8845ee05f71e5795a635d8db19baf00a408cd1d30.jpg",
+      "sourceUrl": "https://dcimg1.dcinside.com/viewimage.php?id=2ab2c6&no=24b0d769e1d32ca73ce983fa11d0283107ab5cf91d66c5d1ce22a5f13c0a60fd00f0efd77ad5673858475866a15ead1684ec14840a9d6a28adb6d6ea20b1",
+      "contentType": "image/jpeg",
+      "detectedBy": "signature"
+    }
+  ],
+  "assetErrors": [],
+  "contentHash": "4378385bf8da475e4a0f980e29eeeb8801a6147d8260683c4e59804f0b998904"
+}

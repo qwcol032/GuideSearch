@@ -1,0 +1,38 @@
+{
+  "id": "guide-50955",
+  "docType": "guide",
+  "title": "은화야 어때.. 좋아?",
+  "body": "알겠어 (퍽 퍽 퍽) 싸...쌀게 !!! 후...난 너무 좋았어 은화야..나 어땠어..?오..오늘도 별로였어? 미안해 은화야..(바보)",
+  "bodyHtml": "<p><br></p><p><img src=\"../../../assets/guide/50955/0855f4919dfa2d4f0cd4fa15964e335b0d48691fac7d8f748bc0c3761fe894a1.jpg\" alt=\"7ce5847fb6d03ca56dbd84e044d27264353ee615984b9b03fe88d641ebdf2245a0\"></p><p>&nbsp;<br></p><p>알겠어 (퍽 퍽 퍽) 싸...쌀게 !!!&nbsp;&nbsp;</p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p>후...난 너무 좋았어 은화야..나 어땠어..?</p><p><img src=\"../../../assets/guide/50955/1cd28d6992f956e35bed67ea033eae68483cc1ac38124ae5bfe8119723e108c9.jpg\" alt=\"7ce5847fb6d03ca56fbdd7e044d27264918180653de563b14b3ae5b8a05fd20ce1\"></p><p>오..<span>오늘도 </span><span>별로였어?&nbsp; </span><span>미안해 은화야..</span></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><img src=\"../../../assets/guide/50955/e7d24bbbae18aedc10cab141339697d0121fb740b1aa38c85ad3e765971a67a4.jpg\" alt=\"7ceb8776b38a60ff3ae998bf06d604035c69abb26dcef4fb0e\"></p><p>(바보)<br></p>",
+  "snippet": "알겠어 (퍽 퍽 퍽) 싸...쌀게 !!! 후...난 너무 좋았어 은화야..나 어땠어..?오..오늘도 별로였어? 미안해 은화야..(바보)",
+  "url": "https://gall.dcinside.com/mgallery/board/view/?id=gov&no=50955",
+  "postNo": "50955",
+  "backupDate": "2026-09-24",
+  "parentSourcePostNo": "1990236",
+  "backupAt": "2026-09-24T07:48:38.702Z",
+  "assets": [
+    {
+      "hash": "0855f4919dfa2d4f0cd4fa15964e335b0d48691fac7d8f748bc0c3761fe894a1",
+      "fileName": "0855f4919dfa2d4f0cd4fa15964e335b0d48691fac7d8f748bc0c3761fe894a1.jpg",
+      "sourceUrl": "https://dcimg1.dcinside.com/viewimage.php?id=2ab2c6&no=24b0d769e1d32ca73cea84fa11d028317301f601b23eba312c6f01900a3e1499be518afca00a7577fb038c6cb7a9cdb5c31b7d43fd82b8f976db54642253",
+      "contentType": "image/jpeg",
+      "detectedBy": "signature"
+    },
+    {
+      "hash": "1cd28d6992f956e35bed67ea033eae68483cc1ac38124ae5bfe8119723e108c9",
+      "fileName": "1cd28d6992f956e35bed67ea033eae68483cc1ac38124ae5bfe8119723e108c9.jpg",
+      "sourceUrl": "https://dcimg1.dcinside.com/viewimage.php?id=2ab2c6&no=24b0d769e1d32ca73cea84fa11d028317301f601b23eba312c6f01900a3e1499be518afca00a7577fb038c6cb7a9cdb5c31b2943fcd6b8aa718f54642253",
+      "contentType": "image/jpeg",
+      "detectedBy": "signature"
+    },
+    {
+      "hash": "e7d24bbbae18aedc10cab141339697d0121fb740b1aa38c85ad3e765971a67a4",
+      "fileName": "e7d24bbbae18aedc10cab141339697d0121fb740b1aa38c85ad3e765971a67a4.jpg",
+      "sourceUrl": "https://dcimg1.dcinside.com/viewimage.php?id=2ab2c6&no=24b0d769e1d32ca73cea84fa11d028317301f601b23eba312c6f01900a3e1499be518afca00a181bff00886db1a8cfb3e8ab01d35befbc3f1daa6bd401529c",
+      "contentType": "image/jpeg",
+      "detectedBy": "signature"
+    }
+  ],
+  "assetErrors": [],
+  "contentHash": "9b901c2b875e2cc1e1f50338c0d2ce76510beaa50ab2f51af51448f83355692d"
+}

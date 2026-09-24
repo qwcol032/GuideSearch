@@ -1,0 +1,24 @@
+{
+  "id": "guide-103084",
+  "docType": "guide",
+  "title": "유니온 탭 글들 상태 왜 이럼???",
+  "body": "그냥 뭐랄까 무섭노",
+  "bodyHtml": "<p></p><div><img src=\"../../../assets/guide/103084/a40435425135255390a033a1e495fcb5c0feb9ce9ebe93965beecec50a1e9bea.jpg\" alt=\"1ebec223e0dc2bae61abe9e74683776d37550313f9199e801e25ab04aa0f68bbb7b31e403afb919c6d29\"></div><p></p><div><br><br><div>그냥 뭐랄까 </div><br><div>무섭노 </div><br><br></div>",
+  "snippet": "그냥 뭐랄까 무섭노",
+  "url": "https://gall.dcinside.com/mgallery/board/view/?id=gov&no=103084&exception_mode=recommend&page=870",
+  "postNo": "103084",
+  "backupDate": "2026-09-24",
+  "parentSourcePostNo": "1990236",
+  "backupAt": "2026-09-24T07:49:37.993Z",
+  "assets": [
+    {
+      "hash": "a40435425135255390a033a1e495fcb5c0feb9ce9ebe93965beecec50a1e9bea",
+      "fileName": "a40435425135255390a033a1e495fcb5c0feb9ce9ebe93965beecec50a1e9bea.jpg",
+      "sourceUrl": "https://dcimg1.dcinside.com/viewimage.php?id=2ab2c6&no=24b0d769e1d32ca73cea85fa11d028312761dde02683c10dd92af59f53cb2b3c16de5a1a5f29ad3cef6ba3c648870c05fefc3174c1fc13bc549b6bbd549f671b5469523fc42a074fcf2c63d39c5e703be4385af0d4b258386f",
+      "contentType": "image/jpeg",
+      "detectedBy": "signature"
+    }
+  ],
+  "assetErrors": [],
+  "contentHash": "dd3b9ec8320ea6ea3990633cf61d1a9f634dcc0aef1cf2b74cdbdaf3c8b725a5"
+}

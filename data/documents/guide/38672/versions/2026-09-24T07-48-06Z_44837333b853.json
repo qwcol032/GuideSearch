@@ -1,0 +1,101 @@
+{
+  "id": "guide-38672",
+  "docType": "guide",
+  "title": "(정보,장문)니케 최악의 버그 서버융합 버그에 대한 모든것.Araboza",
+  "body": "세줄요약있음1. 서버 융합 버그란 무엇인가?서버 융합버그란 한 계정으로 두개 이상의 서버를 이용하는 유저들을 대상으로 랜덤으로 발생하는 서버간의 데이터 융합으로 인해 발생되는 버그로 데이터 수집 결과 주로 한국에 본서버를두고 이후 일본서버를 만든 유저들이 걸리는듯하며 기존의 그 어떤버그와도 궤를 달리하는 좆같음을 선사한다2. 그럼 서버 융합에 걸리면 어떤 증상이 발생하는가?우선 서버 융합 버그에 걸린 계정의 \"본서버\"로 들어가게 되면 아래와 같은 상황을 관찰할 수 있다.접속시 이전에 클리어 했던 컨텐츠의 개방알람이 우수수 쏟아지며 블라를 눌러보면 기억소거당한 니케 마냥 모든 블라가 초기화 되어있다.또한 미션을 살펴보면 스토리 스테이즈 클리어 정보를 제외하고는 모든 컨텐츠의 미션이 초기화되어 있는것을 확인 할 수 있다.그렇다면 개꿀아닌가? 미션과 보상을 처음부터 다시 받을수있게 형태가 일부 유저에게 선물한 서프라이즈는 아닐까?형태가 그렇게 호락호락하노?블라에서 유추할 수 있듯이 기존 클리어한 호감도(13지부턴아님ㅋ)퀘스트들이 모두 재생성되는데 가까이가면 오류뜨면서 메인화면으로 가지며더이상 일일미션과 이벤트 미션을 수행할 수 없게 되고 폐광 선언을 받으며클리어 데이터가 인식되지 않기 때문에 이로 인하여 모든 패스를 더이상 받을 수 없게 된다.패스는 앞으로 안사고 어차피 숙제보상 좆도없는데 그냥 겜이나 즐기면 되는거 아닐까?물론 이게 전부가 아니다제일 왼쪽 니케들을 살펴보면 40레벨 미란다와 솔린이 눈에 띌것인다. 쟤내는 왜 40렙으로 따로 올려져있을까? 능지가 딸려 초기화를 까먹은것일까?저 두 캐릭터는 버그에 걸린사람의 본섭에 존재하지 않으며 일본서버에서 보유하고 있는 캐릭터가 옮겨온 것이다. 그렇다면 사용할 수 있는 것인가? 물론 사용할 수 없다. 사용하려하면 오류가 발생하며 메인화면으로 이동한다.이 문제는 새로 옮겨져온 니케에만 발생하는것이 아니라 부서버에 존재하던 모든 니케에 적용된다가운데 싱크로 디바이스를 보면 36/36으로 모두 채워져있다고 나오나 저 빈자리는 모두 부서버에 존재하는 니케들이 본서버에 겹치며 사용할 수 없게된 니케들의 묘지이다즉 자리는 차지하지만 뺄 수 없고 사용도 불가능하게 된 니케들의 흔적이라 할 수 있다.이러한 문제점 때문에 파견에서조차 사용할 수 없어 자동파견을 보내면 오류가뜨고 일일히 하나씩 본서버에만 존재하는 니케로 수행해야하며기업타워또한 32333이라는 기적의 노버스트 조합을 사용해서 니케들의 기본 피지컬에만 의존하는 순수한 싸움을 수행해야 하게 된다.만약 부서버에 있는 니케 풀이 넓거나 홍련같은 캐릭이라도 가지고 있던 사람이라면.. 본서버의 사형선고라 할 수 있다.부서버에 sr만 있는사람은 큰상관 없지 않나? 좀 귀찮아도 SSR만쓰면 겜은 할수있지않을까?물론 문제는 더 있다겹치는 것은 니케뿐만이 아니기 때문이다인벤토리를 살펴보면 각종 sr의 스페어 바디가 들어와 있는것이 보인다.앞선 니케의 경우와 같은 맥락으로 두 서버에 중복되거나 건너온 아이템은 모두 사용이 불가능하다 즉1시간짜리 크레딧, 배틀데이터, 코더, 몰드 등 부서버에 있던 아이템이라면 수치가 합쳐지며 사용이 불가능해진다.더이상 성장할 수 있는 방법이라곤 전초기지의 니케들이 긁어모어오는 쪼가리들 뿐이게 된다는 의미이며 좆같지만 희망을 주는 몰드 또한 그저 관상용 아이템이 되어버린다.그리고 이 버그의 최후는 다음의 한짤로 요약된다이 버그의 가장 무서운점은 침식되는 니케마냥 시간이 지날수록 점점 더 심해지면서결국 본서버 접속 불가로 이어지는 것이다. 3/3 Messenger Sync 67이 고정적인 화면은 당신이 앞으로 맞이하게 될 미래이다.부서버에 접속은 문제가없다 허나 그게 무슨의미가 있을까?이렇듯 서버 융합 버그는 당신의 전초기지에서의 삶을 한순간에 파멸로 이끌수 있는 무서운 버그이다3.그렇다면 이버그의 해결방법은 없을까?물론 이러한 버그를 맞이했을때 대응 할 수 있는 방법이 아주 없는것은 아니다.첫째로. 간단히 서버에서 로그아웃 후 니케를 완전히 종료하고 다시 니케를 실행하여 바로 본서버에 접속하는것이다.아직 침식이 심하지 않은 상태라면 이 방법으로 문제가 완전히 해결되며 침식되어온 니케와 아이템이 모두 사라진다.이러한 융합버그가 발생했을 때 가장 편리한 방법이며 이 방법으로 해결되었다면 당신은 운이 매우 좋다.둘째로 침식이 진행되어 첫번째 방법으로 해결이 안됬으며 마지막 본서버 접속 불가짤을 반복적으로 맞이하는 경우부서버에 접속한 뒤 로그아웃을 실행하고 바로 로그인을 한 뒤에 바로 본서버에 접속을 시도하는 것이다.이 경우 본서버에 접속이 진행되며 다만 앞서 언급한 모든 버그는 그대로 다시 발생하고 그저 \"접속\"만 가능하게 되는 해결 방법이다그렇다면 이 문제의 완전한 해결 방법은 무엇일까? 그런건 없다 게이야!!니가잃어버린 니케들무슨일이있어도! 절대!!돌아오지 않는다!!!라운지의 이러한 버그를 겪는 사례의 환자를 살펴보면 다음과 같다자그마치 오늘기준으로 21일동안 서버에 접속조차 못하고있는 희생자가 존재하는걸 보면지금 이 서버융합 버그 말기 환자라면 희망이 없어보인다.모든 인게임 스샷은 직접 촬영했으며 본인은 이 버그말기에 걸린지 이틀차다.그동안 지른돈 다 내놔 씨발!!!!이버그를 겪고있는 모든 환자들.. 힘내자그리고 아직 겪지 않은 너희들...살아라세줄요약1. 서버융합버그는 한 계정으로 두개 이상의 서버를 이용하는 유저를 대상으로 랜덤으로 발생하는 아주 좆같은 버그이다.2. 서버융합 버그에 걸렸을 때 본 서버의 블라, 미션등이 초기화 혹은 상대 서버의 데이터가 복사되며 서버에 중복되는 니케와 아이템은 사용이 불가해진다3. 서버융합 버그에 걸렸을 때 시간이 지날수록 침식이 심해지며 일정단계가 지나면 현재 시점에서 해결방법은 없다 심각한 버그이니 만큼 모두가 인지할수 있고 수정이 빨리 될 수 있도록 널리퍼트려줘.. 개추부탁함",
+  "bodyHtml": "<p><b>세줄요약있음</b></p><p><br></p><p>1. 서버 융합 버그란 무엇인가?</p><p><br></p><p><img src=\"../../../assets/guide/38672/39b379d3f2169cd03b1d7ce6b0a8c64117c116b229db45968331d79f99dafd40.jpg\" alt=\"a65614aa1f06b3679234254958db343a2c50ae84a41f99f51787\"></p><p><br></p><p><br></p><p>서버 융합버그란 한 계정으로 <b>두개 이상</b>의 서버를 이용하는 유저들을 대상으로 랜덤으로 발생하는&nbsp;</p><p>서버간의 데이터 융합으로 인해 발생되는 버그로 데이터 수집 결과 주로 한국에 본서버를두고 이후 일본서버를 만든 유저들이 걸리는듯하며&nbsp;</p><p><br></p><p>기존의 그 어떤버그와도 <b>궤를 달리하는 좆같음</b>을 선사한다<br></p><p><br></p><p><br></p><p><br></p><p><br></p><p>2. 그럼 서버 융합에 걸리면 어떤 증상이 발생하는가?</p><p><br></p><p>우선 서버 융합 버그에 걸린 계정의 \"본서버\"로 들어가게 되면 아래와 같은 상황을 관찰할 수 있다.</p><p><br></p><p><img src=\"../../../assets/guide/38672/280b1ea10fbec5c6de9a7aa6578b79fff83371e594fe24e5701f0edb8229a3db.jpg\" alt=\"a14918ad352e69e864afd19528d52703999f4456bce78c\"></p><p><br></p><p><br></p><p><br></p><p>접속시 이전에 클리어 했던 컨텐츠의 개방알람이 우수수 쏟아지며 블라를 눌러보면 기억소거당한 니케 마냥 모든 블라가 초기화 되어있다.</p><p><br></p><p>또한 미션을 살펴보면 스토리 스테이즈 클리어 정보를 제외하고는 모든 컨텐츠의 미션이 초기화되어 있는것을 확인 할 수 있다.</p><p><br></p><p>그렇다면 개꿀아닌가? 미션과 보상을 처음부터 다시 받을수있게 형태가 일부 유저에게 선물한 서프라이즈는&nbsp;아닐까?</p><p><br></p><p><img src=\"../../../assets/guide/38672/74ca2887fc5f0fdf0a4fac6d105084812d09796413203d538c9624b13febfa23.jpg\" alt=\"7cead671e18468fe68e886e41588216df3dc1b77c36f9668fc47e5f7bde2\"></p><p><br></p><p><b>형태가 그렇게 호락호락하노?</b></p><p><br></p><p><br></p><p><img src=\"../../../assets/guide/38672/734f9396d1d9c2d9d92fe54c74504f35210cbc412d3d862a81524952fa8a8c34.jpg\" alt=\"a14918ad3526b4538a33235958db343a45cc973576cf6a9de2c3c41d\"></p><p><br></p><p>블라에서 유추할 수 있듯이 기존 클리어한 호감도(13지부턴아님ㅋ)퀘스트들이 모두 재생성되는데 가까이가면 오류뜨면서 메인화면으로 가지며</p><p><br></p><p>더이상 <b>일일미션</b>과&nbsp;<b>이벤트 미션을 수행할 수 없게</b> 되고 폐광 선언을 받으며</p><p><br></p><p>클리어 데이터가 인식되지 않기 때문에 이로 인하여 <b>모든&nbsp;패스를 더이상 받을 수 없게</b> 된다.</p><p><br></p><p><br></p><p><img src=\"../../../assets/guide/38672/01b9891b7ee42c14dd992f9b5964062fcf4deac705974c34d3ccb53ad3c978aa.jpg\" alt=\"a65614aa1f06b36792342549569975740c17ee952a29b745b249425a3c59\"></p><p><br></p><p><br></p><p>패스는 앞으로 안사고 어차피 숙제보상 좆도없는데 그냥 겜이나 즐기면 되는거 아닐까?</p><p><br></p><p><b>물론 이게 전부가 아니다</b></p><p><br></p><p><br></p><p><img src=\"../../../assets/guide/38672/3f7e33860cd9318ff4c433ac65154cd77d945f1c77b876640c35a22901c5976c.jpg\" alt=\"a76d2caa111ab376923314559c02e4b19d6550e72ebb9bd8435a5b6d5baf82ff27f3\"></p><p><br></p><p><br></p><p>제일 왼쪽 니케들을 살펴보면 40레벨 미란다와 솔린이 눈에 띌것인다. 쟤내는 왜 40렙으로 따로 올려져있을까?&nbsp;</p><p>능지가 딸려 초기화를 까먹은것일까?</p><p><br></p><p>저 두 캐릭터는 버그에 걸린사람의 본섭에 존재하지 않으며 일본서버에서 보유하고 있는 캐릭터가 옮겨온 것이다.&nbsp;</p><p>그렇다면 사용할 수 있는 것인가?&nbsp;</p><p><br></p><p><b>물론 사용할 수 없다</b>.&nbsp;</p><p><br></p><p>사용하려하면 오류가 발생하며 메인화면으로 이동한다.</p><p>이 문제는 새로 옮겨져온 니케에만 발생하는것이 아니라 <b>부서버에 존재하던 모든 니케에 적용된다</b></p><p><br></p><p>가운데 싱크로 디바이스를 보면 36/36으로 모두 채워져있다고 나오나&nbsp;</p><p>저 빈자리는 모두 부서버에 존재하는 니케들이 본서버에 겹치며&nbsp; 사용할 수 없게된 니케들의 묘지이다</p><p>즉 <b>자리는 차지하지만 뺄 수 없고 사용도 불가능하게 된 니케들의 흔적</b>이라 할 수 있다.</p><p><br></p><p>이러한 문제점 때문에 파견에서조차 사용할 수 없어&nbsp;</p><p>자동파견을 보내면 오류가뜨고&nbsp;<span>일일히 하나씩 본서버에만 존재하는 니케로 수행해야하며</span></p><p><br></p><p>기업타워또한 32333이라는 기적의 노버스트 조합을 사용해서 니케들의 기본 피지컬에만 의존하는 순수한 싸움을 수행해야 하게 된다.</p><p>만약 부서버에 있는 니케 풀이 넓거나 홍련같은 캐릭이라도 가지고 있던 사람이라면.. <b>본서버의 사형선고</b>라 할 수 있다.</p><p><br></p><p><br></p><p><img src=\"../../../assets/guide/38672/95badabf788593665269dcad9d2c6829a3ff608b04e0f5919630ca2a3db3d678.jpg\" alt=\"7dbbd671b6d06ca537ed87e013d7716f7c098c2bde46683a5c5a2b72dc1170b3fbc944a8a704ed1d2b24dd1c8fd297\"></p><p><br></p><p><br></p><p>부서버에 sr만 있는사람은 큰상관 없지 않나? 좀 귀찮아도 SSR만쓰면 겜은 할수있지않을까?</p><p><br></p><p><b>물론 문제는 더 있다</b></p><p><b></b><br></p><p><img src=\"../../../assets/guide/38672/b7a688239c6e6a4b0cef32ce7d69f8ab4bd7b3c22e410b97a36b2b35c37078e6.jpg\" alt=\"a14b04ad1309b274823314559b24f0b19514e8b75089299c67cdacbd170ab39f4669c1a0f674d3f0\"></p><p><b>겹치는 것은 니케뿐만이 아니기 때문이다<br></b></p><p><b><br></b></p><p>인벤토리를 살펴보면 각종 sr의 스페어 바디가 들어와 있는것이 보인다.</p><p>앞선 니케의 경우와 같은 맥락으로 <b>두 서버에 중복되거나 건너온&nbsp;아이템은 모두 사용이 불가능하다</b> 즉</p><p><b>1시간짜리 크레딧, 배틀데이터, 코더, 몰드 등 부서버에 있던 아이템이라면 수치가 합쳐지며 사용이 불가능해진다.</b></p><p><br></p><p>더이상 성장할 수 있는 방법이라곤 전초기지의 니케들이 긁어모어오는 쪼가리들 뿐이게 된다는 의미이며&nbsp;</p><p>좆같지만 희망을 주는 몰드 또한 그저 관상용 아이템이 되어버린다.</p><p><br></p><p><br></p><p><br></p><p><br></p><p><b>그리고 이 버그의 최후는 다음의 한짤로 요약된다</b></p><p><br></p><p><br></p><p><img src=\"../../../assets/guide/38672/32e8f2591e8282f036ef3199720f33309ad3a94972b96a0c16ac23c083fad804.jpg\" alt=\"a17e0daa183e76ac7eb8f68b12d21a1d76ab8ae02b58\"></p><p><br></p><p>이 버그의 가장 무서운점은 침식되는 니케마냥 시간이 지날수록 점점 더 심해지면서</p><p>결국 <b>본서버 접속 불가</b>로 이어지는 것이다.</p><p><b>&nbsp;</b></p><p><b>3/3 Messenger Sync 67</b></p><p><b>이 고정적인 화면은 당신이 앞으로 맞이하게 될 미래이다.</b></p><p>부서버에 접속은 문제가없다 허나 그게 무슨의미가 있을까?</p><p><br></p><p>이렇듯 서버 융합 버그는 당신의 전초기지에서의 삶을 한순간에 파멸로 이끌수 있는 무서운 버그이다</p><p><span><br></span></p><p><span><b><br></b></span></p><p><span><b><br></b></span></p><p><span><b>3.그렇다면 이버그의 해결방법은 없을까?</b></span></p><p><span><br></span></p><p><span>물론 이러한 버그를 맞이했을때 대응 할 수 있는 방법이 <b>아주 없는것</b>은 아니다.</span></p><p><span><br></span></p><p><span><br></span></p><p><span><b>첫째로</b>.&nbsp;</span></p><p><span><br></span></p><p><span>간단히 서버에서 로그아웃 후 니케를 완전히 종료하고&nbsp;</span></p><p><span>다시 니케를 실행하여 바로 본서버에 접속하는것이다.</span></p><p>아직 침식이 심하지 않은 상태라면 이 방법으로 문제가 완전히 해결되며&nbsp;</p><p>침식되어온 니케와 아이템이 모두 사라진다.</p><p><span>이러한 융합버그가 발생했을 때 가장 편리한 방법이며&nbsp;이 방법으로 해결되었다면 당신은 운이 매우 좋다.</span></p><p><span><br></span></p><p><span><br></span></p><p><span><br></span></p><p><span><b>둘째로</b>&nbsp;</span></p><p><span><br></span></p><p><span>침식이 진행되어 첫번째 방법으로 해결이 안됬으며 마지막 본서버 접속 불가짤을&nbsp;반복적으로 맞이하는 경우</span></p><p><span>부서버에 접속한 뒤 로그아웃을 실행하고 바로 로그인을 한 뒤에 바로 본서버에 접속을 시도하는 것이다.</span></p><p><span>이 경우 본서버에 접속이 진행되며 다만 앞서 언급한 모든 버그는 그대로 다시 발생하고 그저 \"접속\"만 가능하게 되는 해결 방법이다</span></p><p><br></p><p><b><br></b></p><p><b><br></b></p><p><b><br></b></p><p><b><span>그렇다면 이 문제의 완전한 해결 방법은 무엇일까?</span></b></p><p><b><br></b></p><p><b><br></b></p><p><b><br></b></p><p><b><br></b></p><p><b><br></b></p><p><b><br></b></p><p><b><br></b></p><p><b><br></b></p><p><b><br></b></p><p><b><br></b></p><p><b><br></b></p><p><b><br></b></p><p><b><br></b></p><p><b><br></b></p><p><b><br></b></p><p><b><br></b></p><p><b><br></b></p><p><b><br></b></p><p><b></b><br></p><p></p><div><br></div> <p></p><p><b><br></b></p><p><b><br></b></p><p><b>그런건 없다 게이야!!</b></p><p><b><br></b></p><p><b>니가잃어버린 니케들</b></p><p><span><b>무슨일이있어도! 절대!!</b></span></p><p><b><br></b></p><p><b>돌아오지 않는다!!!</b></p><p><b><br></b></p><p><b><br></b></p><p><br></p><p><br></p><p><br></p><p><br></p><p>라운지의 이러한 버그를 겪는 사례의 환자를 살펴보면 다음과 같다</p><p><br></p><p><img src=\"../../../assets/guide/38672/d467860290881cf812fb15dde8192705e84cdf6230fad4fbc37e2af7dadbaa3e.png\" alt=\"a65614aa1f06b3679234254958c12a3ae31061529cdd2c05e92f25\"></p><p><br></p><p><br></p><p><br></p><p>자그마치 오늘기준으로 21일동안 서버에 접속조차 못하고있는 희생자가 존재하는걸 보면</p><p>지금 이 서버융합 버그 말기 환자라면 희망이 없어보인다.</p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p>모든 인게임 스샷은 직접 촬영했으며 본인은 이 버그말기에 걸린지 이틀차다.</p><p><br></p><p><img src=\"../../../assets/guide/38672/d292b47cef7dbe033bcc2edf46c28806549c4935d80604a8a7bf1b61ce47f773.jpg\" alt=\"7becd272b08339f23eefd0ec45837d6e49debb7bd74f4f2aedcf359f869f64b3c42325\"></p><p><br></p><p><span>그동안 지른돈 다 내놔 씨발!!!!</span></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><img src=\"../../../assets/guide/38672/46976aeba474db508f147369def4148f091ad7639a7851802dd453ce5df7a787.jpg\" alt=\"7ab9d174e3853ba568e785b342d7263b7570f52ab14e5ffb2488617ff8672f9f1f7ed4a6e069659327014313c41989\"></p><p><br></p><p><br></p><p>이버그를 겪고있는 모든 환자들.. 힘내자</p><p>그리고 아직 겪지 않은 너희들...</p><p><br></p><p><b>살아라</b></p><p><b><br></b></p><p><br></p><p><br></p><p><br></p><p><br></p><p><b>세줄</b><b>요약</b></p><p><b><br></b></p><p>1. 서버융합버그는 한 계정으로 두개 이상의 서버를 이용하는 유저를 대상으로 랜덤으로 발생하는 아주 좆같은 버그이다.</p><p>2. 서버융합 버그에 걸렸을 때 본 서버의 블라, 미션등이 초기화&nbsp;혹은 상대 서버의 데이터가 복사되며 서버에 중복되는 니케와 아이템은 사용이 불가해진다</p><p>3. 서버융합 버그에 걸렸을 때 시간이 지날수록 침식이 심해지며 일정단계가 지나면&nbsp;<span>현재 시점에서</span><span>&nbsp;</span><span><b><span>해결방법은 없다&nbsp;</span></b></span></p><p><span><b><span><br></span></b></span></p><p><span><b><span><br></span></b></span></p><p><span><b><span><br></span></b></span></p><p><span><span><b>심각한 버그이니 만큼 모두가 인지할수 있고 수정이 빨리 될 수 있도록 널리퍼트려줘.. 개추부탁함</b></span></span><b><br></b></p><p><br></p><p>&nbsp;<br></p>",
+  "snippet": "세줄요약있음1. 서버 융합 버그란 무엇인가?서버 융합버그란 한 계정으로 두개 이상의 서버를 이용하는 유저들을 대상으로 랜덤으로 발생하는 서버간의 데이터 융합으로 인해 발생되는 버그로 데이터 수집 결과 주로 한국에 본서버를두고 이후 일본서버를 만든 유저들이 걸리는듯하며 기존의 그 어떤버그와도 궤를 달리하는 좆같음을 선사한다2. 그럼 서버 융합에 걸리면 어떤 ",
+  "url": "https://gall.dcinside.com/mgallery/board/view/?id=gov&no=38672",
+  "postNo": "38672",
+  "backupDate": "2026-09-24",
+  "parentSourcePostNo": "1990236",
+  "backupAt": "2026-09-24T07:48:06.594Z",
+  "assets": [
+    {
+      "hash": "39b379d3f2169cd03b1d7ce6b0a8c64117c116b229db45968331d79f99dafd40",
+      "fileName": "39b379d3f2169cd03b1d7ce6b0a8c64117c116b229db45968331d79f99dafd40.jpg",
+      "sourceUrl": "https://dcimg1.dcinside.com/viewimage.php?id=2ab2c6&no=24b0d769e1d32ca73cea84fa11d028317301f601b23eba312c6f01900a3514996bcd37692efd7381f60b8080be14cf2594cd32ab5ed40ca3d59fe79be222",
+      "contentType": "image/jpeg",
+      "detectedBy": "signature"
+    },
+    {
+      "hash": "280b1ea10fbec5c6de9a7aa6578b79fff83371e594fe24e5701f0edb8229a3db",
+      "fileName": "280b1ea10fbec5c6de9a7aa6578b79fff83371e594fe24e5701f0edb8229a3db.jpg",
+      "sourceUrl": "https://dcimg1.dcinside.com/viewimage.php?id=2ab2c6&no=24b0d769e1d32ca73cea84fa11d028317301f601b23eba312c6f01900a3514996bcd37692efd1eecf70f8586be18c42fe60c05ce1c916c928e2699e3fa",
+      "contentType": "image/jpeg",
+      "detectedBy": "signature"
+    },
+    {
+      "hash": "74ca2887fc5f0fdf0a4fac6d105084812d09796413203d538c9624b13febfa23",
+      "fileName": "74ca2887fc5f0fdf0a4fac6d105084812d09796413203d538c9624b13febfa23.jpg",
+      "sourceUrl": "https://dcimg1.dcinside.com/viewimage.php?id=2ab2c6&no=24b0d769e1d32ca73cea84fa11d028317301f601b23eba312c6f01900a3514996bcd37692efd7381f60b8080be14cf2594cd3eaa5c8e5ff98398e79be222",
+      "contentType": "image/jpeg",
+      "detectedBy": "signature"
+    },
+    {
+      "hash": "734f9396d1d9c2d9d92fe54c74504f35210cbc412d3d862a81524952fa8a8c34",
+      "fileName": "734f9396d1d9c2d9d92fe54c74504f35210cbc412d3d862a81524952fa8a8c34.jpg",
+      "sourceUrl": "https://dcimg1.dcinside.com/viewimage.php?id=2ab2c6&no=24b0d769e1d32ca73cea84fa11d028317301f601b23eba312c6f01900a3514996bcd37692efd1eecf70f8586be18c42fe60800cf1e9e63c08d2699e3fa",
+      "contentType": "image/jpeg",
+      "detectedBy": "signature"
+    },
+    {
+      "hash": "01b9891b7ee42c14dd992f9b5964062fcf4deac705974c34d3ccb53ad3c978aa",
+      "fileName": "01b9891b7ee42c14dd992f9b5964062fcf4deac705974c34d3ccb53ad3c978aa.jpg",
+      "sourceUrl": "https://dcimg1.dcinside.com/viewimage.php?id=2ab2c6&no=24b0d769e1d32ca73cea84fa11d028317301f601b23eba312c6f01900a3514996bcd37692efd7381f60b8080be14cf2594cd6ffa5cd258f9d099e79be222",
+      "contentType": "image/jpeg",
+      "detectedBy": "signature"
+    },
+    {
+      "hash": "3f7e33860cd9318ff4c433ac65154cd77d945f1c77b876640c35a22901c5976c",
+      "fileName": "3f7e33860cd9318ff4c433ac65154cd77d945f1c77b876640c35a22901c5976c.jpg",
+      "sourceUrl": "https://dcimg1.dcinside.com/viewimage.php?id=2ab2c6&no=24b0d769e1d32ca73cea84fa11d028317301f601b23eba312c6f01900a3514996bcd37692efd1eecf70f8586be18c42fe60952cc4bce61c0d82699e3fa",
+      "contentType": "image/jpeg",
+      "detectedBy": "signature"
+    },
+    {
+      "hash": "95badabf788593665269dcad9d2c6829a3ff608b04e0f5919630ca2a3db3d678",
+      "fileName": "95badabf788593665269dcad9d2c6829a3ff608b04e0f5919630ca2a3db3d678.jpg",
+      "sourceUrl": "https://dcimg1.dcinside.com/viewimage.php?id=2ab2c6&no=24b0d769e1d32ca73cea84fa11d028317301f601b23eba312c6f01900a3514996bcd37692efd7381f60b8080be14cf2594cd3bac09d00bf684cce79be222",
+      "contentType": "image/jpeg",
+      "detectedBy": "signature"
+    },
+    {
+      "hash": "b7a688239c6e6a4b0cef32ce7d69f8ab4bd7b3c22e410b97a36b2b35c37078e6",
+      "fileName": "b7a688239c6e6a4b0cef32ce7d69f8ab4bd7b3c22e410b97a36b2b35c37078e6.jpg",
+      "sourceUrl": "https://dcimg1.dcinside.com/viewimage.php?id=2ab2c6&no=24b0d769e1d32ca73cea84fa11d028317301f601b23eba312c6f01900a3514996bcd37692efd1eecf70f8586be18c42fe60b56994d996793d02699e3fa",
+      "contentType": "image/jpeg",
+      "detectedBy": "signature"
+    },
+    {
+      "hash": "32e8f2591e8282f036ef3199720f33309ad3a94972b96a0c16ac23c083fad804",
+      "fileName": "32e8f2591e8282f036ef3199720f33309ad3a94972b96a0c16ac23c083fad804.jpg",
+      "sourceUrl": "https://dcimg1.dcinside.com/viewimage.php?id=2ab2c6&no=24b0d769e1d32ca73cea84fa11d028317301f601b23eba312c6f01900a3514996bcd37692efd1eecf70f8586be18c42fe60a569d4c9a62928c2699e3fa",
+      "contentType": "image/jpeg",
+      "detectedBy": "signature"
+    },
+    {
+      "hash": "d467860290881cf812fb15dde8192705e84cdf6230fad4fbc37e2af7dadbaa3e",
+      "fileName": "d467860290881cf812fb15dde8192705e84cdf6230fad4fbc37e2af7dadbaa3e.png",
+      "sourceUrl": "https://dcimg1.dcinside.com/viewimage.php?id=2ab2c6&no=24b0d769e1d32ca73cea84fa11d028317301f601b23eba312c6f01900a3514996bcd37692efd1eecf70f8586be18c42fe60a59cc439166c2d82683fdfa",
+      "contentType": "image/png",
+      "detectedBy": "signature"
+    },
+    {
+      "hash": "d292b47cef7dbe033bcc2edf46c28806549c4935d80604a8a7bf1b61ce47f773",
+      "fileName": "d292b47cef7dbe033bcc2edf46c28806549c4935d80604a8a7bf1b61ce47f773.jpg",
+      "sourceUrl": "https://dcimg1.dcinside.com/viewimage.php?id=2ab2c6&no=24b0d769e1d32ca73cea84fa11d028317301f601b23eba312c6f01900a3514996bcd37692efd7381f60b8080be14cf2594cd3afa5a805cf8d099e79be222",
+      "contentType": "image/jpeg",
+      "detectedBy": "signature"
+    },
+    {
+      "hash": "46976aeba474db508f147369def4148f091ad7639a7851802dd453ce5df7a787",
+      "fileName": "46976aeba474db508f147369def4148f091ad7639a7851802dd453ce5df7a787.jpg",
+      "sourceUrl": "https://dcimg1.dcinside.com/viewimage.php?id=2ab2c6&no=24b0d769e1d32ca73cea84fa11d028317301f601b23eba312c6f01900a3514996bcd37692efd7381f60b8080be14cf2594cd38f058d009f1889fe79be222",
+      "contentType": "image/jpeg",
+      "detectedBy": "signature"
+    }
+  ],
+  "assetErrors": [],
+  "contentHash": "44837333b8532e0afabb6bc24d26d38f0e1dbef5ae4de16ef5309bde7ac6b7cd"
+}

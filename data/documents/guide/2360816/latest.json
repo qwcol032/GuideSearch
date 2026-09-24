@@ -1,0 +1,31 @@
+{
+  "id": "guide-2360816",
+  "docType": "guide",
+  "title": "아,,,,지워진다,,,,",
+  "body": "뱃속의 아이가,,,,",
+  "bodyHtml": "<p></p><div><img src=\"../../../assets/guide/2360816/1786769777257f04a7f833d0069ddfe5ffff3f77949bbf4862517681c849a068.png\" alt=\"2ab2c66bb7826af23fed86e15b8376693da802f5909bf12e051c39d7c168c9aaf38af622d4f9df\"></div><p></p><div><br><div>뱃속의 아이가,,,, </div></div><p></p><div><img class=\"written_dccon\" src=\"../../../assets/guide/2360816/d74fdc0c993cf0e128414e12faa5c4888f43b011c7481868825442ff08937ef0.png\" conalt=\"1\" alt=\"1\" title=\"1\" data-dcconoverstatus=\"false\"></div>",
+  "snippet": "뱃속의 아이가,,,,",
+  "url": "https://gall.dcinside.com/mgallery/board/view/?id=gov&no=2360816",
+  "postNo": "2360816",
+  "backupDate": "2026-09-24",
+  "parentSourcePostNo": "1990236",
+  "backupAt": "2026-09-24T08:07:06.441Z",
+  "assets": [
+    {
+      "hash": "1786769777257f04a7f833d0069ddfe5ffff3f77949bbf4862517681c849a068",
+      "fileName": "1786769777257f04a7f833d0069ddfe5ffff3f77949bbf4862517681c849a068.png",
+      "sourceUrl": "https://dcimg1.dcinside.com/viewimage.php?id=2ab2c6&no=24b0d769e1d32ca73ce886fa11d02831261f1a40c7bf6e9339ab42f5e5ae8dab894abeb6f9d598df923b823a512b756ae04a0f077c1efeff40cc0bcd6d12dbb0e934e7bf323e99676e673fadd614bd2bb639e498dfd6",
+      "contentType": "image/png",
+      "detectedBy": "signature"
+    },
+    {
+      "hash": "d74fdc0c993cf0e128414e12faa5c4888f43b011c7481868825442ff08937ef0",
+      "fileName": "d74fdc0c993cf0e128414e12faa5c4888f43b011c7481868825442ff08937ef0.png",
+      "sourceUrl": "https://dcimg5.dcinside.com/dccon.php?no=62b5df2be09d3ca567b1c5bc12d46b394aa3b1058c6e4d0ca41648b658ea25773f9800de053e71f1b3a71c1ba28ebd28fa8cfd04658b75fca3cf1ca144f5d598b001a381219d72",
+      "contentType": "image/png",
+      "detectedBy": "signature"
+    }
+  ],
+  "assetErrors": [],
+  "contentHash": "0a881a228a500224d32d7984bcbcc9c2d5fb3739a177c2bba750c348c5a2f988"
+}

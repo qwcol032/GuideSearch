@@ -1,0 +1,31 @@
+{
+  "id": "guide-2187148",
+  "docType": "guide",
+  "title": "뉴비 스킨 질문이요.",
+  "body": "계속 인신공격 중인데 아직도 타워 랭킹 안 내리네요. 방법이 없을까요?- dc official App",
+  "bodyHtml": "<p></p><div><div><span>계속 인신공격 중인데 아직도 타워 랭킹 안 내리네요. 방법이 없을까요?</span></div></div><p></p><div><img src=\"../../../assets/guide/2187148/e1bc58486cedef7e3f228986d519945628a8736f47feee42073b00aed4c627ae.jpg\" alt=\"0ce5f57eb6831cff23e7f2e7469c706fd417d5e99bc9797f5bfc3c8b39bb9bfa64944df17e17add7cec9f8e4bc5bd3f98da194f2\"></div><p></p><div><img src=\"../../../assets/guide/2187148/77c4289e374aa4fd89b0b4d2dc6dc2cd97a47a5b9076f5d4ecf6fcbba9b2b28d.jpg\" alt=\"0b9c8004b0f6608523ed8193459c706c4165377eee574374d26d1e74253574abead5d527792e665fcbb5fab1ca7818f9a008a6a3\"></div><p></p><div><span id=\"dcappfooter\">- dc official App</span></div>",
+  "snippet": "계속 인신공격 중인데 아직도 타워 랭킹 안 내리네요. 방법이 없을까요?- dc official App",
+  "url": "https://gall.dcinside.com/mgallery/board/view/?id=gov&no=2187148",
+  "postNo": "2187148",
+  "backupDate": "2026-09-24",
+  "parentSourcePostNo": "1990236",
+  "backupAt": "2026-09-24T08:02:59.132Z",
+  "assets": [
+    {
+      "hash": "e1bc58486cedef7e3f228986d519945628a8736f47feee42073b00aed4c627ae",
+      "fileName": "e1bc58486cedef7e3f228986d519945628a8736f47feee42073b00aed4c627ae.jpg",
+      "sourceUrl": "https://dcimg1.dcinside.com/viewimage.php?id=2ab2c6&no=24b0d769e1d32ca73ce98ffa11d02831bd5a1dd344853cdafcb6798d9a17dea3b28da7c37e552bc2cda06f726f08bea6ed02feea458d8378fce7ae13736405e3141d75e7eab1c4f1c97b0e944d7ccbe34a01c464320b81f8857f1ecec135d9dac8f340",
+      "contentType": "image/jpeg",
+      "detectedBy": "signature"
+    },
+    {
+      "hash": "77c4289e374aa4fd89b0b4d2dc6dc2cd97a47a5b9076f5d4ecf6fcbba9b2b28d",
+      "fileName": "77c4289e374aa4fd89b0b4d2dc6dc2cd97a47a5b9076f5d4ecf6fcbba9b2b28d.jpg",
+      "sourceUrl": "https://dcimg1.dcinside.com/viewimage.php?id=2ab2c6&no=24b0d769e1d32ca73ce98ffa11d02831bd5a1dd344853cdafcb6798d9a17dea3b28da7c37e552bc2cda06f726f08bea6ed02febf45858c2eaee6ae140a117fe55a0548f432f69c583e61fee607cc147db9db791f03a5745740b8e5050bab93e50ad9c4",
+      "contentType": "image/jpeg",
+      "detectedBy": "signature"
+    }
+  ],
+  "assetErrors": [],
+  "contentHash": "264cf97dea325c065da22367bd3742aa49c8b28cb5b5990a5569f239c0aed4da"
+}

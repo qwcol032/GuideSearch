@@ -1,0 +1,31 @@
+{
+  "id": "guide-1060172",
+  "docType": "guide",
+  "title": "안아줘요콘 보면 가능한 안아줬어요콘 달아줌",
+  "body": "그래야 마음이 편해 - dc official App",
+  "bodyHtml": "<p></p><div><img src=\"../../../assets/guide/1060172/e601d13098baef0e3e6eaa8736f1541813b2a87c9007677f840840f5bc646a43.jpg\" alt=\"2ab2c66bb7826af23eee86ec5b807769f6c46a327c50efb880ca7b20a593bcbd065f3c2252cfc8\"></div><p></p><div><div>그래야 마음이 편해 </div><br></div><p></p><div><img class=\"written_dccon\" src=\"../../../assets/guide/1060172/4fac7a99c4c20ae2a807eeac95359accd3efcff419b0f70eacc3ca5cc6165630.png\" conalt=\"6\" alt=\"6\" title=\"6\" data-dcconoverstatus=\"false\"></div><p></p><div><span id=\"dcappfooter\"> - dc official App</span></div>",
+  "snippet": "그래야 마음이 편해 - dc official App",
+  "url": "https://gall.dcinside.com/mgallery/board/view/?id=gov&no=1060172",
+  "postNo": "1060172",
+  "backupDate": "2026-09-24",
+  "parentSourcePostNo": "1990236",
+  "backupAt": "2026-09-24T07:52:58.604Z",
+  "assets": [
+    {
+      "hash": "e601d13098baef0e3e6eaa8736f1541813b2a87c9007677f840840f5bc646a43",
+      "fileName": "e601d13098baef0e3e6eaa8736f1541813b2a87c9007677f840840f5bc646a43.jpg",
+      "sourceUrl": "https://dcimg1.dcinside.com/viewimage.php?id=2ab2c6&no=24b0d769e1d32ca73ce984fa11d02831712cded9689b1cd0d77fde500a68fbd2d3ad8750cc5956f0fa792964fb98c2312742b203992ead739938003e711f7e5f75ae31b32630001440b22e4bb0b77e15d0847cf8213a",
+      "contentType": "image/jpeg",
+      "detectedBy": "signature"
+    },
+    {
+      "hash": "4fac7a99c4c20ae2a807eeac95359accd3efcff419b0f70eacc3ca5cc6165630",
+      "fileName": "4fac7a99c4c20ae2a807eeac95359accd3efcff419b0f70eacc3ca5cc6165630.png",
+      "sourceUrl": "https://dcimg5.dcinside.com/dccon.php?no=62b5df2be09d3ca567b1c5bc12d46b394aa3b1058c6e4d0ca41648b658eb2370c150b9801c828807ed290586fd10f2645adccb8007dff2afaafc4c34cdb975a662d8147c1dc00ae8ea2b",
+      "contentType": "image/png",
+      "detectedBy": "signature"
+    }
+  ],
+  "assetErrors": [],
+  "contentHash": "2a29c7ce235246988f7e75cb2304d1a6b8fdfa6bd2eef137d7e9a664f7041b4d"
+}

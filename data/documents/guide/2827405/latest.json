@@ -1,0 +1,45 @@
+{
+  "id": "guide-2827405",
+  "docType": "guide",
+  "title": "창순이 원본은 저거아닌데",
+  "body": "이거임",
+  "bodyHtml": "<p></p><div><img src=\"../../../assets/guide/2827405/51d57ef3d55808cad53275b1ef20840d0399036e6f0d02066cd975a576bc5854.png\" alt=\"7beef67fb4816af5239987e04e9c701838b5fc5b1eab941d5f5c2e863daf94490a09a7827a8bf66f3b1e26267d23b94243bb4627\"></div><p></p><div><img src=\"../../../assets/guide/2827405/df193f7e3c9044f5ae774a584a972ea383ee83d03298ce695162c240928691ac.jpg\" alt=\"7aed8775c0856f8423eff4e7409c7064f54250fce9078914a601e629ec6e320c61a01ef8f8902443e20941e9d44f64ace6c20581\"></div><p></p><div><img src=\"../../../assets/guide/2827405/a05c58eccd1b1e31034b158be89db97f3b6e913ae0fb33182febece3a1e584f6.jpg\" alt=\"0c9c8872b584608423e7f7e6429c7018b0fcc60238aeb1e44f8054034a555f373577ff44e87481c7da6d849db5a5236242bb121c50\"></div><p></p><div><div><span>이거임</span></div></div><p></p><div><img class=\"written_dccon bigdccon\" src=\"../../../assets/guide/2827405/7d9996b4ddbefb834b273c56cced939f3310dbef2174e980edf80fa4b8b3b32f.png\" conalt=\"40\" alt=\"40\" title=\"40\" data-dcconoverstatus=\"false\"></div>",
+  "snippet": "이거임",
+  "url": "https://gall.dcinside.com/mgallery/board/view/?id=gov&no=2827405&page=1",
+  "postNo": "2827405",
+  "backupDate": "2026-09-24",
+  "parentSourcePostNo": "1990236",
+  "backupAt": "2026-09-24T08:14:10.122Z",
+  "assets": [
+    {
+      "hash": "51d57ef3d55808cad53275b1ef20840d0399036e6f0d02066cd975a576bc5854",
+      "fileName": "51d57ef3d55808cad53275b1ef20840d0399036e6f0d02066cd975a576bc5854.png",
+      "sourceUrl": "https://dcimg1.dcinside.com/viewimage.php?id=2ab2c6&no=24b0d769e1d32ca73ce884fa11d02831c79dcce4cb577080698a340d43bcdeab26822344534703e3c42a7040c58a14eb3b37a049e8a47c933e9ab859524a76c790db53f993fd3ccd7c3a356f3327404b0c7bf1d89ea7d90d9216607fa40f33b3e59d58e4",
+      "contentType": "image/png",
+      "detectedBy": "signature"
+    },
+    {
+      "hash": "df193f7e3c9044f5ae774a584a972ea383ee83d03298ce695162c240928691ac",
+      "fileName": "df193f7e3c9044f5ae774a584a972ea383ee83d03298ce695162c240928691ac.jpg",
+      "sourceUrl": "https://dcimg1.dcinside.com/viewimage.php?id=2ab2c6&no=24b0d769e1d32ca73ce884fa11d02831c79dcce4cb577080698a340d43bcdeab2682234453476e8fc1257141c48b1aee6aded355016aac1d07b85d87933842bd26aaa83611c7332a68b931d0d45f62ba57ebf6ee8ba60e175066a159f9d7d571f97747",
+      "contentType": "image/jpeg",
+      "detectedBy": "signature"
+    },
+    {
+      "hash": "a05c58eccd1b1e31034b158be89db97f3b6e913ae0fb33182febece3a1e584f6",
+      "fileName": "a05c58eccd1b1e31034b158be89db97f3b6e913ae0fb33182febece3a1e584f6.jpg",
+      "sourceUrl": "https://dcimg1.dcinside.com/viewimage.php?id=2ab2c6&no=24b0d769e1d32ca73ce884fa11d02831c79dcce4cb577080698a340d43bcdeab2682234453476e8fc1257141c48b1aee6aded75c5a6caa1a0db55df1e23745c814bbd40a4f83b42332ca06e22625089ca3c670a542a2ac673ed35573eb05e91237427e",
+      "contentType": "image/jpeg",
+      "detectedBy": "signature"
+    },
+    {
+      "hash": "7d9996b4ddbefb834b273c56cced939f3310dbef2174e980edf80fa4b8b3b32f",
+      "fileName": "7d9996b4ddbefb834b273c56cced939f3310dbef2174e980edf80fa4b8b3b32f.png",
+      "sourceUrl": "https://dcimg5.dcinside.com/dccon.php?no=62b5df2be09d3ca567b1c5bc12d46b394aa3b1058c6e4d0ca41648b65fef246e883d5613930989236ca952ff0e701a6fd35cfb316712b4fcc359732769142d7001c677b1b5f546",
+      "contentType": "image/png",
+      "detectedBy": "signature"
+    }
+  ],
+  "assetErrors": [],
+  "contentHash": "8e7fe4e63deed32f69fb8e08aa93749d891ae3c9e11edcd4db13d6903977896b"
+}

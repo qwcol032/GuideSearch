@@ -1,0 +1,24 @@
+{
+  "id": "guide-3325311",
+  "docType": "guide",
+  "title": "[브성대] 기차브금",
+  "body": "[기차브금]",
+  "bodyHtml": "<p></p><div><img src=\"../../../assets/guide/3325311/2879dd44135152aee5c519826caa79e90a897e8df29a8be54426f982aae43532.jpg\" alt=\"7cea8873b4826af23beae9b747d02569e991e5ee81a693c22785f87553694961c81a9eeccd20ec6856da5bbdb86527f28fc5e1\"></div><p></p><div><br><br></div><p></p><div>[기차브금]</div><p></p><div><div class=\"voice_wrap\"></div></div>",
+  "snippet": "[기차브금]",
+  "url": "https://gall.dcinside.com/mgallery/board/view/?id=gov&no=3325311",
+  "postNo": "3325311",
+  "backupDate": "2026-09-24",
+  "parentSourcePostNo": "1990236",
+  "backupAt": "2026-09-24T08:18:36.571Z",
+  "assets": [
+    {
+      "hash": "2879dd44135152aee5c519826caa79e90a897e8df29a8be54426f982aae43532",
+      "fileName": "2879dd44135152aee5c519826caa79e90a897e8df29a8be54426f982aae43532.jpg",
+      "sourceUrl": "https://dcimg1.dcinside.com/viewimage.php?id=2ab2c6&no=29bcc427b69d39b37ab0ccaf17dd6b24a8a48e7dfb118233e15fd5ab5644159cf06f6789502424bda7f9ef32b0796bc21a8b27e786aa0de770445df9628d2bf67b250a",
+      "contentType": "image/jpeg",
+      "detectedBy": "signature"
+    }
+  ],
+  "assetErrors": [],
+  "contentHash": "2d9e6a3cdf23a1c71d19ac5bd3462278de534fdddede1bb7899dbe45ea154472"
+}

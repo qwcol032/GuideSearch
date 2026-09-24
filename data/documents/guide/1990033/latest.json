@@ -1,0 +1,31 @@
+{
+  "id": "guide-1990033",
+  "docType": "guide",
+  "title": "니붕이 정기점검 수면내시경하고 나왔는데...",
+  "body": "의사 센세가 방주가 무슨 코인인지는 몰라도너무 큰 돈을 쓰신거 같다고 적당히 하시는게 어떻냐고...씨발",
+  "bodyHtml": "<div><img src=\"../../../assets/guide/1990033/f736230f87ebd9d92dc43a43091963895e1b550d3ed1970d7707fa77f3aa17a2.png\" alt=\"7cea8176b18a60f03ee998a518d60403fe4b0a7eecb06aea4692\"></div><br><div>의사 센세가 방주가 무슨 코인인지는 몰라도<br>너무 큰 돈을 쓰신거 같다고 적당히 하시는게 어떻냐고<br>...<br>씨발<br><br><br><img class=\"written_dccon\" src=\"../../../assets/guide/1990033/84e9f5a22e8411dd56048eb2b3e8c2403b71dad84ab0de7cd81595cf5bb2b446.png\" conalt=\"58\" alt=\"58\" title=\"58\" detail=\"967719545\" data-dcconoverstatus=\"false\"> <br> <br></div>",
+  "snippet": "의사 센세가 방주가 무슨 코인인지는 몰라도너무 큰 돈을 쓰신거 같다고 적당히 하시는게 어떻냐고...씨발",
+  "url": "https://gall.dcinside.com/mgallery/board/view/?id=gov&no=1990033",
+  "postNo": "1990033",
+  "backupDate": "2026-09-24",
+  "parentSourcePostNo": "1990236",
+  "backupAt": "2026-09-24T08:02:03.261Z",
+  "assets": [
+    {
+      "hash": "f736230f87ebd9d92dc43a43091963895e1b550d3ed1970d7707fa77f3aa17a2",
+      "fileName": "f736230f87ebd9d92dc43a43091963895e1b550d3ed1970d7707fa77f3aa17a2.png",
+      "sourceUrl": "https://dcimg1.dcinside.com/viewimage.php?id=2ab2c6&no=24b0d769e1d32ca73ce98efa11d0283119bd088b32350bffa521b30f0729382e1a8f9f79d63992701f7baed4544361cadcab4c1022021c1249ec67ef577dafcd32ee667314",
+      "contentType": "image/png",
+      "detectedBy": "signature"
+    },
+    {
+      "hash": "84e9f5a22e8411dd56048eb2b3e8c2403b71dad84ab0de7cd81595cf5bb2b446",
+      "fileName": "84e9f5a22e8411dd56048eb2b3e8c2403b71dad84ab0de7cd81595cf5bb2b446.png",
+      "sourceUrl": "https://dcimg5.dcinside.com/dccon.php?no=62b5df2be09d3ca567b1c5bc12d46b394aa3b1058c6e4d0ca41648b658eb2175e1c2902defefe49694ba1c1f2659850f1556393849147fa7e3d265082692e6510f1ab99a7a256844ee",
+      "contentType": "image/png",
+      "detectedBy": "signature"
+    }
+  ],
+  "assetErrors": [],
+  "contentHash": "a213e2fbda422b1587639b9a3daa7adeb9a979cccb85ef91e55df1ce442181f4"
+}

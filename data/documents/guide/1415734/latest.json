@@ -1,0 +1,31 @@
+{
+  "id": "guide-1415734",
+  "docType": "guide",
+  "title": "드디어 나도 필그림타워 민다!",
+  "body": "씨1발련들아- dc official App",
+  "bodyHtml": "<p></p><div><img src=\"../../../assets/guide/1415734/084cb52a37d562ee75a456ff0307ebf1ee01e081af245f72143107cd41ae0825.jpg\" alt=\"7de48476b4856c82239af5e0449c7019cacb71dd559e030f3965feba5f3644e7404f1f954e336571b6b326595d25eb8134646fcc\"></div><p></p><div><img src=\"../../../assets/guide/1415734/0b8c8dd34156cdf39a58dae5c5412bd606dc6b2dfb8c0a12af1391d24c057d7c.jpg\" alt=\"75e88577b2816bf223eaf291359c706d51f15d214ad8d183d01cadd78cc34bcaa31d8832748ebaf3b33789d9200901ff7e6960\"></div><p></p><div><div><span></span><br></div><div><span>씨1발련들아</span></div></div><p></p><div><span id=\"dcappfooter\">- dc official App</span></div>",
+  "snippet": "씨1발련들아- dc official App",
+  "url": "https://gall.dcinside.com/mgallery/board/view/?id=gov&no=1415734",
+  "postNo": "1415734",
+  "backupDate": "2026-09-24",
+  "parentSourcePostNo": "1990236",
+  "backupAt": "2026-09-24T07:58:41.255Z",
+  "assets": [
+    {
+      "hash": "084cb52a37d562ee75a456ff0307ebf1ee01e081af245f72143107cd41ae0825",
+      "fileName": "084cb52a37d562ee75a456ff0307ebf1ee01e081af245f72143107cd41ae0825.jpg",
+      "sourceUrl": "https://dcimg1.dcinside.com/viewimage.php?id=2ab2c6&no=24b0d769e1d32ca73ce983fa11d0283107ab5cf91d66c5d1ce22a5f13f0b60fdef639102e2f9705dd53de8328a55252c483e3ad8ed78abeecbf58720d8e9a7c44dac573a3e832a8c5b5df9530c0356b22c87c4acd7bd901348b53826c71ea7bbb27ca2",
+      "contentType": "image/jpeg",
+      "detectedBy": "signature"
+    },
+    {
+      "hash": "0b8c8dd34156cdf39a58dae5c5412bd606dc6b2dfb8c0a12af1391d24c057d7c",
+      "fileName": "0b8c8dd34156cdf39a58dae5c5412bd606dc6b2dfb8c0a12af1391d24c057d7c.jpg",
+      "sourceUrl": "https://dcimg1.dcinside.com/viewimage.php?id=2ab2c6&no=24b0d769e1d32ca73ce983fa11d0283107ab5cf91d66c5d1ce22a5f13f0b60fdef639102e2f9705dd53de8328a55252c483e38d9bc70aebd99fb8728d4e8a6c224ba06abcd4932eb8ab854e66bde37c11f4ef7dcf0dc09086f3b634c4546a42c8faf4c",
+      "contentType": "image/jpeg",
+      "detectedBy": "signature"
+    }
+  ],
+  "assetErrors": [],
+  "contentHash": "f40a289b703e620e2ddb00dde4374736030d615e9f43d3afc9ab16640489150f"
+}

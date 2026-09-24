@@ -1,0 +1,31 @@
+{
+  "id": "guide-2179584",
+  "docType": "guide",
+  "title": "결국 신데렐라 스킨은 살 수밖에 없노...",
+  "body": "무표정이었던애가 나를보면서 웃잖아!! 이걸 어캐 안사주냐 시발...",
+  "bodyHtml": "<p></p><div><img src=\"../../../assets/guide/2179584/34995ef4c6467905f4657975b7a1130ea921bbcecb16805181a738f1919591b8.jpg\" alt=\"2ab2c66bb7826af23fee86e35b8176694e16dc63be98a4d84f8202df7b4c635b5f3f272cdf29\"></div><p></p><div><img src=\"../../../assets/guide/2179584/fd0c4a6af0c8debb56954bfae3ecceb703768296d295f994286590937766baa3.jpg\" alt=\"1ebec223e0dc2bae61abe9e74683706cbf0acbbc208afa7f61a47585c087862abd73c0c0bfd94b610fabaccd7f099942fd\"></div><p></p><div><div>무표정이었던애가 나를보면서 웃잖아!! </div><br><div>이걸 어캐 안사주냐 시발... </div></div>",
+  "snippet": "무표정이었던애가 나를보면서 웃잖아!! 이걸 어캐 안사주냐 시발...",
+  "url": "https://gall.dcinside.com/mgallery/board/view/?id=gov&no=2179584",
+  "postNo": "2179584",
+  "backupDate": "2026-09-24",
+  "parentSourcePostNo": "1990236",
+  "backupAt": "2026-09-24T08:02:51.522Z",
+  "assets": [
+    {
+      "hash": "34995ef4c6467905f4657975b7a1130ea921bbcecb16805181a738f1919591b8",
+      "fileName": "34995ef4c6467905f4657975b7a1130ea921bbcecb16805181a738f1919591b8.jpg",
+      "sourceUrl": "https://dcimg1.dcinside.com/viewimage.php?id=2ab2c6&no=24b0d769e1d32ca73ce98ffa11d02831bd5a1dd344853cdafcb6798d9a16dea3e0bc0a8f0dab107dc9aab28856f5cd88a0150472b851fd9cf3d70a9a9b6b9df1f26a27f0423a1a4566100cc5855989fbdac1ca728ec9",
+      "contentType": "image/jpeg",
+      "detectedBy": "signature"
+    },
+    {
+      "hash": "fd0c4a6af0c8debb56954bfae3ecceb703768296d295f994286590937766baa3",
+      "fileName": "fd0c4a6af0c8debb56954bfae3ecceb703768296d295f994286590937766baa3.jpg",
+      "sourceUrl": "https://dcimg1.dcinside.com/viewimage.php?id=2ab2c6&no=24b0d769e1d32ca73ce98ffa11d02831bd5a1dd344853cdafcb6798d9a16dea3e0bc0a8f0dab107dc9aab28856f5cd88a0155525ec53a899f48d0aae976fd5a6bfe02b54d61773c37fa814e3fd17fe615ffb791c0a7dcc75da5810d382b2eb",
+      "contentType": "image/jpeg",
+      "detectedBy": "signature"
+    }
+  ],
+  "assetErrors": [],
+  "contentHash": "19262a7eb66964f366040517bff7089a7be52bf4d75c09ffa4a79b07abacb2b8"
+}

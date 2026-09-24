@@ -1,0 +1,31 @@
+{
+  "id": "guide-2392085",
+  "docType": "guide",
+  "title": "념글에 실패한 도로시",
+  "body": "는 내 이야기야..",
+  "bodyHtml": "<p><img src=\"../../../assets/guide/2392085/8dde589da068868c3b5f90793cbc828168695bac7c96929833ba68245857c529.webp\" alt=\"a65234ad242eb44d92332b4d458174737b756c81e83dcece1367472aae68c7d9bc4d\"></p><p><br></p><p>는 내 이야기야..</p><p><br></p><p><br></p><p><img class=\"written_dccon\" src=\"../../../assets/guide/2392085/87f4a791a0fbc6a3e22a097a4d0f769976b3de6b85714d851a8ecaaba0de1ca6.png\" conalt=\"4\" alt=\"4\" title=\"4\" data-dcconoverstatus=\"false\"><br></p><p><br></p>",
+  "snippet": "는 내 이야기야..",
+  "url": "https://gall.dcinside.com/mgallery/board/view/?id=gov&no=2392085",
+  "postNo": "2392085",
+  "backupDate": "2026-09-24",
+  "parentSourcePostNo": "1990236",
+  "backupAt": "2026-09-24T08:07:29.956Z",
+  "assets": [
+    {
+      "hash": "8dde589da068868c3b5f90793cbc828168695bac7c96929833ba68245857c529",
+      "fileName": "8dde589da068868c3b5f90793cbc828168695bac7c96929833ba68245857c529.webp",
+      "sourceUrl": "https://dcimg1.dcinside.com/viewimage.php?id=2ab2c6&no=24b0d769e1d32ca73ce886fa1bd62531c28ee23c453cf874f616b8eb0f0a792cf61b24f57a619df43a0e078bf8651ed35c9c6a3dab4c0d4fa20f",
+      "contentType": "image/webp",
+      "detectedBy": "signature"
+    },
+    {
+      "hash": "87f4a791a0fbc6a3e22a097a4d0f769976b3de6b85714d851a8ecaaba0de1ca6",
+      "fileName": "87f4a791a0fbc6a3e22a097a4d0f769976b3de6b85714d851a8ecaaba0de1ca6.png",
+      "sourceUrl": "https://dcimg5.dcinside.com/dccon.php?no=62b5df2be09d3ca567b1c5bc12d46b394aa3b1058c6e4d0ca41648b658ea22797b1cd89c2faeef1ebe158715d9504d7dc5d1a8f12e5ae8aecd6dff5ebb2d1665a5679408d78222f806c36d",
+      "contentType": "image/png",
+      "detectedBy": "signature"
+    }
+  ],
+  "assetErrors": [],
+  "contentHash": "3de86572ced6c391914c39b8b9e96ac3d7e16d4cf371161b1096e32b29012c6f"
+}

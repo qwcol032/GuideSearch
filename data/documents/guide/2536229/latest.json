@@ -1,0 +1,38 @@
+{
+  "id": "guide-2536229",
+  "docType": "guide",
+  "title": "너네 개그하냐?",
+  "body": "시발 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+  "bodyHtml": "<p></p><div><img src=\"../../../assets/guide/2536229/0ea0dac8a5d2a33467265c347426a28dc044825cdaad78568e8ce45b2dfbb4c4.png\" alt=\"1ebec223e0dc2bae61abe9e74683716d95d527a0bf059ef5f855a583b1e461be55182450cdf5f3efec\"></div><p></p><div><img src=\"../../../assets/guide/2536229/e1951afa708a318257921b12b66811b9c0cbdbd9c0d729a52946c44bc404caf9.png\" alt=\"1ebec223e0dc2bae61abe9e74683716d95d527a0bf0599fcf853a583b1e461beed7ff4a0dd528982b952fb\"></div><p></p><div><img src=\"../../../assets/guide/2536229/ee83dd453a9fda0fd2978076ccbe7f8e938f884f266605a434e033c8488dd46c.png\" alt=\"1ebec223e0dc2bae61abe9e74683716d95d527a0bf059ef5fd55a583b1e461be421496329512efb06b5022\"></div><p></p><div><div>시발 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ </div></div>",
+  "snippet": "시발 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+  "url": "https://gall.dcinside.com/mgallery/board/view/?id=gov&no=2536229",
+  "postNo": "2536229",
+  "backupDate": "2026-09-24",
+  "parentSourcePostNo": "1990236",
+  "backupAt": "2026-09-24T08:11:59.969Z",
+  "assets": [
+    {
+      "hash": "0ea0dac8a5d2a33467265c347426a28dc044825cdaad78568e8ce45b2dfbb4c4",
+      "fileName": "0ea0dac8a5d2a33467265c347426a28dc044825cdaad78568e8ce45b2dfbb4c4.png",
+      "sourceUrl": "https://dcimg1.dcinside.com/viewimage.php?id=2ab2c6&no=24b0d769e1d32ca73ce887fa11d02831f6239d61d5ffa4d5114270a7c52730e2af3a6c22cddc61705ac238bf4d336b635b8d7fa1fc42cd6648b1b84136defd1620bb42e1fef0617632d3c926cb2ccf28234ec1b6222016aaa7",
+      "contentType": "image/png",
+      "detectedBy": "signature"
+    },
+    {
+      "hash": "e1951afa708a318257921b12b66811b9c0cbdbd9c0d729a52946c44bc404caf9",
+      "fileName": "e1951afa708a318257921b12b66811b9c0cbdbd9c0d729a52946c44bc404caf9.png",
+      "sourceUrl": "https://dcimg1.dcinside.com/viewimage.php?id=2ab2c6&no=24b0d769e1d32ca73ce887fa11d02831f6239d61d5ffa4d5114270a7c52730e2af3a6c22cddc61705ac238bf4d336b635b8d7df0aa40ca611ceab84136defd165380133b723eeff599bf45da97a66cd9c46e44a57b5c53eae0",
+      "contentType": "image/png",
+      "detectedBy": "signature"
+    },
+    {
+      "hash": "ee83dd453a9fda0fd2978076ccbe7f8e938f884f266605a434e033c8488dd46c",
+      "fileName": "ee83dd453a9fda0fd2978076ccbe7f8e938f884f266605a434e033c8488dd46c.png",
+      "sourceUrl": "https://dcimg1.dcinside.com/viewimage.php?id=2ab2c6&no=24b0d769e1d32ca73ce887fa11d02831f6239d61d5ffa4d5114270a7c52730e2af3a6c22cddc61705ac238bf4d336b635b8d2ff3fc47ca6646efb84136defd164099236bb6a3c7e327db3a08978586c8984ca6dadf531ab5c3",
+      "contentType": "image/png",
+      "detectedBy": "signature"
+    }
+  ],
+  "assetErrors": [],
+  "contentHash": "f49c50d99d5ed6ad5e16f3192cbdf5cfbf28c9c4ed606e8bf8e79c491c950d0a"
+}

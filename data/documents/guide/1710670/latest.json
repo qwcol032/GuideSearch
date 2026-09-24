@@ -1,0 +1,24 @@
+{
+  "id": "guide-1710670",
+  "docType": "guide",
+  "title": "주문하신 나가 만담",
+  "body": "나가라고",
+  "bodyHtml": "<div><img src=\"../../../assets/guide/1710670/50a5d43a435a69759c455b93a2fd7c56854eebea01a8552a433c79a0280e4a95.jpg\" alt=\"7cea8277bd8369f63be898bf06d6040373a00567e2c9f48b15ed\"></div><br><div>나가라고</div>",
+  "snippet": "나가라고",
+  "url": "https://gall.dcinside.com/mgallery/board/view/?id=gov&no=1710670",
+  "postNo": "1710670",
+  "backupDate": "2026-09-24",
+  "parentSourcePostNo": "1990236",
+  "backupAt": "2026-09-24T08:00:17.653Z",
+  "assets": [
+    {
+      "hash": "50a5d43a435a69759c455b93a2fd7c56854eebea01a8552a433c79a0280e4a95",
+      "fileName": "50a5d43a435a69759c455b93a2fd7c56854eebea01a8552a433c79a0280e4a95.jpg",
+      "sourceUrl": "https://dcimg1.dcinside.com/viewimage.php?id=2ab2c6&no=24b0d769e1d32ca73ce981fa11d0283174e253ba7e9967bde184fb606578bfb8dfb64e12bdb4c9b9d41c5aaaf677b7b2fa5317e238965a18a218e181f4d3f7f326fb433509",
+      "contentType": "image/jpeg",
+      "detectedBy": "signature"
+    }
+  ],
+  "assetErrors": [],
+  "contentHash": "8fcbfdeb4f13b687e3f9d8f2f0688cadeafed338211f818659e171bfec279bb8"
+}
