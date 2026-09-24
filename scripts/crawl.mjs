@@ -907,6 +907,57 @@ function extensionForImage(contentType, url) {
   }
 }
 
+function imageFormatFromSignature(buffer) {
+  if (buffer.length >= 3 && buffer[0] === 0xff && buffer[1] === 0xd8 && buffer[2] === 0xff) {
+    return { extension: 'jpg', contentType: 'image/jpeg', detectedBy: 'signature' };
+  }
+  if (buffer.length >= 8 && buffer.subarray(0, 8).equals(Buffer.from([0x89, 0x50, 0x4e, 0x47, 0x0d, 0x0a, 0x1a, 0x0a]))) {
+    return { extension: 'png', contentType: 'image/png', detectedBy: 'signature' };
+  }
+  if (buffer.length >= 6) {
+    const signature = buffer.subarray(0, 6).toString('ascii');
+    if (signature === 'GIF87a' || signature === 'GIF89a') {
+      return { extension: 'gif', contentType: 'image/gif', detectedBy: 'signature' };
+    }
+  }
+  if (buffer.length >= 12 && buffer.subarray(0, 4).toString('ascii') === 'RIFF' && buffer.subarray(8, 12).toString('ascii') === 'WEBP') {
+    return { extension: 'webp', contentType: 'image/webp', detectedBy: 'signature' };
+  }
+  return null;
+}
+
+function looksLikeMarkup(buffer) {
+  const beginning = buffer.subarray(0, 512).toString('utf8').replace(/^\uFEFF/, '').trimStart().toLowerCase();
+  return beginning.startsWith('<!doctype html') || beginning.startsWith('<html') ||
+    beginning.startsWith('<?xml') || beginning.startsWith('<svg');
+}
+
+export function detectImageFormat(buffer, contentType, url) {
+  const signatureFormat = imageFormatFromSignature(buffer);
+  if (signatureFormat) return signatureFormat;
+
+  // A proxy can label an HTML error response as an image. Do not let the
+  // weaker header/URL fallbacks turn such a response into a local image.
+  if (looksLikeMarkup(buffer)) return null;
+
+  const extensionFromContentType = extensionForImage(contentType, '');
+  if (extensionFromContentType) {
+    return {
+      extension: extensionFromContentType,
+      contentType: `image/${extensionFromContentType === 'jpg' ? 'jpeg' : extensionFromContentType}`,
+      detectedBy: 'content-type',
+    };
+  }
+
+  const extensionFromUrl = extensionForImage('', url);
+  if (!extensionFromUrl) return null;
+  return {
+    extension: extensionFromUrl,
+    contentType: `image/${extensionFromUrl === 'jpg' ? 'jpeg' : extensionFromUrl}`,
+    detectedBy: 'url',
+  };
+}
+
 async function backupTestImages(html, postUrl, postNo, documentDir) {
   const wrapped = cheerio.load(`<div id="__root__">${sanitizeBackupHtml(html)}</div>`, {
     decodeEntities: false,
@@ -940,9 +991,15 @@ async function backupTestImages(html, postUrl, postNo, documentDir) {
           redirect: 'follow',
         });
         if (!response.ok) throw new Error(`HTTP ${response.status}`);
-        const extension = extensionForImage(response.headers.get('content-type'), response.url || sourceUrl);
-        if (!extension) throw new Error(`Unsupported content type: ${response.headers.get('content-type') || 'unknown'}`);
         const binary = Buffer.from(await response.arrayBuffer());
+        const responseContentType = response.headers.get('content-type');
+        const detected = detectImageFormat(binary, responseContentType, response.url || sourceUrl);
+        if (!detected) {
+          const error = new Error('Unsupported image binary');
+          error.assetDetails = { contentType: responseContentType || 'unknown', size: binary.length };
+          throw error;
+        }
+        const { extension } = detected;
         const imageHash = sha256(binary);
         const fileName = `${imageHash}.${extension}`;
         const filePath = path.join(assetDir, fileName);
@@ -953,7 +1010,7 @@ async function backupTestImages(html, postUrl, postNo, documentDir) {
           await fs.writeFile(filePath, binary);
           imagesDownloaded += 1;
         }
-        saved = { hash: imageHash, fileName, sourceUrl, contentType: `image/${extension === 'jpg' ? 'jpeg' : extension}` };
+        saved = { hash: imageHash, fileName, sourceUrl, contentType: detected.contentType, detectedBy: detected.detectedBy };
         downloadedByUrl.set(sourceUrl, saved);
         assets.push(saved);
       }
@@ -961,7 +1018,11 @@ async function backupTestImages(html, postUrl, postNo, documentDir) {
       image.attr('src', relativePath);
     } catch (error) {
       image.attr('src', sourceUrl);
-      assetErrors.push({ url: sourceUrl, error: error instanceof Error ? error.message : String(error) });
+      assetErrors.push({
+        url: sourceUrl,
+        error: error instanceof Error ? error.message : String(error),
+        ...(error?.assetDetails || {}),
+      });
     }
   }
 
@@ -1258,7 +1319,9 @@ async function main() {
   );
 }
 
-main().catch((error) => {
-  console.error(error);
-  process.exitCode = 1;
-});
+if (path.resolve(process.argv[1] || '') === __filename) {
+  main().catch((error) => {
+    console.error(error);
+    process.exitCode = 1;
+  });
+}

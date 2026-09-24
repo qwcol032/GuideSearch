@@ -8,7 +8,7 @@
     "crawl": "node scripts/crawl.mjs",
     "crawl:test": "node scripts/crawl.mjs --test",
     "build": "npm run crawl",
-    "check": "node --check scripts/crawl.mjs"
+    "check": "node --check scripts/crawl.mjs && node --test scripts/crawl.test.mjs"
   },
   "engines": {
     "node": ">=20"
