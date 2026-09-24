@@ -1,26 +1,26 @@
 {
-  "generatedAt": "2026-09-24T04:40:20.013Z",
+  "generatedAt": "2026-09-24T04:46:59.364Z",
   "items": [
     {
       "docType": "guide",
-      "postNo": "640363",
-      "url": "https://gall.dcinside.com/mgallery/board/view?id=gov&no=640363",
-      "status": "new",
+      "postNo": "6223711",
+      "url": "https://gall.dcinside.com/mgallery/board/view?id=gov&no=6223711",
+      "status": "changed",
       "httpStatus": 200,
       "error": null,
       "assetErrors": [],
-      "contentHash": "fd692ac592a10779b69bcc978df64d0cd7a8c864ff6131765e4a428072ed4390",
-      "lastAttemptAt": "2026-09-24T04:40:19.984Z",
-      "lastSuccessAt": "2026-09-24T04:40:19.984Z"
+      "contentHash": "88d8bb91f1fe1e1b1483592b5632e0799af078a30336a7ea3041d8a11df56841",
+      "lastAttemptAt": "2026-09-24T04:46:59.358Z",
+      "lastSuccessAt": "2026-09-24T04:46:59.358Z"
     }
   ],
   "summary": {
     "total": 1,
-    "new": 1,
-    "changed": 0,
+    "new": 0,
+    "changed": 1,
     "unchanged": 0,
     "failed": 0,
-    "imagesDownloaded": 33,
+    "imagesDownloaded": 1,
     "imageFailures": 0
   }
 }
