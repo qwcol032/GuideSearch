@@ -6,6 +6,7 @@
   "description": "DCInside guide backup and static search site for GitHub Pages",
   "scripts": {
     "crawl": "node scripts/crawl.mjs",
+    "crawl:test": "node scripts/crawl.mjs --test",
     "build": "npm run crawl",
     "check": "node --check scripts/crawl.mjs"
   },

@@ -1,0 +1,51 @@
+name: Manual Test Backup
+
+on:
+  workflow_dispatch:
+    inputs:
+      post_nos:
+        description: "Comma-separated DCInside post numbers"
+        required: true
+        type: string
+      gallery_id:
+        description: "DCInside gallery id"
+        required: false
+        default: "gov"
+        type: string
+
+permissions:
+  contents: write
+
+jobs:
+  test-backup:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: 24
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run test backup
+        env:
+          TEST_POST_NOS: ${{ inputs.post_nos }}
+          TEST_GALLERY_ID: ${{ inputs.gallery_id }}
+        run: npm run crawl:test
+
+      - name: Commit and push test data only
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/test/
+          if git diff --staged --quiet; then
+            echo "No test data changes to commit"
+            exit 0
+          fi
+          git commit -m "chore(data): update test backups"
+          git push
