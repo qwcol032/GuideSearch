@@ -1,0 +1,31 @@
+{
+  "id": "guide-5471287",
+  "docType": "guide",
+  "title": "드디어 뮤지엄 울라리 120단 달성",
+  "body": "싱크 734",
+  "bodyHtml": "<p></p><div><img src=\"../../../assets/guide/5471287/634ae389314179674d7005fbb04fd78d202a72a17de48c5cd7ae77f5de107704.png\" alt=\"7fed8270a8826deb3cebe9e443807569a3fe20fa2732984b9481b3e5cadfe89042\" data-fileno=\"4253108\"></div><p></p><div><img src=\"../../../assets/guide/5471287/5fd5900be13aba1d9209cfccba9e32e7c6d314a95bc62f6cff0ded96ab2d4f65.png\" alt=\"7fed8270a8826deb3cebe9e44380766e6d2466941f45231da3db46f2273452e881\" data-fileno=\"4253109\"></div><p></p><div><div>싱크 734 </div></div><p></p><div></div>",
+  "snippet": "싱크 734",
+  "url": "https://gall.dcinside.com/mgallery/board/view/?id=gov&no=5471287",
+  "postNo": "5471287",
+  "backupDate": "2026-09-28",
+  "parentSourcePostNo": "5191295",
+  "backupAt": "2026-09-28T10:03:00.491Z",
+  "assets": [
+    {
+      "hash": "634ae389314179674d7005fbb04fd78d202a72a17de48c5cd7ae77f5de107704",
+      "fileName": "634ae389314179674d7005fbb04fd78d202a72a17de48c5cd7ae77f5de107704.png",
+      "sourceUrl": "https://dcimg1.dcinside.com/viewimage.php?id=2ab2c6&no=24b0d769e1d32ca73ce784fa11d02831b60835a56f97149338b9c8ec6eddfa444c375b4f7be0104153e33b7cbe88804da41f866a14b760229652c4fb155313f0068b95e0bb7e2e2e5c2440fc95ad30e3",
+      "contentType": "image/png",
+      "detectedBy": "signature"
+    },
+    {
+      "hash": "5fd5900be13aba1d9209cfccba9e32e7c6d314a95bc62f6cff0ded96ab2d4f65",
+      "fileName": "5fd5900be13aba1d9209cfccba9e32e7c6d314a95bc62f6cff0ded96ab2d4f65.png",
+      "sourceUrl": "https://dcimg1.dcinside.com/viewimage.php?id=2ab2c6&no=24b0d769e1d32ca73ce784fa11d02831b60835a56f97149338b9c8ec6eddfa444c375b4f7be07d2658eb3075b38e8249ee7eebd02ff5e8e400d7c181a25d09a848c23a095c746061ee82b814a4b26fe1ca",
+      "contentType": "image/png",
+      "detectedBy": "signature"
+    }
+  ],
+  "assetErrors": [],
+  "contentHash": "be369193dc704ced64e6cbd8f6d367cfc3c0f13235e74c24c557446cbd7e414b"
+}

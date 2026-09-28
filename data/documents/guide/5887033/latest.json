@@ -1,0 +1,31 @@
+{
+  "id": "guide-5887033",
+  "docType": "guide",
+  "title": "우우 몰라몰라 하베스터",
+  "body": "왤케 단단하지엥",
+  "bodyHtml": "<p><img src=\"../../../assets/guide/5887033/aa4eb3160e1e8680112e16b9e30ca14fc26780cd9593efc8626a5a8950c7fa47.png\" data-fileno=\"4534121\" alt=\"24b0d121e09c28a8699fe8b115ef046c69f42d4e9f\"></p><p><br></p><p><img src=\"../../../assets/guide/5887033/37bc1bf81535f9047624a31604f258459e71a727d3d1df0534fd1260de5a6737.png\" data-fileno=\"4534122\" alt=\"24b0d121e09c28a8699fe8b115ef046f5a4e9d9ea0\"></p><p><br></p><p>왤케 단단하지엥</p>",
+  "snippet": "왤케 단단하지엥",
+  "url": "https://gall.dcinside.com/mgallery/board/view?id=gov&no=5887033",
+  "postNo": "5887033",
+  "backupDate": "2026-09-28",
+  "parentSourcePostNo": "5191295",
+  "backupAt": "2026-09-28T10:04:04.074Z",
+  "assets": [
+    {
+      "hash": "aa4eb3160e1e8680112e16b9e30ca14fc26780cd9593efc8626a5a8950c7fa47",
+      "fileName": "aa4eb3160e1e8680112e16b9e30ca14fc26780cd9593efc8626a5a8950c7fa47.png",
+      "sourceUrl": "https://dcimg4.dcinside.co.kr/viewimage.php?id=2ab2c6&no=24b0d769e1d32ca73ce785fa1bd625318ac4e9b620714c42fb64cc770f6b47936578f8ca7c62881c3c6ef4d8ad4520d21fa9175d52bccdb0ec1f7f21524b30f4",
+      "contentType": "image/png",
+      "detectedBy": "signature"
+    },
+    {
+      "hash": "37bc1bf81535f9047624a31604f258459e71a727d3d1df0534fd1260de5a6737",
+      "fileName": "37bc1bf81535f9047624a31604f258459e71a727d3d1df0534fd1260de5a6737.png",
+      "sourceUrl": "https://dcimg4.dcinside.co.kr/viewimage.php?id=2ab2c6&no=24b0d769e1d32ca73ce785fa1bd625318ac4e9b620714c42fb64cc770f6b47936578f8ca7c62881c3c64fbdca94d24d8a43f0b97c0e3195bb884c84edfbc424e",
+      "contentType": "image/png",
+      "detectedBy": "signature"
+    }
+  ],
+  "assetErrors": [],
+  "contentHash": "63b33e66e24dd59f5393b7b0e9917f26fe69fe018b0f9d0f178abb5b8b0d4e37"
+}

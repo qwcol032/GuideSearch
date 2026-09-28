@@ -1,0 +1,31 @@
+{
+  "id": "guide-6139422",
+  "docType": "guide",
+  "title": "응애 아가 니붕이 고래 잡아왔어요",
+  "body": "120단 고래 잡았다고",
+  "bodyHtml": "<p><img src=\"../../../assets/guide/6139422/e882c1ac7becfff6ccc6889cfb66c7e0f4cab94109669d972f4fc81416957287.png\" data-fileno=\"4710077\" alt=\"a76e10ad1b2a69f43ef1c6bb11f11a39fad256a1232429dac6\"></p><p><br></p><p><img src=\"../../../assets/guide/6139422/424dd812b3bf31779aeff0a75b330a2fd8d7e54626a5a36c3804d4aabc497490.png\" data-fileno=\"4710078\" alt=\"a76e10ad1b2a69f43e8084fb06df231d350c24c2d036a00828ec3d\"></p><p><br></p><p><br></p><p><br></p><p>120단 고래 잡았다고</p><p><br></p><p><br></p><p></p><p><br></p><p><br></p>",
+  "snippet": "120단 고래 잡았다고",
+  "url": "https://gall.dcinside.com/mgallery/board/view?id=gov&no=6139422",
+  "postNo": "6139422",
+  "backupDate": "2026-09-28",
+  "parentSourcePostNo": "5191295",
+  "backupAt": "2026-09-28T10:05:23.679Z",
+  "assets": [
+    {
+      "hash": "e882c1ac7becfff6ccc6889cfb66c7e0f4cab94109669d972f4fc81416957287",
+      "fileName": "e882c1ac7becfff6ccc6889cfb66c7e0f4cab94109669d972f4fc81416957287.png",
+      "sourceUrl": "https://dcimg4.dcinside.co.kr/viewimage.php?id=2ab2c6&no=24b0d769e1d32ca73ce782fa1bd62531f4d0f133b6030c46b882e675dac6e95a97a81dea98177f45a06146dbffa2a5fadc1b21e88dc2d59dd10f28ebd9fc6d5f",
+      "contentType": "image/png",
+      "detectedBy": "signature"
+    },
+    {
+      "hash": "424dd812b3bf31779aeff0a75b330a2fd8d7e54626a5a36c3804d4aabc497490",
+      "fileName": "424dd812b3bf31779aeff0a75b330a2fd8d7e54626a5a36c3804d4aabc497490.png",
+      "sourceUrl": "https://dcimg4.dcinside.co.kr/viewimage.php?id=2ab2c6&no=24b0d769e1d32ca73ce782fa1bd62531f4d0f133b6030c46b882e675dac6e95a97a81dea98177f45a06b4dd9f6a4abff3b5d1b605140b7d02edb40e0c1398673",
+      "contentType": "image/png",
+      "detectedBy": "signature"
+    }
+  ],
+  "assetErrors": [],
+  "contentHash": "b3b38a475c4a9750ebc59502a981fdfd9391465839cb7742b18b91bff38c36ef"
+}

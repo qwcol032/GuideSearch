@@ -1,0 +1,31 @@
+{
+  "id": "guide-5640922",
+  "docType": "guide",
+  "title": "고래 60단 642렙 최저클 갱신",
+  "body": "4덱 크리 리트만 3시간 했음...",
+  "bodyHtml": "<p><img src=\"../../../assets/guide/5640922/de8c4d009290276a19ee476a0af32fdfc147077e269181cce70ac911fd0f441f.png\" data-fileno=\"4372256\" alt=\"a15714ab041eb360be3335625e83706f5b29ca81dba04308b5350821038be8a7e740\"></p><p><img src=\"../../../assets/guide/5640922/cb802ea358b62205d04f2d4de308ea62065527439f229efd67a218731d266a0c.png\" data-fileno=\"4372257\" alt=\"a15714ab041eb360be3335625683746f0253452fd6a7e389d63262f49d15cd6e285770c1c2f831470edb52fd8b01\"></p><p><br></p><p>4덱 크리 리트만 3시간 했음...</p><p><br></p><p></p>",
+  "snippet": "4덱 크리 리트만 3시간 했음...",
+  "url": "https://gall.dcinside.com/mgallery/board/view?id=gov&no=5640922",
+  "postNo": "5640922",
+  "backupDate": "2026-09-28",
+  "parentSourcePostNo": "5191295",
+  "backupAt": "2026-09-28T10:03:34.012Z",
+  "assets": [
+    {
+      "hash": "de8c4d009290276a19ee476a0af32fdfc147077e269181cce70ac911fd0f441f",
+      "fileName": "de8c4d009290276a19ee476a0af32fdfc147077e269181cce70ac911fd0f441f.png",
+      "sourceUrl": "https://dcimg1.dcinside.com/viewimage.php?id=2ab2c6&no=24b0d769e1d32ca73ce784fa1bd62531e1d35755bb65e98af887221555b6292a19bd52f4cdd87a16a0d364c25b20a4ee4d3bfbeb353fff21d66643bb1b8e47",
+      "contentType": "image/png",
+      "detectedBy": "signature"
+    },
+    {
+      "hash": "cb802ea358b62205d04f2d4de308ea62065527439f229efd67a218731d266a0c",
+      "fileName": "cb802ea358b62205d04f2d4de308ea62065527439f229efd67a218731d266a0c.png",
+      "sourceUrl": "https://dcimg1.dcinside.com/viewimage.php?id=2ab2c6&no=24b0d769e1d32ca73ce784fa1bd62531e1d35755bb65e98af887221555b6292a19bd52f4cdd87a7bcad76bca5d20a7ee3cca91deb06b5a633446b5332a73091a",
+      "contentType": "image/png",
+      "detectedBy": "signature"
+    }
+  ],
+  "assetErrors": [],
+  "contentHash": "217483b1b28423f223ddb139356453075047348d3636c47f6a9b529346768c78"
+}

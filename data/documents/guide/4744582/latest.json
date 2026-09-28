@@ -1,0 +1,38 @@
+{
+  "id": "guide-4744582",
+  "docType": "guide",
+  "title": "기차 찍먹해봤음",
+  "body": "단단함 레전드임",
+  "bodyHtml": "<p></p><div><img src=\"../../../assets/guide/4744582/e92c15133d1af9c7c67333c4e89ca6ea72b06b7e8776cd87e1c12158c7a89a2b.png\" alt=\"a15714ab041eb360be3335624481766bb6118e3ba0b3ab7defa8559f780afe2576c5ecc85caac8ae5a0dff2b\" data-fileno=\"3734529\"></div><p></p><div><img src=\"../../../assets/guide/4744582/6487ca091e20ab8c886e7b6bec03cb0e54296616142557f270df6d8d3b46bb5b.jpg\" alt=\"1ebec223e0dc2bae61abe9e74683726d36d5a4cbee7288a891a7612adf8ba21e97da4d7495d28a75bc8a0febf8e57f1a\" data-fileno=\"3734530\"></div><p></p><div><img src=\"../../../assets/guide/4744582/af7c000377929ee2069fee5008ae6e3c4bb2c3bc0bb3cc4b894ec23dd08ee6ef.jpg\" alt=\"1ebec223e0dc2bae61abe9e74683726d36d5a4cbee7288a890a2612adf8ba21e29010ce5f4a34952afe46caa1a688c\" data-fileno=\"3734531\"></div><p></p><div><div>단단함 레전드임 </div></div>",
+  "snippet": "단단함 레전드임",
+  "url": "https://gall.dcinside.com/mgallery/board/view?id=gov&no=4744582",
+  "postNo": "4744582",
+  "backupDate": "2026-09-28",
+  "parentSourcePostNo": "5191295",
+  "backupAt": "2026-09-28T10:01:23.147Z",
+  "assets": [
+    {
+      "hash": "e92c15133d1af9c7c67333c4e89ca6ea72b06b7e8776cd87e1c12158c7a89a2b",
+      "fileName": "e92c15133d1af9c7c67333c4e89ca6ea72b06b7e8776cd87e1c12158c7a89a2b.png",
+      "sourceUrl": "https://dcimg1.dcinside.com/viewimage.php?id=2ab2c6&no=24b0d769e1d32ca73ce786fa11d028319843c36c1a26594d079905724db759c28a66a652fd4c4307db54d016f43a92a1e6d7e2691d7191758107db99beff7a0e38d4f90386c924c5d612d570ebe5274cc7e090cdfddd918fb92f11b8d825422fafe7545d29e7db",
+      "contentType": "image/png",
+      "detectedBy": "signature"
+    },
+    {
+      "hash": "6487ca091e20ab8c886e7b6bec03cb0e54296616142557f270df6d8d3b46bb5b",
+      "fileName": "6487ca091e20ab8c886e7b6bec03cb0e54296616142557f270df6d8d3b46bb5b.jpg",
+      "sourceUrl": "https://dcimg1.dcinside.com/viewimage.php?id=2ab2c6&no=24b0d769e1d32ca73ce786fa11d028319843c36c1a26594d079905724db759c28a66a652fd4c4305dd5bdb1df83f99a40441bc510d706065a8fb1e0cf46719e98b4ca0672a2fc5e39d27c7f2d421c3e070786fe45249663b2980d558c4094c",
+      "contentType": "image/jpeg",
+      "detectedBy": "signature"
+    },
+    {
+      "hash": "af7c000377929ee2069fee5008ae6e3c4bb2c3bc0bb3cc4b894ec23dd08ee6ef",
+      "fileName": "af7c000377929ee2069fee5008ae6e3c4bb2c3bc0bb3cc4b894ec23dd08ee6ef.jpg",
+      "sourceUrl": "https://dcimg1.dcinside.com/viewimage.php?id=2ab2c6&no=24b0d769e1d32ca73ce786fa11d028319843c36c1a26594d079905724db759c28a66a652fd4c4304dc52dc18f93b99a254f6298a47aa9f4333e0de40cdb51752acc6be71cc79821771bc322e2876738afee67ec5dabf5c87313b5655833b94",
+      "contentType": "image/jpeg",
+      "detectedBy": "signature"
+    }
+  ],
+  "assetErrors": [],
+  "contentHash": "6e98943d106c159198874b66cf65032c7a40f73ae6fb1f5f15a92225367b0f51"
+}

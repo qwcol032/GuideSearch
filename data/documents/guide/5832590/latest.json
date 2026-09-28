@@ -1,0 +1,31 @@
+{
+  "id": "guide-5832590",
+  "docType": "guide",
+  "title": "스톰 40단 싱769",
+  "body": "해로운 새 40단 드디어 찍어왔어예전부터 계속 깎아왔는데 성공해서 행복함이제 해방이다(아마 니갤 최저클이지 않을까 싶음)",
+  "bodyHtml": "<p><img src=\"../../../assets/guide/5832590/5f377c1799bbdba3fc26f420b62a76f30a34f64a74fee9f1a1a5f9958a4f0cd1.png\" data-fileno=\"4496785\" alt=\"06bcdb27eae639aa658084e54487746ae329b2eb519a71360582793923839e06d4a269db657792964813dbbb\"></p><p><br></p><p><img src=\"../../../assets/guide/5832590/5093a8f9717fb12471ccc5e6018a7e1245e81d0957fd50d0b6592b352211da7d.jpg\" data-fileno=\"4496786\" alt=\"06bcdb27eae639aa658084e54487746ae329b2eb519b7631058b703c23998006d3587a2b43153831ef2a5ddfa1\"></p><p><br></p><p><br></p><p><br></p><p><span>해로운 새 40단 드디어 찍어왔어</span></p><p><br></p><p><span></span><span>예전부터 계속 깎아왔는데 성공해서 행복함</span></p><p><br></p><p><span>이제 해방이다</span></p><p><span>(아마 니갤 최저클이지 않을까 싶음)</span></p><p><br></p>",
+  "snippet": "해로운 새 40단 드디어 찍어왔어예전부터 계속 깎아왔는데 성공해서 행복함이제 해방이다(아마 니갤 최저클이지 않을까 싶음)",
+  "url": "https://gall.dcinside.com/mgallery/board/view?id=gov&no=5832590",
+  "postNo": "5832590",
+  "backupDate": "2026-09-28",
+  "parentSourcePostNo": "5191295",
+  "backupAt": "2026-09-28T10:03:57.218Z",
+  "assets": [
+    {
+      "hash": "5f377c1799bbdba3fc26f420b62a76f30a34f64a74fee9f1a1a5f9958a4f0cd1",
+      "fileName": "5f377c1799bbdba3fc26f420b62a76f30a34f64a74fee9f1a1a5f9958a4f0cd1.png",
+      "sourceUrl": "https://dcimg4.dcinside.co.kr/viewimage.php?id=2ab2c6&no=24b0d769e1d32ca73ce785fa1bd625318ac4e9b620714c42fb64cc770f68409360ac74df8995097cc61fe0d07ef7a3377940ac751ad07c927e584159437dbe92",
+      "contentType": "image/png",
+      "detectedBy": "signature"
+    },
+    {
+      "hash": "5093a8f9717fb12471ccc5e6018a7e1245e81d0957fd50d0b6592b352211da7d",
+      "fileName": "5093a8f9717fb12471ccc5e6018a7e1245e81d0957fd50d0b6592b352211da7d.jpg",
+      "sourceUrl": "https://dcimg4.dcinside.co.kr/viewimage.php?id=2ab2c6&no=24b0d769e1d32ca73ce785fa1bd625318ac4e9b620714c42fb64cc770f68409360ac74df89950911ac1ae5d173f6ad30beecd3497e0f2e6033e15a2e2f9ef9",
+      "contentType": "image/jpeg",
+      "detectedBy": "signature"
+    }
+  ],
+  "assetErrors": [],
+  "contentHash": "417509576b815b79e4d17a54c12781b641f13d6ab1290f76e7703e888a435be7"
+}

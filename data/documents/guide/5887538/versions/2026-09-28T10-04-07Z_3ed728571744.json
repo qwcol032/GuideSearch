@@ -1,0 +1,45 @@
+{
+  "id": "guide-5887538",
+  "docType": "guide",
+  "title": "싱크 670의 새로 나온 뮤지엄 도전기",
+  "body": "개허접 인거삼",
+  "bodyHtml": "<p><img src=\"../../../assets/guide/5887538/05d66f2659181dd474d06076384f090a822d223d0bf999500fa57e10c9df4e8e.png\" data-fileno=\"4534424\" alt=\"a15714ab041eb360be3335625683746f0253452ed6a4e889d53660f39c1ccd6e11a5aa46492dbc359f408262db1871\"></p><p><br></p><p><img src=\"../../../assets/guide/5887538/257d73d386897a4a9cb3948ecbca0508b2eadb95385c9714e6b133f43452942e.png\" data-fileno=\"4534425\" alt=\"a15714ab041eb360be3335625683746f0253452ed6a4e889d53561f29f11cd6ea3d39dc91c62b1db41ea0d094ac5\"></p><p><br></p><p><img src=\"../../../assets/guide/5887538/3cc68e8cfb09b6b27e04baafdb57074c671968f960963dc0c63739c09ee26f78.png\" data-fileno=\"4534426\" alt=\"a15714ab041eb360be3335625683746f0253452ed6a4e889d53660f39f1ccd6e6dbe3423bf3a8456465b657cae9e\"></p><p><br></p><p><img src=\"../../../assets/guide/5887538/40b869317686bb67c08909ddb0f9a83a53b6ebf4046052f3194e09f00b84cc00.png\" data-fileno=\"4534427\" alt=\"a15714ab041eb360be3335625683746f0253452ed6a4e889d53660f29d15cd6e0fd0a8bbbb3cb5f6a5167e458a1c\"></p><p><br></p><p>개허접 인거삼</p>",
+  "snippet": "개허접 인거삼",
+  "url": "https://gall.dcinside.com/mgallery/board/view?id=gov&no=5887538",
+  "postNo": "5887538",
+  "backupDate": "2026-09-28",
+  "parentSourcePostNo": "5191295",
+  "backupAt": "2026-09-28T10:04:07.318Z",
+  "assets": [
+    {
+      "hash": "05d66f2659181dd474d06076384f090a822d223d0bf999500fa57e10c9df4e8e",
+      "fileName": "05d66f2659181dd474d06076384f090a822d223d0bf999500fa57e10c9df4e8e.png",
+      "sourceUrl": "https://dcimg4.dcinside.co.kr/viewimage.php?id=2ab2c6&no=24b0d769e1d32ca73ce785fa1bd625318ac4e9b620714c42fb64cc770f6b47936578f8ca7c62881c3c68f1d9a84420d213f8691c71f54cd666f99e3e6001f9d2",
+      "contentType": "image/png",
+      "detectedBy": "signature"
+    },
+    {
+      "hash": "257d73d386897a4a9cb3948ecbca0508b2eadb95385c9714e6b133f43452942e",
+      "fileName": "257d73d386897a4a9cb3948ecbca0508b2eadb95385c9714e6b133f43452942e.png",
+      "sourceUrl": "https://dcimg4.dcinside.co.kr/viewimage.php?id=2ab2c6&no=24b0d769e1d32ca73ce785fa1bd625318ac4e9b620714c42fb64cc770f6b47936578f8ca7c62881c3c6bfadba94220db991921ee6f46ad8ee2c0ff7c5b1d4715",
+      "contentType": "image/png",
+      "detectedBy": "signature"
+    },
+    {
+      "hash": "3cc68e8cfb09b6b27e04baafdb57074c671968f960963dc0c63739c09ee26f78",
+      "fileName": "3cc68e8cfb09b6b27e04baafdb57074c671968f960963dc0c63739c09ee26f78.png",
+      "sourceUrl": "https://dcimg4.dcinside.co.kr/viewimage.php?id=2ab2c6&no=24b0d769e1d32ca73ce785fa1bd625318ac4e9b620714c42fb64cc770f6b47936578f8ca7c62881c3c69f6d9a74222de2b747dc6235a3bb7fc09ea31554b32a9",
+      "contentType": "image/png",
+      "detectedBy": "signature"
+    },
+    {
+      "hash": "40b869317686bb67c08909ddb0f9a83a53b6ebf4046052f3194e09f00b84cc00",
+      "fileName": "40b869317686bb67c08909ddb0f9a83a53b6ebf4046052f3194e09f00b84cc00.png",
+      "sourceUrl": "https://dcimg4.dcinside.co.kr/viewimage.php?id=2ab2c6&no=24b0d769e1d32ca73ce785fa1bd625318ac4e9b620714c42fb64cc770f6b47936578f8ca7c62881c3c6af1dda94027dc02b8fd6a34daea58eb7521fb7cfee968",
+      "contentType": "image/png",
+      "detectedBy": "signature"
+    }
+  ],
+  "assetErrors": [],
+  "contentHash": "3ed728571744719d48e1e06e9e8198d1207f43fab971cf4ee72ea3171207df37"
+}

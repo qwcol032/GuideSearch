@@ -1,0 +1,31 @@
+{
+  "id": "guide-4744618",
+  "docType": "guide",
+  "title": "뮤지엄 노리미트 모더 완주했삼",
+  "body": "쉽지않삼샷건덱은 루주블랑으로 하면 3.9단 정도 찍히던데 솔린 그브는 4.3단 정도 나오는거삼",
+  "bodyHtml": "<p><img src=\"../../../assets/guide/4744618/174136917e5c6e05d37532a466fe2a5b8c398227c36ea101cae33c336a0b732e.png\" data-fileno=\"3734557\" alt=\"a1692dad112eb35987f1c6bb11f11a3962efcf550260707dfd\"></p><p><br></p><p><img src=\"../../../assets/guide/4744618/ec18b4d80ed65c408e1f819a3a5b276da6b7f87d640b19f5d22b1c02d4948727.png\" data-fileno=\"3734558\" alt=\"a65001ad3636b3529234295c58c12a3afd9cc6a10992dad0979a5f11\"></p><p><br></p><p>쉽지않삼</p><p>샷건덱은 루주블랑으로 하면 3.9단 정도 찍히던데 솔린 그브는 4.3단 정도 나오는거삼</p>",
+  "snippet": "쉽지않삼샷건덱은 루주블랑으로 하면 3.9단 정도 찍히던데 솔린 그브는 4.3단 정도 나오는거삼",
+  "url": "https://gall.dcinside.com/mgallery/board/view?id=gov&no=4744618",
+  "postNo": "4744618",
+  "backupDate": "2026-09-28",
+  "parentSourcePostNo": "5191295",
+  "backupAt": "2026-09-28T10:01:33.615Z",
+  "assets": [
+    {
+      "hash": "174136917e5c6e05d37532a466fe2a5b8c398227c36ea101cae33c336a0b732e",
+      "fileName": "174136917e5c6e05d37532a466fe2a5b8c398227c36ea101cae33c336a0b732e.png",
+      "sourceUrl": "https://dcimg1.dcinside.com/viewimage.php?id=2ab2c6&no=24b0d769e1d32ca73ce786fa1bd625312d4f8c89e7ee4af4dd6fd9f67cbc0b995f52583ca1991fa42714d974cd469294e1a19b4a078e9cec815a981507e4c90b",
+      "contentType": "image/png",
+      "detectedBy": "signature"
+    },
+    {
+      "hash": "ec18b4d80ed65c408e1f819a3a5b276da6b7f87d640b19f5d22b1c02d4948727",
+      "fileName": "ec18b4d80ed65c408e1f819a3a5b276da6b7f87d640b19f5d22b1c02d4948727.png",
+      "sourceUrl": "https://dcimg1.dcinside.com/viewimage.php?id=2ab2c6&no=24b0d769e1d32ca73ce786fa1bd625312d4f8c89e7ee4af4dd6fd9f67cbc0b995f52583ca1991fa4271fdb70c0469496c6beefb30e9a99ea388509372ee030e8",
+      "contentType": "image/png",
+      "detectedBy": "signature"
+    }
+  ],
+  "assetErrors": [],
+  "contentHash": "503260223b1f279e1dc12b56e958aba1bd50aad915935c554bd50867ef62a1b4"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "guide-6207147",
+  "docType": "guide",
+  "title": "싱크641 고래60단",
+  "body": "추천검색 추천 비추천 1 1 개념 추천 개념 비추천 0 실베추 펌 0 공유 스크랩 신고 원본 첨부파일 2본문 이미지 다운로드 image.pngimage.png",
+  "bodyHtml": "<p><img src=\"../../../assets/guide/6207147/70e0e802c9d3cdcd3096694e86bc879b76255416e83831508dcb2aeb9bb134a6.png\" data-fileno=\"4758595\" alt=\"24b0d121e09c28a8699fe8b115ef046542abfb3df2\"></p><p><br></p><p><img src=\"../../../assets/guide/6207147/bbffeaae884079b54bfe495b49a78dc02afdba2504eda3097d5a89e334520f6d.png\" data-fileno=\"4758596\" alt=\"24b0d121e09c28a8699fe8b115ef046ec34ccbf223\"></p><p><br></p><p><br></p>",
+  "snippet": "추천검색 추천 비추천 1 1 개념 추천 개념 비추천 0 실베추 펌 0 공유 스크랩 신고 원본 첨부파일 2본문 이미지 다운로드 image.pngimage.png",
+  "url": "https://gall.dcinside.com/mgallery/board/view?id=gov&no=6207147",
+  "postNo": "6207147",
+  "backupDate": "2026-09-28",
+  "parentSourcePostNo": "5191295",
+  "backupAt": "2026-09-28T10:05:30.810Z",
+  "assets": [
+    {
+      "hash": "70e0e802c9d3cdcd3096694e86bc879b76255416e83831508dcb2aeb9bb134a6",
+      "fileName": "70e0e802c9d3cdcd3096694e86bc879b76255416e83831508dcb2aeb9bb134a6.png",
+      "sourceUrl": "https://dcimg3.dcinside.co.kr/viewimage.php?id=2ab2c6&no=24b0d769e1d32ca73ce782fa1bd62531f4d0f133b6030c46b882e675dac4e15a41596e55f76ea9e8a8276c7cb0d563e4a57d48cab993aca53b99fa66800a94",
+      "contentType": "image/png",
+      "detectedBy": "signature"
+    },
+    {
+      "hash": "bbffeaae884079b54bfe495b49a78dc02afdba2504eda3097d5a89e334520f6d",
+      "fileName": "bbffeaae884079b54bfe495b49a78dc02afdba2504eda3097d5a89e334520f6d.png",
+      "sourceUrl": "https://dcimg3.dcinside.co.kr/viewimage.php?id=2ab2c6&no=24b0d769e1d32ca73ce782fa1bd62531f4d0f133b6030c46b882e675dac4e15a41596e55f76ea985c32c6477b6d162e75c9b958edb38492a19f72ada220e5001",
+      "contentType": "image/png",
+      "detectedBy": "signature"
+    }
+  ],
+  "assetErrors": [],
+  "contentHash": "e2ee703ad6d0e8b19753de3ea4cdeb5789b9b91fa24c9e05d554fe09cdcf0146"
+}

@@ -1,0 +1,38 @@
+{
+  "id": "guide-5328962",
+  "docType": "guide",
+  "title": "우으으 아가 니붕이 고래 잡아왔어요",
+  "body": "고래 100단 잡았다고",
+  "bodyHtml": "<p><img src=\"../../../assets/guide/5328962/1f3146619b8aa294682edc5b21a2ad59881e1fa8795224538597c366e3309d3d.png\" data-fileno=\"4150175\" alt=\"7ced8068f5dc3f8650bbd58b36807c6c7d95a8\"></p><p><br></p><p><img src=\"../../../assets/guide/5328962/98862d5d6183c639869f39fcfc85786282dfe3a473693253be1ca31fc45c56b4.png\" data-fileno=\"4150176\" alt=\"24b0d121e09c28a8699fe8b115ef046b6f69923f2a\"></p><p><br></p><p><br></p><p><img class=\"written_dccon\" src=\"../../../assets/guide/5328962/d5e7cef7006c6d795491bd067b2791c1288b9070ab9852b09cd44e4037d83aa5.png\" conalt=\"총\" alt=\"총\" title=\"총\" detail=\"1576863030\" data-dcconoverstatus=\"false\"></p><p><br></p><p>고래 100단 잡았다고</p><p><br></p><p><br></p>",
+  "snippet": "고래 100단 잡았다고",
+  "url": "https://gall.dcinside.com/mgallery/board/view?id=gov&no=5328962",
+  "postNo": "5328962",
+  "backupDate": "2026-09-28",
+  "parentSourcePostNo": "5191295",
+  "backupAt": "2026-09-28T10:02:41.214Z",
+  "assets": [
+    {
+      "hash": "1f3146619b8aa294682edc5b21a2ad59881e1fa8795224538597c366e3309d3d",
+      "fileName": "1f3146619b8aa294682edc5b21a2ad59881e1fa8795224538597c366e3309d3d.png",
+      "sourceUrl": "https://dcimg1.dcinside.com/viewimage.php?id=2ab2c6&no=24b0d769e1d32ca73ce787fa1bd625314b5d207020df860bbe98c96dc2c175c82713445ef5efad5b49701291a7f77c2ad56a18824dc64bb95c940991f5a4cb05",
+      "contentType": "image/png",
+      "detectedBy": "signature"
+    },
+    {
+      "hash": "98862d5d6183c639869f39fcfc85786282dfe3a473693253be1ca31fc45c56b4",
+      "fileName": "98862d5d6183c639869f39fcfc85786282dfe3a473693253be1ca31fc45c56b4.png",
+      "sourceUrl": "https://dcimg1.dcinside.com/viewimage.php?id=2ab2c6&no=24b0d769e1d32ca73ce787fa1bd625314b5d207020df860bbe98c96dc2c175c82713445ef5efad5b49701d92a4fb7c2f80d982391cea32232ad83f1a742a2f0a",
+      "contentType": "image/png",
+      "detectedBy": "signature"
+    },
+    {
+      "hash": "d5e7cef7006c6d795491bd067b2791c1288b9070ab9852b09cd44e4037d83aa5",
+      "fileName": "d5e7cef7006c6d795491bd067b2791c1288b9070ab9852b09cd44e4037d83aa5.png",
+      "sourceUrl": "https://dcimg5.dcinside.com/dccon.php?no=62b5df2be09d3ca567b1c5bc12d46b394aa3b1058c6e4d0ca41648b658ea2174186add3c54c4eaccae3cea11e0d93cc6c6c6c27e795e2c22744c43e9a80e18a8efc79b22aacf59a7fe",
+      "contentType": "image/png",
+      "detectedBy": "signature"
+    }
+  ],
+  "assetErrors": [],
+  "contentHash": "e65e3d3bb0e88e7088bf38858b4c08c6695f0c133e7c468a1c8bb6ab662ae2fb"
+}

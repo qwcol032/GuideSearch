@@ -1,0 +1,31 @@
+{
+  "id": "guide-6039927",
+  "docType": "guide",
+  "title": "842 인디빌리아 40스텝",
+  "body": "샷건 쌀먹에 슈가2단인데 ㅈㄴ쌔네",
+  "bodyHtml": "<p><br></p><p><img src=\"../../../assets/guide/6039927/c6ecea485afa4c559adeb0e629d56e64a61731d5c87e7b662ece2997b8e6c3ac.png\" data-fileno=\"4638891\" alt=\"a15714ab041eb360be3335625683746f02534521d6a4ea89d63063f79c12cd6e169f9bbbbd8c8cc10c1820367276\"></p><p><br></p><p><img src=\"../../../assets/guide/6039927/6b7539b1d0c447d10623e0d5ec4389242163e3a4a58d315ca6ef6540df19a819.png\" data-fileno=\"4638892\" alt=\"a15714ab041eb360be3335625683746f02534521d6a4ea89d63063f79e16cd6e0fcd9d9f43929516bfaabd02d6f8\"></p><p><br></p><p>샷건 쌀먹에 슈가2단인데 ㅈㄴ쌔네</p>",
+  "snippet": "샷건 쌀먹에 슈가2단인데 ㅈㄴ쌔네",
+  "url": "https://gall.dcinside.com/mgallery/board/view?id=gov&no=6039927",
+  "postNo": "6039927",
+  "backupDate": "2026-09-28",
+  "parentSourcePostNo": "5191295",
+  "backupAt": "2026-09-28T10:05:13.765Z",
+  "assets": [
+    {
+      "hash": "c6ecea485afa4c559adeb0e629d56e64a61731d5c87e7b662ece2997b8e6c3ac",
+      "fileName": "c6ecea485afa4c559adeb0e629d56e64a61731d5c87e7b662ece2997b8e6c3ac.png",
+      "sourceUrl": "https://dcimg4.dcinside.co.kr/viewimage.php?id=2ab2c6&no=24b0d769e1d32ca73ce785fa1bd625318ac4e9b620714c42fb64cc780f6b4593383e0819bf5bdd6f114b04b8c7517d4a7d5ef83bf3ab8e4655ffe476aeedd3",
+      "contentType": "image/png",
+      "detectedBy": "signature"
+    },
+    {
+      "hash": "6b7539b1d0c447d10623e0d5ec4389242163e3a4a58d315ca6ef6540df19a819",
+      "fileName": "6b7539b1d0c447d10623e0d5ec4389242163e3a4a58d315ca6ef6540df19a819.png",
+      "sourceUrl": "https://dcimg4.dcinside.co.kr/viewimage.php?id=2ab2c6&no=24b0d769e1d32ca73ce785fa1bd625318ac4e9b620714c42fb64cc780f6b4593383e0819bf5bdd6f1b4007bdc0557c4c08f89c65039a969acd66c2c8f69372",
+      "contentType": "image/png",
+      "detectedBy": "signature"
+    }
+  ],
+  "assetErrors": [],
+  "contentHash": "97dff9a636fcc7b76e6c5fc187879bfddc38183c924eed4fb3d6a63066ee19bc"
+}

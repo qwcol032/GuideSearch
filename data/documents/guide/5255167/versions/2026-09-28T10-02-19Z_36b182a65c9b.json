@@ -1,0 +1,31 @@
+{
+  "id": "guide-5255167",
+  "docType": "guide",
+  "title": "바밀만 키웠어도 120단 했을텐데",
+  "body": "분하다",
+  "bodyHtml": "<p><img src=\"../../../assets/guide/5255167/00ae9d9665b40d05413b9498123df0c43cf7d6be40181da81abbf13f8579e533.png\" data-fileno=\"4095869\" alt=\"24b0d121e09c28a8699fe8b115ef046f5f499f9cad\"></p><p><br></p><p><img src=\"../../../assets/guide/5255167/7cd532730dc124534c461aba1f2a9b5cbb1683724bcf9e1c5564c594d950fe82.png\" data-fileno=\"4095870\" alt=\"24b0d121e09c28a8699fe8b115ef0468e6acefbd\"></p><p><br></p><p><br></p><p>분하다</p><p><br></p><p><br></p>",
+  "snippet": "분하다",
+  "url": "https://gall.dcinside.com/mgallery/board/view?id=gov&no=5255167",
+  "postNo": "5255167",
+  "backupDate": "2026-09-28",
+  "parentSourcePostNo": "5191295",
+  "backupAt": "2026-09-28T10:02:19.723Z",
+  "assets": [
+    {
+      "hash": "00ae9d9665b40d05413b9498123df0c43cf7d6be40181da81abbf13f8579e533",
+      "fileName": "00ae9d9665b40d05413b9498123df0c43cf7d6be40181da81abbf13f8579e533.png",
+      "sourceUrl": "https://dcimg1.dcinside.com/viewimage.php?id=2ab2c6&no=24b0d769e1d32ca73ce787fa1bd625314b5d207020df860bbe98c96cc2c376c8769b93c5a322597ceacb49a05141fdc1f356a9b96981079bd5b57fa820b3bbaa",
+      "contentType": "image/png",
+      "detectedBy": "signature"
+    },
+    {
+      "hash": "7cd532730dc124534c461aba1f2a9b5cbb1683724bcf9e1c5564c594d950fe82",
+      "fileName": "7cd532730dc124534c461aba1f2a9b5cbb1683724bcf9e1c5564c594d950fe82.png",
+      "sourceUrl": "https://dcimg1.dcinside.com/viewimage.php?id=2ab2c6&no=24b0d769e1d32ca73ce787fa1bd625314b5d207020df860bbe98c96cc2c376c8769b93c5a322597ceac84da05140fcc50796c64cc586f5b4d44303427764b685",
+      "contentType": "image/png",
+      "detectedBy": "signature"
+    }
+  ],
+  "assetErrors": [],
+  "contentHash": "36b182a65c9b0c9cbb43ddc04e2e09efea726868705025ea050aa5c1902b8bff"
+}
